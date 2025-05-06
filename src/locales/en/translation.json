@@ -1,0 +1,223 @@
+{
+  "menu": {
+    "home": "Home",
+    "services": "Services",
+    "candidates": "For Candidates",
+    "clients": "For Clients",
+    "career": "Career Advice",
+    "about": "About Us",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "banner": {
+    "btext": "Kuliah ke luar negeri? Salak Ed siap membantu anda!"
+  },
+  "home": {
+    "frontText": {
+      "textpri": "Unlock Your Global Education Dreams",
+      "textsec": "Expert study abroad guidance from A4 Admission",
+      "btn": "Get FREE Consultation Now"
+    },
+    "second": {
+      "texth": "Study Abroad with A4 Admission",
+      "textp1": "A4 Admission is a leading education consultancy specializing in study abroad programs for high school and university students. We offer tailored admissions support for top destinations like Canada, the USA, the UK, Malta, Russia and Australia.",
+      "textp2": "Our global presence with teams in Asia, Europe And the USA, ensures seamless assistance at every step, from university selection to visa processing and post-arrival settlement.",
+      "btn": "About Us"
+    },
+    "third": {
+      "texth": "Find Program and School",
+      "btn1": "Destination",
+      "btn2": "Find Programs",
+      "btn3": "Process"
+    },
+    "forth": {
+      "testfirst": "WHY",
+      "p": "We believe everyone deserves a transformative future by accessing the world’s best education opportunities",
+      "p2": "25+ Years of industry expertise",
+      "p3": "First-Hand Experience – Our team studied, worked, and lived in the USA & Canada",
+      "p4": "100+ Partner Institutions across major Canadian provinces for seamless settlement",
+      "p5": "100% Employment Support via career coaching & industry ties",
+      "p6": "90% Acceptance Rate at top colleges/universities",
+      "p7": "End-to-End Living Support  From visas to cultural adaptation"
+    },
+    "fifth": {
+      "title1": "Free Consultation",
+      "des1": "Let’s talk! Sit down with our experienced counselors to discuss your study goals, preferred destination, academic background (GPA), and budget.",
+
+      "title2": "Research & Discovery",
+      "des2": "Based on your profile, we’ll recommend the best-fit universities or colleges – including tuition fees, application deadlines, and future employment opportunities.",
+
+      "title3": "Document Preparation",
+      "des3": "No guesswork here. We’ll walk you through exactly what you need – from transcripts and passports to English test scores and letters of recommendation.",
+
+      "title4": "Application Submission",
+      "des4": "Once you're ready, we’ll take care of submitting your applications and handling the necessary fee payments – all on your behalf.",
+
+      "title5": "Offer letter",
+      "des5": "🎉 Good news! If selected, you’ll receive your official Letter of Acceptance (LOA) from the institution.",
+
+      "title6": "Tuition Payment",
+      "des6": "With your LOA in hand, you can confidently pay your tuition fees directly to the school.",
+
+      "title7": "Student Visa Assistance",
+      "des7": "Our experts will help you prepare and submit your visa application, ace the interview, and ensure all immigration paperwork is in order.",
+
+      "title8": "Travel & Settlement",
+      "des8": "We’ll assist with flight bookings, airport pickups, and housing arrangements through our trusted overseas partners.",
+
+      "title9": "Pre-Departure Briefing",
+      "des9": "Prepare for success! Our final session equips you with essential knowledge and tips for your first week abroad – covering banking, safety, and culture.",
+      "headingbuttom": "Your Global Journey Begins Here – With A4 Admission by Your Side!"
+    },
+    "objective": {
+      "heading": "We believe every people deserve to have a meaningful life by pursuing the best education that the world can offer to.",
+      "icon1": "25+ years accumulated experience in the industry",
+      "icon2": "First-hand experience to study, work, and live in Canada and United States",
+      "icon3": "We have partners in major Canada provinces to help students get settled in Canada",
+      "icon4": "100% employment rate through program career coach",
+      "icon5": "90% colleges and universities acceptance rate",
+      "icon6": "We understand it is not easy to live abroad, we are here to help students to get the best living experience",
+      "why": "why"
+    },
+    "university": {
+      "title": "100+ University partners",
+      "btn": "See all"
+    },
+    "testmoni": {
+      "left": {
+        "h1": "Choosing the right university wisely",
+        "hb2": "Set the foundation for a smoother, more rewarding journey abroad.",
+        "p1": "We help you select a university that not only matches your academic goals but also supports your long-term success making your journey abroad smoother and more fulfilling."
+      }
+    },
+    "program": {
+      "ph1": "More Than 1000 Programs to Choose From",
+      "engineering": {
+        "h1": "Engineering & Technology",
+        "el1": "Aviation, Aero Space and Pilot Technology",
+        "el2": "Agricultural Engineering & Sciences",
+        "el3": "Architecture & Urban Design",
+        "el4": "Biomedical & Bioengineering",
+        "el5": "Chemical & Process Engineering",
+        "el6": "Civil Engineering & Construction Management",
+        "el7": "Electrical & Power Engineering",
+        "el8": "Electronics & Telecommunication Systems",
+        "el9": "Environmental & Sustainability Engineering",
+        "el10": "Game Development, Animation & Design",
+        "el11": "Industrial & Systems Engineering",
+        "el12": "Materials Science & Nanotechnology",
+        "el13": "Mechanical, Manufacturing & Robotics Engineering",
+        "el14": "Radiologic Technology",
+        "el15": "Computer Science, IT & Software Development"
+      },
+      "science": {
+        "h1": "Science",
+        "sl1": "Biochemistry & Molecular Biology",
+        "sl2": "Biological Sciences",
+        "sl3": "Chemistry & Applied Chemistry",
+        "sl4": "Computer Science & Programming",
+        "sl5": "Dentistry",
+        "sl6": "Earth, Environmental & Climate Sciences",
+        "sl7": "Food Science, Nutrition & Sports Science",
+        "sl8": "Geology & Geoscience",
+        "sl9": "Mathematical & Statistical Sciences",
+        "sl10": "Optometry & Vision Science",
+        "sl11": "Pharmaceutical Sciences & Pharmacy",
+        "sl12": "Physics & Applied Physics",
+        "sl13": "Political Science & International Affairs",
+        "sl14": "Psychology, Philosophy & Therapy Practices",
+        "sl15": "Veterinary Medicine",
+        "sl16": "Psychology, Philosophy, Therapy",
+        "sl17": "Veterinarian"
+      },
+      "arts": {
+        "h1": "Arts",
+        "al1": "Anthropology & Cultural Studies",
+        "al2": "Communications & Media Studies",
+        "al3": "English Literature & Creative Writing",
+        "al4": "Fashion Design & Beauty Therapy",
+        "al5": "Fine Arts & Visual Arts",
+        "al6": "Culinary Arts & Food Studies",
+        "al7": "Gender & Identity Studies",
+        "al8": "Geography & Human Geography",
+        "al9": "Graphic & Interior Design",
+        "al10": "Graphic Design, Interior Design",
+        "al11": "History & Historical Research",
+        "al12": "Languages & Linguistics",
+        "al13": "Journalism & News Media",
+        "al14": "Liberal Arts & Interdisciplinary Studies",
+        "al15": "Film, Theatre & Performing Arts",
+        "al16": "Music, Sound & Audio Production",
+        "al17": "Urban & Regional Planning",
+        "al18": "Religious Studies & Theology",
+        "al19": "Sociology & Social Research"
+      },
+      "busness": {
+        "h1": "Business, Management & Economics",
+        "al1": "Accounting & Financial Reporting",
+        "al2": "Entrepreneurship & Innovation",
+        "al3": "Finance, Economics & Investment",
+        "al4": "Hospitality, Tourism & Hotel Management",
+        "al5": "Human Resource Management",
+        "al6": "International Trade & Global Business",
+        "al7": "Business Administration & Operations",
+        "al8": "Marketing & Digital Strategy",
+        "al9": "Business Analytics & Data Interpretation",
+        "al10": "Advertising & Brand Communication",
+        "al11": "Public Relations & Corporate Communication",
+        "al12": "Logistics & Supply Chain Management"
+      },
+      "health": {
+        "h1": "Health Science & Nurse",
+        "al1": "General Health Sciences",
+        "al2": "Medicine & Clinical Studies",
+        "al3": "Nursing & Patient Care",
+        "al4": "Paramedicine & Emergency Response",
+        "al5": "Kinesiology & Movement Science"
+      },
+      "social": {
+        "h1": "Community, Social Service",
+        "al1": "Law, Criminal Justice & Legal Studies",
+        "al2": "Political Science, Government & Policy",
+        "al3": "Policing, Security & Protective Services",
+        "al4": "Teaching, Early Childhood & Educational Support",
+        "al5": "Community Work & Social Services"
+      }
+    }
+  },
+  "contact": {
+    "contactFront": {
+      "heading": "Need Help? Let’s Connect!",
+      "subheading": "Got questions about studying abroad or need support with your application? We're here to guide you every step of the way."
+    },
+    "subContact": {
+      "p1": "Drop us a message and our education advisor will reach out as soon as possible.",
+      "p2": "Come visit our office, or if you’re in the Jabodetabek area, we’re happy to meet you in person.",
+      "p3": "Prefer face-to-face?",
+      "p4": "Prefer online?",
+      "p5": "We can set up a Zoom, Google Meet, or your platform of choice."
+    },
+    "from": {
+      "heading": "Message Us Directly",
+      "email": "Email",
+      "emailp": "Your email goes here",
+      "name": "Full Name",
+      "namep": "Type your full name",
+      "number": "Phone / WhatsApp",
+      "phonep": "Your contact number",
+      "message": "Your Message",
+      "messagep": "Tell us how we can support you",
+      "btn": "Send Message"
+    },
+    "location": {
+      "location1": "Whatsapp Canadian",
+      "number1": "+1 (226) 792 8584",
+      "location2": "Whatsapp Indonesian",
+      "number2": "+62 878-2066-7883",
+      "address1": "Canadian Address",
+      "address1sub": "Salak Education Consulting Kitchener, Ontario, Canada",
+      "address2": "Indonesian Address",
+      "address2sub": "Jl. Yasmin Raya no. 16 A, Bogor"
+    }
+  }
+}
