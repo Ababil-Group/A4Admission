@@ -18,6 +18,7 @@ import AboutUs from "./pages/aboutus/AboutUs";
 import ArticalNews from "./pages/articals/ArticalNews";
 import Event from "./pages/event/Event";
 import { FaArrowUp } from "react-icons/fa";
+import Faqs from "./pages/faqs/Faqs";
 
 NProgress.configure({
   minimum: 0.3,
@@ -115,6 +116,7 @@ function App() {
           <Route path="/pages/about-us" element={<AboutUs />} />
           <Route path="/blogs/news" element={<ArticalNews />} />
           <Route path="/pages/event" element={<Event />} />
+          <Route path="/pages/faq" element={<Faqs />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>

@@ -169,7 +169,7 @@ const Header = () => {
       <div className="max-w-screen-lg mx-auto border-t-[2px] border-[#ece7df]">
         {/* Desktop Navigation */}
         <div className="hidden md:block my-2 ">
-          <ul className=" flex flex-wrap items-center justify-center space-x-4">
+          <ul className=" flex flex-wrap items-center justify-center space-x-6">
             {navigation.map((item, idx) => (
               <li
                 key={idx}
@@ -179,10 +179,10 @@ const Header = () => {
               >
                 <Link
                   to={item.path || "#"}
-                  className={`font-semibold text-[16px] transition-colors tracking-widest font-quicksand ${
+                  className={`font-semibold text-sm transition-colors uppercase tracking-widest font-quicksand ${
                     location.pathname === item.path
                       ? "border-b-2 border-redest-dark text-redest-dark"
-                      : "text-gray-800 hover:text-redest-dark hover:border-b-2 hover:border-redest-dark duration-300"
+                      : "text-gray-900 hover:text-redest-dark hover:border-b-2 hover:border-redest-dark duration-300"
                   }`}
                 >
                   {item.title}
@@ -258,7 +258,7 @@ const Header = () => {
                         <div className="flex justify-between items-center">
                           <Link
                             to={item.path || "#"}
-                            className="block px-4 py-2 text-lg font-medium text-blue-dark rounded-lg transition-colors"
+                            className="block px-2 py-2 text-lg font-medium text-blue-dark rounded-lg transition-colors"
                             onClick={() => !item.subNav && setIsMenuOpen(false)}
                           >
                             {item.title}
@@ -266,7 +266,7 @@ const Header = () => {
                           {item.subNav && (
                             <button
                               onClick={() => toggleItem(idx)}
-                              className="px-4 py-2 cursor-pointer"
+                              className="px-2 py-2 cursor-pointer"
                             >
                               {expandedItems.includes(idx) ? (
                                 <MdKeyboardArrowUp />
@@ -282,7 +282,7 @@ const Header = () => {
                               <li key={subIdx}>
                                 <Link
                                   to={subItem.path}
-                                  className="block px-4 py-2 text-[15px] text-gray-700 hover:bg-gray-100"
+                                  className="block px-2 py-2 text-sm text-gray-800 hover:bg-gray-100"
                                   onClick={() => setIsMenuOpen(false)}
                                 >
                                   {subItem.title}
