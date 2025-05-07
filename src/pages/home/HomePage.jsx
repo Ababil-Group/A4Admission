@@ -15,6 +15,7 @@ import ProgramsTab from "./ProgramsTab";
 import Carusel from "./Carusel";
 import { FaArrowRight, FaPlaneDeparture } from "react-icons/fa";
 import { GrServices } from "react-icons/gr";
+import { Link } from "react-router-dom";
 const HomePage = () => {
   const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState("tab1");
@@ -48,19 +49,21 @@ const HomePage = () => {
         style={{ backgroundImage: `url(${frontImg})` }}
       >
         <div className="absolute inset-0 bg-gray-800/20"></div>
-        <div className="relative z-10 max-w-screen-xl mx-auto text-left w-full px-4 space-y-6">
+        <div className="relative z-10 max-w-screen-xl mx-auto text-left w-full px-2 space-y-6">
           <h1 className="text-4xl lg:text-5xl font-bold text-white max-w-screen-md">
             {t("home.frontText.textpri")}
           </h1>
           <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-white">
             {t("home.frontText.textsec")}
           </h2>
-          <button className="before:ease relative h-12 w-auto overflow-hidden border border-redest-dark bg-redest-dark text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-4 py-3 tracking-wider cursor-pointer font-bold">
-            <span className="relative z-10 flex items-center gap-2">
-              {" "}
+          <button className="before:ease relative h-12 w-auto overflow-hidden border border-redest-dark bg-redest-dark text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-80 uppercase rounded-xl px-4 py-3 tracking-wider cursor-pointer font-bold">
+            <Link
+              to={"/pages/contact"}
+              className="relative z-10 flex items-center gap-2"
+            >
               {t("home.frontText.btn")}{" "}
               <FaArrowRight className="animate-pulse" />
-            </span>
+            </Link>
           </button>
         </div>
       </section>
@@ -93,7 +96,13 @@ const HomePage = () => {
               {t("home.second.textp2")}
             </p>
             <button className="before:ease relative h-12 w-[200px] overflow-hidden border border-redest-dark bg-redest-dark text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-7 py-3 tracking-wider cursor-pointer">
-              <span relative="relative z-10 ">{t("home.second.btn")}</span>
+              <Link
+                to={"/pages/about-us"}
+                relative="relative z-10"
+                className="font-bold"
+              >
+                {t("home.second.btn")}
+              </Link>
             </button>
           </div>
         </div>

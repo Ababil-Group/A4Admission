@@ -23,43 +23,43 @@ const Footer = () => {
             <img src={logo} alt="logo" className="w-32" />
             <div className="flex items-center gap-3">
               <a href="https://www.instagram.com/a4admission" target="_blank">
-                <FaInstagram className="bg-zinc-600 size-8 p-1 rounded-md text-white hover:bg-redest-dark hover:-translate-y-1 transition-transform duration-300 cursor-pointer" />
+                <FaInstagram className="bg-blue-dark size-8 p-1 rounded-md text-white hover:bg-redest-dark hover:-translate-y-1 transition-transform duration-300 cursor-pointer" />
               </a>
               <a href="https://www.facebook.com/a4admission/" target="_blank">
-                <FaFacebook className="bg-zinc-600 size-8 p-1 rounded-md text-white hover:bg-redest-dark hover:-translate-y-1 transition-transform duration-300 cursor-pointer" />
+                <FaFacebook className="bg-blue-dark size-8 p-1 rounded-md text-white hover:bg-redest-dark hover:-translate-y-1 transition-transform duration-300 cursor-pointer" />
               </a>
               <a href="https://www.youtube.com/@a4.admission" target="_blank">
-                <FaYoutube className="bg-zinc-600 size-8 p-1 rounded-md text-white hover:bg-redest-dark hover:-translate-y-1 transition-transform duration-300 cursor-pointer" />
+                <FaYoutube className="bg-blue-dark size-8 p-1 rounded-md text-white hover:bg-redest-dark hover:-translate-y-1 transition-transform duration-300 cursor-pointer" />
               </a>
               <a
                 href="https://www.linkedin.com/company/a4-admission/"
                 target="_blank"
               >
-                <FaLinkedin className="bg-zinc-600 size-8 p-1 rounded-md text-white hover:bg-redest-dark hover:-translate-y-1 transition-transform duration-300 cursor-pointer" />
+                <FaLinkedin className="bg-blue-dark size-8 p-1 rounded-md text-white hover:bg-redest-dark hover:-translate-y-1 transition-transform duration-300 cursor-pointer" />
               </a>
               <a href="https://twitter.com/a4admission" target="_blank">
-                <FaTwitter className="bg-zinc-600 size-8 p-1 rounded-md text-white hover:bg-red-600 hover:-translate-y-1 transition-transform duration-300 cursor-pointer" />
+                <FaTwitter className="bg-blue-dark size-8 p-1 rounded-md text-white hover:bg-red-600 hover:-translate-y-1 transition-transform duration-300 cursor-pointer" />
               </a>
               <a href="https://ro.pinterest.com/aforadmission/" target="_blank">
-                <FaPinterest className="bg-zinc-600 size-8 p-1 rounded-md text-white hover:bg-redest-dark hover:-translate-y-1 transition-transform duration-300 cursor-pointer" />
+                <FaPinterest className="bg-blue-dark size-8 p-1 rounded-md text-white hover:bg-redest-dark hover:-translate-y-1 transition-transform duration-300 cursor-pointer" />
               </a>
               <a
                 href="https://www.tiktok.com/@a4admissionofficial"
                 target="_blank"
               >
-                <FaTiktok className="bg-zinc-600 size-8 p-1 rounded-md text-white hover:bg-redest-dark hover:-translate-y-1 transition-transform duration-300 cursor-pointer" />
+                <FaTiktok className="bg-blue-dark size-8 p-1 rounded-md text-white hover:bg-redest-dark hover:-translate-y-1 transition-transform duration-300 cursor-pointer" />
               </a>
             </div>
           </div>
           <div className="col-span-3 flex flex-col gap-3 pl-6 p-2">
-            <h2 className="font-poppins font-medium text-xl">Contact Us</h2>
+            <h2 className="font-quicksand font-semibold text-gray-800 text-2xl">Contact Us</h2>
 
             <a
               href="https://g.co/kgs/mxf7nKs"
               target="_blank"
-              className="flex items-center gap-2 hover:text-redest-dark text-gray-800 font-poppins transition-colors duration-200 cursor-pointer"
+              className="flex items-center gap-2 hover:text-redest-dark text-gray-800 font-quicksand transition-colors duration-200 cursor-pointer"
             >
-              <FaLocationDot className="" />
+              <FaLocationDot className="text-blue-dark" />
               <p className="font-poppins">
                 <span className="font-bold font-quicksand pr-2">
                   USA [ Mission HQ ] :
@@ -72,7 +72,7 @@ const Footer = () => {
               target="_blank"
               className="flex items-center gap-2 hover:text-redest-dark text-gray-800 font-poppins transition-colors duration-200 cursor-pointer"
             >
-              <FaLocationDot className="" />
+              <FaLocationDot className="text-blue-dark" />
               <p className="font-poppins">
                 <span className="font-bold font-quicksand">UK :</span> 33 St
                 James's Square, London SW1Y 4JS, United Kingdom
@@ -83,7 +83,7 @@ const Footer = () => {
               target="_blank"
               className="flex items-center gap-2 hover:text-redest-dark text-gray-800 font-poppins transition-colors duration-200 cursor-pointer"
             >
-              <FaLocationDot className="" />
+              <FaLocationDot className="text-blue-dark" />
               <p className="font-poppins">
                 <span className="font-bold font-quicksand">UAE :</span> Level
                 23, Boulevard Plaza 2 Sheikh Mohammed bin Rashid Boulevard -
@@ -95,17 +95,29 @@ const Footer = () => {
               target="_blank"
               className="flex items-center gap-2 hover:text-redest-dark text-gray-800 font-poppins transition-colors duration-200 cursor-pointer"
             >
-              <FaLocationDot className="" />
+              <FaLocationDot className="text-blue-dark" />
               <p className="font-poppins">
                 <span className="font-bold font-quicksand">BD :</span> 3rd floor
                 of Ananda Tower, Jail Road, Sylhet
               </p>
             </a>
-            <Link className="flex items-center gap-2 hover:text-redest-dark text-gray-800 font-poppins transition-colors duration-200 cursor-pointer">
-              <FaWhatsappSquare />
+            <a
+              href="https://g.co/kgs/BenzwYT"
+              target="_blank"
+              className="flex items-center gap-2 hover:text-redest-dark text-gray-800 font-poppins transition-colors duration-200 cursor-pointer"
+            >
+              <FaLocationDot className="text-blue-dark" />
+              <p className="font-poppins">
+                <span className="font-bold font-quicksand">BD :</span> 3rd
+                Floor, VIP Plaza, PC Road, G-Block, Near Artillery, Halisahar,
+                Chittagong
+              </p>
+            </a>
+            <a className="flex items-center gap-2 hover:text-redest-dark text-gray-800 font-poppins transition-colors duration-200 cursor-pointer">
+              <FaWhatsappSquare className="text-blue-dark"/>
 
               <p className="font-poppins">+447465268767</p>
-            </Link>
+            </a>
             {/* <Link className="flex items-center gap-2 hover:text-redest-dark text-gray-700 font-poppins transition-colors duration-200 cursor-pointer">
               <FaWhatsappSquare />
 
@@ -115,7 +127,7 @@ const Footer = () => {
               href="mailto:hello@a4admission.com"
               className="flex items-center gap-2 hover:text-redest-dark text-gray-800 font-poppins transition-colors duration-200"
             >
-              <IoMail />
+              <IoMail className="text-blue-dark"/>
               hello@a4admission.com
             </a>
           </div>
