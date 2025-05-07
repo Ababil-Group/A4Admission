@@ -54,33 +54,54 @@ const Footer = () => {
           <div className="col-span-3 flex flex-col gap-3 pl-6 p-2">
             <h2 className="font-poppins font-medium text-xl">Contact Us</h2>
 
-            <a className="flex items-center gap-2 hover:text-redest-dark text-gray-700 font-poppins transition-colors duration-200 cursor-pointer">
+            <a
+              href="https://g.co/kgs/mxf7nKs"
+              target="_blank"
+              className="flex items-center gap-2 hover:text-redest-dark text-gray-800 font-poppins transition-colors duration-200 cursor-pointer"
+            >
               <FaLocationDot className="" />
               <p className="font-poppins">
-                BD {">"} 3rd floor of Ananda Tower, Jail Road, Sylhet
+                <span className="font-bold font-quicksand pr-2">
+                  USA [ Mission HQ ] :
+                </span>
+                1111 Oakfield Dr., Ste. 115E ,Brandon ,FL 33511
               </p>
             </a>
-            <a className="flex items-center gap-2 hover:text-redest-dark text-gray-700 font-poppins transition-colors duration-200 cursor-pointer">
+            <a
+              href="https://g.co/kgs/pFNT27o"
+              target="_blank"
+              className="flex items-center gap-2 hover:text-redest-dark text-gray-800 font-poppins transition-colors duration-200 cursor-pointer"
+            >
               <FaLocationDot className="" />
               <p className="font-poppins">
-                USA [ Mission HQ ] {">"} 1111 Oakfield Dr., Ste. 115E ,Brandon
-                ,FL 33511
+                <span className="font-bold font-quicksand">UK :</span> 33 St
+                James's Square, London SW1Y 4JS, United Kingdom
               </p>
             </a>
-            <a className="flex items-center gap-2 hover:text-redest-dark text-gray-700 font-poppins transition-colors duration-200 cursor-pointer">
+            <a
+              href="https://g.co/kgs/Yj1B78M"
+              target="_blank"
+              className="flex items-center gap-2 hover:text-redest-dark text-gray-800 font-poppins transition-colors duration-200 cursor-pointer"
+            >
               <FaLocationDot className="" />
               <p className="font-poppins">
-                UK 33 St James's Square, London SW1Y 4JS, United Kingdom
+                <span className="font-bold font-quicksand">UAE :</span> Level
+                23, Boulevard Plaza 2 Sheikh Mohammed bin Rashid Boulevard -
+                Dubai
               </p>
             </a>
-            <a className="flex items-center gap-2 hover:text-redest-dark text-gray-700 font-poppins transition-colors duration-200 cursor-pointer">
+            <a
+              href="https://g.co/kgs/BenzwYT"
+              target="_blank"
+              className="flex items-center gap-2 hover:text-redest-dark text-gray-800 font-poppins transition-colors duration-200 cursor-pointer"
+            >
               <FaLocationDot className="" />
               <p className="font-poppins">
-                UAE {">"} Level 23, Boulevard Plaza 2 Sheikh Mohammed bin Rashid
-                Boulevard - Dubai
+                <span className="font-bold font-quicksand">BD :</span> 3rd floor
+                of Ananda Tower, Jail Road, Sylhet
               </p>
             </a>
-            <Link className="flex items-center gap-2 hover:text-redest-dark text-gray-700 font-poppins transition-colors duration-200 cursor-pointer">
+            <Link className="flex items-center gap-2 hover:text-redest-dark text-gray-800 font-poppins transition-colors duration-200 cursor-pointer">
               <FaWhatsappSquare />
 
               <p className="font-poppins">+447465268767</p>
@@ -91,8 +112,8 @@ const Footer = () => {
               <p className="font-poppins">+4407943642473</p>
             </Link> */}
             <a
-              href="mailto:contact@aladdingroup.online"
-              className="flex items-center gap-2 hover:text-blue-400 text-gray-700 font-poppins transition-colors duration-200"
+              href="mailto:hello@a4admission.com"
+              className="flex items-center gap-2 hover:text-redest-dark text-gray-800 font-poppins transition-colors duration-200"
             >
               <IoMail />
               hello@a4admission.com
@@ -101,27 +122,27 @@ const Footer = () => {
           <div className="col-span-1 flex flex-col gap-3 pl-6 p-2">
             <h2 className="text-xl font-medium font-poppins">Manus</h2>
 
-            <ul className="flex flex-col">
+            <ul className="flex flex-col space-y-2">
               <li>
                 <Link
                   to={"/"}
-                  className="text-gray-700 font-medium font-poppins hover:text-blue-dark hover:-translate-y-1 transition-transform duration-300 cursor-pointer"
+                  className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:-translate-y-1 transition-transform duration-300 cursor-pointer"
                 >
                   Home
                 </Link>
               </li>
               <li>
                 <Link
-                  to={"/services"}
-                  className="text-gray-700 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform"
+                  to={"/pages/services"}
+                  className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform"
                 >
                   Services
                 </Link>
               </li>
               <li>
                 <Link
-                  to={"/contact"}
-                  className="text-gray-700 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform"
+                  to={"/pages/study-abroad-canada"}
+                  className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform"
                 >
                   Study Abroad
                 </Link>
@@ -129,39 +150,39 @@ const Footer = () => {
               <li>
                 <Link
                   to={"/contact"}
-                  className="text-gray-700 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform"
+                  className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform"
                 >
                   Highschool in Canada
                 </Link>
               </li>
               <li>
                 <Link
-                  to={"/"}
-                  className="text-gray-700 font-medium font-poppins hover:text-blue-dark hover:-translate-y-1 transition-transform duration-300 cursor-pointer"
+                  to={"/pages/about-us"}
+                  className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:-translate-y-1 transition-transform duration-300 cursor-pointer"
                 >
                   About Us
                 </Link>
               </li>
               <li>
                 <Link
-                  to={"/services"}
-                  className="text-gray-700 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform"
+                  to={"/blogs/news"}
+                  className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform"
                 >
                   Article/News
                 </Link>
               </li>
               <li>
                 <Link
-                  to={"/contact"}
-                  className="text-gray-700 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform"
+                  to={"/pages/event"}
+                  className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform"
                 >
                   Event
                 </Link>
               </li>
               <li>
                 <Link
-                  to={"/contact"}
-                  className="text-gray-700 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform"
+                  to={"/pages/contact"}
+                  className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform"
                 >
                   Contact
                 </Link>
@@ -169,7 +190,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="mt-8 pt-8 border-t border-gray-700 text-center">
+        <div className="mt-8 pt-8 border-t border-gray-800 text-center">
           <p className=" text-gray-500 font-poppins font-medium text-sm">
             © {new Date().getFullYear()} A4 Admission. All rights reserved.
           </p>

@@ -451,7 +451,7 @@
       "sp": "Browse our events calendar"
     },
     "thirdevnt": {
-      "th": "📢SALAK ED Webinar: Securing Your Future in Canada!🇨🇦",
+      "th": "📢A4 Admission Webinar: Securing Your Future in Canada!🇨🇦",
       "tp1": "Join us for an insightful session on `What You Need to Know About the Latest Canadian Policy Changes and PGWP`",
       "tp2": "🗓 Date: Wednesday, November 27th, 2025",
       "tp3": "🕖 Time: 19:00 WIB",
@@ -505,6 +505,124 @@
       "cp1": "Leave us a message to get more information about study in Canada.",
       "cp2": "You can visit us at our office in Bogor, or we can come to your place (Jabodetabek area only) for your convenience.",
       "cp3": "We can also discuss via Zoom, or any digital platfrom to discuss more!"
+    }
+  },
+  "faqs": {
+    "faqh": "FAQs",
+    "second": {
+      "sh": "Frequently Asked Questions for new students",
+      "sp1": "As you navigate the next exciting chapter of your academic life by starting your master’s or doctoral degree, we know you may have some questions.",
+      "sp2": "Below we provide you with some answers! If you don’t see your question (and your answer!), please explore the ways that you can connect with us to access the information you need.",
+      "btn1": "General",
+      "btn2": "Parents",
+      "btn3": "Mature Student",
+
+      "glh1": "WHAT ARE THE STEPS IN THE PROCESS OF REGISTERING FOR STUDIES AND VISA?",
+      "glp1l1": "Take the IELTS test",
+      "glp1l2": "Translate the transcript and high school diploma",
+      "glp1l3": "Apply to the desired campus",
+      "glp1l4": "Receive the letter of acceptance",
+      "glp1l5": "Pay the tuition deposit",
+      "glp1l6": "Apply for a visa",
+      "glp1l7": "Undergo a medical examination",
+      "glp1l8": "Obtain departure information",
+
+      "glh2": "What documents do I need to apply for a Study Permit?",
+      "glp2l1": "Fill out the visa application form",
+      "glp2l2": "Passport",
+      "glp2l3": "3.5 cm x 4.5 cm photo",
+      "glp2l4": "Letter of acceptance from the university or college",
+      "glp2l5": "Statement of purpose for studying",
+      "glp2l6": "Financial support proof (between CAD $35,000 - $60,000 for the last 4 months)",
+      "glp2l7": "Pay the application fee of $150 and $85 for biometrics",
+      "glp2l8": "The processing time will take 1 - 2 months.",
+
+      "glh3": "How much is consultation fee with A4 Admission?",
+      "glp3l1": "If the visa is rejected, the college/university will issue a full refund minus the application and administrative fees.",
+
+      "glh4": "How much is consultation fee with A4 Admission?",
+      "glp4l1": "IELTS test (5.5-6.5 depending on the school)",
+      "glp4l2": "Copies of high school transcripts & diploma (translated into Indonesian and English by a sworn translator)",
+      "glp4l3": "Copy of passport",
+      "glp4l4": "Payment of application fee",
+      "glp4l5": "Portfolio (if applying to a Design program)",
+
+      "glh5": "How much is the cost to study in Canada?",
+      "glp5l1": "The costs range from CAD $9,000 to CAD $20,000 per year for colleges and CAD $35,000 to CAD $60,000 per year for universities.",
+
+      "glh6": "How difficult is it for new students to adapt?",
+      "glp6l1": "Salak Education has over 25 years of experience in studying, working, and living in Canada, particularly in the areas of Ontario and Manitoba. Therefore, our goal is to assist new students by guiding and providing all useful information that can help them adapt to their new environment. Our team in Canada will guide newly arrived students (especially in the areas of Ontario and Manitoba). Before departure, we will also introduce some students who are already in Canada.",
+
+      "glh7": "What kind of accomodations should I choose?",
+      "glp7l1": "On-campus dormitory and",
+      "glp7l2": "Off-campus apartment/house.",
+      "glp7l3": "We recommend new students to live in on-campus homestay/dormitories to meet other students while learning about new cultures and environments. This makes it easier for new students to make new friends and adapt. For further explanations, please contact our counselor team.",
+
+      "glh8": "Can I work while study in Canada?",
+      "glp8l1": "The Canadian government allows international students to work during their studies, both on and off-campus. Students can apply for part-time work for up to 20 hours per week during their studies and up to 40 hours per week during summer breaks. The minimum wage is approximately $15 per hour.",
+
+      "glh9": "How A4 Admission guide me to choose the campus and program?",
+      "glp9l1": "Collaborating with 1,000+ campuses, we provide a catalog of college and university partners based on program interests and prepared costs. This is supplemented with more in-depth information, such as the percentage of employment after graduation from our college and university partners.",
+
+      "glh10": "I don't know what program to choose yet, how can A4 Admission provide guidance?",
+      "glp10l1": "Our counselor team will provide personalized consultations with prospective students and their parents. We will assist in selecting a study program that aligns with the budget, interests, abilities, and desired career goals. This way, prospective students can make informed decisions and be well-prepared for their studies in Canada.",
+
+      "glh11": "What is the estimated cost of living in Canada per month?",
+      "glp11l1": "Acomodation: $850-$1500",
+      "glp11l2": "Phone: $50",
+      "glp11l3": "Insurance: $40",
+      "glp11l4": "Bus Pass: $95",
+      "glp11l5": "Grocery: $250",
+
+      "glh12": "What is the estimated part-time salary I can earn while studying?",
+      "glp12l1": "Average minimum wage: $15/hour",
+      "glp12l2": "Total weekly working hours: 20 hours",
+      "glp12l3": "Total weekly income: $300",
+      "glp12l4": "Total monthly income: $300 x 4 weeks = $1200.",
+
+      "glh13": "What kind of part-time jobs can I do while studying?",
+      "glp13l1": "Students can work on-campus in places such as bookstores, libraries, fitness centers, cafeterias, and off-campus in places like restaurants, shopping centers, supermarkets, and more.",
+      "glp13l2": "It is also possible for students to work part-time in companies as receptionists, administrative staff, call-center operators, and other similar positions.",
+
+      "glh14": "Can I also have direct discussions with campus representatives?",
+      "glp14l1": "We regularly organize info sessions with college/university representatives, where students and parents can have direct and more private consultations.",
+
+      "glh15": "Is there any scholarship available?",
+      "glp15l1": "Colleges and universities will provide scholarship information on their respective websites. Students can apply separately by following the application process on their own.",
+
+      "plh1": "Is there any additional requirements to send minor child to study in Canada?",
+      "plp1l1": "Students under the age of 17, accompanied by their parents, need to go through the process of custodianship. Salak Education will assist in the application process.",
+
+      "plh2": "Is there any additional requirements to send minor child to study in Canada?",
+      "plp2l1": "Make sure that the child has essential documents such as academic records, passport, and required health insurance. Prepare sufficient funds for the child's education abroad, including school fees, living expenses, airfare, and any other potential expenses. Of course, ensure that parents choose the right consultant.",
+
+      "plh3": "How to open a bank account in Canada?",
+      "plp3l1": "Students can open individual bank accounts in Canada without having to go through their parents' accounts. However, if they are still under age, some banks may require parental or guardian consent before opening a bank account. Be sure to check the requirements of the chosen bank before opening an account.",
+
+      "plh4": "Can I accompany my child to go to study abroad?",
+      "plp4l1": "Parents can travel together with their child with a tourist visa.",
+
+      "plh5": "How can I send money from Indonesia to my child studying abroad?",
+      "plp5l1": "Through the bank: Make sure you know your child's bank account details, the receiving bank's SWIFT code, and any other necessary information for the money transfer.",
+      "plp5l2": "Through international money transfer services: For example, Western Union, MoneyGram, and TransferWise.",
+      "plp5l3": "Via international credit or debit cards: You can add your child as an authorized user on your international credit or debit card and transfer money directly to the card.",
+      "plp5l4": "Be sure to check the fees and currency conversion rates before choosing the appropriate money transfer method.",
+
+      "plh6": "If my child gets sick, does the campus have a clinic or hospital?",
+      "plp6l1": "Some campuses have on-campus medical clinics with on-duty doctors. If a student sick, they can visit the campus clinic, and the on-duty doctor will provide referrals (if necessary) to the nearest hospital.",
+
+      "plh7": "Is it important to have insurance from Indonesia, or can it be arranged upon arrival in Canada?",
+      "plp7l1": "If parents have purchased insurance for their child in Indonesia, make sure to check with the insurance company if it can be used abroad as well.",
+      "plp7l2": "Some campuses have included health insurance in the tuition fees.",
+
+      "plh8": "Are there any A4 Admission staff to pick up my child if I am not accompanying them during the journey?",
+      "plp8l1": "Upon arrival, students will be picked up as requested by the parents.",
+
+      "plh9": "How safe is it for my child to live in Canada?",
+      "plp9l1": "Canada has a relatively low crime rate and is known for its inclusive and friendly culture towards foreign nationals. The Canadian government also provides strong legal protection for all citizens, including international students. However, like anywhere in the world, there are still some risks to be aware of, such as street crime, cybercrime, and others. Therefore, it is essential for international students to always be cautious.",
+
+      "plh10": "I want to compare tuition fees and living expenses in Canada with other countries. How will A4 Admission explain this?",
+      "plp10l1": "A4 Admission will provide a comprehensive explanation of the tuition fees and living costs in Canada compared to other countries. We will offer detailed information about the educational expenses, including tuition fees, accommodation costs, transportation, food, and other miscellaneous expenses in different countries. Through personalized consultations, we will help you make informed decisions based on your preferences, budget, and academic interests, ensuring you have a clear understanding of the financial aspects of studying in Canada and other potential study destinations."
     }
   }
 }

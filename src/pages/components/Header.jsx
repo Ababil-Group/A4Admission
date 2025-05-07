@@ -33,7 +33,7 @@ const Header = () => {
 
   const navigation = [
     { title: t("menu.home"), path: "/" },
-    { title: t("menu.services"), path: "/services" },
+    { title: t("menu.services"), path: "/pages/services" },
 
     {
       title: t("menu.studyAbrod"),
@@ -76,7 +76,8 @@ const Header = () => {
     { title: t("menu.about"), path: "/pages/about-us" },
     { title: t("menu.artical"), path: "/blogs/news" },
     { title: t("menu.event"), path: "/pages/event" },
-    { title: t("menu.contact"), path: "/contact" },
+    { title: t("menu.contact"), path: "/pages/contact" },
+    { title: t("menu.faq"), path: "/pages/faq" },
   ];
 
   const changeLanguage = async (lng) => {
@@ -102,6 +103,7 @@ const Header = () => {
       prev.includes(idx) ? prev.filter((i) => i !== idx) : [...prev, idx]
     );
   };
+
   return (
     <nav className="bg-white w-full">
       {/* <div className="bg-gradient-to-l from-redest-dark to-blue-dark w-full">
@@ -166,8 +168,8 @@ const Header = () => {
 
       <div className="max-w-screen-lg mx-auto border-t-[2px] border-[#ece7df]">
         {/* Desktop Navigation */}
-        <div className="hidden md:block my-2">
-          <ul className="flex flex-wrap items-center justify-center space-x-6">
+        <div className="hidden md:block my-2 ">
+          <ul className=" flex flex-wrap items-center justify-center space-x-4">
             {navigation.map((item, idx) => (
               <li
                 key={idx}
@@ -207,7 +209,7 @@ const Header = () => {
                         <li key={subIdx}>
                           <Link
                             to={subItem.path}
-                            className={`block px-4 py-2 text-[15px] text-gray-800 hover:bg-gray-100 font-quicksand ${
+                            className={`block font-semibold px-4 py-2 text-[15px] text-gray-800 hover:bg-gray-100 font-quicksand ${
                               location.pathname === item.path
                                 ? "border-b-2 border-redest-dark text-redest-dark"
                                 : "text-gray-900 hover:text-redest-dark "

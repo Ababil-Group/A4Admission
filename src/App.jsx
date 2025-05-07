@@ -17,6 +17,7 @@ import Uk from "./pages/StudyAborad/Uk";
 import AboutUs from "./pages/aboutus/AboutUs";
 import ArticalNews from "./pages/articals/ArticalNews";
 import Event from "./pages/event/Event";
+import { FaArrowUp } from "react-icons/fa";
 
 NProgress.configure({
   minimum: 0.3,
@@ -28,30 +29,51 @@ NProgress.configure({
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
+  const [showScrollButton, setShowScrollButton] = useState(false);
   const [progress, setProgress] = useState(0);
   const location = useLocation();
 
-  // Handle progress bar and loading state for route changes
+  // for scroll to top
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 300) {
+        setShowScrollButton(true);
+      } else {
+        setShowScrollButton(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // relode every lodaing
   useEffect(() => {
     let interval;
 
     const handleStart = () => {
       setIsLoading(true);
-      setProgress(0); // Reset progress
+      setProgress(0);
       interval = setInterval(() => {
         setProgress((prev) => {
           if (prev >= 100) {
             clearInterval(interval);
             return 100;
           }
-          return prev + 10; // Increment progress
+          return prev + 10;
         });
       }, 200);
     };
 
     const handleComplete = () => {
       clearInterval(interval);
-      setProgress(100); // Ensure progress reaches 100%
+      setProgress(100);
       setIsLoading(false);
     };
 
@@ -62,7 +84,7 @@ function App() {
       clearTimeout(timer);
       clearInterval(interval);
     };
-  }, [location]); // Trigger on every route change
+  }, [location]);
 
   if (isLoading) {
     return (
@@ -85,8 +107,8 @@ function App() {
       <Routes location={location} key={location.key}>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/pages/services" element={<Services />} />
+          <Route path="/pages/contact" element={<Contact />} />
           <Route path="/pages/study-abroad-canada" element={<Canada />} />
           <Route path="/pages/study-abroad-united-states" element={<Usa />} />
           <Route path="/pages/study-abroad-united-kingdom" element={<Uk />} />
@@ -96,6 +118,16 @@ function App() {
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
+      {showScrollButton && (
+        <button
+          onClick={scrollToTop}
+          className="fixed bottom-10 left-8 shadow-2xl hover:shadow-gray-400 cursor-pointer bg-redest-dark text-white p-3 rounded-full hover:bg-redest-dark/90 transition-colors duration-300 z-50"
+          aria-label="Scroll to top"
+        >
+          <FaArrowUp className="w-5 h-5 animate-bounce" />
+        </button>
+      )}
+
       <FloatingWhatsApp />
       <Toaster />
     </div>
