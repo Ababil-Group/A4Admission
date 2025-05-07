@@ -14,6 +14,9 @@ const Header = () => {
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
   const [isChangingLanguage, setIsChangingLanguage] = useState(false);
   const location = useLocation();
+  // subnav items
+  const [hoveredItem, setHoveredItem] = useState(null);
+  const [expandedItems, setExpandedItems] = useState([]);
   // Initialize language from localStorage or i18n
   useEffect(() => {
     const savedLanguage = localStorage.getItem("userLanguage");
@@ -31,6 +34,48 @@ const Header = () => {
   const navigation = [
     { title: t("menu.home"), path: "/" },
     { title: t("menu.services"), path: "/services" },
+
+    {
+      title: t("menu.studyAbrod"),
+      subNav: [
+        {
+          title: t("menu.studyAl1"),
+          path: "/pages/study-abroad-canada",
+        },
+        {
+          title: t("menu.studyAl2"),
+          path: "/pages/study-abroad-united-states",
+        },
+        {
+          title: t("menu.studyAl3"),
+          path: "/pages/study-abroad-united-kingdom",
+        },
+        {
+          title: t("menu.studyAl4"),
+          path: "/pages/study-abroad-australia",
+        },
+      ],
+    },
+    {
+      title: t("menu.highschoolcanada"),
+      subNav: [
+        {
+          title: t("menu.highschooll1"),
+          path: "/pages/study-abroad-canada",
+        },
+        {
+          title: t("menu.highschooll2"),
+          path: "/pages/study-abroad-united-states",
+        },
+        {
+          title: t("menu.highschooll3"),
+          path: "/pages/study-abroad-united-kingdom",
+        },
+      ],
+    },
+    { title: t("menu.about"), path: "/about-us" },
+    { title: t("menu.artical"), path: "/blogs/news" },
+    { title: t("menu.event"), path: "/pages/event" },
     { title: t("menu.contact"), path: "/contact" },
   ];
 
@@ -43,7 +88,6 @@ const Header = () => {
       await i18n.reloadResources(lng);
     } catch (error) {
       console.error("Language change failed:", error);
-      // Fallback to English if error occurs
       i18n.changeLanguage("en");
       setCurrentLanguage("en");
     } finally {
@@ -52,6 +96,12 @@ const Header = () => {
     }
   };
 
+  // for mobile device
+  const toggleItem = (idx) => {
+    setExpandedItems((prev) =>
+      prev.includes(idx) ? prev.filter((i) => i !== idx) : [...prev, idx]
+    );
+  };
   return (
     <nav className="bg-white w-full">
       <div className="bg-gradient-to-l from-redest-dark to-blue-dark w-full">
@@ -117,19 +167,59 @@ const Header = () => {
       <div className="max-w-screen-lg mx-auto border-t-[2px] border-[#ece7df]">
         {/* Desktop Navigation */}
         <div className="hidden md:block my-2">
-          <ul className="flex flex-wrap items-center justify-center space-x-4">
+          <ul className="flex flex-wrap items-center justify-center space-x-6">
             {navigation.map((item, idx) => (
-              <li key={idx}>
+              <li
+                key={idx}
+                className="relative group"
+                onMouseEnter={() => setHoveredItem(idx)}
+                onMouseLeave={() => setHoveredItem(null)}
+              >
                 <Link
-                  to={item.path}
-                  className={`text-lg font-medium text-[16px] transition-colors tracking-widest font-quicksand${
+                  to={item.path || "#"}
+                  className={`font-semibold text-[16px] transition-colors tracking-widest font-quicksand ${
                     location.pathname === item.path
-                      ? "text-gray-800 border-b-2 border-redest-dark"
-                      : "text-redest-dark hover:text-redest-dark hover:border-b-2 hover:border-redest-dark duration-300"
+                      ? "border-b-2 border-redest-dark text-redest-dark"
+                      : "text-gray-800 hover:text-redest-dark hover:border-b-2 hover:border-redest-dark duration-300"
                   }`}
                 >
                   {item.title}
+                  {item.subNav && (
+                    <span className="ml-1 inline-block">
+                      <MdKeyboardArrowDown className="inline" />
+                    </span>
+                  )}
                 </Link>
+
+                {/* Sub-navigation dropdown */}
+                {item.subNav && (
+                  <div
+                    className={`absolute left-0 top-full mt-0 w-56 bg-white shadow-lg rounded-md z-50 
+            ${
+              hoveredItem === idx
+                ? "opacity-100 visible"
+                : "opacity-0 invisible"
+            } 
+            transition-all duration-300 ease-in-out`}
+                  >
+                    <ul className="py-1">
+                      {item.subNav.map((subItem, subIdx) => (
+                        <li key={subIdx}>
+                          <Link
+                            to={subItem.path}
+                            className={`block px-4 py-2 text-[14px] text-gray-700 hover:bg-gray-100 font-quicksand ${
+                              location.pathname === item.path
+                                ? "border-b-2 border-redest-dark text-redest-dark"
+                                : "text-gray-800 hover:text-redest-dark hover:border-b-2 hover:border-redest-dark duration-300"
+                            }`}
+                          >
+                            {subItem.title}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </li>
             ))}
           </ul>
@@ -144,7 +234,7 @@ const Header = () => {
             ></div>
 
             {/* Menu Panel */}
-            <div className="absolute left-0 top-0 h-full w-6/12 bg-white shadow-xl transform transition-transform duration-300 ease-in-out">
+            <div className="absolute left-0 top-0 h-full w-8/12 bg-white shadow-xl transform transition-transform duration-300 ease-in-out">
               <div className="flex flex-col h-full relative">
                 {/* <Link to="/">
                   <img src={Logo} className="h-16" alt="Company Logo" />
@@ -163,13 +253,42 @@ const Header = () => {
                   <ul className="space-y-2 divide-y divide-gray-300">
                     {navigation.map((item, idx) => (
                       <li key={idx}>
-                        <Link
-                          to={item.path}
-                          className="block px-4 py-2 text-lg font-medium text-blue-dark rounded-lg transition-colors"
-                          onClick={() => setIsMenuOpen(false)}
-                        >
-                          {item.title}
-                        </Link>
+                        <div className="flex justify-between items-center">
+                          <Link
+                            to={item.path || "#"}
+                            className="block px-4 py-2 text-lg font-medium text-blue-dark rounded-lg transition-colors"
+                            onClick={() => !item.subNav && setIsMenuOpen(false)}
+                          >
+                            {item.title}
+                          </Link>
+                          {item.subNav && (
+                            <button
+                              onClick={() => toggleItem(idx)}
+                              className="px-4 py-2 cursor-pointer"
+                            >
+                              {expandedItems.includes(idx) ? (
+                                <MdKeyboardArrowUp />
+                              ) : (
+                                <MdKeyboardArrowDown />
+                              )}
+                            </button>
+                          )}
+                        </div>
+                        {item.subNav && expandedItems.includes(idx) && (
+                          <ul className="pl-6">
+                            {item.subNav.map((subItem, subIdx) => (
+                              <li key={subIdx}>
+                                <Link
+                                  to={subItem.path}
+                                  className="block px-4 py-2 text-[15px] text-gray-700 hover:bg-gray-100"
+                                  onClick={() => setIsMenuOpen(false)}
+                                >
+                                  {subItem.title}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
                       </li>
                     ))}
                   </ul>

@@ -6,7 +6,7 @@ import Testimonial from "../home/Testimonial";
 const Services = () => {
   return (
     <div className="">
-      <div className="max-w-screen-xl mx-auto p-2">
+      <div className="max-w-screen-xl mx-auto p-2 mb-20">
         <h1 className="text-5xl text-gray-800 font-bold font-quicksand mx-auto py-6">
           Our Services
         </h1>

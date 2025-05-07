@@ -1,11 +1,11 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import u1 from "../../assets/carosel/u0.avif";
-import u2 from "../../assets/carosel/u1.webp";
-import u3 from "../../assets/carosel/u2.webp";
-import u4 from "../../assets/carosel/u3.webp";
-import u5 from "../../assets/carosel/u4.avif";
-import u6 from "../../assets/carosel/u5.avif";
+// import u1 from "../../assets/carosel/u0.avif";
+// import u2 from "../../assets/carosel/u1.webp";
+// import u3 from "../../assets/carosel/u2.webp";
+// import u4 from "../../assets/carosel/u3.webp";
+// import u5 from "../../assets/carosel/u4.avif";
+// import u6 from "../../assets/carosel/u5.avif";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -145,13 +145,13 @@ const Testimonial = () => {
     },
   ];
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-[#d4ba97] my-16">
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 bg-[#F7EEDD]">
       <div className="bg-redest-dark px-2 md:px-16 py-10 text-white space-y-8">
         <div className="space-y-4">
           <h3 className="text-2xl font-semibold font-quicksand tracking-widest">
             {t("home.testmoni.left.h1")}
           </h3>
-          <h1 className="text-4xl md:text-5xl font-semibold font-quicksand tracking-wide">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold font-quicksand tracking-wide">
             {t("home.testmoni.left.hb2")}
           </h1>
           <svg

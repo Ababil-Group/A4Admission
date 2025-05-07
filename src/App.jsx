@@ -10,6 +10,8 @@ import Contact from "./pages/contact/Contact";
 import ScrollToTop from "./pages/components/ScrollToTop";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 import { Toaster } from "react-hot-toast";
+import NotFoundPage from "./pages/components/NotFoundPage";
+import Canada from "./pages/StudyAborad/Canada";
 NProgress.configure({
   minimum: 0.3,
   easing: "ease",
@@ -40,7 +42,7 @@ function App() {
 
   useEffect(() => {
     NProgress.start();
-    const timer = setTimeout(() => NProgress.done(), 1000);
+    const timer = setTimeout(() => NProgress.done(), 2000);
     return () => clearTimeout(timer);
   }, [location]);
 
@@ -67,6 +69,8 @@ function App() {
           <Route index element={<HomePage />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="//pages/study-abroad-canada" element={<Canada />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
       <FloatingWhatsApp />

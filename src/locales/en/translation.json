@@ -2,9 +2,17 @@
   "menu": {
     "home": "Home",
     "services": "Services",
-    "candidates": "For Candidates",
-    "clients": "For Clients",
-    "career": "Career Advice",
+    "studyAbrod": "Study Abroad",
+    "studyAl1": "Canada",
+    "studyAl2": "United States",
+    "studyAl3": "United Kingdom",
+    "studyAl4": "Australia",
+    "highschoolcanada": "Highschool in Canada",
+    "highschooll1": "Columbia College",
+    "highschooll2": "Blyth Academy",
+    "highschooll3": "Columbia International College",
+    "event": "Event",
+    "artical": "Article/News",
     "about": "About Us",
     "faq": "FAQ",
     "contact": "Contact"
@@ -185,6 +193,91 @@
       }
     }
   },
+
+  "studyabrod": {
+    "canada": {
+      "topText": {
+        "cath": "Study Abroad in Canada",
+        "catp": "Canada consistently ranks as one of the best countries in the world to live in, thanks to factors like its excellent healthcare system, high stkamurd of education, and overall quality of life. Many Canadians enjoy a good work-life balance, and the country is known for its friendly, welcoming atmosphere."
+      },
+      "subTextL": {
+        "subTextLh": "Why Study in Canada?",
+        "subhfh0": "Multicultural Society",
+        "subhfp0": "Canadians are known for being friendly, open and tolerant and Canada welcome students’s from more  than 200 ethnic origins.",
+        "subhfh1": "World-Class Language Education",
+        "subhfp1": "Canada is a bilingual country and its considered a world leader in language training since teaching of French and English as a frist and second languages is an integral part of a Canadian education.",
+        "subhfh2": "Innovative and Abundant Research Opportunities",
+        "subhfp2": "The education system in Canada is grounded in a culture of research and development with excellent research facilities supported by Canadian goverment and industry.",
+        "subhfh3": "Possibility of Immigration",
+        "subhfp3": "Some international students with Canadian credentials and Canadian work experience may apply for permanent residency without having to leave Canada.",
+        "subhfh4": "Affordable Education",
+        "subhfp4": "Cost of living and tution fees for internasional students are generally lower in Canada than in other countries.",
+        "subhfh5": "Healthy and Safe Communities",
+        "subhfp5": "The United Nations consistenly ranks Canada as one of the best places in the world to live. You will enjoy all of the freedoms which protect Canadians: respect for human rights, equality, and a stable and peaceful society.",
+        "subhfh6": "Exciting Campus Lifestyle",
+        "subhfp6": "From wired libraries and Olympic-quality sports facilities, to public concert halls and art galleries, Canada’s post-secondary campuses offer you enormous possibilities to combine learning and leisure.",
+        "subhfh7": "Work During Your Study & Work Permit After Graduate",
+        "subhfp7": "Opportunity to work part-time on- or off-campus up to 20 hours per week while study in Canada. You may also work full-time on a scheduled break (e.g summer break). This will help you to save up some money. Opportunity post-graduate work permits up to 3 years."
+      },
+      "subTextR": {
+        "btn": "FREE CONSULTATION",
+        "subhr1": "Gapai mimpimu!",
+        "subpr1": "Rencanakan masa depanmu dengan Salak Ed",
+        "subrph1": "Experience",
+        "subrpt1": "With over 25 years of industry experience and nationwide partnerships",
+        "subrph2": "Support",
+        "subrpt2": "High acceptance rates, international experience, and comprehensive support",
+        "subrph3": "Employment Rate",
+        "subrpt3": "100% employment rate and focus on a great living experience",
+        "btn2": "Konsultasi Sekarang"
+      },
+
+      "thirdText": {
+        "th": "Study Info in Canada",
+        "thfh1": "Living cost major cities in Canada",
+        "thfh1ph1": "Toronto:",
+        "thfh1p1": "Toronto is Canada's largest city and one of the most expensive places to live in the country. The cost of living in Toronto is driven up by high housing prices, transportation costs, and food expenses. The average rent for a one-bedroom apartment in the city center is around CAD 2,000 per month, while the cost of a meal at a mid-range restaurant is around CAD 20.",
+        "thfh1ph2": "Vancouver:",
+        "thfh1p2": "Vancouver is a coastal city in Western Canada and is known for its stunning natural scenery. The cost of living in Vancouver is high due to high housing prices, transportation costs, and food expenses. The average rent for a one-bedroom apartment in the city center is around CAD 1,900 per month, while the cost of a meal at a mid-range restaurant is around CAD 20.",
+        "thfh1ph3": "Montreal:",
+        "thfh1p3": "Montreal is the second-largest city in Canada and is located in the province of Quebec. The cost of living in Montreal is generally lower than in Toronto and Vancouver, although it can still be expensive. The average rent for a one-bedroom apartment in the city center is around CAD 1,200 per month, while the cost of a meal at a mid-range restaurant is around CAD 15.",
+        "thfh1ph4": "Calgary:",
+        "thfh1p4": "Calgary is a city located in the province of Alberta and is known for its thriving oil and gas industry. The cost of living in Calgary is generally lower than in Toronto and Vancouver, although it can still be expensive. The average rent for a one-bedroom apartment in the city center is around CAD 1,400 per month, while the cost of a meal at a mid-range restaurant is around CAD 20.",
+        "thfh1ph5": "Ottawa:",
+        "thfh1p5": "Ottawa is the capital city of Canada and is located in the province of Ontario. The cost of living in Ottawa is generally lower than in Toronto and Vancouver, although it can still be expensive. The average rent for a one-bedroom apartment in the city center is around CAD 1,400 per month, while the cost of a meal at a mid-range restaurant is around CAD 20.",
+        "thfh1ph6": "Manitoba:",
+        "thfh1p6": "Manitoba is a province located in the central part of Canada. The cost of living in Manitoba is generally lower than in some of Canada's larger cities. The average rent for a one-bedroom apartment in Winnipeg, Manitoba's largest city, is around CAD 1,100 per month. The cost of a meal at a mid-range restaurant in Winnipeg is around CAD 15It's important to note that these costs are just estimates and can vary depending on your lifestyle and specific circumstances.",
+
+        "thfh2": "International Student in Canada",
+        "thfh2ph1": "Study permit",
+        "thfh2p1": "All international students must obtain a study permit to live and study in Canada. A study permit is a document issued by the Government of Canada that allows international students to study at a designated learning institution (DLI) in Canada for a specific period of time. The processing time for a study permit can vary depending on factors such as your country of origin and the time of year. On average, it takes 20 business weeks to process the study permit after you complete the biometrics, and if you meet the eligibility.",
+        "thfh2ph2": "Work permit",
+        "thfh2p2": "International students in Canada may be eligible to work up to 20 hours per week on or off campus while they study. To work off-campus, you must have a study permit and be enrolled in a full-time program. You may also be eligible for a post-graduation work permit after you complete your program of study. Depending on your length of study, international students can obtain Post Graduate Work Permit (PGWP) up to there years.",
+        "thfh2ph3": "Minimum Wage",
+        "thfh2p3": "Minimum wage in Canada varies depending on the provinces. As of year 2022, the minimum wage rates in Canada are as follows:",
+        "thfh2p3l1": "Alberta: CAD 15.00 per hour",
+        "thfh2p3l2": "British Columbia: CAD 15.20 per hour",
+        "thfh2p3l3": "Manitoba: CAD 12.00 per hour",
+        "thfh2p3l4": "New Brunswick: CAD 12.50 per hour",
+        "thfh2p3l5": "Newfoundland and Labrador: CAD 12.50 per hour",
+        "thfh2p3l6": "Northwest Territories: CAD 15.20 per hour",
+        "thfh2p3l7": "Nova Scotia: CAD 12.95 per hour",
+        "thfh2p3l8": "Nunavut: CAD 16.00 per hour",
+        "thfh2p3l9": "Ontario: CAD 14.35 per hour",
+        "thfh2p3l10": "Prince Edward Island: CAD 13.25 per hour",
+        "thfh2p3l11": "Quebec: CAD 13.50 per hour",
+        "thfh2p3l12": "Saskatchewan: CAD 11.81 per hour",
+        "thfh2p3l13": "Yukon: CAD 15.20 per hour",
+        "thfh2ph4": "Cooperative Education (Co-op)",
+        "thfh2p4": "A program offered by many universities and colleges that allows students to gain practical work experience in their field of study. Students are typically required to meet academic performance standards and complete specific courses before being eligible for co-op placements. Most co-op placements last between four and eight months. Co-op programs are popular in Canada because they offer many benefits to students, including the opportunity to gain work experience, develop professional networks, and earn money to offset the cost of tuition. Co-op programs can also help students clarify their career goals and make more informed decisions about their future career paths.",
+        "thfh3": "Geography facts Canada",
+        "thfh3ph5": "Location",
+        "thfh3p5": "Canada is a country located in North America, spanning from the Atlantic Ocean in the east to the Pacific Ocean in the west, and northward into the Arctic Ocean. It is the second-largest country in the world by land area, covering 9.98 million square kilometers (3.85 million square miles). Canada is more than 5 times larger than Indonesia in terms of land area.",
+        "thfh3ph6": "Climate",
+        "thfh3p6": "Canada experiences four distinct seasons: spring, summer, fall, and winter Spring (March to May): In many parts of Canada, spring is characterized by mild temperatures and rain. spring temperatures can range from around 5°C to 20°C Summer (June to August): Summers in Canada are usually warm to hot, with temperatures ranging from 20°C to 35°C. Fall (September to November): The weather is usually mild and comfortable with temperatures ranging from 10°C to 20°C Winters in Canada are cold and snowy, with temperatures dropping well below freezing. Winter temperatures can range from around -10°C to -35°C depending on the region."
+      }
+    }
+  },
   "contact": {
     "contactFront": {
       "heading": "Need Help? Let’s Connect!",
@@ -218,6 +311,12 @@
       "address1sub": "Salak Education Consulting Kitchener, Ontario, Canada",
       "address2": "Indonesian Address",
       "address2sub": "Jl. Yasmin Raya no. 16 A, Bogor"
+    },
+    "extra": {
+      "ch1": "Get in Touch with Us",
+      "cp1": "Leave us a message to get more information about study in Canada.",
+      "cp2": "You can visit us at our office in Bogor, or we can come to your place (Jabodetabek area only) for your convenience.",
+      "cp3": "We can also discuss via Zoom, or any digital platfrom to discuss more!"
     }
   }
 }

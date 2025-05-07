@@ -12,6 +12,7 @@
 @theme {
   --color-blue-dark: #26587d;
   --color-redest-dark: #e65a25;
+  --color-red-gray: #f7eedd;
 }
 * {
   scroll-behavior: smooth;

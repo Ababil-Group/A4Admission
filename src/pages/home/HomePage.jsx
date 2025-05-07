@@ -206,11 +206,11 @@ const HomePage = () => {
         <Objective />
       </section>
 
-      <section>
+      <section className="mb-20">
         <Universitys />
       </section>
 
-      <section className="bg-[#d4ba97] my-6">
+      <section className="bg-red-gray my-6">
         <Testimonial />
       </section>
       <ProgramsTab />
