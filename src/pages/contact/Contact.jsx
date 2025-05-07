@@ -49,7 +49,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="mb-10">
+    <div className="bg-white my-6">
       <section
         className="bg-cover bg-center py-16 px-2 h-auto sm:min-h-screen relative flex items-center justify-center"
         style={{ backgroundImage: `url(${frontImge})` }}

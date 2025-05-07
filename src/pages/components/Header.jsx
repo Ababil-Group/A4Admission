@@ -104,11 +104,11 @@ const Header = () => {
   };
   return (
     <nav className="bg-white w-full">
-      <div className="bg-gradient-to-l from-redest-dark to-blue-dark w-full">
+      {/* <div className="bg-gradient-to-l from-redest-dark to-blue-dark w-full">
         <p className="py-2 font-medium text-white text-center">
           {t("banner.btext")}
         </p>
-      </div>
+      </div> */}
       <div className="flex items-center justify-between max-w-screen-xl mx-auto px-4">
         <button
           className="inline-flex md:hidden text-gray-800 hover:text-red-600"
