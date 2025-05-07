@@ -73,7 +73,7 @@ const Header = () => {
         },
       ],
     },
-    { title: t("menu.about"), path: "/about-us" },
+    { title: t("menu.about"), path: "/pages/about-us" },
     { title: t("menu.artical"), path: "/blogs/news" },
     { title: t("menu.event"), path: "/pages/event" },
     { title: t("menu.contact"), path: "/contact" },
@@ -194,7 +194,7 @@ const Header = () => {
                 {/* Sub-navigation dropdown */}
                 {item.subNav && (
                   <div
-                    className={`absolute left-0 top-full mt-0 w-56 bg-white shadow-lg rounded-md z-50 
+                    className={`absolute left-0 top-full mt-0 w-60 bg-white shadow-lg rounded-md z-50 
             ${
               hoveredItem === idx
                 ? "opacity-100 visible"
@@ -207,10 +207,10 @@ const Header = () => {
                         <li key={subIdx}>
                           <Link
                             to={subItem.path}
-                            className={`block px-4 py-2 text-[14px] text-gray-700 hover:bg-gray-100 font-quicksand ${
+                            className={`block px-4 py-2 text-[15px] text-gray-800 hover:bg-gray-100 font-quicksand ${
                               location.pathname === item.path
                                 ? "border-b-2 border-redest-dark text-redest-dark"
-                                : "text-gray-800 hover:text-redest-dark hover:border-b-2 hover:border-redest-dark duration-300"
+                                : "text-gray-900 hover:text-redest-dark "
                             }`}
                           >
                             {subItem.title}

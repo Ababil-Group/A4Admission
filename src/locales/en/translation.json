@@ -276,6 +276,194 @@
         "thfh3ph6": "Climate",
         "thfh3p6": "Canada experiences four distinct seasons: spring, summer, fall, and winter Spring (March to May): In many parts of Canada, spring is characterized by mild temperatures and rain. spring temperatures can range from around 5°C to 20°C Summer (June to August): Summers in Canada are usually warm to hot, with temperatures ranging from 20°C to 35°C. Fall (September to November): The weather is usually mild and comfortable with temperatures ranging from 10°C to 20°C Winters in Canada are cold and snowy, with temperatures dropping well below freezing. Winter temperatures can range from around -10°C to -35°C depending on the region."
       }
+    },
+    "usa": {
+      "topText": {
+        "uath": "United States",
+        "uatp": "A large country located in North America, with a population of approximately 330 million people. Its capital is Washington D.C. and the largest city is New York City. The United States education system offers a wide range of programs and degrees at the undergraduate and graduate levels. Many universities are recognized globally for their high academic standards, research facilities, and cultural diversity."
+      },
+      "subTextL": {
+        "subTextLh": "Why United States",
+        "subhfh0": "Quality of Education",
+        "subhfp0": "The US has long history of providing quality of education, and many US universities consistently rank among the top in the world",
+        "subhfh1": "Wide Range Academic Programs",
+        "subhfp1": "US universities offer a diverse range of academic programs across various fields.",
+        "subhfh2": "Global Recognition",
+        "subhfp2": "A degree from a US university is globally recognized and can open doors to career opportunities around the world.",
+        "subhfh3": "Research Opportunities",
+        "subhfp3": "Many US universities are leaders in research and offer students the opportunity to work with world-class researchers and access cutting-edge facilities."
+      },
+      "subTextR": {
+        "btn": "FREE CONSULTATION",
+        "subhr1": "Gapai mimpimu!",
+        "subpr1": "Rencanakan masa depanmu dengan Salak Ed",
+        "subrph1": "Experience",
+        "subrpt1": "With over 25 years of industry experience and nationwide partnerships",
+        "subrph2": "Support",
+        "subrpt2": "High acceptance rates, international experience, and comprehensive support",
+        "subrph3": "Employment Rate",
+        "subrpt3": "100% employment rate and focus on a great living experience",
+        "btn2": "Konsultasi Sekarang"
+      },
+
+      "thirdText": {
+        "th": "Study Info In America",
+        "thfh1": "Living cost major cities in the US",
+        "thfh1ph1": "New York City",
+        "thfh1p1": "New York City is the largest city in the US. Rent for a one-bedroom apartment in Manhattan can range from $2,500 to $4,500 per month. Other monthly expenses, including food, transportation, and utilities, can range from $1,000 to $1,500.",
+        "thfh1ph2": "Los Angeles",
+        "thfh1p2": "Rent for a one-bedroom apartment can range from $1,800 to $3,000 per month, while other monthly expenses can range from $800 to $1,200.",
+        "thfh1ph3": "San Francisco",
+        "thfh1p3": "Rent for a one-bedroom apartment can range from $3,000 to $4,500 per month, while other monthly expenses can range from $1,000 to $1,500.",
+        "thfh1ph4": "Chicago",
+        "thfh1p4": "Rent for a one-bedroom apartment can range from $1,500 to $2,500 per month, while other monthly expenses can range from $800 to $1,200.",
+        "thfh1ph5": "Boston",
+        "thfh1p5": "Rent for a one-bedroom apartment can range from $2,500 to $3,500 per month, while other monthly expenses can range from $1,000 to $1,500.",
+
+        "thfh2": "International Student in the United States",
+        "thfh2ph1": "Study permit",
+
+        "thfh2p1": "International students who want to study in the United States need to obtain a student visa, also known as an F-1 visa. Here are the steps:",
+        "thfh2p3l1": "Apply to Student and Exchange Visitor Program(SEVP) approved school to obtain I-20 form.",
+        "thfh2p3l2": "Pay Student and Exchange Visitor Information System (SEVIS) fee.",
+        "thfh2p3l3": "Students must complete the DS-160 application for a nonimmigrant visa online and upload a photo.",
+        "thfh2p3l4": "Students must schedule and attend an interview at the nearest U.S. embassy or consulate in their home country.",
+        "thfh2p3l5": "If the visa is approved, students will receive their F-1 visa and can make plans to travel to the United States.",
+
+        "thfh2ph2": "Work permit",
+        "thfh2p2": "International students who are studying full-time on an F-1 visa are generally eligible to work part-time on-campus while they are enrolled in school. International students can work on-campus up to 20 hours per week while school is in session and up to 40 hours per week during school breaks. To be eligible for on-campus employment, students must maintain their F-1 status and be enrolled in a SEVP-certified school.",
+
+        "thfh2ph3": "Minimum Wage",
+        "thfh2p3": "As of 2023, the federal minimum wage is $10.50 per hour, but many states and cities have their own minimum wage that is higher than the federal rate. Some states have minimum wages as high as $15 per hour.",
+
+        "thfh2ph4": "Work after graduate",
+        "thfh2p4": "International students who have completed their studies in the US may be eligible to work in the US for a period of time after graduation. This is known as Optional Practical Training (OPT). OPT allows F-1 students to work in their field of study for up to 12 months after completing their program of study. Students in certain STEM fields may be eligible for an additional 24 months of OPT extension. To be eligible for OPT, students must first apply and receive approval from the United States Citizenship and Immigration Services (USCIS). Students must apply for OPT no earlier than 90 days before their program end date and no later than 60 days after their program end date.",
+
+        "thfh3": "Geography Facts of the United States",
+        "thfh3ph5": "Location",
+        "thfh3p5": "The United States is located in North America and is bordered by Canada to the north and Mexico to the south. The country has a total land area of 9,147,593 square kilometers, making it the third largest country in the world by land area. There are 50 states in the United States of America. Each state has its own government and constitution, and together they make up the federal system of government in the US. The states are divided into five regions: the Northeast, Southeast, Midwest, Southwest, and West.",
+        "thfh3ph6": "Climate",
+        "thfh3p6": "The United States has a diverse climate due to its large size and varied topography."
+      }
+    },
+    "uk": {
+      "topText": {
+        "ukath": "Study Abroad in United Kingdom",
+        "ukatp": "The United Kingdom is a popular destination for international students, with a rich academic history and world-class universities. As the birthplace of the English language, the UK is a great place for international students to improve their English skills. The capital city of the UK, London is a vibrant and bustling metropolis with a rich history and diverse cultural scene."
+      },
+      "subTextL": {
+        "subTextLh": "Why Study in UK",
+        "subhfh0": "Quality of Education",
+        "subhfp0": "The UK has a long history of academic excellence, with some of the world's best universities. These universities offer a wide range of degree programs and are known for their rigorous academic standards and high-quality teaching.",
+        "subhfh1": "Cultural Diversity",
+        "subhfp1": "The UK is a melting pot of different cultures and nationalities, making it a great place for international students to experience different perspectives and ways of life.",
+        "subhfh2": "Work Opportunities",
+        "subhfp2": "The UK offers a range of work opportunities for international students, both during their studies and after graduation.",
+        "subhfh3": "High Employability",
+        "subhfp3": "UK universities have an excellent track record of producing highly employable graduates, with many top employers actively seeking out graduates from UK universities. This can be a great advantage for international students looking to launch their careers in the UK or back in their home country."
+      },
+      "subTextR": {
+        "btn": "FREE CONSULTATION",
+        "subhr1": "Gapai mimpimu!",
+        "subpr1": "Rencanakan masa depanmu dengan Salak Ed",
+        "subrph1": "Experience",
+        "subrpt1": "With over 25 years of industry experience and nationwide partnerships",
+        "subrph2": "Support",
+        "subrpt2": "High acceptance rates, international experience, and comprehensive support",
+        "subrph3": "Employment Rate",
+        "subrpt3": "100% employment rate and focus on a great living experience",
+        "btn2": "Konsultasi Sekarang"
+      },
+
+      "thirdText": {
+        "th": "Study Info in United Kingdom",
+        "thfh1": "Living cost major cities in the United Kingdom",
+        "thfh1ph1": "London",
+        "thfh1p1": "London is one of the most expensive cities in the world to live in. Accommodation costs are particularly high, with the average monthly rent for a one-bedroom apartment in central London being around £1,500 - £2,000.",
+        "thfh1ph2": "Edinburg",
+        "thfh1p2": "Edinburgh is the capital city of Scotland and is also a popular destination for tourists and students. Accommodation costs are lower than in London, with the average monthly rent for a one-bedroom apartment in central Edinburgh being around £800 - £1,200.",
+        "thfh1ph3": "Manchester",
+        "thfh1p3": "Manchester is a large city in the northwest of England. Accommodation costs in Manchester are generally lower than in London and Edinburgh, with the average monthly rent for a one-bedroom apartment in central Manchester being around £600 - £900.",
+        "thfh1ph4": "Birmingham",
+        "thfh1p4": "Birmingham is a major city in the Midlands region of England. Accommodation costs in Birmingham are generally lower than in London or Edinburgh, with the average monthly rent for a one-bedroom apartment in central Birmingham being around £500 - £800",
+        "thfh1ph5": "Bristol",
+        "thfh1p5": "Bristol is a vibrant city in the southwest of England. Accommodation costs in Bristol are generally higher than in Birmingham, with the average monthly rent for a one-bedroom apartment in central Bristol being around £700 - £1,000.",
+
+        "thfh2": "International Student in the United Kingdom",
+        "thfh2ph1": "Study permit",
+
+        "thfh2p1": "International students who want to study in the UK usually need to apply for a Tier 4 (General) student visa. Here are general steps to apply study permit:",
+
+        "thfh2p3l1": "Apply to a recognized educational institution in the UK and obtain a letter of acceptance from the institution.",
+        "thfh2p3l2": "Check if you are eligible for a Tier 4 (General) student visa. You must meet the requirements, such as being able to speak, read, write, and understand English, having enough funds to support yourself during your studies, and meeting the course requirements.",
+        "thfh2p3l3": "Apply for a Tier 4 (General) student visa online on the UK government website or in your home country at a visa application center. Need to submit your biometric information (fingerprints and photograph) as part of the application process. Pay visa fee.",
+        "thfh2p3l4": "Attend a visa interview, if required. The UK government may request an interview to verify your eligibility for the student visa.",
+        "thfh2p3l5": "Receive your visa decision. If your application is approved, you will receive your visa sticker or Biometric Residence Permit (BRP) in your passport.",
+
+        "thfh2ph2": "Work permit",
+        "thfh2p2": "International students who hold a Tier 4 (General) student visa are generally allowed to work part time while studying in the UK.",
+
+        "thfh2p3lw1": "Part-time work: International students with a Tier 4 (General) student visa can work part-time during term-time for up to 20 hours per week. They can work full-time during scheduled breaks and holidays.",
+        "thfh2p3lw2": "Work placements: If the course of study includes a work placement as part of the curriculum, international students may be able to work full-time during the placement period",
+
+        "thfh2ph3": "Minimum Wage",
+        "thfh2p3": "The minimum wage in the UK varies depending on the age of the worker and whether they are an apprentice. Here are the current minimum wage rates in the UK as of April 2023:",
+
+        "thfh2p3lm1": "Age23 and over: £10.42 per hour",
+        "thfh2p3lm2": "Age 21 to 22: £1.018 per hour",
+        "thfh2p3lm3": "Age 18 to 20: £7.49 per hour",
+        "thfh2p3lm4": "Under 18: £5.28 per hour",
+        "thfh2p3lm5": "Apprentice: £5.28 per hour",
+
+        "thfh2ph4": "Work after graduate",
+        "thfh2p4": "After completing their studies, international students may be eligible to switch to a Tier 2 (General) work visa if they have a job offer from a UK employer that is willing to sponsor their visa. Once granted a Tier 2 (General) work visa, international students can work in the UK for up to 5 years. Alternatively, UK Graduates routes allow the international student to stay in the UK and work upon graduation. This is unsponsored, which means you can look for work at any levels after you graduate up to two years form undergraduate and master’s degree and three years for PhD graduates.",
+
+        "thfh3": "Geography Facts of the United Kingdom",
+        "thfh3ph5": "Location",
+        "thfh3p5": "The United Kingdom (UK) is a country located in Western Europe. It is made up of four countries: England, Scotland, Wales, and Northern Ireland. The UK has a total population of approximately 67 million people (as of 2021). The UK has a total area of approximately 243,610 square kilometers, with a coastline stretching over 12,429 kilometers.",
+        "thfh3ph6": "Climate",
+        "thfh3p6": "he climate of the United Kingdom is classified as a temperate maritime climate, which means it is mild, wet, and changeable throughout the year."
+      }
+    }
+  },
+  "aboutus": {
+    "tophero": {
+      "ah": "Who we are?",
+      "ap": "Salak Education Consulting is an education agency based in Bogor, Indonesia and Waterloo, Canada. We provide assistance for students to pursue their dream study abroad."
+    },
+    "second": {
+      "ash": "Our Story",
+      "asp": "We believe every people deserve to have a meaningful life by pursuing the best education that the world can offer to. Moving to a new country can be challenging for any international students. We were there too! Moved from Indonesia to Canada in 2009, we have experienced on how to study, live and work in Canada. We aim to pass down our study and life abroad experience to all students."
+    },
+    "third": {
+      "ath": "Meet Our Team",
+      "imgt1": "Our Director - Visiting KJRI Toronto, Canada",
+      "imgt2": "Our Director - Visiting KJRI Toronto, Canada",
+      "imgt3n": "Wahyu Ramadhani",
+      "imgt3": "SENIOR INTERNATIONAL CONSULTANT",
+      "imgt4": "Our Director - Visiting KJRI Toronto, Canada",
+      "imgt4n": "Wahyu Ramadhani"
+    }
+  },
+  "event": {
+    "subevent": {
+      "sh1": "Join Our Free Webinar",
+      "sp": "Browse our events calendar"
+    },
+    "thirdevnt": {
+      "th": "📢SALAK ED Webinar: Securing Your Future in Canada!🇨🇦",
+      "tp1": "Join us for an insightful session on `What You Need to Know About the Latest Canadian Policy Changes and PGWP`",
+      "tp2": "🗓 Date: Wednesday, November 27th, 2025",
+      "tp3": "🕖 Time: 19:00 WIB",
+      "tp4": "🎤 Speaker: Tracey Tran, International Student Counsellor based in Canada",
+      "tp5": "📍 Platform: Zoom",
+      "tp6": "Learn all the important updates on Canadian immigration policies, Post-Graduation Work Permit (PGWP), and how these changes could affect your future in Canada! Don’t miss out on this opportunity to get accurate information and clear guidance.",
+      "btn": "Button label"
+    },
+    "forth": {
+      "fpl": "Your calendar is not active. Please go to the dashboard to enable, or contact support.",
+      "fprh": "Upcoming Events",
+      "fprp": "Your calendar is not active. Please go to the dashboard to enable, or contact support."
     }
   },
   "contact": {
@@ -307,10 +495,10 @@
       "number1": "+1 (226) 792 8584",
       "location2": "Whatsapp Indonesian",
       "number2": "+62 878-2066-7883",
-      "address1": "Canadian Address",
-      "address1sub": "Salak Education Consulting Kitchener, Ontario, Canada",
-      "address2": "Indonesian Address",
-      "address2sub": "Jl. Yasmin Raya no. 16 A, Bogor"
+      "address1": "United Kingdom Address",
+      "address1sub": "33 St James's Square, London SW1Y 4JS, United Kingdom",
+      "address2": "Bangladesh Address",
+      "address2sub": "3rd floor of Ananda Tower, Jail Road, Sylhet"
     },
     "extra": {
       "ch1": "Get in Touch with Us",

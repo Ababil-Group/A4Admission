@@ -34,3 +34,12 @@
 .group:hover .group-hover\:translate-y-0 {
   transform: translateY(0);
 }
+
+#nprogress .bar {
+  background: #ff693b !important;
+  height: 3px !important;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px #ff693b, 0 0 5px #ff693b !important;
+}

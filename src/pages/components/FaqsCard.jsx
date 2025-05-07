@@ -64,24 +64,24 @@ const FaqsCard = (props) => {
           {faqsList.a1 && (
             <div className="space-y-2">
               <h3 className="text-gray-900 font-quicksand text-lg font-bold">
-                {faqsList.h1}
+                {faqsList?.h1}
               </h3>
               <p className="text-gray-900 font-quicksand text-lg">
-                {faqsList.a1}
+                {faqsList?.a1}
               </p>
               <h3 className="text-gray-900 font-quicksand text-lg font-bold">
-                {faqsList.h2}
+                {faqsList?.h2}
               </h3>
               <p className="text-gray-900 font-quicksand text-lg">
-                {faqsList.a2}
+                {faqsList?.a2}
               </p>
               <h3 className="text-gray-900 font-quicksand text-lg font-bold">
-                {faqsList.h3}
+                {faqsList?.h3}
               </h3>
               <p className="text-gray-900 font-quicksand text-lg">
-                {faqsList.a3}
+                {faqsList?.a3}
               </p>
-              {faqsList.lists && (
+              {faqsList?.lists && (
                 <ul className="p-6" style={{ listStyleType: "square" }}>
                   {faqsList.lists.map((item, indx) => (
                     <li
@@ -95,10 +95,10 @@ const FaqsCard = (props) => {
               )}
 
               <h3 className="text-gray-900 font-quicksand text-lg font-bold">
-                {faqsList.h4}
+                {faqsList?.h4}
               </h3>
               <p className="text-gray-900 font-quicksand text-lg">
-                {faqsList.a4}
+                {faqsList?.a4}
               </p>
             </div>
           )}
