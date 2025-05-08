@@ -18,40 +18,117 @@ const FaqsCard = (props) => {
       key={idx}
       onClick={handleOpenAnswer}
     >
-      <h4 className="cursor-pointer pb-5 flex items-center justify-between text-xl font-quicksand text-gray-800 font-semibold">
-        {faqsList.q}
-        {state ? (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5 text-gray-500 ml-2 "
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M20 12H4"
-            />
-          </svg>
-        ) : (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5 text-gray-500 ml-2 hover:animate-spin"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M12 4v16m8-8H4"
-            />
-          </svg>
-        )}
-      </h4>
+      {faqsList.q && (
+        <h4 className="cursor-pointer pb-5 flex items-center justify-between text-xl font-quicksand text-gray-800 font-semibold">
+          {faqsList.q}
+          {state ? (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5 text-gray-500 ml-2 "
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M20 12H4"
+              />
+            </svg>
+          ) : (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5 text-gray-500 ml-2 hover:animate-spin"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 4v16m8-8H4"
+              />
+            </svg>
+          )}
+        </h4>
+      )}
+
+      {faqsList.fqgh && (
+        <h4 className="cursor-pointer pb-5 flex items-center justify-between text-xl font-quicksand text-gray-800 font-semibold group">
+          {faqsList.fqgh}
+          {state ? (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5 text-gray-500 ml-2 "
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M20 12H4"
+              />
+            </svg>
+          ) : (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5 text-blue-dark ml-2 group-hover:rotate-180 transition-transform duration-300"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 4v16m8-8H4"
+              />
+            </svg>
+          )}
+        </h4>
+      )}
+
+      {faqsList.fqph && (
+        <h4 className="cursor-pointer pb-5 flex items-center justify-between text-xl font-quicksand text-gray-800 font-semibold group">
+          {faqsList.fqph}
+          {state ? (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5 text-gray-500 ml-2 "
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M20 12H4"
+              />
+            </svg>
+          ) : (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5 text-blue-dark ml-2 group-hover:rotate-180 transition-transform duration-300"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 4v16m8-8H4"
+              />
+            </svg>
+          )}
+        </h4>
+      )}
+
       <div
         ref={answerElRef}
         className="duration-300"
@@ -101,6 +178,35 @@ const FaqsCard = (props) => {
                 {faqsList?.a4}
               </p>
             </div>
+          )}
+
+          {faqsList.fqgh && (
+            <p className="text-gray-900 font-quicksand text-lg">
+              {faqsList?.fqgp}
+            </p>
+          )}
+          {faqsList?.fqgllist && (
+            <ul className="p-6" style={{ listStyleType: "square" }}>
+              {faqsList.fqgllist.map((item, indx) => (
+                <li key={indx} className="text-gray-900 font-quicksand text-lg">
+                  {item.list}
+                </li>
+              ))}
+            </ul>
+          )}
+          {faqsList.fqph && (
+            <p className="text-gray-900 font-quicksand text-lg">
+              {faqsList?.fqpp}
+            </p>
+          )}
+          {faqsList?.fqpllist && (
+            <ul className="p-6" style={{ listStyleType: "square" }}>
+              {faqsList.fqpllist.map((item, indx) => (
+                <li key={indx} className="text-gray-900 font-quicksand text-lg">
+                  {item.list}
+                </li>
+              ))}
+            </ul>
           )}
         </div>
       </div>

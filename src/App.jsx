@@ -123,10 +123,10 @@ function App() {
       {showScrollButton && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-10 left-2 before:shadow-2xl shadow-2xl hover:shadow-gray-400 cursor-pointer bg-blue-dark text-white p-3 rounded-full hover:bg-redest-dark/90 transition-colors duration-300 z-50"
+          className="fixed bottom-10 left-2 before:shadow-2xl shadow-2xl hover:shadow-gray-400 cursor-pointer hover:bg-redest-dark p-3 rounded-full transition-colors duration-300 z-50"
           aria-label="Scroll to top"
         >
-          <FaArrowUp className="w-5 h-5 animate-bounce" />
+          <FaArrowUp className="w-5 h-5 text-blue-dark hover:text-white animate-bounce" />
         </button>
       )}
 
