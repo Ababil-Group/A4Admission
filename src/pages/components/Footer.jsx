@@ -106,7 +106,7 @@ const Footer = () => {
               </p>
             </a>
             <a
-              href="https://g.co/kgs/BenzwYT"
+              // href="https://g.co/kgs/BenzwYT"
               target="_blank"
               className="flex items-center gap-2 hover:text-redest-dark text-gray-800 font-poppins transition-colors duration-200 cursor-pointer"
             >
@@ -115,8 +115,8 @@ const Footer = () => {
                 <span className="font-bold font-quicksand pr-2">
                   Bangladesh :
                 </span>
-                3rd Floor, VIP Plaza, PC Road, G-Block, Near Artillery,
-                Halisahar, Chittagong
+                3rd Floor, VIP Plaza, FC Road, G-Block, Near Artillery,
+                Halishahar, Chittagong
               </p>
             </a>
             <a className="flex items-center gap-2 hover:text-redest-dark text-gray-800 font-poppins transition-colors duration-200 cursor-pointer">
