@@ -140,7 +140,8 @@ const HomePage = () => {
                 {t("home.third.btn1")}
               </span>{" "}
             </button>
-            <button
+            <Link
+              to={"/pages/our-success-story"}
               className={`flex items-center justify-center gap-2 before:ease relative h-12 w-[200px] overflow-hidden border text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-2 py-3 tracking-wider cursor-pointer font-bold ${
                 activeTab === "tab2"
                   ? "bg-redest-dark border-redest-dark"
@@ -149,7 +150,7 @@ const HomePage = () => {
               onClick={() => setActiveTab("tab2")}
             >
               {t("home.third.btn2")}
-            </button>
+            </Link>
             <button
               className={`before:ease relative h-12 w-[200px] overflow-hidden border text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-7 py-3 tracking-wider cursor-pointer font-bold ${
                 activeTab === "tab3"

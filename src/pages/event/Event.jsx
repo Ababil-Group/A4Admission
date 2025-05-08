@@ -1,101 +1,111 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import img1 from "../../assets/event/e1.webp";
-import img2 from "../../assets/event/e2.webp";
-import { FaYoutube } from "react-icons/fa";
+import { FaYoutube, FaTimes } from "react-icons/fa";
+import success from "../../assets/success.jpg";
+import img1 from "../../assets/s1.jpg";
+import img2 from "../../assets/s2.jpg";
+import img3 from "../../assets/s3.jpg";
+import img4 from "../../assets/s4.jpg";
+import img5 from "../../assets/s5.jpg";
+import img6 from "../../assets/s6.jpg";
+import img7 from "../../assets/s7.jpg";
+import img8 from "../../assets/s8.jpg";
+import { BsArrowsFullscreen } from "react-icons/bs";
+
 const Event = () => {
   const { t } = useTranslation();
-  const [playOpen, setPlayOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  const imgs = [
+    { img: img1 },
+    { img: img2 },
+    { img: img3 },
+    { img: img4 },
+    { img: img5 },
+    { img: img6 },
+    { img: img7 },
+    { img: img8 },
+  ];
+
+  const getImageSizeClass = (index) => {
+    // First 3 images: large (2 cols)
+    if (index < 3) return "lg:col-span-2";
+    // Next 2 images: medium (3 cols)
+    if (index >= 3 && index < 5) return "lg:col-span-3";
+    // Last 3 images: large (2 cols)
+    return "lg:col-span-2";
+  };
+
   return (
     <div className="bg-white my-4 md:my-10">
-      <hr class="hidden md:block h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
-      <div className="bg-cover bg-center max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 min-h-[100vh] w-full md:min-h-[40vh] relative md:my-4">
-        <div className="col-span-2 w-full h-full">
-          <img src={img1} alt="" className="w-full h-full " />
+      {/* Hero Section */}
+      <section
+        className="bg-cover bg-center py-16 px-2 h-auto sm:min-h-[60vh] relative flex items-center justify-center"
+        style={{ backgroundImage: `url(${success})` }}
+      >
+        <div className="absolute inset-0 bg-gray-800/30"></div>
+        <div className="flex flex-col items-center justify-center max-w-screen-sm mx-auto relative z-10">
+          <h1 className="text-5xl text-white font-bold text-center font-quicksand mx-auto py-6">
+            Visa Success
+          </h1>
         </div>
+      </section>
 
-        <div className="col-span-1 relative w-full h-full">
-          {!playOpen ? (
-            <div className="absolute inset-0 bg-gray-400/40 flex items-center justify-center z-10">
-              <FaYoutube
-                className="w-20 h-20 cursor-pointer text-redest-dark"
-                onClick={() => setPlayOpen(true)}
-              />
-            </div>
-          ) : null}
-
-          <iframe
-            src={`https://www.youtube.com/embed/sHiNsZxKM6s${
-              playOpen ? "?autoplay=1" : ""
-            }`}
-            title="A4 Admission - a Worldwide Education Consultancy"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-            className="w-full h-full"
-          ></iframe>
-        </div>
-      </div>
+      {/* Title Section */}
       <section className="max-w-screen-xl mx-auto space-y-4 my-8">
-        <h2 className="text-4xl tracking-wider text-gray-900 font-bold font-quicksand ">
-          {t("event.subevent.sh1")}
+        <h2 className="text-4xl tracking-wider text-center text-gray-900 font-bold font-quicksand uppercase">
+          Our Visa Success Stories
         </h2>
-        <p className="text-lg tracking-widest text-gray-800 uppercase font-bold font-quicksand ">
-          {t("event.subevent.sp")}
-        </p>
-      </section>
-      <section className="max-w-screen-2xl mx-auto space-y-4 my-14">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-          <img src={img2} alt="" className="md:h-[700px] w-full" />
-          <div className="flex flex-col space-y-3">
-            <h2 className="text-4xl text-gray-900 font-bold font-quicksand ">
-              {t("event.thirdevnt.th")}
-            </h2>
-            <p className="text-md text-gray-950 font-medium font-quicksand ">
-              {t("event.thirdevnt.tp1")}
-            </p>
-            <p className="text-md text-gray-950 font-medium font-quicksand ">
-              {t("event.thirdevnt.tp2")}
-            </p>
-            <p className="text-md text-gray-950 font-medium font-quicksand ">
-              {t("event.thirdevnt.tp3")}
-            </p>
-            <p className="text-md text-gray-950 font-medium font-quicksand ">
-              {t("event.thirdevnt.tp4")}
-            </p>
-            <p className="text-md text-gray-950 font-medium font-quicksand ">
-              {t("event.thirdevnt.tp5")}
-            </p>
-            <p className="text-md text-gray-950 font-medium font-quicksand ">
-              {t("event.thirdevnt.tp6")}
-            </p>
-            <div className="mt-6">
-              <a
-                href=""
-                className="before:ease relative h-12 w-auto overflow-hidden border border-redest-dark bg-redest-dark text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-4 py-3 tracking-wider cursor-pointer font-bold"
-              >
-                {t("event.thirdevnt.btn")}
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="my-10 max-w-screen-xl mx-auto space-y-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 items-center py-8">
-          <p className="text-xl col-span-2 text-gray-950 font-medium font-quicksand ">
-            {t("event.forth.fpl")}
+        <div className="flex items-center flex-col">
+          <p className="text-lg tracking-widest text-gray-800 uppercase text-center font-bold font-quicksand">
+            Enjoy with us
           </p>
-          <div className="space-y-5 col-span-1">
-            <h2 className="text-4xl text-gray-900 text-center font-bold font-quicksand ">
-              {t("event.forth.fprh")}
-            </h2>
-            <p className="text-lg text-gray-950 font-medium text-center font-quicksand ">
-              {t("event.forth.fprp")}
-            </p>
-          </div>
+          <div className="w-30 h-1 bg-redest-dark"></div>
         </div>
       </section>
+
+      {/* Image Gallery */}
+      <section className="max-w-screen-lg mx-auto space-y-4 my-14">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 font-poppins p-4">
+          {imgs.map((item, index) => (
+            <div
+              key={index}
+              className={`hover:scale-105 transition-transform duration-500 relative cursor-pointer bg-redest-dark/60 p-2 rounded-2xl ${getImageSizeClass(
+                index
+              )}`}
+              onClick={() => setSelectedImage(item.img)}
+            >
+              <img
+                src={item.img}
+                alt={`Success story ${index + 1}`}
+                className="w-full h-full object-cover rounded-2xl"
+              />
+              <div className="absolute inset-0 bg-black/20 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <BsArrowsFullscreen className="text-white text-4xl" />
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Image Popup Modal */}
+      {selectedImage && (
+        <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4">
+          <div className="relative max-w-4xl w-full">
+            <button
+              className="absolute -top-10 right-0 text-redest-dark text-2xl cursor-pointer"
+              onClick={() => setSelectedImage(null)}
+            >
+              <FaTimes />
+            </button>
+            <img
+              src={selectedImage}
+              alt="Enlarged view"
+              className="w-full max-h-[80vh] object-contain"
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 };

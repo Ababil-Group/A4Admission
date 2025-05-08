@@ -105,7 +105,7 @@ const Header = () => {
   };
 
   return (
-    <nav className="bg-white w-full">
+    <nav className="bg-white w-full pr-10">
       {/* <div className="bg-gradient-to-l from-redest-dark to-blue-dark w-full">
         <p className="py-2 font-medium text-white text-center">
           {t("banner.btext")}
@@ -122,8 +122,8 @@ const Header = () => {
             <HiMiniBars3CenterLeft className="w-8 h-8" />
           )}
         </button>
-        <div className="md:absolute left-1/2 transform -translate-x-1/2 md:static md:transform-none md:mx-auto">
-          <Link to="/" className="flex items-center justify-center">
+        <div className="md:absolute left-10/12 transform translate-x-1/2 md:static md:transform-none md:mx-auto">
+          <Link to="/" className="flex items-center justify-center ">
             <img src={Logo} alt="sakaled" className="w-22" />
           </Link>
         </div>
@@ -170,8 +170,9 @@ const Header = () => {
 
       <div className="max-w-screen-lg mx-auto border-t-[2px] border-[#ece7df]">
         {/* Desktop Navigation */}
-        <div className="hidden md:block my-2 ">
-          <ul className=" flex flex-wrap items-center justify-center space-x-6">
+        {/* Desktop Navigation */}
+        <div className="hidden md:block my-2">
+          <ul className="flex flex-wrap items-center justify-center space-x-6">
             {navigation.map((item, idx) => (
               <li
                 key={idx}
@@ -199,12 +200,8 @@ const Header = () => {
                 {item.subNav && (
                   <div
                     className={`absolute left-0 top-full mt-0 w-60 bg-white shadow-lg rounded-md z-50 
-            ${
-              hoveredItem === idx
-                ? "opacity-100 visible"
-                : "opacity-0 invisible"
-            } 
-            transition-all duration-300 ease-in-out`}
+              ${hoveredItem === idx ? "block" : "hidden"} 
+              transition-all duration-300 ease-in-out`}
                   >
                     <ul className="py-1">
                       {item.subNav.map((subItem, subIdx) => (
@@ -212,9 +209,9 @@ const Header = () => {
                           <Link
                             to={subItem.path}
                             className={`block font-semibold px-4 py-2 text-[15px] text-gray-800 hover:bg-gray-100 font-quicksand ${
-                              location.pathname === item.path
+                              location.pathname === subItem.path
                                 ? "border-b-2 border-redest-dark text-redest-dark"
-                                : "text-gray-900 hover:text-redest-dark "
+                                : "text-gray-900 hover:text-redest-dark"
                             }`}
                           >
                             {subItem.title}

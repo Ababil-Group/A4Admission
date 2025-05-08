@@ -166,7 +166,7 @@ const Faqs = () => {
         className="bg-cover bg-center py-16 px-2 h-auto sm:min-h-[70vh] flex items-center justify-center relative"
         style={{ backgroundImage: `url(${faqsimg})` }}
       >
-        <div className="absolute inset-0 bg-gray-800/50"></div>
+        <div className="absolute inset-0 bg-gray-800/30"></div>
         <h1 className="flex flex-col items-center relative z-10 justify-end font-bold text-white text-5xl mt-14">
           {t("faqs.faqh")}
         </h1>
