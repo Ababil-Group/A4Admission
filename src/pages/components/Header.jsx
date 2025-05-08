@@ -56,26 +56,26 @@ const Header = () => {
         },
       ],
     },
-    {
-      title: t("menu.highschoolcanada"),
-      subNav: [
-        {
-          title: t("menu.highschooll1"),
-          path: "/pages/study-abroad-canada",
-        },
-        {
-          title: t("menu.highschooll2"),
-          path: "/pages/study-abroad-united-states",
-        },
-        {
-          title: t("menu.highschooll3"),
-          path: "/pages/study-abroad-united-kingdom",
-        },
-      ],
-    },
+    // {
+    //   title: t("menu.highschoolcanada"),
+    //   subNav: [
+    //     {
+    //       title: t("menu.highschooll1"),
+    //       path: "/pages/study-abroad-canada",
+    //     },
+    //     {
+    //       title: t("menu.highschooll2"),
+    //       path: "/pages/study-abroad-united-states",
+    //     },
+    //     {
+    //       title: t("menu.highschooll3"),
+    //       path: "/pages/study-abroad-united-kingdom",
+    //     },
+    //   ],
+    // },
     { title: t("menu.about"), path: "/pages/about-us" },
-    { title: t("menu.artical"), path: "/blogs/news" },
-    { title: t("menu.event"), path: "/pages/event" },
+    // { title: t("menu.artical"), path: "/blogs/news" },
+    { title: t("menu.event"), path: "/pages/our-success-story" },
     { title: t("menu.contact"), path: "/pages/contact" },
     { title: t("menu.faq"), path: "/pages/faq" },
   ];
@@ -111,7 +111,7 @@ const Header = () => {
           {t("banner.btext")}
         </p>
       </div> */}
-      <div className="flex items-center justify-between max-w-screen-xl mx-auto px-4">
+      <div className="flex items-center justify-between max-w-screen-xl mx-auto px-4 relative">
         <button
           className="inline-flex md:hidden text-gray-800 hover:text-red-600"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -122,9 +122,11 @@ const Header = () => {
             <HiMiniBars3CenterLeft className="w-8 h-8" />
           )}
         </button>
-        <Link to="/" className="flex items-center justify-center">
-          <img src={Logo} alt="sakaled" className="w-22" />
-        </Link>
+        <div className="md:absolute left-1/2 transform -translate-x-1/2 md:static md:transform-none md:mx-auto">
+          <Link to="/" className="flex items-center justify-center">
+            <img src={Logo} alt="sakaled" className="w-22" />
+          </Link>
+        </div>
         <div className="relative hidden sm:block ">
           <button
             className="flex items-center gap-2"
@@ -239,10 +241,10 @@ const Header = () => {
             <div className="absolute left-0 top-0 h-full w-8/12 bg-white shadow-xl transform transition-transform duration-300 ease-in-out">
               <div className="flex flex-col h-full relative">
                 <button
-                  className="text-white hover:text-gray-800 absolute top-1 -right-8 bg-blue-dark text rounded-full p-1 "
+                  className="text-white hover:text-gray-800 absolute top-1 right-0 bg-blue-dark text rounded-full p-1 "
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  <FaTimes className="w-8 h-8" />
+                  <FaTimes className="w-6 h-6" />
                 </button>
 
                 {/* Menu Items */}

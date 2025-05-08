@@ -249,6 +249,22 @@ const Contact = () => {
                 {t("contact.location.address2sub")}
               </p>
             </div>
+            <div className="space-y-3">
+              <h2 className="text-2xl text-gray-800 font-bold font-quicksand py-2">
+                {t("contact.location.address3")}
+              </h2>
+              <p className="text-lg text-gray-700 font-medium font-quicksand">
+                {t("contact.location.address3sub")}
+              </p>
+            </div>
+            <div className="space-y-3">
+              <h2 className="text-2xl text-gray-800 font-bold font-quicksand mx-auto py-2">
+                {t("contact.location.address4")}
+              </h2>
+              <p className="text-lg text-gray-700 font-medium font-quicksand">
+                {t("contact.location.address4sub")}
+              </p>
+            </div>
           </div>
         </div>
       </section>

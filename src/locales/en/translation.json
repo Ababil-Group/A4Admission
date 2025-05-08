@@ -11,7 +11,7 @@
     "highschooll1": "Columbia College",
     "highschooll2": "Blyth Academy",
     "highschooll3": "Columbia International College",
-    "event": "Event",
+    "event": "Our Success Story",
     "artical": "Article/News",
     "about": "About Us",
     "faq": "FAQ",
@@ -35,7 +35,7 @@
     "third": {
       "texth": "Find Program and School",
       "btn1": "Destination",
-      "btn2": "Find Programs",
+      "btn2": "Our Success",
       "btn3": "Process"
     },
     "forth": {
@@ -495,10 +495,14 @@
       "number1": "+1 (226) 792 8584",
       "location2": "Whatsapp Indonesian",
       "number2": "+62 878-2066-7883",
-      "address1": "United Kingdom Address",
-      "address1sub": "33 St James's Square, London SW1Y 4JS, United Kingdom",
-      "address2": "Bangladesh Address",
-      "address2sub": "3rd floor of Ananda Tower, Jail Road, Sylhet"
+      "address1": "United State Address",
+      "address1sub": "1111 Oakfield Dr., Ste. 115E ,Brandon ,FL 33511",
+      "address2": "United Kingdom Address",
+      "address2sub": "33 St James's Square, London SW1Y 4JS, United Kingdom",
+      "address3": "UAE Address",
+      "address3sub": "Level 23, Boulevard Plaza 2 Sheikh Mohammed bin Rashid Boulevard - Dubai",
+      "address4": "Bangladesh Address",
+      "address4sub": "3rd floor of Ananda Tower, Jail Road, Sylhet"
     },
     "extra": {
       "ch1": "Get in Touch with Us",

@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-span-3 flex flex-col gap-3 pl-6 p-2">
-            <h2 className="font-quicksand font-semibold text-gray-800 text-2xl">
+            <h2 className="font-quicksand font-bold text-blue-dark text-2xl uppercase">
               Contact Us
             </h2>
 
@@ -138,13 +138,15 @@ const Footer = () => {
             </a>
           </div>
           <div className="col-span-1 flex flex-col gap-3 pl-6 p-2">
-            <h2 className="text-xl font-medium font-poppins">Manus</h2>
+            <h2 className="text-xl font-medium font-poppins text-blue-dark uppercase">
+              Manus
+            </h2>
 
             <ul className="flex flex-col space-y-2">
               <li>
                 <Link
                   to={"/"}
-                  className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:-translate-y-1 transition-transform duration-300 cursor-pointer"
+                  className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:-translate-y-1 transition-transform duration-300 cursor-pointer uppercase"
                 >
                   Home
                 </Link>
@@ -152,7 +154,7 @@ const Footer = () => {
               <li>
                 <Link
                   to={"/pages/services"}
-                  className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform"
+                  className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform uppercase"
                 >
                   Services
                 </Link>
@@ -160,47 +162,33 @@ const Footer = () => {
               <li>
                 <Link
                   to={"/pages/study-abroad-canada"}
-                  className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform"
+                  className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform uppercase"
                 >
                   Study Abroad
                 </Link>
               </li>
-              <li>
-                <Link
-                  to={"/contact"}
-                  className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform"
-                >
-                  Highschool in Canada
-                </Link>
-              </li>
+
               <li>
                 <Link
                   to={"/pages/about-us"}
-                  className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:-translate-y-1 transition-transform duration-300 cursor-pointer"
+                  className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:-translate-y-1 transition-transform duration-300 cursor-pointer uppercase"
                 >
                   About Us
                 </Link>
               </li>
-              <li>
-                <Link
-                  to={"/blogs/news"}
-                  className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform"
-                >
-                  Article/News
-                </Link>
-              </li>
+
               <li>
                 <Link
                   to={"/pages/event"}
-                  className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform"
+                  className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform uppercase"
                 >
-                  Event
+                  Our Success
                 </Link>
               </li>
               <li>
                 <Link
                   to={"/pages/contact"}
-                  className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform"
+                  className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform uppercase"
                 >
                   Contact
                 </Link>

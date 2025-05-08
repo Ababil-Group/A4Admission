@@ -114,8 +114,8 @@ function App() {
           <Route path="/pages/study-abroad-united-states" element={<Usa />} />
           <Route path="/pages/study-abroad-united-kingdom" element={<Uk />} />
           <Route path="/pages/about-us" element={<AboutUs />} />
-          <Route path="/blogs/news" element={<ArticalNews />} />
-          <Route path="/pages/event" element={<Event />} />
+          {/* <Route path="/blogs/news" element={<ArticalNews />} /> */}
+          <Route path="/pages/our-success-story" element={<Event />} />
           <Route path="/pages/faq" element={<Faqs />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>
