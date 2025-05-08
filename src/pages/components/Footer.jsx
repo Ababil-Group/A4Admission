@@ -52,7 +52,9 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-span-3 flex flex-col gap-3 pl-6 p-2">
-            <h2 className="font-quicksand font-semibold text-gray-800 text-2xl">Contact Us</h2>
+            <h2 className="font-quicksand font-semibold text-gray-800 text-2xl">
+              Contact Us
+            </h2>
 
             <a
               href="https://g.co/kgs/mxf7nKs"
@@ -97,8 +99,10 @@ const Footer = () => {
             >
               <FaLocationDot className="text-blue-dark" />
               <p className="font-poppins">
-                <span className="font-bold font-quicksand">BD :</span> 3rd floor
-                of Ananda Tower, Jail Road, Sylhet
+                <span className="font-bold font-quicksand pr-2">
+                  Bangladesh :
+                </span>
+                3rd floor of Ananda Tower, Jail Road, Sylhet
               </p>
             </a>
             <a
@@ -108,13 +112,15 @@ const Footer = () => {
             >
               <FaLocationDot className="text-blue-dark" />
               <p className="font-poppins">
-                <span className="font-bold font-quicksand">BD :</span> 3rd
-                Floor, VIP Plaza, PC Road, G-Block, Near Artillery, Halisahar,
-                Chittagong
+                <span className="font-bold font-quicksand pr-2">
+                  Bangladesh :
+                </span>
+                3rd Floor, VIP Plaza, PC Road, G-Block, Near Artillery,
+                Halisahar, Chittagong
               </p>
             </a>
             <a className="flex items-center gap-2 hover:text-redest-dark text-gray-800 font-poppins transition-colors duration-200 cursor-pointer">
-              <FaWhatsappSquare className="text-blue-dark"/>
+              <FaWhatsappSquare className="text-blue-dark" />
 
               <p className="font-poppins">+447465268767</p>
             </a>
@@ -127,7 +133,7 @@ const Footer = () => {
               href="mailto:hello@a4admission.com"
               className="flex items-center gap-2 hover:text-redest-dark text-gray-800 font-poppins transition-colors duration-200"
             >
-              <IoMail className="text-blue-dark"/>
+              <IoMail className="text-blue-dark" />
               hello@a4admission.com
             </a>
           </div>
