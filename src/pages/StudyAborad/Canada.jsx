@@ -73,13 +73,6 @@ const Canada = () => {
         { list: t("studyabrod.canada.thirdText.thfh2p3l2") },
         { list: t("studyabrod.canada.thirdText.thfh2p3l3") },
         { list: t("studyabrod.canada.thirdText.thfh2p3l4") },
-        { list: t("studyabrod.canada.thirdText.thfh2p3l5") },
-        { list: t("studyabrod.canada.thirdText.thfh2p3l6") },
-        { list: t("studyabrod.canada.thirdText.thfh2p3l7") },
-        { list: t("studyabrod.canada.thirdText.thfh2p3l8") },
-        { list: t("studyabrod.canada.thirdText.thfh2p3l9") },
-        { list: t("studyabrod.canada.thirdText.thfh2p3l10") },
-        { list: t("studyabrod.canada.thirdText.thfh2p3l11") },
       ],
 
       h4: t("studyabrod.canada.thirdText.thfh2ph4"),
@@ -95,6 +88,12 @@ const Canada = () => {
       a1: t("studyabrod.canada.thirdText.thfh3p5"),
       h2: t("studyabrod.canada.thirdText.thfh3ph6"),
       a2: t("studyabrod.canada.thirdText.thfh3p6"),
+      lists: [
+        { list: t("studyabrod.canada.thirdText.thfh2p6l1") },
+        { list: t("studyabrod.canada.thirdText.thfh2p6l2") },
+        { list: t("studyabrod.canada.thirdText.thfh2p6l3") },
+        { list: t("studyabrod.canada.thirdText.thfh2p6l4") },
+      ],
     },
   ];
   return (

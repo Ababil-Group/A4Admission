@@ -179,7 +179,7 @@ const Footer = () => {
 
               <li>
                 <Link
-                  to={"/pages/event"}
+                  to={"/pages/our-success-story"}
                   className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform uppercase"
                 >
                   Our Success
