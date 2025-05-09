@@ -21,6 +21,21 @@ import { FaArrowUp } from "react-icons/fa";
 import Faqs from "./pages/faqs/Faqs";
 import Australia from "./pages/StudyAborad/Australia";
 import NewZealand from "./pages/StudyAborad/NewZealand";
+import China from "./pages/StudyAborad/China";
+import Japan from "./pages/StudyAborad/Japan";
+import SouthKoriea from "./pages/StudyAborad/SouthKoriea";
+import Ireland from "./pages/StudyAborad/Ireland";
+import Sweden from "./pages/StudyAborad/Sweden";
+import Garmany from "./pages/StudyAborad/Garmany";
+import Denmark from "./pages/StudyAborad/Denmark";
+import Norway from "./pages/StudyAborad/Norway";
+import Findland from "./pages/StudyAborad/Findland";
+import NetherLand from "./pages/StudyAborad/NetherLand";
+import Iceland from "./pages/StudyAborad/Iceland";
+import Malta from "./pages/StudyAborad/Multa";
+import Hungary from "./pages/StudyAborad/Hungray";
+import Romaniya from "./pages/StudyAborad/Romaniya";
+import Bulgeria from "./pages/StudyAborad/Bulgeria";
 
 NProgress.configure({
   minimum: 0.3,
@@ -120,6 +135,27 @@ function App() {
             path="/pages/study-abroad-new-zealand"
             element={<NewZealand />}
           />
+          <Route path="/pages/study-abroad-china" element={<China />} />
+          <Route path="/pages/study-abroad-japan" element={<Japan />} />
+          <Route
+            path="/pages/study-abroad-south-korea"
+            element={<SouthKoriea />}
+          />
+          <Route path="/pages/study-abroad-ireland" element={<Ireland />} />
+          <Route path="/pages/study-abroad-sweden" element={<Sweden />} />
+          <Route path="/pages/study-abroad-germany" element={<Garmany />} />
+          <Route path="/pages/study-abroad-denmark" element={<Denmark />} />
+          <Route path="/pages/study-abroad-norway" element={<Norway />} />
+          <Route path="/pages/study-abroad-finland" element={<Findland />} />
+          <Route
+            path="/pages/study-abroad-netherlands"
+            element={<NetherLand />}
+          />
+          <Route path="/pages/study-abroad-iceland" element={<Iceland />} />
+          <Route path="/pages/study-abroad-malta" element={<Malta />} />
+          <Route path="/pages/study-abroad-hungary" element={<Hungary />} />
+          <Route path="/pages/study-abroad-romania" element={<Romaniya />} />
+          <Route path="/pages/study-abroad-bulgaria" element={<Bulgeria />} />
           <Route path="/pages/about-us" element={<AboutUs />} />
           {/* <Route path="/blogs/news" element={<ArticalNews />} /> */}
           <Route path="/pages/our-success-story" element={<Event />} />

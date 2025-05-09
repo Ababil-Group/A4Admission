@@ -1,5 +1,5 @@
 import React from "react";
-import newZealand from "../../assets/country/newsland.jpg";
+import china from "../../assets/country/china.jpg";
 import { useTranslation } from "react-i18next";
 import FaqsCard from "../components/FaqsCard";
 import studyInfo from "../../assets/country/cimg1.webp";
@@ -85,7 +85,7 @@ const China = () => {
       <hr class="hidden md:block h-px my-6 bg-gray-200 border-0 dark:bg-gray-400" />
       <div
         className="bg-cover bg-center md:py-16 px-2 min-h-[50vh] w-full md:min-h-[80vh] relative md:my-4"
-        style={{ backgroundImage: `url(${newZealand})` }}
+        style={{ backgroundImage: `url(${china})` }}
       >
         <div className="hidden sm:block bg-redest-dark/85 max-w-screen-sm p-8 md:ml-15 space-y-5">
           <h2 className="text-white text-4xl font-bold font-quicksand">
@@ -109,7 +109,7 @@ const China = () => {
         <div className="flex flex-col md:flex-row gap-12">
           <div className="flex-1">
             <h1 className="text-gray-800 text-4xl font-bold font-quicksand">
-              {t("studyabrod.newsland.subTextL.subTextLh")}
+              {t("studyabrod.china.subTextL.subTextLh")}
             </h1>
             <div className="mt-14">
               {faqsList.map((item, idx) => (
@@ -142,7 +142,7 @@ const China = () => {
       <ContactFrom />
       <Carusel />
     </div>
-  ) ;
+  );
 };
 
 export default China;

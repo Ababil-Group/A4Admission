@@ -853,7 +853,7 @@
         "thfh2ph2": "Work Opportunities",
         "thfh2p2": "International students in Ireland can work up to 20 hours per week during the academic year and full-time during scheduled breaks. This provides students with the opportunity to earn extra income while gaining work experience. Graduates can also apply for a post-study work visa, allowing them to stay and work in Ireland for up to 24 months, depending on the level of qualification.",
 
-        "thfh2ph3": "Minimum Wage in China",
+        "thfh2ph3": "Minimum Wage in Ireland",
         "thfh2p3": "As of 2022, the minimum wage in Ireland is €10.50 per hour for workers aged 20 and over. Many part-time jobs available to students, such as in hospitality or retail, pay around the minimum wage, helping cover living expenses while studying.",
 
         "thfh2ph4": "Several Irish universities offer co-op programs that combine academic learning with practical work experience.",
@@ -999,7 +999,7 @@
         "thfh2ph2": "Work Opportunities",
         "thfh2p2": "International students in Germany can work up to 120 full days or 240 half days per year. Many find part-time jobs in retail, hospitality, or as research assistants. After graduation, students can apply for an 18-month post-study work visa to seek employment related to their field of study.",
 
-        "thfh2ph3": "Minimum Wage in China",
+        "thfh2ph3": "Minimum Wage in Germany",
         "thfh2p3": "As of 2024, the minimum wage in Germany is €12.41 per hour. Part-time jobs—commonly available in sectors like retail and food service—often pay this rate, helping students manage living expenses while gaining experience.",
 
         "thfh2ph4": "Practical Experience & Internship Programs",
@@ -1017,6 +1017,79 @@
         "thfh2p6lm1": "Spring (March–May): Mild and blossoming, with temperatures between 8°C and 15°C",
         "thfh2p6lm2": "Summer (June–August): Warm, ranging from 20°C to 30°C—ideal for festivals and travel",
         "thfh2p6lm3": "Autumn (September–November): Cool and crisp, with temperatures dropping from 15°C to 5°C"
+      }
+    },
+    "denmark": {
+      "topText": {
+        "nuath": "Study Abroad in Denmark",
+        "nuatp": "Denmark is rapidly gaining popularity as a top study destination, known for its high quality of life, progressive society, and exceptional education system. With internationally recognized universities, an emphasis on sustainability and innovation, and a welcoming atmosphere, Denmark offers a perfect blend of academic excellence and cultural immersion for students seeking a global education experience."
+      },
+      "subTextL": {
+        "subTextLh": "Why Study in Denmark",
+        "subhfh0": "Quality of Education",
+        "subhfp0": "Denmark is home to several prestigious universities such as the University of Copenhagen, Aarhus University, and the Technical University of Denmark. These institutions are known for their rigorous academic standards, modern teaching methods, and strong ties to research and industry. Danish universities focus on problem-based learning, collaboration, and critical thinking—skills that equip students to succeed in the global workforce.",
+        "subhfh1": "Wide Range of Academic Programs",
+        "subhfp1": "Danish universities offer a broad selection of English-taught programs across fields like engineering, environmental science, business, social sciences, design, and health sciences. Whether you're interested in a full degree or an exchange semester, Denmark provides flexible study options tailored to your academic and career goals.",
+
+        "subhfh2": "Global Recognition",
+        "subhfp2": "Degrees from Denmark are internationally respected, especially in fields such as green technology, architecture, design, and life sciences. Denmark's education system emphasizes real-world relevance and innovation, helping graduates stand out in competitive job markets in Europe and beyond.",
+
+        "subhfh3": "Research Opportunities",
+        "subhfp3": "Denmark is a hub for research and innovation, with strong government investment in science and technology. Universities actively collaborate with industries and global research networks, offering students opportunities to work on cutting-edge research in areas like renewable energy, biotechnology, climate science, and IT."
+      },
+      "subTextR": {
+        "btn": "FREE CONSULTATION",
+        "subhr1": "Gapai mimpimu!",
+        "subpr1": "Rencanakan masa depanmu dengan A4 Admission",
+        "subrph1": "Experience",
+        "subrpt1": "With over 25 years of industry experience and nationwide partnerships",
+        "subrph2": "Support",
+        "subrpt2": "High acceptance rates, international experience, and comprehensive support",
+        "subrph3": "Employment Rate",
+        "subrpt3": "100% employment rate and focus on a great living experience",
+        "btn2": "Konsultasi Sekarang"
+      },
+
+      "thirdText": {
+        "th": "Study Info in Denmark",
+        "thfh1": "Cost of Living in Major Danish Cities",
+        "thfh1ph1": "Copenhagen",
+        "thfh1p1": "The capital city is vibrant and modern, though the cost of living is relatively high. Rent for a one-bedroom apartment in the city center ranges from DKK 9,000–13,000/month (€1,200–€1,750). Dining at a mid-range restaurant costs around DKK 150–250 (€20–€34).",
+        "thfh1ph2": "Aarhus",
+        "thfh1p2": "Denmark’s second-largest city is a cultural and student-friendly hub. Rent for a city-center one-bedroom apartment averages DKK 7,000–10,000/month (€940–€1,340). Dining out usually costs DKK 120–200 (€16–€27).",
+        "thfh1ph3": "Odense",
+        "thfh1p3": "As the hometown of Hans Christian Andersen and a growing academic center, Odense is more affordable. Rent typically ranges from DKK 6,000–8,500/month (€800–€1,140), and restaurant meals cost around DKK 100–180 (€13–€24).",
+        "thfh1ph4": "Aalborg",
+        "thfh1p4": "Aalborg offers lower living costs and a close-knit student community. Rent is around DKK 5,500–8,000/month (€740–€1,070), and meals at mid-range restaurants cost DKK 90–150 (€12–€20).",
+        "thfh1ph5": "Esbjerg",
+        "thfh1p5": "A smaller coastal city with a strong academic presence. Rent for a one-bedroom apartment in the center is about DKK 5,000–7,500/month (€670–€1,000), and dining out costs approximately DKK 90–140 (€12–€19).",
+
+        "thfh2": "International Student in Denmark",
+        "thfh2ph1": "Student Visa",
+
+        "thfh2p1": "Non-EU/EEA students need a residence permit to study in Denmark. Requirements typically include: Admission to a Danish higher education institution, Proof of financial support (~DKK 6,397/month or €860), Valid passport and health insurance",
+
+        "thfh2ph2": "Work Opportunities",
+        "thfh2p2": "International students can work up to 20 hours per week during the academic year and full-time during holidays. After graduation, students can apply for a job-seeking residence permit valid for up to 3 years, depending on the program.",
+
+        "thfh2ph3": "Minimum Wage in Denmark",
+        "thfh2p3": "Denmark doesn’t have a fixed national minimum wage. Wages are negotiated through union agreements, but student jobs typically pay DKK 110–130/hour (€15–€17.50), depending on the sector and location.",
+
+        "thfh2ph4": "Internships and Industry Collaboration",
+        "thfh2p4": "Many programs in Denmark include internship placements or project collaborations with local companies. These opportunities allow students to:",
+        "thfh2p4lm1": "Apply their knowledge in practical settings",
+        "thfh2p4lm2": "Gain valuable Danish and international work experience",
+        "thfh2p4lm3": "Build a strong professional network",
+        "thfh2p4lm4": "Improve employability after graduation",
+
+        "thfh3": "Geography Facts: Denmark",
+        "thfh3ph5": "Location",
+        "thfh3p5": "Denmark is located in Northern Europe and consists of the Jutland Peninsula and over 400 islands, including Zealand and Funen. It is bordered by Germany to the south and is connected to Sweden via the Øresund Bridge. Its central location offers easy travel across Scandinavia and mainland Europe.",
+        "thfh3ph6": "Climate",
+        "thfh3p6": "Denmark has a temperate maritime climate, with relatively mild weather year-round.",
+        "thfh2p6lm1": "Spring (March–May): Cool and blooming, with temperatures ranging from 5°C to 15°C",
+        "thfh2p6lm2": "Summer (June–August): Mild to warm, with temperatures between 17°C and 25°C, ideal for biking and festivals",
+        "thfh2p6lm3": "Autumn (September–November): Windy and colorful, averaging 8°C to 15°C, Winter (December–February): Cold and dark, with temperatures often between -2°C and 5°C, and occasional snowfall"
       }
     },
     "norway": {
@@ -1072,7 +1145,7 @@
         "thfh2ph2": "Work Opportunities",
         "thfh2p2": "International students can work up to 20 hours per week during semesters and full-time during holidays. After graduation, students can apply for a one-year job-seeking residence permit to search for employment related to their field of study.",
 
-        "thfh2ph3": "Minimum Wage in China",
+        "thfh2ph3": "Minimum Wage in Norway",
         "thfh2p3": "While there is no national minimum wage, wages are regulated through sector agreements. Student jobs typically pay NOK 180–220/hour (€15–€19), especially in hospitality, retail, and public services.",
 
         "thfh2ph4": "Internships and Work Experience",
@@ -1146,7 +1219,7 @@
         "thfh2ph2": "Work Opportunities",
         "thfh2p2": "International students in Finland can work up to 30 hours per week during the academic year and unlimited hours during holidays. After graduation, students can apply for an extended residence permit (up to 2 years) to seek employment or start a business.",
 
-        "thfh2ph3": "Minimum Wage in China",
+        "thfh2ph3": "Minimum Wage in Finland",
         "thfh2p3": "Finland has no official national minimum wage, but collective agreements set fair wages across industries. Most student jobs in hospitality or retail offer €10–€14 per hour, depending on the sector and city.",
 
         "thfh2ph4": "Internships and Practical Training",
@@ -1288,7 +1361,7 @@
         "thfh2ph2": "Work Opportunities",
         "thfh2p2": "International students can work up to 15 hours per week during the academic term and full-time during holidays, provided they have a valid residence permit. While part-time jobs are limited, especially outside Reykjavík, students may find work in retail, tourism, or customer service.",
 
-        "thfh2ph3": "Minimum Wage in the Netherlands",
+        "thfh2ph3": "Minimum Wage in the Iceland",
         "thfh2p3": "Iceland does not have a legally fixed minimum wage, but collective agreements typically set base wages around ISK 350,000/month for full-time roles (roughly €2,300/month). Hourly student jobs often pay ISK 2,000–2,500/hour, depending on the sector and experience.",
 
         "thfh2ph4": "Internships and Research Placements",
@@ -1452,7 +1525,7 @@
         "thfh2p6lm3": "Autumn (September–November): Cool and colorful, 10°C–20°C, Winter (December–February): Cold, with temperatures from -5°C to 5°C and occasional snow"
       }
     },
-     "romania": {
+    "romania": {
       "topText": {
         "nuath": "Study Abroad in Romania",
         "nuatp": "Romania is a rising star in Europe’s higher education scene, known for its historic universities, multicultural environment, and affordable cost of living. From medieval towns to modern cities, Romania offers a unique blend of tradition and innovation. With high-quality education, English-taught programs, and a warm, welcoming atmosphere, it’s an excellent destination for international students looking to study in the heart of Eastern Europe."
