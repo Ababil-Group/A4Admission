@@ -158,6 +158,12 @@ const FaqsCard = (props) => {
               <p className="text-gray-900 font-quicksand text-lg">
                 {faqsList?.a3}
               </p>
+              <h3 className="text-gray-900 font-quicksand text-lg font-bold">
+                {faqsList?.h4}
+              </h3>
+              <p className="text-gray-900 font-quicksand text-lg">
+                {faqsList?.a4}
+              </p>{" "}
               {faqsList?.lists && (
                 <ul className="p-6" style={{ listStyleType: "square" }}>
                   {faqsList.lists.map((item, indx) => (
@@ -170,13 +176,6 @@ const FaqsCard = (props) => {
                   ))}
                 </ul>
               )}
-
-              <h3 className="text-gray-900 font-quicksand text-lg font-bold">
-                {faqsList?.h4}
-              </h3>
-              <p className="text-gray-900 font-quicksand text-lg">
-                {faqsList?.a4}
-              </p>
             </div>
           )}
 

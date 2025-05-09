@@ -198,9 +198,9 @@ const Testimonial = () => {
         >
           {textCarousel.map((text) => (
             <SwiperSlide key={text.id}>
-              <div className="bg-white py-4 rounded-lg shadow-lg h-[510px] md:h-[460px] flex flex-col overflow-hidden">
+              <div className="bg-white py-4 rounded-lg shadow-lg h-[510px] md:h-[500px] flex flex-col overflow-hidden">
                 <div className="p-4 flex flex-col h-full">
-                  <h3 className="font-bold text-lg mb-4 text-center font-quicksand">
+                  <h3 className="font-bold text-lg mb-2 text-center font-quicksand">
                     {text.texth}
                   </h3>
                   <ul

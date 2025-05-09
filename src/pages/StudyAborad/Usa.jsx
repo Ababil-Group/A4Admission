@@ -48,30 +48,39 @@ const Usa = () => {
       q: t("studyabrod.usa.thirdText.thfh2"),
       h1: t("studyabrod.usa.thirdText.thfh2ph1"),
       a1: t("studyabrod.usa.thirdText.thfh2p1"),
-      lists: [
-        { list: t("studyabrod.usa.thirdText.thfh2p3l1") },
-        { list: t("studyabrod.usa.thirdText.thfh2p3l2") },
-        { list: t("studyabrod.usa.thirdText.thfh2p3l3") },
-        { list: t("studyabrod.usa.thirdText.thfh2p3l4") },
-        { list: t("studyabrod.usa.thirdText.thfh2p3l5") },
-      ],
+
       h2: t("studyabrod.usa.thirdText.thfh2ph2"),
       a2: t("studyabrod.usa.thirdText.thfh2p2"),
       h3: t("studyabrod.usa.thirdText.thfh2ph3"),
       a3: t("studyabrod.usa.thirdText.thfh2p3"),
       h4: t("studyabrod.usa.thirdText.thfh2ph4"),
       a4: t("studyabrod.usa.thirdText.thfh2p4"),
+
       h5: t("studyabrod.usa.thirdText.thfh2ph5"),
       a5: t("studyabrod.usa.thirdText.thfh2p5"),
       h6: t("studyabrod.usa.thirdText.thfh2ph6"),
       a6: t("studyabrod.usa.thirdText.thfh2p6"),
+      lists: [
+        { list: t("studyabrod.usa.thirdText.thfh2ph4l1") },
+        { list: t("studyabrod.usa.thirdText.thfh2ph4l2") },
+        { list: t("studyabrod.usa.thirdText.thfh2ph4l3") },
+        { list: t("studyabrod.usa.thirdText.thfh2ph4l4") },
+      ],
     },
     {
       q: t("studyabrod.usa.thirdText.thfh3"),
       h1: t("studyabrod.usa.thirdText.thfh3ph5"),
       a1: t("studyabrod.usa.thirdText.thfh3p5"),
+
       h2: t("studyabrod.usa.thirdText.thfh3ph6"),
       a2: t("studyabrod.usa.thirdText.thfh3p6"),
+      lists: [
+        { list: t("studyabrod.usa.thirdText.thfh2ph5l1") },
+        { list: t("studyabrod.usa.thirdText.thfh2ph5l2") },
+        { list: t("studyabrod.usa.thirdText.thfh2ph5l3") },
+        { list: t("studyabrod.usa.thirdText.thfh2ph5l4") },
+        { list: t("studyabrod.usa.thirdText.thfh2ph5l5") },
+      ],
     },
   ];
   return (

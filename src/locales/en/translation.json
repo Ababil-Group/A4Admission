@@ -274,19 +274,19 @@
     },
     "usa": {
       "topText": {
-        "uath": "United States",
-        "uatp": "A large country located in North America, with a population of approximately 330 million people. Its capital is Washington D.C. and the largest city is New York City. The United States education system offers a wide range of programs and degrees at the undergraduate and graduate levels. Many universities are recognized globally for their high academic standards, research facilities, and cultural diversity."
+        "uath": "Study Abroad in the United States",
+        "uatp": "The United States remains one of the top destinations for international students, known for its prestigious universities, dynamic cities, diverse communities, and cutting-edge research. Students enjoy a high standard of education, strong career prospects, and a culturally rich environment that encourages innovation and inclusion."
       },
       "subTextL": {
-        "subTextLh": "Why United States",
+        "subTextLh": "Why Study in the United States",
         "subhfh0": "Quality of Education",
-        "subhfp0": "The US has long history of providing quality of education, and many US universities consistently rank among the top in the world",
+        "subhfp0": "The United States offers world-class education through top-ranked universities known for academic excellence, innovation, and flexibility. Students benefit from expert faculty, hands-on learning, and the freedom to tailor their studies. With access to cutting-edge research and real-world opportunities, a U.S. degree is globally recognized and highly valued.",
         "subhfh1": "Wide Range Academic Programs",
-        "subhfp1": "US universities offer a diverse range of academic programs across various fields.",
+        "subhfp1": "The U.S. offers an extensive variety of academic programs across hundreds of institutions, allowing students to study virtually any field of interest. From arts and humanities to science, technology, and business, students have the flexibility to combine majors, switch disciplines, and customize their education to match their goals and passions.",
         "subhfh2": "Global Recognition",
-        "subhfp2": "A degree from a US university is globally recognized and can open doors to career opportunities around the world.",
-        "subhfh3": "Research Opportunities",
-        "subhfp3": "Many US universities are leaders in research and offer students the opportunity to work with world-class researchers and access cutting-edge facilities."
+        "subhfp2": "Degrees from U.S. institutions are highly respected worldwide, often seen as a mark of excellence and innovation. Graduates from American universities are valued by employers and academic institutions globally, giving them a competitive edge in the job market and access to international career and academic opportunities.",
+        "subhfh3": "Research Opportunities in the United States",
+        "subhfp3": "The U.S. is a global leader in research and innovation, offering students access to cutting-edge facilities, extensive funding, and collaborative projects across disciplines. Many universities partner with industries, government agencies, and international organizations, allowing students to engage in meaningful research that drives real-world impact."
       },
       "subTextR": {
         "btn": "FREE CONSULTATION",
@@ -303,59 +303,64 @@
 
       "thirdText": {
         "th": "Study Info In America",
-        "thfh1": "Living cost major cities in the US",
+        "thfh1": "Cost of Living in Major U.S. Cities",
         "thfh1ph1": "New York City",
-        "thfh1p1": "New York City is the largest city in the US. Rent for a one-bedroom apartment in Manhattan can range from $2,500 to $4,500 per month. Other monthly expenses, including food, transportation, and utilities, can range from $1,000 to $1,500.",
-        "thfh1ph2": "Los Angeles",
-        "thfh1p2": "Rent for a one-bedroom apartment can range from $1,800 to $3,000 per month, while other monthly expenses can range from $800 to $1,200.",
+        "thfh1p1": "The city that never sleeps comes with a high cost of living. Expect to pay around USD 2,500/month for a one-bedroom apartment in Manhattan. A meal at a mid-range restaurant costs about USD 25.",
+        "thfh1ph2": "Atlanta",
+        "thfh1p2": "Affordable and student-friendly, Atlanta's city center rent is about USD 1,600/month, and a typical meal costs USD 15–20.",
         "thfh1ph3": "San Francisco",
         "thfh1p3": "Rent for a one-bedroom apartment can range from $3,000 to $4,500 per month, while other monthly expenses can range from $1,000 to $1,500.",
         "thfh1ph4": "Chicago",
-        "thfh1p4": "Rent for a one-bedroom apartment can range from $1,500 to $2,500 per month, while other monthly expenses can range from $800 to $1,200.",
+        "thfh1p4": "Known for its architecture and affordability compared to NYC or LA. Rent in the city center is about USD 1,800/month, with restaurant meals around USD 20.",
         "thfh1ph5": "Boston",
-        "thfh1p5": "Rent for a one-bedroom apartment can range from $2,500 to $3,500 per month, while other monthly expenses can range from $1,000 to $1,500.",
+        "thfh1p5": "As a major education hub, Boston can be pricey. Rent near universities averages USD 2,200/month, and meals cost around USD 20–25.",
 
         "thfh2": "International Student in the United States",
-        "thfh2ph1": "Study permit",
+        "thfh2ph1": "F-1 Student Visa",
 
-        "thfh2p1": "International students who want to study in the United States need to obtain a student visa, also known as an F-1 visa. Here are the steps:",
-        "thfh2p3l1": "Apply to Student and Exchange Visitor Program(SEVP) approved school to obtain I-20 form.",
-        "thfh2p3l2": "Pay Student and Exchange Visitor Information System (SEVIS) fee.",
-        "thfh2p3l3": "Students must complete the DS-160 application for a nonimmigrant visa online and upload a photo.",
-        "thfh2p3l4": "Students must schedule and attend an interview at the nearest U.S. embassy or consulate in their home country.",
-        "thfh2p3l5": "If the visa is approved, students will receive their F-1 visa and can make plans to travel to the United States.",
+        "thfh2p1": "To study in the U.S., you’ll need an F-1 visa, which allows full-time study at a certified institution. Visa processing times vary by country and season but generally take a few weeks after your embassy interview and document submission.",
 
-        "thfh2ph2": "Work permit",
-        "thfh2p2": "International students who are studying full-time on an F-1 visa are generally eligible to work part-time on-campus while they are enrolled in school. International students can work on-campus up to 20 hours per week while school is in session and up to 40 hours per week during school breaks. To be eligible for on-campus employment, students must maintain their F-1 status and be enrolled in a SEVP-certified school.",
+        "thfh2ph2": "Work Opportunities",
+        "thfh2p2": "F-1 visa holders can work on-campus part-time and apply for Curricular Practical Training (CPT) or Optional Practical Training (OPT) for off-campus work. OPT allows you to work up to 12 months post-graduation — with an additional 24-month extension for STEM graduates.",
 
-        "thfh2ph3": "Minimum Wage",
-        "thfh2p3": "As of 2023, the federal minimum wage is $10.50 per hour, but many states and cities have their own minimum wage that is higher than the federal rate. Some states have minimum wages as high as $15 per hour.",
+        "thfh2ph3": "Minimum Wage in the U.S.",
+        "thfh2p3": "Minimum wage is determined by each state. While the federal rate is USD 7.25/hour, states like California, New York, and Washington offer higher rates, some exceeding USD 15/hour.",
 
-        "thfh2ph4": "Work after graduate",
-        "thfh2p4": "International students who have completed their studies in the US may be eligible to work in the US for a period of time after graduation. This is known as Optional Practical Training (OPT). OPT allows F-1 students to work in their field of study for up to 12 months after completing their program of study. Students in certain STEM fields may be eligible for an additional 24 months of OPT extension. To be eligible for OPT, students must first apply and receive approval from the United States Citizenship and Immigration Services (USCIS). Students must apply for OPT no earlier than 90 days before their program end date and no later than 60 days after their program end date.",
+        "thfh2ph4": "Cooperative Education (Co-op) Programs",
+        "thfh2p4": "Many U.S. institutions offer co-op programs that blend academics with real-world experience. These placements, often paid, help students:",
+        "thfh2ph4l1": "Apply classroom knowledge in the workplace",
+        "thfh2ph4l2": "Build a professional network",
+        "thfh2ph4l3": "Build a professional network",
+        "thfh2ph4l4": "Discover their strengths and career interests",
 
         "thfh3": "Geography Facts of the United States",
         "thfh3ph5": "Location",
-        "thfh3p5": "The United States is located in North America and is bordered by Canada to the north and Mexico to the south. The country has a total land area of 9,147,593 square kilometers, making it the third largest country in the world by land area. There are 50 states in the United States of America. Each state has its own government and constitution, and together they make up the federal system of government in the US. The states are divided into five regions: the Northeast, Southeast, Midwest, Southwest, and West.",
+        "thfh3p5": "The U.S. stretches across North America from the Atlantic Ocean to the Pacific Ocean and borders Canada and Mexico. It comprises 50 states and a range of geographic regions, making it one of the most diverse countries in the world by landscape and climate.",
         "thfh3ph6": "Climate",
-        "thfh3p6": "The United States has a diverse climate due to its large size and varied topography."
+        "thfh3p6": "Due to its size, the U.S. has a wide variety of climates:",
+        "thfh2ph5l1": "Northeast (e.g., New York, Boston): Cold winters (down to -10°C), warm summers (up to 30°C)",
+        "thfh2ph5l2": "Southeast (e.g., Florida): Mild winters, hot and humid summers",
+        "thfh2ph5l3": "Midwest (e.g., Chicago): Harsh winters, humid summers",
+        "thfh2ph5l4": "West Coast (e.g., California): Mild winters, warm and dry summers",
+        "thfh2ph5l5": "Southwest (e.g., Arizona): Very hot summers, mild winters"
       }
     },
     "uk": {
       "topText": {
-        "ukath": "Study Abroad in United Kingdom",
-        "ukatp": "The United Kingdom is a popular destination for international students, with a rich academic history and world-class universities. As the birthplace of the English language, the UK is a great place for international students to improve their English skills. The capital city of the UK, London is a vibrant and bustling metropolis with a rich history and diverse cultural scene."
+        "ukath": "Study Abroad in the United Kingdom",
+        "ukatp": "The United Kingdom remains one of the top destinations for international students, known for its prestigious universities, rich cultural history, and globally respected education system. Students enjoy world-class academic programs, strong career prospects, and an environment that fosters innovation, diversity, and inclusion."
       },
       "subTextL": {
-        "subTextLh": "Why Study in UK",
+        "subTextLh": "Why Study in the United Kingdom",
         "subhfh0": "Quality of Education",
-        "subhfp0": "The UK has a long history of academic excellence, with some of the world's best universities. These universities offer a wide range of degree programs and are known for their rigorous academic standards and high-quality teaching.",
-        "subhfh1": "Cultural Diversity",
-        "subhfp1": "The UK is a melting pot of different cultures and nationalities, making it a great place for international students to experience different perspectives and ways of life.",
-        "subhfh2": "Work Opportunities",
-        "subhfp2": "The UK offers a range of work opportunities for international students, both during their studies and after graduation.",
-        "subhfh3": "High Employability",
-        "subhfp3": "UK universities have an excellent track record of producing highly employable graduates, with many top employers actively seeking out graduates from UK universities. This can be a great advantage for international students looking to launch their careers in the UK or back in their home country."
+        "subhfp0": "The United Kingdom offers a world-class education through renowned universities known for their academic excellence, innovation, and research contributions. Students benefit from expert faculty, a strong emphasis on critical thinking, and the freedom to explore diverse academic fields. A degree from a UK institution is highly regarded and opens doors to global opportunities.",
+        "subhfh1": "Wide Range of Academic Programs",
+        "subhfp1": "The UK offers a wide array of academic programs across a variety of disciplines, from arts and humanities to science, technology, engineering, and business. Students can choose from traditional degree programs, as well as vocational and specialized courses, allowing them to tailor their education to their personal interests and career goals.",
+        
+        "subhfh2": "Global Recognition",
+        "subhfp2": " Degrees from UK universities are globally respected and recognized for their quality. Graduates are highly sought after by employers and academic institutions around the world, providing a competitive edge in the global job market and offering numerous international career opportunities.",
+        "subhfh3": "Research Opportunities",
+        "subhfp3": "The United Kingdom is a hub for research and innovation, offering students access to state-of-the-art facilities, ample funding, and collaborative opportunities. Universities in the UK are home to groundbreaking research across disciplines, with many students participating in projects that address real-world challenges and contribute to societal advancement."
       },
       "subTextR": {
         "btn": "FREE CONSULTATION",
@@ -372,52 +377,119 @@
 
       "thirdText": {
         "th": "Study Info in United Kingdom",
-        "thfh1": "Living cost major cities in the United Kingdom",
+        "thfh1": "Cost of Living in Major UK Cities",
         "thfh1ph1": "London",
-        "thfh1p1": "London is one of the most expensive cities in the world to live in. Accommodation costs are particularly high, with the average monthly rent for a one-bedroom apartment in central London being around £1,500 - £2,000.",
+        "thfh1p1": "London, the capital and cultural center of the UK, has a high cost of living. Rent for a one-bedroom apartment in the city center averages £2,000/month, and dining out at a mid-range restaurant typically costs around £25.",
         "thfh1ph2": "Edinburg",
-        "thfh1p2": "Edinburgh is the capital city of Scotland and is also a popular destination for tourists and students. Accommodation costs are lower than in London, with the average monthly rent for a one-bedroom apartment in central Edinburgh being around £800 - £1,200.",
+        "thfh1p2": "The Scottish capital offers a rich historical experience and lower living costs. Rent for a one-bedroom apartment in the city center averages £1,200/month, and meals in mid-range restaurants cost about £20.",
         "thfh1ph3": "Manchester",
-        "thfh1p3": "Manchester is a large city in the northwest of England. Accommodation costs in Manchester are generally lower than in London and Edinburgh, with the average monthly rent for a one-bedroom apartment in central Manchester being around £600 - £900.",
+        "thfh1p3": " Known for its vibrant culture and student population, Manchester offers a more affordable lifestyle compared to London. Rent for a one-bedroom apartment in the city center is around £1,100/month, with meals at restaurants costing approximately £15–£20.",
         "thfh1ph4": "Birmingham",
         "thfh1p4": "Birmingham is a major city in the Midlands region of England. Accommodation costs in Birmingham are generally lower than in London or Edinburgh, with the average monthly rent for a one-bedroom apartment in central Birmingham being around £500 - £800",
         "thfh1ph5": "Bristol",
-        "thfh1p5": "Bristol is a vibrant city in the southwest of England. Accommodation costs in Bristol are generally higher than in Birmingham, with the average monthly rent for a one-bedroom apartment in central Bristol being around £700 - £1,000.",
+        "thfh1p5": "Located in the southwest, Bristol offers a more affordable living option. Rent for a one-bedroom apartment in the city center is around £1,150/month, and dining out averages £20 per meal.",
+        "thfh1ph6": "Liverpool",
+        "thfh1p6": "Liverpool, known for its music history and cultural scene, is one of the more budget-friendly cities in the UK. Rent for a one-bedroom apartment in the city center is about £900/month, and restaurant meals typically cost around £15.",
 
         "thfh2": "International Student in the United Kingdom",
-        "thfh2ph1": "Study permit",
+        "thfh2ph1": "Student Visa",
 
-        "thfh2p1": "International students who want to study in the UK usually need to apply for a Tier 4 (General) student visa. Here are general steps to apply study permit:",
+        "thfh2p1": "To study in the UK, international students must obtain a Tier 4 (General) student visa, allowing them to study full-time at a recognized institution. Visa processing times vary, but generally, it can take up to 8 weeks after the submission of documents.",
 
-        "thfh2p3l1": "Apply to a recognized educational institution in the UK and obtain a letter of acceptance from the institution.",
-        "thfh2p3l2": "Check if you are eligible for a Tier 4 (General) student visa. You must meet the requirements, such as being able to speak, read, write, and understand English, having enough funds to support yourself during your studies, and meeting the course requirements.",
-        "thfh2p3l3": "Apply for a Tier 4 (General) student visa online on the UK government website or in your home country at a visa application center. Need to submit your biometric information (fingerprints and photograph) as part of the application process. Pay visa fee.",
-        "thfh2p3l4": "Attend a visa interview, if required. The UK government may request an interview to verify your eligibility for the student visa.",
-        "thfh2p3l5": "Receive your visa decision. If your application is approved, you will receive your visa sticker or Biometric Residence Permit (BRP) in your passport.",
+        "thfh2ph2": "Work Opportunities",
+        "thfh2p2": " International students with a valid student visa can work part-time during the academic term (up to 20 hours per week) and full-time during scheduled breaks (e.g., summer). Graduates may also apply for a post-study work visa, allowing them to stay and work in the UK for a limited time.",
 
-        "thfh2ph2": "Work permit",
-        "thfh2p2": "International students who hold a Tier 4 (General) student visa are generally allowed to work part time while studying in the UK.",
+        "thfh2ph3": "Minimum Wage in the UK",
+        "thfh2p3": "Minimum wage in the UK is set by the government and varies based on age and job type. As of 2022, the National Living Wage for those aged 23 and over is £9.50 per hour, while younger workers may earn less. Rates are reviewed annually to reflect economic conditions.",
 
-        "thfh2p3lw1": "Part-time work: International students with a Tier 4 (General) student visa can work part-time during term-time for up to 20 hours per week. They can work full-time during scheduled breaks and holidays.",
-        "thfh2p3lw2": "Work placements: If the course of study includes a work placement as part of the curriculum, international students may be able to work full-time during the placement period",
+        "thfh2ph4": "Cooperative Education (Co-op) Programs",
+        "thfh2p4": "Many UK institutions offer co-op programs that blend academic study with practical work experience. These placements provide students with opportunities to:",
+        "thfh2p4lm1": "Apply academic knowledge in real-world environments",
+        "thfh2p4lm2": "Build a professional network",
+        "thfh2p4lm3": "Earn income to offset tuition and living expenses",
+        "thfh2p4lm4": "Gain valuable experience that helps clarify career goals",
 
-        "thfh2ph3": "Minimum Wage",
-        "thfh2p3": "The minimum wage in the UK varies depending on the age of the worker and whether they are an apprentice. Here are the current minimum wage rates in the UK as of April 2023:",
-
-        "thfh2p3lm1": "Age23 and over: £10.42 per hour",
-        "thfh2p3lm2": "Age 21 to 22: £1.018 per hour",
-        "thfh2p3lm3": "Age 18 to 20: £7.49 per hour",
-        "thfh2p3lm4": "Under 18: £5.28 per hour",
-        "thfh2p3lm5": "Apprentice: £5.28 per hour",
-
-        "thfh2ph4": "Work after graduate",
-        "thfh2p4": "After completing their studies, international students may be eligible to switch to a Tier 2 (General) work visa if they have a job offer from a UK employer that is willing to sponsor their visa. Once granted a Tier 2 (General) work visa, international students can work in the UK for up to 5 years. Alternatively, UK Graduates routes allow the international student to stay in the UK and work upon graduation. This is unsponsored, which means you can look for work at any levels after you graduate up to two years form undergraduate and master’s degree and three years for PhD graduates.",
-
-        "thfh3": "Geography Facts of the United Kingdom",
+        "thfh3": "Geography Facts: The United Kingdom",
         "thfh3ph5": "Location",
-        "thfh3p5": "The United Kingdom (UK) is a country located in Western Europe. It is made up of four countries: England, Scotland, Wales, and Northern Ireland. The UK has a total population of approximately 67 million people (as of 2021). The UK has a total area of approximately 243,610 square kilometers, with a coastline stretching over 12,429 kilometers.",
+        "thfh3p5": "The United Kingdom is located in northwestern Europe, comprising four countries: England, Scotland, Wales, and Northern Ireland. It is bordered by the Atlantic Ocean, the North Sea, the English Channel, and the Irish Sea.",
         "thfh3ph6": "Climate",
-        "thfh3p6": "he climate of the United Kingdom is classified as a temperate maritime climate, which means it is mild, wet, and changeable throughout the year."
+        "thfh3p6": "The UK has a temperate maritime climate, characterized by mild temperatures and moderate rainfall throughout the year:",
+        "thfh2p6lm1": "Southern England: Generally mild winters (around 5°C) and cool summers (up to 20°C).",
+        "thfh2p6lm2": "Northern Scotland: Winters can be colder (down to -5°C), with cooler summers.",
+        "thfh2p6lm3": "Western Coast: Rainfall is more frequent, especially in Wales and the Lake District"
+      }
+    },
+     "australia": {
+      "topText": {
+        "auath": "Study Abroad in Australia",
+        "auatp": "Australia is a top destination for international students, known for its world-class universities, stunning landscapes, and vibrant, multicultural cities. Students enjoy exceptional education, career prospects, and an inclusive environment that fosters creativity, innovation, and personal growth."
+      },
+      "subTextL": {
+        "subTextLh": "Why Study in Australia",
+        "subhfh0": "Quality of Education",
+        "subhfp0": "Australia is home to some of the world’s top universities, offering academic excellence and innovation across a wide range of disciplines. With expert faculty, a focus on practical learning, and a strong research culture, a degree from an Australian institution is highly respected globally and opens doors to international opportunities.",
+        "subhfh1": "Wide Range of Academic Programs",
+        "subhfp1": "Australia offers a diverse array of academic programs, from arts and humanities to science, technology, engineering, and business. Students can choose from traditional degrees, vocational training, and specialized courses, giving them the flexibility to shape their education according to their interests and career aspirations.",
+        
+        "subhfh2": "Global Recognition",
+        "subhfp2": "Australian degrees are globally recognized for their high quality and rigorous academic standards. Graduates from Australian universities are in high demand worldwide, with employers and academic institutions around the globe valuing the skills, knowledge, and qualifications gained from studying in Australia.",
+        "subhfh3": "Research Opportunities",
+        "subhfp3": "Australia is a leader in research and innovation, providing students with access to cutting-edge facilities, substantial funding, and collaborative opportunities across various fields. Many Australian universities are at the forefront of global research, allowing students to contribute to projects that tackle global challenges and make a positive impact."
+      },
+      "subTextR": {
+        "btn": "FREE CONSULTATION",
+        "subhr1": "Gapai mimpimu!",
+        "subpr1": "Rencanakan masa depanmu dengan A4 Admission",
+        "subrph1": "Experience",
+        "subrpt1": "With over 25 years of industry experience and nationwide partnerships",
+        "subrph2": "Support",
+        "subrpt2": "High acceptance rates, international experience, and comprehensive support",
+        "subrph3": "Employment Rate",
+        "subrpt3": "100% employment rate and focus on a great living experience",
+        "btn2": "Konsultasi Sekarang"
+      },
+
+      "thirdText": {
+        "th": "Study Info in United Kingdom",
+        "thfh1": "Cost of Living in Major Australian Cities",
+        "thfh1ph1": "Sydney",
+        "thfh1p1": "As Australia's largest and most well-known city, Sydney is known for its high cost of living. Rent for a one-bedroom apartment in the city center averages AUD 2,500/month, with dining out at mid-range restaurants costing around AUD 25.",
+        "thfh1ph2": "Melbourne",
+        "thfh1p2": "Known for its vibrant arts and cultural scene, Melbourne offers a more affordable lifestyle compared to Sydney. Rent for a one-bedroom apartment in the city center is about AUD 1,800/month, while meals at mid-range restaurants typically cost AUD 20–25.",
+        "thfh1ph3": "Brisbane",
+        "thfh1p3": "With a laid-back lifestyle and growing economy, Brisbane offers an affordable cost of living. Rent for a one-bedroom apartment in the city center is approximately AUD 1,600/month, and meals at restaurants cost around AUD 15–20.",
+        "thfh1ph4": "Perth",
+        "thfh1p4": "Located on Australia’s western coast, Perth offers affordable living compared to eastern cities. Rent for a one-bedroom apartment in the city center averages AUD 1,500/month, and meals at restaurants cost around AUD 20.",
+        "thfh1ph5": "Adelaide",
+        "thfh1p5": " Adelaide is one of the more budget-friendly cities in Australia. Rent for a one-bedroom apartment in the city center is about AUD 1,200/month, and dining out at mid-range restaurants typically costs AUD 15–20.",
+       
+
+        "thfh2": "International Student in Australia",
+        "thfh2ph1": "Student Visa",
+
+        "thfh2p1": "To study in Australia, international students must apply for a student visa (subclass 500). This visa allows full-time study at a registered institution. Visa processing times vary, but it typically takes a few weeks after submitting the necessary documents.",
+
+        "thfh2ph2": "Work Opportunities",
+        "thfh2p2": "With a student visa, international students can work up to 40 hours per fortnight during the semester and full-time during semester breaks. Post-graduation, students can apply for a Temporary Graduate Visa (subclass 485), allowing them to work in Australia for up to 4 years, depending on their qualifications.",
+
+        "thfh2ph3": "Minimum Wage in Australia",
+        "thfh2p3": "Australia has one of the highest minimum wages globally. As of 2022, the national minimum wage is AUD 20.33 per hour. Rates are reviewed annually by the Fair Work Commission and may vary depending on the industry and employment contract.",
+
+        "thfh2ph4": "Cooperative Education (Co-op) Programs",
+        "thfh2p4": "Many Australian universities offer co-op programs that combine academic studies with hands-on work experience. These programs help students:",
+        "thfh2p4lm1": "Apply theoretical knowledge in a real-world setting",
+        "thfh2p4lm2": "Build a professional network",
+        "thfh2p4lm3": "Offset living and tuition costs",
+        "thfh2p4lm4": "Gain valuable experience and enhance employability",
+
+        "thfh3": "Geography Facts: Australia",
+        "thfh3ph5": "Location",
+        "thfh3p5": "Australia is located in the Southern Hemisphere and is the world’s sixth-largest country. It consists of the mainland, Tasmania, and numerous smaller islands. It is surrounded by the Indian and Pacific Oceans, offering diverse landscapes ranging from beaches to deserts and rainforests.",
+        "thfh3ph6": "Climate",
+        "thfh3p6": "Australia’s climate is diverse due to its size:",
+        "thfh2p6lm1": "Northern Australia: Tropical climate with hot, humid summers and mild winters.",
+        "thfh2p6lm2": "Western Australia: Mediterranean climate with hot, dry summers and mild winters.",
+        "thfh2p6lm3": "Eastern Coast: Humid subtropical climate, with milder winters and hot, humid summers."
       }
     }
   },

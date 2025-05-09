@@ -170,7 +170,6 @@ const Header = () => {
 
       <div className="max-w-screen-lg mx-auto border-t-[2px] border-[#ece7df]">
         {/* Desktop Navigation */}
-        {/* Desktop Navigation */}
         <div className="hidden md:block my-2">
           <ul className="flex flex-wrap items-center justify-center space-x-6">
             {navigation.map((item, idx) => (
@@ -199,7 +198,7 @@ const Header = () => {
                 {/* Sub-navigation dropdown */}
                 {item.subNav && (
                   <div
-                    className={`absolute left-0 top-full mt-0 w-60 bg-white shadow-lg rounded-md z-50 
+                    className={`absolute left-0 top-full p-1 mt-0 w-60 bg-white shadow-lg rounded-md z-50 
               ${hoveredItem === idx ? "block" : "hidden"} 
               transition-all duration-300 ease-in-out`}
                   >

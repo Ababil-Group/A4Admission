@@ -19,6 +19,7 @@ import ArticalNews from "./pages/articals/ArticalNews";
 import Event from "./pages/event/Event";
 import { FaArrowUp } from "react-icons/fa";
 import Faqs from "./pages/faqs/Faqs";
+import Australia from "./pages/StudyAborad/Australia";
 
 NProgress.configure({
   minimum: 0.3,
@@ -113,6 +114,7 @@ function App() {
           <Route path="/pages/study-abroad-canada" element={<Canada />} />
           <Route path="/pages/study-abroad-united-states" element={<Usa />} />
           <Route path="/pages/study-abroad-united-kingdom" element={<Uk />} />
+          <Route path="/pages/study-abroad-australia" element={<Australia />} />
           <Route path="/pages/about-us" element={<AboutUs />} />
           {/* <Route path="/blogs/news" element={<ArticalNews />} /> */}
           <Route path="/pages/our-success-story" element={<Event />} />
