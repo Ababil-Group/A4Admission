@@ -7,6 +7,23 @@
     "studyAl2": "United States",
     "studyAl3": "United Kingdom",
     "studyAl4": "Australia",
+    "studyAl5": "New Zealand",
+    "studyAl6": "China",
+    "studyAl7": "Japan",
+    "studyAl8": "South Korea",
+    "studyAl9": "Ireland",
+    "studyAl10": "Sweden",
+    "studyAl11": "Germany",
+    "studyAl12": "Denmark",
+    "studyAl13": "Norway",
+    "studyAl14": "Finland",
+    "studyAl15": "Netherlands",
+    "studyAl16": "Iceland",
+    "studyAl17": "Malta",
+    "studyAl18": "Hungary",
+    "studyAl19": "Romania",
+    "studyAl20": "Bulgaria",
+
     "highschoolcanada": "Highschool in Canada",
     "highschooll1": "Columbia College",
     "highschooll2": "Blyth Academy",
@@ -356,7 +373,7 @@
         "subhfp0": "The United Kingdom offers a world-class education through renowned universities known for their academic excellence, innovation, and research contributions. Students benefit from expert faculty, a strong emphasis on critical thinking, and the freedom to explore diverse academic fields. A degree from a UK institution is highly regarded and opens doors to global opportunities.",
         "subhfh1": "Wide Range of Academic Programs",
         "subhfp1": "The UK offers a wide array of academic programs across a variety of disciplines, from arts and humanities to science, technology, engineering, and business. Students can choose from traditional degree programs, as well as vocational and specialized courses, allowing them to tailor their education to their personal interests and career goals.",
-        
+
         "subhfh2": "Global Recognition",
         "subhfp2": " Degrees from UK universities are globally respected and recognized for their quality. Graduates are highly sought after by employers and academic institutions around the world, providing a competitive edge in the global job market and offering numerous international career opportunities.",
         "subhfh3": "Research Opportunities",
@@ -419,7 +436,7 @@
         "thfh2p6lm3": "Western Coast: Rainfall is more frequent, especially in Wales and the Lake District"
       }
     },
-     "australia": {
+    "australia": {
       "topText": {
         "auath": "Study Abroad in Australia",
         "auatp": "Australia is a top destination for international students, known for its world-class universities, stunning landscapes, and vibrant, multicultural cities. Students enjoy exceptional education, career prospects, and an inclusive environment that fosters creativity, innovation, and personal growth."
@@ -430,7 +447,7 @@
         "subhfp0": "Australia is home to some of the world’s top universities, offering academic excellence and innovation across a wide range of disciplines. With expert faculty, a focus on practical learning, and a strong research culture, a degree from an Australian institution is highly respected globally and opens doors to international opportunities.",
         "subhfh1": "Wide Range of Academic Programs",
         "subhfp1": "Australia offers a diverse array of academic programs, from arts and humanities to science, technology, engineering, and business. Students can choose from traditional degrees, vocational training, and specialized courses, giving them the flexibility to shape their education according to their interests and career aspirations.",
-        
+
         "subhfh2": "Global Recognition",
         "subhfp2": "Australian degrees are globally recognized for their high quality and rigorous academic standards. Graduates from Australian universities are in high demand worldwide, with employers and academic institutions around the globe valuing the skills, knowledge, and qualifications gained from studying in Australia.",
         "subhfh3": "Research Opportunities",
@@ -462,7 +479,6 @@
         "thfh1p4": "Located on Australia’s western coast, Perth offers affordable living compared to eastern cities. Rent for a one-bedroom apartment in the city center averages AUD 1,500/month, and meals at restaurants cost around AUD 20.",
         "thfh1ph5": "Adelaide",
         "thfh1p5": " Adelaide is one of the more budget-friendly cities in Australia. Rent for a one-bedroom apartment in the city center is about AUD 1,200/month, and dining out at mid-range restaurants typically costs AUD 15–20.",
-       
 
         "thfh2": "International Student in Australia",
         "thfh2ph1": "Student Visa",
@@ -490,6 +506,79 @@
         "thfh2p6lm1": "Northern Australia: Tropical climate with hot, humid summers and mild winters.",
         "thfh2p6lm2": "Western Australia: Mediterranean climate with hot, dry summers and mild winters.",
         "thfh2p6lm3": "Eastern Coast: Humid subtropical climate, with milder winters and hot, humid summers."
+      }
+    },
+    "newsland": {
+      "topText": {
+        "nuath": "Study Abroad in New Zealand",
+        "nuatp": "New Zealand is an increasingly popular destination for international students, known for its world-class education, breathtaking landscapes, and welcoming, multicultural society. Students enjoy high-quality academic programs, strong career prospects, and an environment that promotes creativity, adventure, and personal growth."
+      },
+      "subTextL": {
+        "subTextLh": "Why Study in New Zealand",
+        "subhfh0": "Quality of Education",
+        "subhfp0": "New Zealand is home to some of the world’s best universities, offering exceptional education that emphasizes practical skills, critical thinking, and innovation. With highly qualified faculty, modern teaching methods, and a focus on research, degrees from New Zealand institutions are recognized and respected globally.",
+        "subhfh1": "Wide Range of Academic Programs",
+        "subhfp1": "New Zealand offers a broad selection of academic programs across diverse fields, from arts and humanities to engineering, business, and technology. Students can choose from undergraduate, postgraduate, and vocational training courses, allowing them to tailor their education to their career ambitions and personal interests.",
+
+        "subhfh2": "Global Recognition",
+        "subhfp2": "Degrees from New Zealand are internationally recognized and respected for their quality. Graduates from New Zealand universities are highly regarded by employers around the world, with a reputation for being skilled, innovative, and well-prepared for global job markets.",
+
+        "subhfh3": "Research Opportunities",
+        "subhfp3": "New Zealand is known for its innovative research culture, offering students access to state-of-the-art facilities and opportunities to collaborate with industry and academia. Many New Zealand universities are involved in ground-breaking research, allowing students to contribute to projects with real-world impacts on global challenges."
+      },
+      "subTextR": {
+        "btn": "FREE CONSULTATION",
+        "subhr1": "Gapai mimpimu!",
+        "subpr1": "Rencanakan masa depanmu dengan A4 Admission",
+        "subrph1": "Experience",
+        "subrpt1": "With over 25 years of industry experience and nationwide partnerships",
+        "subrph2": "Support",
+        "subrpt2": "High acceptance rates, international experience, and comprehensive support",
+        "subrph3": "Employment Rate",
+        "subrpt3": "100% employment rate and focus on a great living experience",
+        "btn2": "Konsultasi Sekarang"
+      },
+
+      "thirdText": {
+        "th": "Study Info in United Kingdom",
+        "thfh1": "Cost of Living in Major New Zealand Cities",
+        "thfh1ph1": "Auckland",
+        "thfh1p1": "Auckland is the largest and most populous city in New Zealand, offering a dynamic lifestyle but with a higher cost of living. Rent for a one-bedroom apartment in the city center averages NZD 2,100/month, and dining out at mid-range restaurants typically costs around NZD 25.",
+        "thfh1ph2": "Wellington",
+        "thfh1p2": "The capital city of New Zealand, Wellington offers a more affordable lifestyle compared to Auckland. Rent for a one-bedroom apartment in the city center is around NZD 1,800/month, with meals at restaurants costing NZD 20–25.",
+        "thfh1ph3": "Christchurch",
+        "thfh1p3": "Christchurch, known as the 'Garden City,' offers a balance of city life and outdoor beauty at a more affordable price. Rent for a one-bedroom apartment in the city center is about NZD 1,500/month, and meals at mid-range restaurants cost around NZD 15–20.",
+        "thfh1ph4": "Hamilton",
+        "thfh1p4": "Located in the North Island, Hamilton offers a lower cost of living compared to other major cities. Rent for a one-bedroom apartment in the city center averages NZD 1,400/month, and meals in mid-range restaurants cost NZD 15–20.",
+        "thfh1ph5": "Dunedin",
+        "thfh1p5": "Dunedin, a smaller city known for its Scottish heritage and proximity to nature, offers a more affordable lifestyle. Rent for a one-bedroom apartment in the city center is about NZD 1,200/month, and meals typically cost NZD 15–20.",
+
+        "thfh2": "International Student in New Zealand",
+        "thfh2ph1": "Student Visa",
+
+        "thfh2p1": "To study in New Zealand, international students must apply for a student visa, which allows full-time study at a recognized institution. Visa processing times can vary, but typically it takes a few weeks once all necessary documents are submitted.",
+
+        "thfh2ph2": "Work Opportunities",
+        "thfh2p2": "International students with a valid student visa can work up to 20 hours per week during the academic year and full-time during breaks. After graduation, students may be eligible for a Post-Study Work Visa, allowing them to stay and work in New Zealand for up to three years, depending on their qualification.",
+
+        "thfh2ph3": "Minimum Wage in New Zealand",
+        "thfh2p3": "New Zealand’s minimum wage is set by the government and is one of the highest in the world. As of 2022, the minimum wage is NZD 21.20 per hour, with annual reviews to ensure it reflects economic conditions.",
+
+        "thfh2ph4": "Cooperative Education (Co-op) Programs",
+        "thfh2p4": "Many New Zealand universities offer co-op programs, which combine academic learning with practical, paid work experience. These programs help students:",
+        "thfh2p4lm1": "Apply classroom knowledge in the workplace",
+        "thfh2p4lm2": "Build professional networks",
+        "thfh2p4lm3": "Offset living and tuition costs",
+        "thfh2p4lm4": "Gain valuable experience to improve employability",
+
+        "thfh3": "Geography Facts: New Zealand",
+        "thfh3ph5": "Location",
+        "thfh3p5": "New Zealand is located in the southwestern Pacific Ocean, comprising two main islands — the North Island and South Island — along with many smaller islands. Its unique geography includes dramatic mountains, forests, beaches, and lakes, making it one of the world’s most scenic countries.",
+        "thfh3ph6": "Climate",
+        "thfh3p6": "New Zealand’s climate is temperate, offering mild winters and warm summers:",
+        "thfh2p6lm1": "North Island: Subtropical climate, with hot, humid summers and mild winters.",
+        "thfh2p6lm2": "South Island: More temperate, with cooler winters and warm, dry summers.",
+        "thfh2p6lm3": "Coastal Areas: Mild weather with rainfall, especially on the west coast, known for its lush rainforests."
       }
     }
   },

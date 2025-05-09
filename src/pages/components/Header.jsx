@@ -6,6 +6,7 @@ import { Link, useLocation } from "react-router-dom";
 import Logo from "../../assets/logo.png";
 import { BiWorld } from "react-icons/bi";
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
+import ReactCountryFlag from "react-country-flag";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,10 +15,32 @@ const Header = () => {
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
   const [isChangingLanguage, setIsChangingLanguage] = useState(false);
   const location = useLocation();
-  // subnav items
   const [hoveredItem, setHoveredItem] = useState(null);
   const [expandedItems, setExpandedItems] = useState([]);
-  // Initialize language from localStorage or i18n
+
+  const countryCodes = {
+    "study-abroad-canada": "CA",
+    "study-abroad-united-states": "US",
+    "study-abroad-united-kingdom": "GB",
+    "study-abroad-australia": "AU",
+    "study-abroad-new-zealand": "NZ",
+    "study-abroad-china": "CN",
+    "study-abroad-japan": "JP",
+    "study-abroad-south-korea": "KR",
+    "study-abroad-ireland": "IE",
+    "study-abroad-sweden": "SE",
+    "study-abroad-germany": "DE",
+    "study-abroad-denmark": "DK",
+    "study-abroad-norway": "NO",
+    "study-abroad-finland": "FI",
+    "study-abroad-netherlands": "NL",
+    "study-abroad-iceland": "IS",
+    "study-abroad-malta": "MT",
+    "study-abroad-hungary": "HU",
+    "study-abroad-romania": "RO",
+    "study-abroad-bulgaria": "BG",
+  };
+
   useEffect(() => {
     const savedLanguage = localStorage.getItem("userLanguage");
     if (savedLanguage && savedLanguage !== i18n.language) {
@@ -34,7 +57,6 @@ const Header = () => {
   const navigation = [
     { title: t("menu.home"), path: "/" },
     { title: t("menu.services"), path: "/pages/services" },
-
     {
       title: t("menu.studyAbrod"),
       subNav: [
@@ -54,27 +76,73 @@ const Header = () => {
           title: t("menu.studyAl4"),
           path: "/pages/study-abroad-australia",
         },
+        {
+          title: t("menu.studyAl5"),
+          path: "/pages/study-abroad-new-zealand",
+        },
+        {
+          title: t("menu.studyAl6"),
+          path: "/pages/study-abroad-china",
+        },
+        {
+          title: t("menu.studyAl7"),
+          path: "/pages/study-abroad-japan",
+        },
+        {
+          title: t("menu.studyAl8"),
+          path: "/pages/study-abroad-south-korea",
+        },
+        {
+          title: t("menu.studyAl9"),
+          path: "/pages/study-abroad-ireland",
+        },
+        {
+          title: t("menu.studyAl10"),
+          path: "/pages/study-abroad-sweden",
+        },
+        {
+          title: t("menu.studyAl11"),
+          path: "/pages/study-abroad-germany",
+        },
+        {
+          title: t("menu.studyAl12"),
+          path: "/pages/study-abroad-denmark",
+        },
+        {
+          title: t("menu.studyAl13"),
+          path: "/pages/study-abroad-norway",
+        },
+        {
+          title: t("menu.studyAl14"),
+          path: "/pages/study-abroad-finland",
+        },
+        {
+          title: t("menu.studyAl15"),
+          path: "/pages/study-abroad-netherlands",
+        },
+        {
+          title: t("menu.studyAl16"),
+          path: "/pages/study-abroad-iceland",
+        },
+        {
+          title: t("menu.studyAl17"),
+          path: "/pages/study-abroad-malta",
+        },
+        {
+          title: t("menu.studyAl18"),
+          path: "/pages/study-abroad-hungary",
+        },
+        {
+          title: t("menu.studyAl19"),
+          path: "/pages/study-abroad-romania",
+        },
+        {
+          title: t("menu.studyAl20"),
+          path: "/pages/study-abroad-bulgaria",
+        },
       ],
     },
-    // {
-    //   title: t("menu.highschoolcanada"),
-    //   subNav: [
-    //     {
-    //       title: t("menu.highschooll1"),
-    //       path: "/pages/study-abroad-canada",
-    //     },
-    //     {
-    //       title: t("menu.highschooll2"),
-    //       path: "/pages/study-abroad-united-states",
-    //     },
-    //     {
-    //       title: t("menu.highschooll3"),
-    //       path: "/pages/study-abroad-united-kingdom",
-    //     },
-    //   ],
-    // },
     { title: t("menu.about"), path: "/pages/about-us" },
-    // { title: t("menu.artical"), path: "/blogs/news" },
     { title: t("menu.event"), path: "/pages/our-success-story" },
     { title: t("menu.contact"), path: "/pages/contact" },
     { title: t("menu.faq"), path: "/pages/faq" },
@@ -97,20 +165,28 @@ const Header = () => {
     }
   };
 
-  // for mobile device
   const toggleItem = (idx) => {
     setExpandedItems((prev) =>
       prev.includes(idx) ? prev.filter((i) => i !== idx) : [...prev, idx]
     );
   };
 
+  const getCountryCode = (path) => {
+    const pathKey = path.replace("/pages/", "");
+    return countryCodes[pathKey] || "";
+  };
+
+  // Function to chunk the array into groups for the grid layout
+  const chunkArray = (array, chunkSize) => {
+    const result = [];
+    for (let i = 0; i < array.length; i += chunkSize) {
+      result.push(array.slice(i, i + chunkSize));
+    }
+    return result;
+  };
+
   return (
     <nav className="bg-white w-full pr-10">
-      {/* <div className="bg-gradient-to-l from-redest-dark to-blue-dark w-full">
-        <p className="py-2 font-medium text-white text-center">
-          {t("banner.btext")}
-        </p>
-      </div> */}
       <div className="flex items-center justify-between max-w-screen-xl mx-auto px-4 relative">
         <button
           className="inline-flex md:hidden text-gray-800 hover:text-red-600"
@@ -198,26 +274,48 @@ const Header = () => {
                 {/* Sub-navigation dropdown */}
                 {item.subNav && (
                   <div
-                    className={`absolute left-0 top-full p-1 mt-0 w-60 bg-white shadow-lg rounded-md z-50 
-              ${hoveredItem === idx ? "block" : "hidden"} 
-              transition-all duration-300 ease-in-out`}
+                    className={`absolute left-0 top-full p-4 mt-0 w-[800px] bg-white shadow-lg rounded-md z-50 
+                      ${hoveredItem === idx ? "block" : "hidden"} 
+                      transition-all duration-300 ease-in-out`}
                   >
-                    <ul className="py-1">
-                      {item.subNav.map((subItem, subIdx) => (
-                        <li key={subIdx}>
-                          <Link
-                            to={subItem.path}
-                            className={`block font-semibold px-4 py-2 text-[15px] text-gray-800 hover:bg-gray-100 font-quicksand ${
-                              location.pathname === subItem.path
-                                ? "border-b-2 border-redest-dark text-redest-dark"
-                                : "text-gray-900 hover:text-redest-dark"
-                            }`}
-                          >
-                            {subItem.title}
-                          </Link>
-                        </li>
+                    <div className="grid grid-cols-3 gap-4">
+                      {chunkArray(item.subNav, 7).map((column, colIdx) => (
+                        <div key={colIdx} className="space-y-2">
+                          {column.map((subItem, subIdx) => {
+                            const countryCode = getCountryCode(subItem.path);
+                            return (
+                              <Link
+                                key={subIdx}
+                                to={subItem.path}
+                                className={`flex items-center px-3 py-2 text-[15px] text-gray-800 hover:bg-gray-50 rounded-md transition-colors ${
+                                  location.pathname === subItem.path
+                                    ? "bg-gray-50 text-redest-dark"
+                                    : "text-gray-700"
+                                }`}
+                              >
+                                {countryCode && (
+                                  <ReactCountryFlag
+                                    countryCode={countryCode}
+                                    svg
+                                    style={{
+                                      width: "1.5em",
+                                      height: "1.5em",
+                                      marginRight: "0.75em",
+                                      borderRadius: "50%",
+                                      boxShadow: "0 0 3px rgba(0,0,0,0.2)",
+                                    }}
+                                    title={countryCode}
+                                  />
+                                )}
+                                <span className="font-medium whitespace-nowrap">
+                                  {subItem.title}
+                                </span>
+                              </Link>
+                            );
+                          })}
+                        </div>
                       ))}
-                    </ul>
+                    </div>
                   </div>
                 )}
               </li>
@@ -225,7 +323,7 @@ const Header = () => {
           </ul>
         </div>
 
-        {/* mobile screen */}
+        {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="fixed inset-0 z-40 md:hidden bg-black/50 transition-transform duration-500">
             <div
@@ -233,7 +331,6 @@ const Header = () => {
               onClick={() => setIsMenuOpen(false)}
             ></div>
 
-            {/* Menu Panel */}
             <div className="absolute left-0 top-0 h-full w-8/12 bg-white shadow-xl transform transition-transform duration-300 ease-in-out">
               <div className="flex flex-col h-full relative">
                 <button
@@ -243,7 +340,6 @@ const Header = () => {
                   <FaTimes className="w-6 h-6" />
                 </button>
 
-                {/* Menu Items */}
                 <nav className="flex-1 overflow-y-auto p-4">
                   <ul className="space-y-2">
                     {navigation.map((item, idx) => (
@@ -286,16 +382,33 @@ const Header = () => {
                           </div>
                           {item.subNav && expandedItems.includes(idx) && (
                             <div className="pl-4 mt-2 bg-gray-50 rounded-lg">
-                              {item.subNav.map((subItem, subIdx) => (
-                                <Link
-                                  key={subIdx}
-                                  to={subItem.path}
-                                  className="block px-4 py-3 text-base text-gray-800 hover:bg-gray-100 border-b border-gray-200 last:border-b-0"
-                                  onClick={() => setIsMenuOpen(false)}
-                                >
-                                  {subItem.title}
-                                </Link>
-                              ))}
+                              {item.subNav.map((subItem, subIdx) => {
+                                const countryCode = getCountryCode(
+                                  subItem.path
+                                );
+                                return (
+                                  <Link
+                                    key={subIdx}
+                                    to={subItem.path}
+                                    className="flex items-center px-4 py-3 text-base text-gray-800 hover:bg-gray-100 border-b border-gray-200 last:border-b-0"
+                                    onClick={() => setIsMenuOpen(false)}
+                                  >
+                                    {countryCode && (
+                                      <ReactCountryFlag
+                                        countryCode={countryCode}
+                                        svg
+                                        style={{
+                                          width: "1.2em",
+                                          height: "1.2em",
+                                          marginRight: "0.5em",
+                                          borderRadius: "50%",
+                                        }}
+                                      />
+                                    )}
+                                    {subItem.title}
+                                  </Link>
+                                );
+                              })}
                             </div>
                           )}
                         </div>
