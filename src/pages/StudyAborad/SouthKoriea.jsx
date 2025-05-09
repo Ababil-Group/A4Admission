@@ -7,7 +7,7 @@ import Sidebar from "./Sidebar";
 import Testimonial from "../home/Testimonial";
 import ContactFrom from "../components/ContactFrom";
 import Carusel from "../home/Carusel";
-const NewZealand = () => {
+const SouthKoriea = () => {
   const { t } = useTranslation();
   const faqsList = [
     {
@@ -145,4 +145,4 @@ const NewZealand = () => {
   );
 };
 
-export default NewZealand;
+export default SouthKoriea;

@@ -580,6 +580,1021 @@
         "thfh2p6lm2": "South Island: More temperate, with cooler winters and warm, dry summers.",
         "thfh2p6lm3": "Coastal Areas: Mild weather with rainfall, especially on the west coast, known for its lush rainforests."
       }
+    },
+    "china": {
+      "topText": {
+        "nuath": "Study Abroad in China",
+        "nuatp": "China is one of the fastest-growing destinations for international students, renowned for its blend of ancient culture, technological advancement, and globally competitive education system. Students benefit from high-quality academic programs, strong industry ties, and an environment that promotes innovation, language immersion, and global engagement."
+      },
+      "subTextL": {
+        "subTextLh": "Why Study in China",
+        "subhfh0": "Quality of Education",
+        "subhfp0": "China offers a high standard of education through its leading universities, many of which are ranked globally for academic excellence and innovation. Institutions such as Tsinghua University, Fudan University, and Peking University are known for their rigorous academic environments, expert faculty, and growing global partnerships. A degree from a Chinese university is increasingly valued worldwide.",
+        "subhfh1": "Wide Range of Academic Programs",
+        "subhfp1": "Chinese universities offer a diverse range of programs across disciplines including engineering, international business, medicine, language studies, arts, and emerging technologies. Many universities offer English-taught programs while also providing opportunities to study Mandarin—an invaluable asset for global careers.",
+
+        "subhfh2": "Global Recognition",
+        "subhfp2": "Degrees from China’s top universities are gaining international recognition and are respected by employers and academic institutions around the world. As China plays a growing role in global economics and technology, graduates from Chinese universities are positioned to take advantage of expanding career opportunities both in Asia and beyond.",
+
+        "subhfh3": "Research Opportunities",
+        "subhfp3": "China is a global leader in research and development, with substantial government investment in technology, science, medicine, and innovation. International students have access to advanced research facilities, cutting-edge projects, and collaborations with top industries, enabling them to contribute to real-world solutions."
+      },
+      "subTextR": {
+        "btn": "FREE CONSULTATION",
+        "subhr1": "Gapai mimpimu!",
+        "subpr1": "Rencanakan masa depanmu dengan A4 Admission",
+        "subrph1": "Experience",
+        "subrpt1": "With over 25 years of industry experience and nationwide partnerships",
+        "subrph2": "Support",
+        "subrpt2": "High acceptance rates, international experience, and comprehensive support",
+        "subrph3": "Employment Rate",
+        "subrpt3": "100% employment rate and focus on a great living experience",
+        "btn2": "Konsultasi Sekarang"
+      },
+
+      "thirdText": {
+        "th": "Study info in China",
+        "thfh1": "Cost of Living in Major Chinese Cities",
+        "thfh1ph1": "Beijing",
+        "thfh1p1": "As the capital, Beijing offers top academic institutions and rich cultural heritage. The cost of living is moderate to high, with rent for a one-bedroom apartment in the city center averaging around ¥7,500/month. Dining out at a mid-range restaurant costs about ¥80.",
+        "thfh1ph2": "Shanghai",
+        "thfh1p2": "A global financial hub, Shanghai provides a vibrant lifestyle and world-class education. Rent in central areas averages ¥8,000/month, and meals at a mid-range restaurant typically cost around ¥90–¥100.",
+        "thfh1ph3": "Guangzhou",
+        "thfh1p3": "Guangzhou is known for its economic activity and affordable living. Rent in the city center is approximately ¥5,000/month, with meals costing around ¥60 per person.",
+        "thfh1ph4": "Chengdu",
+        "thfh1p4": "Chengdu offers a relaxed atmosphere and lower living costs. Rent for a one-bedroom in the city center is around ¥3,500/month, and meals at local restaurants cost about ¥50.",
+        "thfh1ph5": "Xi’an",
+        "thfh1p5": "A historical and budget-friendly city, Xi’an is ideal for students seeking affordability. Rent averages ¥3,000/month in the city center, with dining costs around ¥40–¥50 per meal.",
+
+        "thfh2": "International Student in China",
+        "thfh2ph1": "Student Visa (X Visa)",
+
+        "thfh2p1": "To study in China, international students must obtain an X1 visa (for programs longer than 180 days) or an X2 visa (for short-term studies). The process generally takes 2–4 weeks after receiving the admission letter and medical exam report.",
+
+        "thfh2ph2": "Work Opportunities",
+        "thfh2p2": "With university and government approval, international students can work part-time or intern off-campus. While opportunities vary by city and program, many students find work in education, tech, or media. Post-study work opportunities are expanding, especially in innovation zones and economic hubs.",
+
+        "thfh2ph3": "Minimum Wage in China",
+        "thfh2p3": "Minimum wages vary by region. As of 2024, Shanghai’s monthly minimum wage is around ¥2,690. Part-time work, such as teaching English or working with startups, may offer competitive pay depending on qualifications and language skills.",
+
+        "thfh2ph4": "Cooperative Education (Co-op) Programs",
+        "thfh2p4": "Some Chinese universities offer co-op programs that integrate academic learning with industry internships. These provide:",
+        "thfh2p4lm1": "Hands-on experience in a fast-paced economy",
+        "thfh2p4lm2": "Opportunities to build networks with local and international professionals",
+        "thfh2p4lm3": "Financial support through stipends or earnings",
+        "thfh2p4lm4": "Real-world skills that enhance employability",
+
+        "thfh3": "Geography Facts: China",
+        "thfh3ph5": "Location",
+        "thfh3p5": "China is located in East Asia, bordered by 14 countries and stretching from the East China Sea to Central Asia. It is the world’s third-largest country by land area and hosts a vast range of terrains including mountains, plateaus, deserts, and coastlines.",
+        "thfh3ph6": "Climate",
+        "thfh3p6": "China has a diverse climate due to its size:",
+        "thfh2p6lm1": "North (e.g., Beijing): Cold, dry winters (as low as -10°C), and hot, humid summers (up to 35°C)",
+        "thfh2p6lm2": "South (e.g., Guangzhou): Subtropical with warm winters and long, humid summers",
+        "thfh2p6lm3": "West (e.g., Tibet): Alpine and arid with dramatic temperature shifts"
+      }
+    },
+    "japan": {
+      "topText": {
+        "nuath": "Study Abroad in Japan",
+        "nuatp": "Japan is an exceptional destination for international students, offering a perfect blend of cutting-edge technology, rich cultural traditions, and world-class education. With its globally recognized universities, vibrant student life, and an atmosphere that fosters both academic growth and personal development, Japan remains one of the most popular choices for students worldwide."
+      },
+      "subTextL": {
+        "subTextLh": "Why Study in Japan",
+        "subhfh0": "Quality of Education",
+        "subhfp0": "Japan boasts a highly regarded education system, with prestigious universities like the University of Tokyo, Kyoto University, and Waseda University offering rigorous academic programs across various disciplines. Japan is also known for its contributions to innovation, technology, and research, providing students with an intellectually stimulating environment. A degree from a Japanese university is highly respected and recognized internationally.",
+        "subhfh1": "Wide Range of Academic Programs",
+        "subhfp1": "Japanese universities offer a broad selection of programs, from engineering, technology, and business to arts, culture, and social sciences. Many programs are available in English, and students have the opportunity to study the Japanese language while exploring a unique academic curriculum. Japanese universities also emphasize hands-on learning and industry connections.",
+
+        "subhfh2": "Global Recognition",
+        "subhfp2": "Japan's universities are internationally recognized for their academic excellence. Graduates from these institutions often go on to work in some of the world's leading companies, especially in fields such as technology, finance, and engineering. Studying in Japan provides a competitive edge in the global job market and access to a network of global professionals.",
+
+        "subhfh3": "Research Opportunities",
+        "subhfp3": "Japan is a world leader in research and development, particularly in science, engineering, and technology. International students have access to state-of-the-art facilities and are encouraged to participate in groundbreaking research projects. Many universities partner with major industries, providing students with opportunities to contribute to real-world innovations."
+      },
+      "subTextR": {
+        "btn": "FREE CONSULTATION",
+        "subhr1": "Gapai mimpimu!",
+        "subpr1": "Rencanakan masa depanmu dengan A4 Admission",
+        "subrph1": "Experience",
+        "subrpt1": "With over 25 years of industry experience and nationwide partnerships",
+        "subrph2": "Support",
+        "subrpt2": "High acceptance rates, international experience, and comprehensive support",
+        "subrph3": "Employment Rate",
+        "subrpt3": "100% employment rate and focus on a great living experience",
+        "btn2": "Konsultasi Sekarang"
+      },
+
+      "thirdText": {
+        "th": "Study in Info in Japan",
+        "thfh1": "Cost of Living in Major Japanese Cities",
+        "thfh1ph1": "Tokyo",
+        "thfh1p1": "As the capital and one of the most vibrant cities in the world, Tokyo offers an exciting student life but comes with a higher cost of living. Rent for a one-bedroom apartment in the city center averages ¥100,000–¥150,000/month, while meals at a mid-range restaurant typically cost ¥1,000–¥2,500.",
+        "thfh1ph2": "Kyoto",
+        "thfh1p2": "Kyoto, known for its historical sites and cultural heritage, is slightly more affordable than Tokyo. Rent in the city center for a one-bedroom apartment averages ¥70,000–¥100,000/month, and meals at restaurants range from ¥800–¥2,000.",
+        "thfh1ph3": "Osaka",
+        "thfh1p3": "Osaka offers a lively urban experience with a moderate cost of living. Rent for a one-bedroom apartment in the city center averages ¥80,000–¥120,000/month, while meals in mid-range restaurants typically cost ¥900–¥2,200.",
+        "thfh1ph4": "Sapporo",
+        "thfh1p4": "Located in the northern part of Japan, Sapporo is one of the more affordable cities. Rent for a one-bedroom apartment averages ¥50,000–¥70,000/month, and dining out costs around ¥700–¥1,500 per meal.",
+        "thfh1ph5": "Fukuoka",
+        "thfh1p5": "Fukuoka is a dynamic city offering a lower cost of living compared to Tokyo and Osaka. Rent for a one-bedroom apartment in the city center averages ¥60,000–¥80,000/month, and meals at local restaurants cost around ¥600–¥1,500.",
+
+        "thfh2": "International Student in Japan",
+        "thfh2ph1": "Student Visa",
+
+        "thfh2p1": "To study in Japan, international students must obtain a Student Visa, which allows full-time study at a recognized institution. The visa application process typically takes 1–2 months after receiving your admission letter. Students may also need to submit proof of financial stability and language proficiency in some cases.",
+
+        "thfh2ph2": "Work Opportunities",
+        "thfh2p2": "With a valid student visa, international students can work part-time (up to 28 hours per week during the semester and up to 40 hours per week during breaks). Common part-time jobs include teaching English, working in cafes, or assisting in research projects. Japan’s strong job market and global presence in technology and business industries provide various post-graduation employment opportunities.",
+
+        "thfh2ph3": "Minimum Wage in China",
+        "thfh2p3": "Japan’s minimum wage varies by region, with the national average set at approximately ¥900–¥1,000 per hour. In Tokyo and other major cities, wages may be slightly higher. International students often find part-time work that can help cover living expenses.",
+
+        "thfh2ph4": "Many Japanese universities offer cooperative education programs that combine academic study with practical work experience.",
+        "thfh2p4": "These opportunities provide students with:",
+        "thfh2p4lm1": "Real-world industry experience",
+        "thfh2p4lm2": "A chance to network with professionals in their field",
+        "thfh2p4lm3": "Financial support through stipends or paid work",
+        "thfh2p4lm4": "Insight into career goals and industry trends",
+
+        "thfh3": "Geography Facts: Japan",
+        "thfh3ph5": "Location",
+        "thfh3p5": "Japan is an archipelago in East Asia, consisting of four major islands Honshu, Hokkaido, Kyushu, and Shikoku as well as thousands of smaller islands. Located in the Pacific Ocean, Japan is known for its diverse landscapes, from mountains and forests to beaches and cities.",
+        "thfh3ph6": "Climate",
+        "thfh3p6": "Japan has a varied climate due to its geographical diversity:",
+        "thfh2p6lm1": "Northern Japan (e.g., Sapporo): Cold winters with heavy snowfall, mild summers.",
+        "thfh2p6lm2": "Central Japan (e.g., Tokyo, Kyoto): Warm, humid summers with mild winters.",
+        "thfh2p6lm3": "Southern Japan (e.g., Okinawa): Subtropical with warm temperatures year-round, mild winters, and hot, humid summers."
+      }
+    },
+    "southkorea": {
+      "topText": {
+        "nuath": "Study Abroad in South Korea",
+        "nuatp": "South Korea has become a top choice for international students, known for its cutting-edge technology, rich cultural heritage, and world-class education system. With a strong academic reputation, vibrant campus life, and strong career opportunities, South Korea offers an exceptional environment for students seeking personal and academic growth."
+      },
+      "subTextL": {
+        "subTextLh": "Why Study in South Korea",
+        "subhfh0": "Quality of Education",
+        "subhfp0": "South Korea is home to some of the world’s leading universities, such as Seoul National University, KAIST, and Yonsei University. These institutions are recognized for their high academic standards, research excellence, and innovation in various fields. South Korean universities focus on developing critical thinking, global competencies, and hands-on learning experiences, preparing students for success in today’s competitive world.",
+        "subhfh1": "Wide Range of Academic Programs",
+        "subhfp1": "South Korean universities offer a wide variety of academic programs, including courses in engineering, business, social sciences, and the arts. Many universities offer programs in English, making it easier for international students to pursue their studies. Additionally, South Korea’s emphasis on technology and innovation creates ample opportunities for students interested in fields like computer science, engineering, and the tech industry.",
+
+        "subhfh2": "Global Recognition",
+        "subhfp2": "Degrees from South Korean universities are recognized globally, and graduates are highly sought after by employers worldwide, especially in the fields of technology, business, and engineering. South Korea’s strong economic presence in the global market further increases the value of a degree from its top universities.",
+
+        "subhfh3": "Research Opportunities",
+        "subhfp3": "South Korea is a leader in research and development, particularly in technology and engineering fields. Universities collaborate with major industries, offering students opportunities to engage in groundbreaking research projects and gain practical, real-world experience. Many students work on projects that have a significant impact on global innovation."
+      },
+      "subTextR": {
+        "btn": "FREE CONSULTATION",
+        "subhr1": "Gapai mimpimu!",
+        "subpr1": "Rencanakan masa depanmu dengan A4 Admission",
+        "subrph1": "Experience",
+        "subrpt1": "With over 25 years of industry experience and nationwide partnerships",
+        "subrph2": "Support",
+        "subrpt2": "High acceptance rates, international experience, and comprehensive support",
+        "subrph3": "Employment Rate",
+        "subrpt3": "100% employment rate and focus on a great living experience",
+        "btn2": "Konsultasi Sekarang"
+      },
+
+      "thirdText": {
+        "th": "Study info in South Korea",
+        "thfh1": "Cost of Living in Major South Korean Cities",
+        "thfh1ph1": "Seoul",
+        "thfh1p1": "As the capital and largest city, Seoul is vibrant and dynamic but comes with a relatively high cost of living. Rent for a one-bedroom apartment in the city center averages ₩700,000–₩1,200,000/month, and meals at mid-range restaurants typically cost ₩10,000–₩25,000.",
+        "thfh1ph2": "Busan",
+        "thfh1p2": "Busan, a coastal city known for its beaches and relaxed atmosphere, is more affordable than Seoul. Rent for a one-bedroom apartment in the city center averages ₩500,000–₩800,000/month, and meals at restaurants range from ₩8,000–₋15,000.",
+        "thfh1ph3": "Incheon",
+        "thfh1p3": "Incheon, located near Seoul, offers a balance between convenience and affordability. Rent for a one-bedroom apartment in the city center averages ₩550,000–₩900,000/month, and dining out costs around ₩8,000–₋20,000 per meal.",
+        "thfh1ph4": "Daegu",
+        "thfh1p4": "Daegu is one of the more affordable cities in South Korea. Rent for a one-bedroom apartment averages ₩400,000–₩650,000/month, and restaurant meals typically cost ₩6,000–₋15,000.",
+        "thfh1ph5": "Daejeon",
+        "thfh1p5": "Daejeon, a city known for its educational and technological focus, offers an affordable living option. Rent for a one-bedroom apartment in the city center averages ₩500,000–₩750,000/month, and meals at local restaurants typically cost ₩7,000–₋20,000.",
+
+        "thfh2": "International Student in South Korea",
+        "thfh2ph1": "Student Visa",
+
+        "thfh2p1": "To study in South Korea, international students must obtain a D-2 student visa, which allows full-time study at a recognized university. The visa application process typically takes around 1–2 months, and students may be required to submit proof of financial stability and language proficiency.",
+
+        "thfh2ph2": "Work Opportunities",
+        "thfh2p2": "International students with a valid student visa can work part-time up to 20 hours per week during the semester and up to 40 hours per week during school breaks. Many students find part-time jobs in cafes, tutoring, or assisting in their university's research projects. After graduation, students may apply for a post-study work visa to gain full-time employment in South Korea.",
+
+        "thfh2ph3": "Minimum Wage in China",
+        "thfh2p3": "As of 2022, the minimum wage in South Korea is ₩9,160 per hour. Part-time jobs, especially those in cafes or retail, often pay around the minimum wage, and many students use their part-time income to cover living expenses.",
+
+        "thfh2ph4": "Many universities in South Korea offer co-op programs that combine academic studies with practical work experience.",
+        "thfh2p4": "These programs provide students with:",
+        "thfh2p4lm1": "Hands-on industry experience",
+        "thfh2p4lm2": "The opportunity to build a professional network",
+        "thfh2p4lm3": "Income to support living costs",
+        "thfh2p4lm4": "Real-world experience that can guide career aspirations",
+
+        "thfh3": "Geography Facts: South Korea",
+        "thfh3ph5": "Location",
+        "thfh3p5": "South Korea is located in East Asia, occupying the southern half of the Korean Peninsula. It is bordered by North Korea to the north, the Sea of Japan (East Sea) to the east, and the Yellow Sea to the west. Its proximity to major global economies makes it an ideal location for international students.",
+        "thfh3ph6": "Climate",
+        "thfh3p6": "South Korea experiences a temperate climate with four distinct seasons:",
+        "thfh2p6lm1": "Spring and Fall: Mild and pleasant, making it ideal for outdoor activities and festivals.",
+        "thfh2p6lm2": "Summer: Hot and humid, with temperatures reaching up to 30°C, and occasional monsoon rains.",
+        "thfh2p6lm3": "Winter: Cold, with temperatures often dropping below freezing, especially in the northern regions and mountainous areas."
+      }
+    },
+    "ireland": {
+      "topText": {
+        "nuath": "Study Abroad in Ireland",
+        "nuatp": "Ireland has become an increasingly popular destination for international students, offering a rich cultural heritage, a high standard of education, and a welcoming atmosphere. With prestigious universities, stunning landscapes, and a thriving tech industry, Ireland provides a unique environment for students to grow academically and personally."
+      },
+      "subTextL": {
+        "subTextLh": "Why Study in Ireland",
+        "subhfh0": "Quality of Education",
+        "subhfp0": "Ireland is home to world-renowned universities such as Trinity College Dublin, University College Dublin, and University College Cork. These institutions are recognized for their high academic standards, cutting-edge research, and strong connections to the global job market. Irish universities emphasize critical thinking, creative problem-solving, and academic freedom, giving students a well-rounded education that’s respected worldwide.",
+        "subhfh1": "Wide Range of Academic Programs",
+        "subhfp1": "Irish universities offer a broad selection of programs across various fields, including business, engineering, science, arts, and humanities. Many courses are taught in English, making Ireland an accessible destination for international students. Whether you're interested in traditional degree programs or specialized courses, Ireland provides numerous options to tailor your studies to your interests and career aspirations.",
+
+        "subhfh2": "Global Recognition",
+        "subhfp2": "Degrees from Irish institutions are recognized globally for their high standards of excellence. Graduates from Ireland enjoy a competitive advantage in the job market, particularly in industries like technology, pharmaceuticals, and business. Ireland’s strong ties with the European Union and international companies ensure that students receive an education that prepares them for a global career.",
+
+        "subhfh3": "Research Opportunities",
+        "subhfp3": "Ireland is known for its strong emphasis on research and innovation, particularly in areas such as technology, pharmaceuticals, and environmental sciences. Universities in Ireland provide students with access to state-of-the-art facilities and collaborative research opportunities. Many international students participate in research projects that address global challenges and contribute to advancements in their fields."
+      },
+      "subTextR": {
+        "btn": "FREE CONSULTATION",
+        "subhr1": "Gapai mimpimu!",
+        "subpr1": "Rencanakan masa depanmu dengan A4 Admission",
+        "subrph1": "Experience",
+        "subrpt1": "With over 25 years of industry experience and nationwide partnerships",
+        "subrph2": "Support",
+        "subrpt2": "High acceptance rates, international experience, and comprehensive support",
+        "subrph3": "Employment Rate",
+        "subrpt3": "100% employment rate and focus on a great living experience",
+        "btn2": "Konsultasi Sekarang"
+      },
+
+      "thirdText": {
+        "th": "Study info in Ireland",
+        "thfh1": "Cost of Living in Major Irish Cities",
+        "thfh1ph1": "Dublin",
+        "thfh1p1": "As the capital of Ireland and its economic hub, Dublin offers a vibrant lifestyle but comes with a higher cost of living. Rent for a one-bedroom apartment in the city center averages €1,500–€2,200/month, and dining at mid-range restaurants costs around €20–€30 per meal.",
+        "thfh1ph2": "Cork",
+        "thfh1p2": "Cork, known for its historic charm and academic institutions, is more affordable than Dublin. Rent for a one-bedroom apartment in the city center averages €1,100–€1,600/month, and meals at mid-range restaurants range from €15–€25.",
+        "thfh1ph3": "Galway",
+        "thfh1p3": "Galway, a lively city with a strong student presence, is relatively affordable. Rent for a one-bedroom apartment in the city center averages €1,000–€1,400/month, and dining out typically costs €12–€22 per meal.",
+        "thfh1ph4": "Limerick",
+        "thfh1p4": "Limerick offers a more affordable cost of living compared to Ireland’s larger cities. Rent for a one-bedroom apartment in the city center averages €900–€1,300/month, with meals at restaurants ranging from €12–€20.",
+        "thfh1ph5": "Waterford",
+        "thfh1p5": "Waterford, known for its beautiful coastal views and historic sites, is one of the more budget-friendly cities in Ireland. Rent for a one-bedroom apartment in the city center averages €850–€1,200/month, and dining out typically costs €10–€18.",
+
+        "thfh2": "International Student in Ireland",
+        "thfh2ph1": "Student Visa",
+
+        "thfh2p1": "To study in Ireland, international students must obtain a student visa if they plan to stay for more than 90 days. The visa application process typically requires proof of admission to an Irish institution, sufficient funds to cover tuition and living expenses, and evidence of health insurance. The application process usually takes about 3–4 weeks.",
+
+        "thfh2ph2": "Work Opportunities",
+        "thfh2p2": "International students in Ireland can work up to 20 hours per week during the academic year and full-time during scheduled breaks. This provides students with the opportunity to earn extra income while gaining work experience. Graduates can also apply for a post-study work visa, allowing them to stay and work in Ireland for up to 24 months, depending on the level of qualification.",
+
+        "thfh2ph3": "Minimum Wage in China",
+        "thfh2p3": "As of 2022, the minimum wage in Ireland is €10.50 per hour for workers aged 20 and over. Many part-time jobs available to students, such as in hospitality or retail, pay around the minimum wage, helping cover living expenses while studying.",
+
+        "thfh2ph4": "Several Irish universities offer co-op programs that combine academic learning with practical work experience.",
+        "thfh2p4": "These placements give students the chance to:",
+        "thfh2p4lm1": "Apply theoretical knowledge in real-world environments",
+        "thfh2p4lm2": "Build a professional network in Ireland",
+        "thfh2p4lm3": "Earn income to help with tuition and living expenses",
+        "thfh2p4lm4": "Gain valuable work experience that enhances employability upon graduation",
+
+        "thfh3": "Geography Facts: Ireland",
+        "thfh3ph5": "Location",
+        "thfh3p5": "Ireland is an island located to the northwest of continental Europe, bordered by the Atlantic Ocean to the west and the Irish Sea to the east. The island is divided into two parts: the Republic of Ireland, which covers most of the island, and Northern Ireland, which is part of the United Kingdom. Known for its lush green landscapes, Ireland offers a tranquil and scenic setting for students.",
+        "thfh3ph6": "Climate",
+        "thfh3p6": "Ireland has a temperate maritime climate, characterized by mild temperatures and moderate rainfall throughout the year",
+        "thfh2p6lm1": "Spring and Fall: Cool and comfortable, with temperatures ranging from 8°C to 14°C.",
+        "thfh2p6lm2": "Summer: Mild with temperatures reaching up to 20°C, making it ideal for outdoor activities.",
+        "thfh2p6lm3": "Winter: Generally cold, with temperatures ranging between 4°C and 8°C, rarely dipping below freezing. Rain is frequent, especially during the winter months."
+      }
+    },
+    "sweden": {
+      "topText": {
+        "nuath": "Study Abroad in Sweden",
+        "nuatp": "Sweden is one of the top choices for international students, known for its innovative education system, high-quality universities, and stunning natural beauty. With a focus on sustainability, technology, and inclusive learning environments, Sweden offers an exceptional experience for students looking to thrive academically and culturally."
+      },
+      "subTextL": {
+        "subTextLh": "Why Study in Sweden",
+        "subhfh0": "Quality of Education",
+        "subhfp0": "Sweden is renowned for its progressive and high-quality education system, with universities such as Lund University, Stockholm University, and Uppsala University offering cutting-edge academic programs. Swedish universities are globally recognized for their emphasis on research, collaboration, and critical thinking. Students benefit from an interactive and flexible learning environment that encourages innovation and problem-solving.",
+        "subhfh1": "Wide Range of Academic Programs",
+        "subhfp1": "Sweden offers a wide variety of programs across disciplines like technology, business, engineering, medicine, and the arts. Many programs are taught in English, making Sweden a popular destination for international students. With flexible study options, students can choose traditional degrees, vocational programs, and specialized courses, allowing them to tailor their education to their individual interests and career goals.",
+
+        "subhfh2": "Global Recognition",
+        "subhfp2": "Sweden’s universities are highly respected worldwide, and Swedish degrees hold great value in the global job market. Graduates from Swedish institutions are highly sought after due to their critical thinking abilities, creativity, and problem-solving skills, making them competitive candidates for jobs worldwide.",
+
+        "subhfh3": "Research Opportunities",
+        "subhfp3": "Sweden is a leader in innovation and research, offering students access to world-class facilities and resources. Swedish universities are at the forefront of groundbreaking research in areas like environmental science, sustainable energy, technology, and medical advancements. Students often participate in research projects that make real-world contributions to solving global challenges."
+      },
+      "subTextR": {
+        "btn": "FREE CONSULTATION",
+        "subhr1": "Gapai mimpimu!",
+        "subpr1": "Rencanakan masa depanmu dengan A4 Admission",
+        "subrph1": "Experience",
+        "subrpt1": "With over 25 years of industry experience and nationwide partnerships",
+        "subrph2": "Support",
+        "subrpt2": "High acceptance rates, international experience, and comprehensive support",
+        "subrph3": "Employment Rate",
+        "subrpt3": "100% employment rate and focus on a great living experience",
+        "btn2": "Konsultasi Sekarang"
+      },
+
+      "thirdText": {
+        "th": "Study info in Sweden",
+        "thfh1": "Cost of Living in Major Swedish Cities",
+        "thfh1ph1": "Stockholm",
+        "thfh1p1": "As the capital city, Stockholm offers a dynamic lifestyle, but it also comes with a higher cost of living. Rent for a one-bedroom apartment in the city center averages SEK 12,000–SEK 18,000/month, and dining out at a mid-range restaurant typically costs SEK 150–SEK 250 per meal.",
+        "thfh1ph2": "Gothenburg",
+        "thfh1p2": "Gothenburg, Sweden’s second-largest city, provides a more affordable lifestyle compared to Stockholm. Rent for a one-bedroom apartment in the city center is about SEK 9,000–SEK 14,000/month, with meals at restaurants ranging from SEK 130–SEK 200.",
+        "thfh1ph3": "Lund",
+        "thfh1p3": "Known for its prestigious university, Lund is one of the most student-friendly cities in Sweden. Rent for a one-bedroom apartment in the city center averages SEK 8,000–SEK 12,000/month, and dining out at a mid-range restaurant typically costs SEK 120–SEK 180.",
+        "thfh1ph4": "Uppsala",
+        "thfh1p4": "As a historic university town, Uppsala offers a more affordable cost of living. Rent for a one-bedroom apartment in the city center averages SEK 7,000–SEK 11,000/month, with meals at restaurants typically costing SEK 120–SEK 180.",
+        "thfh1ph5": "Malmö",
+        "thfh1p5": "Malmö, located near Copenhagen, offers a more affordable living option compared to Stockholm. Rent for a one-bedroom apartment in the city center is around SEK 8,000–SEK 12,000/month, and meals at mid-range restaurants cost SEK 130–SEK 200.",
+
+        "thfh2": "International Student in Sweden",
+        "thfh2ph1": "Student Visa",
+
+        "thfh2p1": "To study in Sweden, international students from non-EU countries must apply for a residence permit. The application requires proof of admission to a Swedish university, sufficient funds to cover tuition and living expenses, and valid health insurance. The application process usually takes several weeks, so students should apply well in advance.",
+
+        "thfh2ph2": "Work Opportunities",
+        "thfh2p2": "International students in Sweden are allowed to work part-time during the academic year (up to 20 hours per week) and full-time during scheduled breaks (e.g., summer). This allows students to earn extra income and gain work experience in a globally recognized job market. Graduates can apply for a residence permit to seek employment after completing their studies.",
+
+        "thfh2ph3": "Minimum Wage in China",
+        "thfh2p3": "Sweden does not have a national minimum wage. Instead, wages are determined by collective agreements and industry standards. Students can find part-time jobs in various sectors such as hospitality, retail, or tech, which usually offer competitive pay based on experience and the type of job.",
+
+        "thfh2ph4": "Many Swedish universities offer co-op programs that combine academic learning with hands-on work experience.",
+        "thfh2p4": "These programs offer students the chance to:",
+        "thfh2p4lm1": "Apply classroom knowledge in real-world situations",
+        "thfh2p4lm2": "Build a professional network in Sweden and globally",
+        "thfh2p4lm3": "Earn income to support living expenses and tuition fees",
+        "thfh2p4lm4": "Gain valuable industry experience that enhances future job prospects",
+
+        "thfh3": "Geography Facts: Sweden",
+        "thfh3ph5": "Location",
+        "thfh3p5": "Sweden is located in northern Europe, bordered by Norway to the west, Finland to the east, and the Baltic Sea to the south. Known for its vast forests, pristine lakes, and stunning archipelagos, Sweden offers students the opportunity to explore both vibrant cities and breathtaking natural landscapes.",
+        "thfh3ph6": "Climate",
+        "thfh3p6": "Sweden has a temperate climate, with cold winters and mild summers.",
+        "thfh2p6lm1": "Winter: The winter months (December to February) can be quite cold, with temperatures dropping as low as -10°C to -20°C, especially in the northern regions. Snowfall is common, particularly in the north.",
+        "thfh2p6lm2": "Summer: Summers are generally mild, with temperatures ranging from 15°C to 25°C in southern Sweden. The northern areas, including the Arctic Circle, experience long daylight hours in the summer months, with the phenomenon of the midnight sun.",
+        "thfh2p6lm3": "Autumn and Spring: The transition periods bring mild temperatures and occasional rainfall, with vibrant autumn foliage and blossoming flowers in spring."
+      }
+    },
+    "garmany": {
+      "topText": {
+        "nuath": "Study Abroad in Germany",
+        "nuatp": "Germany stands out as one of Europe’s top destinations for international students—offering world-class education, a rich cultural history, and affordable living. Known for its strong academic tradition, innovative research landscape, and globally respected universities, Germany provides the ideal environment for students to thrive both academically and personally."
+      },
+      "subTextL": {
+        "subTextLh": "Why Study in Germany",
+        "subhfh0": "Quality of Education",
+        "subhfp0": "Germany is home to prestigious institutions like Ludwig Maximilian University of Munich, Heidelberg University, and Technical University of Munich. These universities consistently rank among the best in the world and are celebrated for their academic excellence, research capabilities, and strong industry ties. German universities emphasize independent learning, analytical thinking, and practical knowledge—skills that are highly valued across global job markets.",
+        "subhfh1": "Wide Range of Academic Programs",
+        "subhfp1": "Whether you’re pursuing engineering, medicine, business, social sciences, or the arts, German universities offer a vast selection of undergraduate and postgraduate programs. Many degree programs—especially at the master’s level—are available in English, making Germany a welcoming option for international students from non-German-speaking backgrounds.",
+
+        "subhfh2": "Global Recognition",
+        "subhfp2": "Degrees from German universities are recognized and respected worldwide. Germany’s reputation in fields like engineering, automotive, renewable energy, and data science offers graduates a clear competitive edge. Studying in Germany also offers access to career opportunities across the European Union thanks to its strategic location and international economic influence.",
+
+        "subhfh3": "Research Opportunities",
+        "subhfp3": "Germany is a global leader in innovation and applied research. The country invests heavily in R&D and provides extensive funding for both national and international students to participate in groundbreaking research. Fields like artificial intelligence, environmental science, and engineering are especially well supported, with access to cutting-edge labs, interdisciplinary research centers, and industry collaboration."
+      },
+      "subTextR": {
+        "btn": "FREE CONSULTATION",
+        "subhr1": "Gapai mimpimu!",
+        "subpr1": "Rencanakan masa depanmu dengan A4 Admission",
+        "subrph1": "Experience",
+        "subrpt1": "With over 25 years of industry experience and nationwide partnerships",
+        "subrph2": "Support",
+        "subrpt2": "High acceptance rates, international experience, and comprehensive support",
+        "subrph3": "Employment Rate",
+        "subrpt3": "100% employment rate and focus on a great living experience",
+        "btn2": "Konsultasi Sekarang"
+      },
+
+      "thirdText": {
+        "th": "Study Info in Germany",
+        "thfh1": "Cost of Living in Major German Cities",
+        "thfh1ph1": "Berlin",
+        "thfh1p1": "Germany’s capital is a cultural and academic hotspot. Rent for a one-bedroom apartment in the city center averages €1,200–€1,800/month. Dining at mid-range restaurants typically costs €15–€25 per meal.",
+        "thfh1ph2": "Munich",
+        "thfh1p2": "As one of the most expensive cities in Germany, Munich offers high living standards and top universities. Rent for a one-bedroom apartment ranges from €1,400–€2,200/month, with restaurant meals costing around €18–€30.",
+        "thfh1ph3": "Frankfurt",
+        "thfh1p3": "Frankfurt, a major financial center, is slightly more affordable than Munich. Central apartment rents average €1,200–€1,800/month, and eating out typically costs €15–€25.",
+        "thfh1ph4": "Cologne",
+        "thfh1p4": "Known for its vibrant student community, Cologne offers relatively affordable living. Rent averages €1,000–€1,500/month, and restaurant meals range between €12–€22.",
+        "thfh1ph5": "Leipzig",
+        "thfh1p5": "A budget-friendly student city with growing academic prestige. Rent is around €700–€1,200/month, with meals at mid-range restaurants costing €10–€18.",
+
+        "thfh2": "International Student in Germany",
+        "thfh2ph1": "Student Visa",
+
+        "thfh2p1": "Non-EU international students need a student visa to study in Germany. The application typically requires: An admission letter from a recognized German institution, Proof of financial resources (approx. €11,208/year in a blocked account), Health insurance coverage, A valid passport, Visa processing usually takes 4–8 weeks, so students are advised to apply early.",
+
+        "thfh2ph2": "Work Opportunities",
+        "thfh2p2": "International students in Germany can work up to 120 full days or 240 half days per year. Many find part-time jobs in retail, hospitality, or as research assistants. After graduation, students can apply for an 18-month post-study work visa to seek employment related to their field of study.",
+
+        "thfh2ph3": "Minimum Wage in China",
+        "thfh2p3": "As of 2024, the minimum wage in Germany is €12.41 per hour. Part-time jobs—commonly available in sectors like retail and food service—often pay this rate, helping students manage living expenses while gaining experience.",
+
+        "thfh2ph4": "Practical Experience & Internship Programs",
+        "thfh2p4": "German universities often include mandatory internships or industry projects, especially in engineering, IT, and business. These experiences allow students to:",
+        "thfh2p4lm1": "Apply theory in real-world settings",
+        "thfh2p4lm2": "Gain exposure to the German job market",
+        "thfh2p4lm3": "Build professional networks",
+        "thfh2p4lm4": "Improve employability before graduation",
+
+        "thfh3": "Geography Facts: Germany",
+        "thfh3ph5": "Location",
+        "thfh3p5": "Germany is located in the heart of Europe, bordered by nine countries including France, Poland, Austria, and the Netherlands. It offers easy access to other European destinations, making it a strategic choice for international students who want to explore the continent.",
+        "thfh3ph6": "Climate",
+        "thfh3p6": "Germany has a temperate seasonal climate, with four distinct seasons:",
+        "thfh2p6lm1": "Spring (March–May): Mild and blossoming, with temperatures between 8°C and 15°C",
+        "thfh2p6lm2": "Summer (June–August): Warm, ranging from 20°C to 30°C—ideal for festivals and travel",
+        "thfh2p6lm3": "Autumn (September–November): Cool and crisp, with temperatures dropping from 15°C to 5°C"
+      }
+    },
+    "norway": {
+      "topText": {
+        "nuath": "Study Abroad in Norway",
+        "nuatp": "Norway is quickly becoming a top destination for international students, known for its world-class education, breathtaking natural beauty, and commitment to sustainability and innovation. With tuition-free education at public universities for EU/EEA students, a safe and inclusive society, and a strong focus on research and development, Norway offers an exceptional environment for personal and academic growth."
+      },
+      "subTextL": {
+        "subTextLh": "Why Study in Norway",
+        "subhfh0": "Quality of Education",
+        "subhfp0": "Norway boasts top-ranking universities such as the University of Oslo, the Norwegian University of Science and Technology (NTNU), and the University of Bergen. These institutions are globally respected for their academic excellence, student-centered learning, and robust research output. Norwegian universities promote critical thinking, independent learning, and collaboration—skills that prepare students for global success.",
+        "subhfh1": "Wide Range of Academic Programs",
+        "subhfp1": "Norwegian universities offer a broad spectrum of programs taught in English, especially at the master’s and doctoral levels. Fields of study include engineering, natural sciences, social sciences, IT, environmental studies, and the arts. Whether you're pursuing a full degree or a student exchange, Norway offers programs designed to suit your academic interests and career ambitions.",
+
+        "subhfh2": "Global Recognition",
+        "subhfp2": "Degrees from Norwegian institutions are internationally recognized, especially in disciplines such as energy, marine biology, climate science, and engineering. Norway’s strong reputation for research, innovation, and sustainability gives graduates a competitive edge in global job markets.",
+
+        "subhfh3": "Research Opportunities",
+        "subhfp3": "Norway invests heavily in research and innovation, particularly in areas like clean energy, Arctic studies, technology, and marine science. International students benefit from access to well-equipped laboratories, international research collaborations, and opportunities to work on meaningful projects that tackle global challenges."
+      },
+      "subTextR": {
+        "btn": "FREE CONSULTATION",
+        "subhr1": "Gapai mimpimu!",
+        "subpr1": "Rencanakan masa depanmu dengan A4 Admission",
+        "subrph1": "Experience",
+        "subrpt1": "With over 25 years of industry experience and nationwide partnerships",
+        "subrph2": "Support",
+        "subrpt2": "High acceptance rates, international experience, and comprehensive support",
+        "subrph3": "Employment Rate",
+        "subrpt3": "100% employment rate and focus on a great living experience",
+        "btn2": "Konsultasi Sekarang"
+      },
+
+      "thirdText": {
+        "th": "Study Info in Norway",
+        "thfh1": "Cost of Living in Major Norwegian Cities",
+        "thfh1ph1": "Oslo",
+        "thfh1p1": "As the capital and largest city, Oslo offers a vibrant cultural life and top universities but is the most expensive. Rent for a one-bedroom apartment in the city center ranges from NOK 12,000–17,000/month (€1,050–€1,500). Dining at a mid-range restaurant typically costs NOK 200–350 (€17–€30).",
+        "thfh1ph2": "Bergen",
+        "thfh1p2": "Norway’s second-largest city and a hub for marine and environmental research. Rent in the city center averages NOK 10,000–14,000/month (€870–€1,220). Dining out usually costs around NOK 180–300 (€15–€26).",
+        "thfh1ph3": "Trondheim",
+        "thfh1p3": "Home to NTNU, Trondheim is a tech and research-friendly city. Rent for a one-bedroom apartment in the city center ranges from NOK 9,000–13,000/month (€780–€1,130), and meals cost around NOK 160–250 (€13–€22).",
+        "thfh1ph4": "Stavanger",
+        "thfh1p4": "Known for its energy industry and scenic coastal views. Rent typically falls between NOK 8,000–12,000/month (€700–€1,050), with meals priced at NOK 150–250 (€13–€22).",
+        "thfh1ph5": "Tromsø",
+        "thfh1p5": "Located in the Arctic Circle, Tromsø offers a unique study experience. Rent averages NOK 8,500–11,500/month (€740–€1,000), and dining out costs around NOK 140–230 (€12–€20).",
+
+        "thfh2": "International Student in Norway",
+        "thfh2ph1": "Student Visa",
+
+        "thfh2p1": "Non-EU/EEA students planning to study in Norway must obtain a student residence permit. Requirements include: An admission letter from a Norwegian institution, Proof of sufficient funds (approx. NOK 137,907/year or €11,700), Health insurance, A study plan",
+
+        "thfh2ph2": "Work Opportunities",
+        "thfh2p2": "International students can work up to 20 hours per week during semesters and full-time during holidays. After graduation, students can apply for a one-year job-seeking residence permit to search for employment related to their field of study.",
+
+        "thfh2ph3": "Minimum Wage in China",
+        "thfh2p3": "While there is no national minimum wage, wages are regulated through sector agreements. Student jobs typically pay NOK 180–220/hour (€15–€19), especially in hospitality, retail, and public services.",
+
+        "thfh2ph4": "Internships and Work Experience",
+        "thfh2p4": "Several Norwegian universities integrate internships or project-based learning in collaboration with industry partners. These experiences help students:",
+        "thfh2p4lm1": "Apply classroom knowledge in real-world settings",
+        "thfh2p4lm2": "Build a strong professional network",
+        "thfh2p4lm3": "Earn income to support their studies",
+        "thfh2p4lm4": "Improve their post-graduation employability",
+
+        "thfh3": "Geography Facts: Norway",
+        "thfh3ph5": "Location",
+        "thfh3p5": "Norway is located in Northern Europe and shares borders with Sweden, Finland, and Russia. It boasts a dramatic coastline, fjords, mountains, and the Arctic tundra. With its mix of urban and remote environments, Norway is ideal for both city lovers and nature enthusiasts.",
+        "thfh3ph6": "Climate",
+        "thfh3p6": "Norway experiences a varied climate depending on the region:",
+        "thfh2p6lm1": "Southern Norway (e.g., Oslo, Kristiansand): Mild summers (18°C–25°C) and cold, snowy winters (-5°C to 2°C)",
+        "thfh2p6lm2": "Western Norway (e.g., Bergen): Rainy with milder winters and cool summers",
+        "thfh2p6lm3": "Northern Norway (e.g., Tromsø): Arctic climate with snow and polar nights in winter, and midnight sun in summer"
+      }
+    },
+    "findland": {
+      "topText": {
+        "nuath": "Study Abroad in Finland",
+        "nuatp": "Finland stands out as one of the most innovative and student-friendly countries in the world. Known for its top-tier education system, breathtaking natural scenery, and progressive society, Finland offers international students a perfect balance between academic excellence and quality of life. With an emphasis on equality, sustainability, and well-being, Finland provides a safe and supportive environment for students to thrive."
+      },
+      "subTextL": {
+        "subTextLh": "Why Study in Finland",
+        "subhfh0": "Quality of Education",
+        "subhfp0": "Finland consistently ranks among the top in global education rankings. Universities such as the University of Helsinki, Aalto University, and Tampere University are internationally acclaimed for their cutting-edge research and strong teaching methodologies. Finnish institutions promote independent thinking, problem-solving, and collaborative learning, creating graduates who are both knowledgeable and practical.",
+
+        "subhfh1": "Quality of Education",
+        "subhfp1": "Finnish universities offer over 500 degree programs taught in English, especially at the bachelor’s and master’s levels. Fields include IT, design, engineering, business, social sciences, and education. Programs are research-driven, future-oriented, and often include practical training, giving students a strong foundation for global careers.",
+
+        "subhfh2": "Global Recognition",
+        "subhfp2": "Degrees from Finnish universities are highly regarded internationally, especially in sectors like technology, education, renewable energy, and healthcare. Finland's focus on innovation and research makes its graduates competitive in both European and global job markets.",
+
+        "subhfh3": "Research Opportunities",
+        "subhfp3": "Finland invests heavily in research and development, offering students access to state-of-the-art labs, interdisciplinary collaboration, and funding for innovation. Research areas such as AI, sustainability, clean energy, and healthcare are highly prioritized, with numerous opportunities for international students to get involved."
+      },
+      "subTextR": {
+        "btn": "FREE CONSULTATION",
+        "subhr1": "Gapai mimpimu!",
+        "subpr1": "Rencanakan masa depanmu dengan A4 Admission",
+        "subrph1": "Experience",
+        "subrpt1": "With over 25 years of industry experience and nationwide partnerships",
+        "subrph2": "Support",
+        "subrpt2": "High acceptance rates, international experience, and comprehensive support",
+        "subrph3": "Employment Rate",
+        "subrpt3": "100% employment rate and focus on a great living experience",
+        "btn2": "Konsultasi Sekarang"
+      },
+
+      "thirdText": {
+        "th": "Study Info in Finland",
+        "thfh1": "Cost of Living in Major Finnish Cities",
+        "thfh1ph1": "Helsinki",
+        "thfh1p1": "As Finland’s capital and largest city, Helsinki offers vibrant city life with a higher cost of living. Rent for a one-bedroom apartment in the city center ranges from €1,100–€1,500/month, and dining at mid-range restaurants typically costs €15–€25 per meal.",
+        "thfh1ph2": "Tampere",
+        "thfh1p2": " Known for its strong academic environment and industrial innovation, Tampere is more affordable than Helsinki. Rent averages €800–€1,100/month, with meals priced around €12–€20.",
+        "thfh1ph3": "Turku",
+        "thfh1p3": "A lively student city with rich cultural history. Rent ranges from €750–€1,050/month, and dining out typically costs €10–€18.",
+        "thfh1ph4": "Oulu",
+        "thfh1p4": "A tech hub in northern Finland, Oulu is popular for its research in IT and health tech. Rent ranges from €700–€1,000/month, and meals cost about €10–€17.",
+        "thfh1ph5": "Jyväskylä",
+        "thfh1p5": "A central Finnish city with a strong education focus. Rent for a one-bedroom apartment in the city center is between €650–€950/month, and meals at mid-range restaurants cost around €10–€15.",
+
+        "thfh2": "International Student in Finland",
+        "thfh2ph1": "Student Visa",
+
+        "thfh2p1": "Non-EU/EEA students must apply for a residence permit for studies if their program lasts longer than 90 days. Requirements include: An official admission letter from a Finnish university, Proof of sufficient funds (at least €560/month or €6,720/year), Valid health insurance, Tuition fee payment confirmation (if applicable), The application process generally takes 1–2 months, so it's best to apply early.",
+
+        "thfh2ph2": "Work Opportunities",
+        "thfh2p2": "International students in Finland can work up to 30 hours per week during the academic year and unlimited hours during holidays. After graduation, students can apply for an extended residence permit (up to 2 years) to seek employment or start a business.",
+
+        "thfh2ph3": "Minimum Wage in China",
+        "thfh2p3": "Finland has no official national minimum wage, but collective agreements set fair wages across industries. Most student jobs in hospitality or retail offer €10–€14 per hour, depending on the sector and city.",
+
+        "thfh2ph4": "Internships and Practical Training",
+        "thfh2p4": "Many degree programs in Finland include mandatory practical training or internship components, often arranged in partnership with local or international companies. These opportunities help students:",
+        "thfh2p4lm1": "Apply classroom theory to real-world settings",
+        "thfh2p4lm2": "Gain professional experience and build networks",
+        "thfh2p4lm3": "Receive possible compensation during placements",
+        "thfh2p4lm4": "Increase employability after graduation",
+
+        "thfh3": "Geography Facts: Finland",
+        "thfh3ph5": "Location",
+        "thfh3p5": "Finland is located in Northern Europe, bordered by Sweden, Norway, and Russia, with the Baltic Sea to the south. It is known as the Land of a Thousand Lakes and dense forests, offering clean air, safe cities, and abundant green space.",
+        "thfh3ph6": "Climate",
+        "thfh3p6": "Finland has a cold climate with four distinct seasons:",
+        "thfh2p6lm1": "Spring (March–May): Mild with increasing sunlight and blooming nature (5°C–15°C)",
+        "thfh2p6lm2": "Summer (June–August): Pleasant and sunny, with temperatures around 15°C–25°C and up to 20 hours of daylight",
+        "thfh2p6lm3": "Autumn (September–November): Cool and colorful with temperatures ranging from 5°C–15°C, Winter (December–February): Cold and snowy, especially in the north, with temperatures from -2°C to -20°C"
+      }
+    },
+    "netherland": {
+      "topText": {
+        "nuath": "Study Abroad in the Netherlands",
+        "nuatp": "The Netherlands has rapidly become one of the top choices for international students seeking a world-class education in a dynamic and inclusive environment. With a long-standing tradition of academic excellence, a wide selection of English-taught programs, and a vibrant multicultural society, studying in the Netherlands offers a unique blend of high-quality education and rich cultural experience. Add in beautiful canals, forward-thinking innovation, and strong job prospects—and you’ve got a recipe for student success."
+      },
+      "subTextL": {
+        "subTextLh": "Why Study in the Netherlands",
+        "subhfh0": "Quality of Education",
+        "subhfp0": "Dutch universities are among the best in Europe, with institutions like Delft University of Technology, University of Amsterdam, and Leiden University consistently ranking high globally. The education system encourages independent thinking, collaboration, and creativity. Classes are interactive and research-driven, preparing students not only for exams but for real-world problem-solving.",
+
+        "subhfh1": "Quality of Education",
+        "subhfp1": "The Netherlands offers over 2,100 English-taught programs, more than any other country in continental Europe. Whether you’re interested in engineering, business, law, environmental sciences, or art and design, you’ll find a program tailored to your interests. Dutch universities offer flexibility with their curriculum, allowing you to customize your degree path.",
+
+        "subhfh2": "Global Recognition",
+        "subhfp2": "A degree from a Dutch university is highly respected around the world. The Netherlands has strong ties with international businesses and organizations, especially in sectors like technology, logistics, water management, sustainable energy, and finance, making graduates highly employable globally.",
+
+        "subhfh3": "Research Opportunities",
+        "subhfp3": "The Netherlands is known for pioneering research and innovation. Students have access to cutting-edge labs, collaborative research projects, and EU-funded programs. Areas such as AI, sustainability, biotechnology, and urban planning are thriving fields for student researchers."
+      },
+      "subTextR": {
+        "btn": "FREE CONSULTATION",
+        "subhr1": "Gapai mimpimu!",
+        "subpr1": "Rencanakan masa depanmu dengan A4 Admission",
+        "subrph1": "Experience",
+        "subrpt1": "With over 25 years of industry experience and nationwide partnerships",
+        "subrph2": "Support",
+        "subrpt2": "High acceptance rates, international experience, and comprehensive support",
+        "subrph3": "Employment Rate",
+        "subrpt3": "100% employment rate and focus on a great living experience",
+        "btn2": "Konsultasi Sekarang"
+      },
+
+      "thirdText": {
+        "th": "Study Info in the Netherlands",
+        "thfh1": "Cost of Living in Major Dutch Cities",
+        "thfh1ph1": "Amsterdam",
+        "thfh1p1": "As the capital and largest city, Amsterdam offers an exciting lifestyle but at a higher cost. Rent for a one-bedroom apartment in the city center ranges from €1,400–€2,000/month, and meals at mid-range restaurants typically cost €20–€30.",
+        "thfh1ph2": "Rotterdam",
+        "thfh1p2": "A modern, innovative city known for its architecture and student population. Rent ranges from €1,000–€1,500/month, and dining out costs around €15–€25.",
+        "thfh1ph3": "Utrecht",
+        "thfh1p3": "A charming city with a strong academic atmosphere. Rent for a one-bedroom apartment averages €1,100–€1,600/month, and meals range from €12–€20.",
+        "thfh1ph4": "Eindhoven",
+        "thfh1p4": "A tech and innovation hub, especially for engineering students. Rent is relatively affordable at €850–€1,300/month, with meals costing around €10–€18.",
+        "thfh1ph5": "Groningen",
+        "thfh1p5": "Known for its large student population and affordability. Rent averages €700–€1,100/month, and meals typically cost €10–€15.",
+
+        "thfh2": "International Student in the Netherlands",
+        "thfh2ph1": "Student Visa",
+
+        "thfh2p1": "Non-EU/EEA students planning to study in the Netherlands for more than 90 days must apply for a student residence permit (MVV + VVR). Requirements include: Proof of admission to a Dutch university, Sufficient financial resources (approx. €1,200/month), Valid health insurance, Payment of tuition fees",
+
+        "thfh2ph2": "Work Opportunities",
+        "thfh2p2": "International students are allowed to work up to 16 hours per week during the academic year or full-time in June, July, and August, provided their employer applies for a work permit. After graduation, students can apply for a 1-year orientation year residence permit to look for work or start a business.",
+
+        "thfh2ph3": "Minimum Wage in the Netherlands",
+        "thfh2p3": "As of 2023, the minimum wage for people aged 21 and over is around €1,934/month gross (or about €12–€13/hour for part-time roles). Many student jobs in hospitality, retail, and delivery services fall within this range.",
+
+        "thfh2ph4": "Internships and Career Training",
+        "thfh2p4": "Many Dutch degree programs include compulsory or elective internships. These practical placements help students:",
+        "thfh2p4lm1": "Apply their academic knowledge in real-life settings",
+        "thfh2p4lm2": "Build professional experience and industry contacts",
+        "thfh2p4lm3": "Potentially receive a stipend",
+        "thfh2p4lm4": "Strengthen their CV for future job opportunities",
+
+        "thfh3": "Geography Facts: The Netherlands",
+        "thfh3ph5": "Location",
+        "thfh3p5": "The Netherlands is a low-lying country in Western Europe, bordered by Germany, Belgium, and the North Sea. Famous for its tulip fields, windmills, and bicycle-friendly cities, it offers a unique mix of tradition and modernity. Despite its small size, it plays a big role in global politics, trade, and innovation.",
+        "thfh3ph6": "Climate",
+        "thfh3p6": "The Netherlands has a temperate maritime climate, with moderate temperatures and frequent rainfall throughout the year:",
+        "thfh2p6lm1": "Spring (March–May): Mild and blooming, with temperatures from 10°C to 17°C",
+        "thfh2p6lm2": "Summer (June–August): Warm and sunny, averaging 20°C–25°C, perfect for outdoor cafes and cycling",
+        "thfh2p6lm3": "Autumn (September–November): Cool and wet, with temperatures between 10°C–15°C, Winter (December–February): Cold but manageable, with temperatures ranging from 0°C to 7°C"
+      }
+    },
+    "iceland": {
+      "topText": {
+        "nuath": "Study Abroad in Iceland",
+        "nuatp": "Iceland might be small in population, but it's huge in opportunity, beauty, and innovation. As a rising star in international education, Iceland offers a unique learning environment shaped by spectacular natural landscapes, strong academic institutions, and a culture that prioritizes sustainability, creativity, and social equality. Studying in Iceland means immersing yourself in a safe, forward-thinking society where nature and knowledge go hand in hand."
+      },
+      "subTextL": {
+        "subTextLh": "Why Study in Iceland",
+        "subhfh0": "Quality of Education",
+        "subhfp0": "Iceland’s universities such as the University of Iceland, Reykjavík University, and Bifröst University are known for their high academic standards, research excellence, and small class sizes. Education in Iceland emphasizes independent thinking, critical analysis, and interdisciplinary learning. Many programs are research-oriented and taught in English, especially at the postgraduate level.",
+
+        "subhfh1": "Quality of Education",
+        "subhfp1": "Icelandic institutions offer a diverse selection of programs in areas such as geothermal energy, environmental science, sustainable development, Arctic studies, engineering, business, and social sciences. With a growing number of English-taught degrees, Iceland is an appealing destination for international students seeking a specialized and globally relevant education.",
+
+        "subhfh2": "Global Recognition",
+        "subhfp2": "Although a relatively small player on the global education map, Iceland’s degrees are recognized across Europe and beyond, thanks to its membership in the European Higher Education Area (EHEA). Icelandic universities maintain international partnerships and participate in global research collaborations, giving students access to global academic and career opportunities.",
+
+        "subhfh3": "Research Opportunities",
+        "subhfp3": "Iceland is a hub for research in renewable energy, climate science, marine biology, and Arctic studies. Students often have the chance to work directly with professors on innovative projects or pursue their own research with support from the university. The country’s unique natural environment provides an extraordinary living lab for scientific discovery."
+      },
+      "subTextR": {
+        "btn": "FREE CONSULTATION",
+        "subhr1": "Gapai mimpimu!",
+        "subpr1": "Rencanakan masa depanmu dengan A4 Admission",
+        "subrph1": "Experience",
+        "subrpt1": "With over 25 years of industry experience and nationwide partnerships",
+        "subrph2": "Support",
+        "subrpt2": "High acceptance rates, international experience, and comprehensive support",
+        "subrph3": "Employment Rate",
+        "subrpt3": "100% employment rate and focus on a great living experience",
+        "btn2": "Konsultasi Sekarang"
+      },
+
+      "thirdText": {
+        "th": "Study Info in Iceland",
+        "thfh1": "Cost of Living in Major Icelandic Cities",
+        "thfh1ph1": "Reykjavík",
+        "thfh1p1": "As Iceland’s capital and largest city, Reykjavík offers a high quality of life but comes with a relatively high cost of living. Rent for a one-bedroom apartment in the city center ranges from ISK 190,000–250,000/month (approx. €1,300–€1,700), while dining at mid-range restaurants typically costs around ISK 3,000–5,000 per meal.",
+        "thfh1ph2": "Akureyri",
+        "thfh1p2": "Often referred to as the 'Capital of the North,' Akureyri is more affordable and student-friendly. Rent ranges from ISK 150,000–200,000/month, with restaurant meals averaging ISK 2,500–4,000. The town offers a cozy atmosphere and is home to a growing academic community.",
+
+        "thfh2": "International Student in Iceland",
+        "thfh2ph1": "Student Visa",
+
+        "thfh2p1": "Non-EU/EEA students need to apply for a residence permit for studies if they intend to stay longer than 90 days. The process requires: Proof of admission to an Icelandic university, Proof of financial means (approx. ISK 207,000/month for living expenses), Valid health insurance, A clean criminal record",
+
+        "thfh2ph2": "Work Opportunities",
+        "thfh2p2": "International students can work up to 15 hours per week during the academic term and full-time during holidays, provided they have a valid residence permit. While part-time jobs are limited, especially outside Reykjavík, students may find work in retail, tourism, or customer service.",
+
+        "thfh2ph3": "Minimum Wage in the Netherlands",
+        "thfh2p3": "Iceland does not have a legally fixed minimum wage, but collective agreements typically set base wages around ISK 350,000/month for full-time roles (roughly €2,300/month). Hourly student jobs often pay ISK 2,000–2,500/hour, depending on the sector and experience.",
+
+        "thfh2ph4": "Internships and Research Placements",
+        "thfh2p4": "Many programs—especially at master’s level—encourage or require practical training or internships, particularly in fields like environmental science, energy studies, and tourism. These experiences allow students to:",
+        "thfh2p4lm1": "Gain hands-on experience in a unique environment",
+        "thfh2p4lm2": "Build professional networks in Iceland",
+        "thfh2p4lm3": "Contribute to real-world research projects",
+        "thfh2p4lm4": "Increase job prospects after graduation",
+
+        "thfh3": "Geography Facts: Iceland",
+        "thfh3ph5": "Location",
+        "thfh3p5": "Iceland is a Nordic island nation in the North Atlantic Ocean, located between Greenland and mainland Europe. Known as the 'Land of Fire and Ice,' it features glaciers, volcanoes, waterfalls, and geysers. Despite its remote location, Iceland is a modern, well-connected country with a strong digital infrastructure and a high standard of living.",
+        "thfh3ph6": "Climate",
+        "thfh3p6": "Iceland has a subarctic and oceanic climate, characterized by cool temperatures and frequent wind:",
+        "thfh2p6lm1": "Spring (April–May): Temperatures range from 0°C to 10°C; weather is unpredictable",
+        "thfh2p6lm2": "Summer (June–August): Milder, with temperatures from 10°C to 15°C and nearly 24-hour daylight",
+        "thfh2p6lm3": "Autumn (September–October): Cool and rainy, averaging 5°C to 10°C, Winter (November–March): Cold and dark, with temperatures between -5°C and 3°C. Snow and wind are common, especially outside Reykjavík"
+      }
+    },
+    "malta": {
+      "topText": {
+        "nuath": "Study Abroad in Malta",
+        "nuatp": "Looking for sun, sea, and top-quality education all in one place? Malta checks all the boxes. This charming Mediterranean island is not just a tourist hotspot—it’s also a growing hub for international education. With English as an official language, a rich historical backdrop, and a strong European academic reputation, Malta offers students a unique blend of cultural immersion and academic excellence in a relaxed, sunny setting."
+      },
+      "subTextL": {
+        "subTextLh": "Why Study in Malta",
+        "subhfh0": "Quality of Education",
+        "subhfp0": "Malta is home to reputable institutions like the University of Malta, Malta College of Arts, Science and Technology (MCAST), and a growing number of private universities. These institutions offer European-standard education, often in partnership with universities from the UK and across Europe. The teaching style in Malta emphasizes student engagement, critical thinking, and practical experience.",
+
+        "subhfh1": "Quality of Education",
+        "subhfp1": "From medicine, law, and business to IT, education, arts, and hospitality, Malta offers a wide array of programs at undergraduate and postgraduate levels. Many courses are taught in English, making it highly accessible for international students. Whether you're seeking a traditional degree or short-term professional certification, Malta’s flexible options cater to diverse academic goals.",
+
+        "subhfh2": "Global Recognition",
+        "subhfp2": "Degrees from Maltese institutions are recognized throughout Europe and internationally, particularly as Malta is part of the European Higher Education Area (EHEA). Students benefit from the ECTS (European Credit Transfer and Accumulation System), making it easy to transfer credits across borders. Graduates often go on to pursue careers or further study across Europe, the UK, North America, and beyond.",
+
+        "subhfh3": "Research Opportunities",
+        "subhfp3": "Though small in size, Malta is actively involved in research and innovation, especially in fields such as marine studies, climate change, archaeology, blockchain technology, and medicine. Students have the chance to engage in multidisciplinary research projects, often with direct links to industry and policy-making institutions on the island."
+      },
+      "subTextR": {
+        "btn": "FREE CONSULTATION",
+        "subhr1": "Gapai mimpimu!",
+        "subpr1": "Rencanakan masa depanmu dengan A4 Admission",
+        "subrph1": "Experience",
+        "subrpt1": "With over 25 years of industry experience and nationwide partnerships",
+        "subrph2": "Support",
+        "subrpt2": "High acceptance rates, international experience, and comprehensive support",
+        "subrph3": "Employment Rate",
+        "subrpt3": "100% employment rate and focus on a great living experience",
+        "btn2": "Konsultasi Sekarang"
+      },
+
+      "thirdText": {
+        "th": "Study Info in Malta",
+        "thfh1": "Cost of Living in Major Maltese Cities",
+        "thfh1ph1": "Valletta",
+        "thfh1p1": "As the capital, Valletta offers a vibrant cultural life but also comes with relatively higher living costs. Rent for a one-bedroom apartment in the city center ranges from €900–€1,400/month, while meals at mid-range restaurants cost around €20–€30.",
+        "thfh1ph2": "Sliema & St. Julian’s",
+        "thfh1p2": "Popular among students and expats, these coastal towns offer a mix of convenience and nightlife. Rent ranges from €850–€1,300/month, and dining out typically costs €15–€25 per meal.",
+        "thfh1ph3": "Birkirkara",
+        "thfh1p3": "More budget-friendly and centrally located, Birkirkara is a student favorite. Rent averages €700–€1,000/month, with lower daily living costs compared to tourist-heavy areas.",
+        "thfh1ph4": "Gozo",
+        "thfh1p4": "A peaceful island ideal for focused study, Gozo is cheaper than mainland Malta. Rent for a one-bedroom apartment can be as low as €500–€800/month, with local meals priced between €10–€20.",
+
+        "thfh2": "International Student in Malta",
+        "thfh2ph1": "Student Visa",
+
+        "thfh2p1": "Students from non-EU/EEA countries must apply for a National Long-Stay Visa (D-Visa) for studies lasting more than 90 days. Requirements typically include: Proof of acceptance from a recognized institution, Proof of financial means (approx. €700/month), Health insurance, Clean criminal record, Visa processing usually takes 4–8 weeks, so early application is advised.",
+
+        "thfh2ph2": "Work Opportunities",
+        "thfh2p2": "International students can work up to 20 hours per week during the academic year and full-time during holidays. Malta’s thriving hospitality, tourism, education, and tech sectors provide plenty of part-time opportunities.",
+
+        "thfh2ph3": "Minimum Wage in Malta",
+        "thfh2p3": "As of 2024, the minimum wage in Malta is €835.20/month or roughly €4.82/hour for full-time employment. Student part-time jobs in sectors like retail, hospitality, and admin typically pay between €5–€8/hour, enough to help with daily expenses.",
+
+        "thfh2ph4": "Internships & Practical Training",
+        "thfh2p4": "Many programs in Malta integrate internships, placements, or co-op modules, particularly in business, health sciences, tourism, and IT. These placements allow students to:",
+        "thfh2p4lm1": "Apply classroom learning in real-world settings",
+        "thfh2p4lm2": "Develop a local and international network",
+        "thfh2p4lm3": "Gain relevant experience for post-study employment",
+        "thfh2p4lm4": "Increase job prospects after graduation",
+
+        "thfh3": "Geography Facts:  Malta",
+        "thfh3ph5": "Location",
+        "thfh3p5": "Malta is an island nation in the central Mediterranean, located south of Italy and north of Libya. It comprises three main islands: Malta, Gozo, and Comino. Despite its small size, Malta has a strategic location, acting as a cultural and commercial bridge between Europe, North Africa, and the Middle East.",
+        "thfh3ph6": "Climate",
+        "thfh3p6": "Malta has a Mediterranean climate, characterized by hot summers and mild winters:",
+        "thfh2p6lm1": "Malta has a Mediterranean climate, characterized by hot summers and mild winters:",
+        "thfh2p6lm2": "Summer (June–August): Hot and dry (28°C–35°C), perfect for beach lovers",
+        "thfh2p6lm3": "Autumn (September–November): Warm and slightly rainy (20°C–28°C), Winter (December–February): Mild with occasional rain (10°C–18°C), rarely freezing"
+      }
+    },
+    "hungay": {
+      "topText": {
+        "nuath": "Study Abroad in Hungary",
+        "nuatp": "Hungary is quickly becoming one of Europe’s top study destinations, offering high-quality education at an affordable price. With its historic cities, rich cultural heritage, and globally recognized universities, Hungary provides a vibrant and enriching environment for international students. Whether you're drawn to cutting-edge science or classical arts, Hungary delivers academic excellence in a uniquely Central European setting."
+      },
+      "subTextL": {
+        "subTextLh": "Why Study in Hungary",
+        "subhfh0": "Quality of Education",
+        "subhfp0": "Hungary boasts a strong academic tradition, with universities like Eötvös Loránd University, University of Szeged, Semmelweis University, and Budapest University of Technology and Economics ranked among the best in Central Europe. The education system emphasizes research, innovation, and independent thinking, ensuring students gain both theoretical and practical knowledge.",
+
+        "subhfh1": "Quality of Education",
+        "subhfp1": "Hungarian universities offer a vast array of English-taught programs in fields such as medicine, engineering, IT, business, arts, natural sciences, and social sciences. Whether you're pursuing a bachelor's, master's, or doctoral degree, Hungary offers diverse study options that cater to international students from all over the world.",
+
+        "subhfh2": "Global Recognition",
+        "subhfp2": "Degrees from Hungarian institutions are widely recognized across Europe and globally. As a member of the European Higher Education Area (EHEA), Hungary follows the Bologna Process, allowing smooth credit transfers and academic mobility. Graduates enjoy strong employment prospects in both the European Union and beyond.",
+
+        "subhfh3": "Research Opportunities",
+        "subhfp3": "Hungary is known for its contributions to mathematics, medicine, and natural sciences, and continues to invest in R&D. Students can engage in innovative research projects, collaborate with international scholars, and access state-of-the-art laboratories and academic resources."
+      },
+      "subTextR": {
+        "btn": "FREE CONSULTATION",
+        "subhr1": "Gapai mimpimu!",
+        "subpr1": "Rencanakan masa depanmu dengan A4 Admission",
+        "subrph1": "Experience",
+        "subrpt1": "With over 25 years of industry experience and nationwide partnerships",
+        "subrph2": "Support",
+        "subrpt2": "High acceptance rates, international experience, and comprehensive support",
+        "subrph3": "Employment Rate",
+        "subrpt3": "100% employment rate and focus on a great living experience",
+        "btn2": "Konsultasi Sekarang"
+      },
+
+      "thirdText": {
+        "th": "Study Info in Hungary",
+        "thfh1": "Cost of Living in Major Hungarian Cities",
+        "thfh1ph1": "Budapest",
+        "thfh1p1": "As the capital and academic hub, Budapest offers a dynamic student life. Rent for a one-bedroom apartment in the city center ranges from €500–€800/month, while meals at mid-range restaurants typically cost €10–€20.",
+        "thfh1ph2": "Szeged",
+        "thfh1p2": "A university town known for its beautiful architecture and student-friendly atmosphere. Rent in the city center averages €350–€600/month, and eating out costs around €8–€15.",
+        "thfh1ph3": "Debrecen",
+        "thfh1p3": "Hungary’s second-largest city and home to the University of Debrecen. Rent ranges between €300–€500/month, and meals cost approximately €7–€14.",
+        "thfh1ph4": "Pécs",
+        "thfh1p4": "A cultural gem in southern Hungary, Pécs is affordable and vibrant. Rent for a central apartment is around €300–€500/month, with meals priced between €6–€12.",
+
+        "thfh2": "International Student in Hungary",
+        "thfh2ph1": "Student Visa",
+
+        "thfh2p1": "Non-EU/EEA students must apply for a residence permit for study purposes, which typically requires: An acceptance letter from a Hungarian institution, Proof of accommodation, Proof of sufficient financial means (~€600/month), Valid health insurance",
+
+        "thfh2ph2": "Work Opportunities",
+        "thfh2p2": "International students can work up to 30 hours per week during their studies and full-time during holidays. Hungary’s growing economy, especially in tech, tourism, education, and healthcare, offers part-time job opportunities for students.",
+
+        "thfh2ph3": "Minimum Wage in Hungary",
+        "thfh2p3": "As of 2024, Hungary’s gross monthly minimum wage is around HUF 266,800 (~€680). Student part-time jobs often pay €4–€7 per hour, helping cover living costs.",
+
+        "thfh2ph4": "Internships & Co-op Programs",
+        "thfh2p4": "Many universities include internships or practical training as part of their curriculum, especially in STEM, medicine, business, and hospitality. These programs help students:",
+        "thfh2p4lm1": "Apply knowledge in real-world settings",
+        "thfh2p4lm2": "Network with local and international employers",
+        "thfh2p4lm3": "Enhance their CVs for post-graduation job markets",
+        "thfh2p4lm4": "Increase job prospects after graduation",
+
+        "thfh3": "Geography Facts:  Hungary",
+        "thfh3ph5": "Location",
+        "thfh3p5": "Hungary is a landlocked country in Central Europe, bordered by Austria, Slovakia, Romania, Serbia, Croatia, Slovenia, and Ukraine. With a rich cultural tapestry and a strategic position in Europe, Hungary is an excellent base for students who want to explore the continent.",
+        "thfh3ph6": "Climate",
+        "thfh3p6": "Hungary has a continental climate with distinct seasons:",
+        "thfh2p6lm1": "Spring (March–May): Mild and pleasant, 10°C–20°C",
+        "thfh2p6lm2": "Summer (June–August): Warm and sunny, often 25°C–35°C",
+        "thfh2p6lm3": "Autumn (September–November): Cool and colorful, 10°C–20°C, Winter (December–February): Cold, with temperatures from -5°C to 5°C and occasional snow"
+      }
+    },
+     "romania": {
+      "topText": {
+        "nuath": "Study Abroad in Romania",
+        "nuatp": "Romania is a rising star in Europe’s higher education scene, known for its historic universities, multicultural environment, and affordable cost of living. From medieval towns to modern cities, Romania offers a unique blend of tradition and innovation. With high-quality education, English-taught programs, and a warm, welcoming atmosphere, it’s an excellent destination for international students looking to study in the heart of Eastern Europe."
+      },
+      "subTextL": {
+        "subTextLh": "Why Study in Romania",
+        "subhfh0": "Quality of Education",
+        "subhfp0": "Romania is home to some of Eastern Europe’s oldest and most respected universities, including Babeș-Bolyai University, University of Bucharest, and Carol Davila University of Medicine and Pharmacy. These institutions are known for their rigorous academic standards, especially in fields such as medicine, engineering, IT, and humanities. Romanian degrees are recognized across Europe and beyond.",
+
+        "subhfh1": "Wide Range of Academic Programs",
+        "subhfp1": "Romanian universities offer a wide selection of degree programs in English, French, German, and Romanian, making them accessible to students from around the world. Whether you're pursuing medicine, business, arts, or technical studies, Romania provides flexible academic pathways to meet your career goals.",
+
+        "subhfh2": "Global Recognition",
+        "subhfp2": "Romania is a member of the European Union and the European Higher Education Area (EHEA), which means its degrees follow the Bologna Process and are recognized across Europe and many other countries. This opens up post-graduation opportunities in international job markets.",
+
+        "subhfh3": "Research Opportunities",
+        "subhfp3": "Romania is investing heavily in research and development, particularly in areas such as biotechnology, engineering, physics, and environmental sciences. Many universities have partnerships with international research centers and companies, giving students hands-on experience and exposure to global innovation."
+      },
+      "subTextR": {
+        "btn": "FREE CONSULTATION",
+        "subhr1": "Gapai mimpimu!",
+        "subpr1": "Rencanakan masa depanmu dengan A4 Admission",
+        "subrph1": "Experience",
+        "subrpt1": "With over 25 years of industry experience and nationwide partnerships",
+        "subrph2": "Support",
+        "subrpt2": "High acceptance rates, international experience, and comprehensive support",
+        "subrph3": "Employment Rate",
+        "subrpt3": "100% employment rate and focus on a great living experience",
+        "btn2": "Konsultasi Sekarang"
+      },
+
+      "thirdText": {
+        "th": "Study Info in Romania",
+        "thfh1": "Cost of Living in Major Romanian Cities",
+        "thfh1ph1": "Bucharest",
+        "thfh1p1": "The capital city offers vibrant student life and plenty of cultural experiences. Rent for a one-bedroom apartment in the city center ranges from €400–€600/month, and meals at restaurants cost around €10–€18.",
+        "thfh1ph2": "Cluj-Napoca",
+        "thfh1p2": "A major academic and tech hub, Cluj is slightly more affordable than Bucharest. Rent averages €300–€500/month, and eating out costs €8–€15.",
+        "thfh1ph3": "Iași",
+        "thfh1p3": "Known for its educational institutions and history, Iași is a favorite among students. Rent for a one-bedroom apartment ranges between €250–€450/month, and meals are around €7–€13.",
+        "thfh1ph4": "Timișoara",
+        "thfh1p4": "With its vibrant arts scene and student-friendly vibe, Timișoara offers rent prices around €300–€500/month, and dining out costs €8–€14.",
+
+        "thfh2": "International Student in Romania",
+        "thfh2ph1": "Student Visa",
+
+        "thfh2p1": "Non-EU/EEA students planning to study in Romania for more than 90 days must apply for a student visa. Requirements typically include: A university acceptance letter, Proof of sufficient funds, Valid health insurance, Proof of accommodation, Processing time ranges from 4 to 6 weeks, so early application is advisable.",
+
+        "thfh2ph2": "Work Opportunities",
+        "thfh2p2": "International students can work part-time (up to 20 hours per week) during their studies. Many find jobs in hospitality, language tutoring, or tech support. After graduation, students can apply for residence permits to seek employment within Romania or other EU countries.",
+
+        "thfh2ph3": "Minimum Wage in Romania",
+        "thfh2p3": "As of 2024, the gross minimum wage is around RON 3,300/month (approximately €660). Part-time jobs typically pay €4–€6 per hour, providing enough to supplement student living costs.",
+
+        "thfh2ph4": "Internships & Co-op Programs",
+        "thfh2p4": "Many Romanian universities offer internships or cooperative education programs in partnership with local and international companies. These give students the chance to:",
+        "thfh2p4lm1": "Gain hands-on experience",
+        "thfh2p4lm2": "Build professional connections",
+        "thfh2p4lm3": "Earn income while studying",
+        "thfh2p4lm4": "Improve employability after graduation",
+
+        "thfh3": "Geography Facts: Romania",
+        "thfh3ph5": "Location",
+        "thfh3p5": "Romania is located in Southeastern Europe, bordered by Hungary, Ukraine, Moldova, Bulgaria, and Serbia, with a beautiful coastline along the Black Sea. It's known for its stunning natural beauty—ranging from the Carpathian Mountains to the Danube Delta—and medieval towns like Brașov and Sibiu.",
+        "thfh3ph6": "Climate",
+        "thfh3p6": "Romania has a continental climate, with four distinct seasons:",
+        "thfh2p6lm1": "Spring (March–May): Mild and pleasant, 10°C–20°C",
+        "thfh2p6lm2": "Summer (June–August): Warm and sunny, often 25°C–35°C",
+        "thfh2p6lm3": "Autumn (September–November): Cool and colorful, 10°C–20°C, Winter (December–February): Cold, with temperatures from -5°C to 5°C, and regular snowfall"
+      }
+    },
+    "bulgaria": {
+      "topText": {
+        "nuath": "Study Abroad in Bulgaria",
+        "nuatp": "Bulgaria is one of Europe’s hidden academic gems, offering high-quality education, a rich cultural history, and a remarkably affordable cost of living. With universities that welcome international students, stunning natural landscapes, and a vibrant student culture, Bulgaria presents an ideal destination for those seeking a European education without the hefty price tag. Whether you're drawn to medical studies, IT, or the arts, Bulgaria offers an enriching academic and cultural experience."
+      },
+      "subTextL": {
+        "subTextLh": "Why Study in Bulgaria",
+        "subhfh0": "Quality of Education",
+        "subhfp0": "Bulgaria’s universities, such as Sofia University, Medical University of Varna, and American University in Bulgaria, are internationally recognized for their academic standards. Many Bulgarian institutions specialize in medicine, pharmacy, engineering, economics, and computer science, and offer programs in English and other major European languages.",
+
+        "subhfh1": "Wide Range of Academic Programs",
+        "subhfp1": "Bulgaria offers a variety of undergraduate and postgraduate programs in fields like health sciences, business, technology, and social sciences. A large number of these are taught in English, French, or German, making them accessible to international students from diverse backgrounds.",
+
+        "subhfh2": "Global Recognition",
+        "subhfp2": "Bulgarian universities follow the Bologna Process, ensuring that degrees are aligned with European standards and recognized across the EU and beyond. This recognition helps students transition smoothly into international careers or further studies.",
+
+        "subhfh3": "Research Opportunities",
+        "subhfp3": "Bulgaria places increasing emphasis on scientific research, especially in areas such as biotechnology, renewable energy, and information technology. Many universities collaborate with European institutions and offer students access to modern research centers and funding opportunities."
+      },
+      "subTextR": {
+        "btn": "FREE CONSULTATION",
+        "subhr1": "Gapai mimpimu!",
+        "subpr1": "Rencanakan masa depanmu dengan A4 Admission",
+        "subrph1": "Experience",
+        "subrpt1": "With over 25 years of industry experience and nationwide partnerships",
+        "subrph2": "Support",
+        "subrpt2": "High acceptance rates, international experience, and comprehensive support",
+        "subrph3": "Employment Rate",
+        "subrpt3": "100% employment rate and focus on a great living experience",
+        "btn2": "Konsultasi Sekarang"
+      },
+
+      "thirdText": {
+        "th": "Study Info in Bulgaria",
+        "thfh1": "Cost of Living in Major Bulgarian Cities",
+        "thfh1ph1": "Sofia",
+        "thfh1p1": "The capital and largest city, Sofia is a hub for education, culture, and nightlife. Rent for a one-bedroom apartment in the city center averages €400–€600/month, and meals at mid-range restaurants cost around €10–€15.",
+        "thfh1ph2": "Plovdiv",
+        "thfh1p2": "Plovdiv, known for its Roman ruins and artistic vibe, is slightly more affordable. Rent ranges from €300–€500/month, and eating out typically costs €8–€13.",
+        "thfh1ph3": "Varna",
+        "thfh1p3": "Located on the Black Sea coast, Varna is ideal for students who enjoy both studies and the seaside. Rent averages €350–€500/month, with restaurant meals costing around €8–€12.",
+        "thfh1ph4": "Veliko Tarnovo",
+        "thfh1p4": "A historic city with a strong academic presence, Veliko Tarnovo offers lower living costs. Rent is typically €250–€400/month, and meals are €7–€10.",
+
+        "thfh2": "International Student in Bulgaria",
+        "thfh2ph1": "Student Visa",
+
+        "thfh2p1": "Non-EU/EEA students planning to study in Bulgaria for more than 90 days need a long-stay student visa (Type D). The process typically requires: An official university acceptance letter, Proof of financial support, Valid health insurance, Proof of accommodation",
+
+        "thfh2ph2": "Work Opportunities",
+        "thfh2p2": "International students can work part-time during their studies, though they must apply for a work permit. Common part-time jobs include hospitality, tutoring, and administrative roles. After graduation, students may apply for residence permits to explore employment options in Bulgaria or other EU countries.",
+
+        "thfh2ph3": "Minimum Wage in Bulgaria",
+        "thfh2p3": "As of 2024, the minimum wage in Bulgaria is approximately €400/month (or about €2.50/hour). Part-time jobs for students often pay around €3–€5/hour, helping offset basic living costs.",
+
+        "thfh2ph4": "Internships & Co-op Programs",
+        "thfh2p4": "Some Bulgarian universities partner with businesses and NGOs to offer internships and work placements. These opportunities help students:",
+        "thfh2p4lm1": "Apply classroom knowledge in real work settings",
+        "thfh2p4lm2": "Build local and international professional networks",
+        "thfh2p4lm3": "Gain experience that enhances employability",
+        "thfh2p4lm4": "Earn extra income while studying",
+
+        "thfh3": "Geography Facts: Bulgaria",
+        "thfh3ph5": "Location",
+        "thfh3p5": "Bulgaria is located in Southeastern Europe, bordered by Romania, Serbia, North Macedonia, Greece, Turkey, and the Black Sea. With its strategic location and mix of mountains, beaches, and historic cities, it provides a culturally and geographically diverse environment for students.",
+        "thfh3ph6": "Climate",
+        "thfh3p6": "Bulgaria enjoys a continental climate with four distinct seasons:",
+        "thfh2p6lm1": "Spring (March–May): Mild and fresh, 10°C–20°C",
+        "thfh2p6lm2": "Summer (June–August): Warm and sunny, 25°C–35°C, perfect for beach trips",
+        "thfh2p6lm3": "Autumn (September–November): Pleasantly cool, 10°C–20°C, with colorful landscapes, Winter (December–February): Cold, with snow in mountainous areas and temperatures from -5°C to 5°C"
+      }
     }
   },
   "aboutus": {
