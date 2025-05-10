@@ -200,7 +200,7 @@ const Header = () => {
         </button>
         <div className="md:absolute left-10/12 transform translate-x-1/2 md:static md:transform-none md:mx-auto">
           <Link to="/" className="flex items-center justify-center ">
-            <img src={Logo} alt="sakaled" className="w-22" />
+            <img src={Logo} alt="A4-Admission" className="w-22" />
           </Link>
         </div>
         <div className="relative hidden sm:block ">
