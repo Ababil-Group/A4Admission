@@ -145,6 +145,7 @@ const HomePage = () => {
             className="before:ease relative h-12 w-auto overflow-hidden border border-redest-dark bg-redest-dark text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-80 uppercase rounded-xl px-4 py-3 tracking-wider cursor-pointer font-bold"
           >
             <Link
+              variants={fadeInUpAnimation}
               to={"/pages/contact"}
               className="relative z-10 flex items-center gap-2"
             >
@@ -248,7 +249,7 @@ const HomePage = () => {
 
           <motion.div
             variants={staggerContainer}
-            className="flex flex-wrap items-center justify-center gap-8"
+            className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4"
           >
             <motion.button
               variants={fadeInUpAnimation}

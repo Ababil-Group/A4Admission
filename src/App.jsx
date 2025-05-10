@@ -16,7 +16,7 @@ import Usa from "./pages/StudyAborad/Usa";
 import Uk from "./pages/StudyAborad/Uk";
 import AboutUs from "./pages/aboutus/AboutUs";
 import ArticalNews from "./pages/articals/ArticalNews";
-import Event from "./pages/event/Event";
+import SuccessStory from "./pages/SuccessStory/SuccessStory";
 import { FaArrowUp } from "react-icons/fa";
 import Faqs from "./pages/faqs/Faqs";
 import Australia from "./pages/StudyAborad/Australia";
@@ -158,7 +158,7 @@ function App() {
           <Route path="/pages/study-abroad-bulgaria" element={<Bulgeria />} />
           <Route path="/pages/about-us" element={<AboutUs />} />
           {/* <Route path="/blogs/news" element={<ArticalNews />} /> */}
-          <Route path="/pages/our-success-story" element={<Event />} />
+          <Route path="/pages/our-success-story" element={<SuccessStory />} />
           <Route path="/pages/faq" element={<Faqs />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>

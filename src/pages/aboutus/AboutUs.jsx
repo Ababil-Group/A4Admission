@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { FaYoutube } from "react-icons/fa6";
 import Objective from "../home/Objective";
@@ -7,10 +7,22 @@ import img2 from "../../assets/about/our_team_2.webp";
 import img3 from "../../assets/about/our_team_3.webp";
 import img4 from "../../assets/about/our_team_4.webp";
 import img5 from "../../assets/about/pleasholder.jpg";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "framer-motion";
 
 const AboutUs = () => {
   const { t } = useTranslation();
   const [playOpen, setPlayOpen] = useState(false);
+  const controls = useAnimation();
+  const ref = React.useRef(null);
+  const isInView = useInView(ref, { once: true, amount: 0.2 });
+
+  useEffect(() => {
+    if (isInView) {
+      controls.start("visible");
+    }
+  }, [isInView, controls]);
+
   const imgs = [
     {
       img: img1,
@@ -36,17 +48,51 @@ const AboutUs = () => {
     },
   ];
 
+  // Animation Variants
+  const fadeInUpAnimation = {
+    hidden: { opacity: 0, y: 30 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.8,
+        ease: "easeOut",
+      },
+    },
+  };
+
+  const staggerContainer = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.2,
+        delayChildren: 0.3,
+      },
+    },
+  };
+
   return (
-    <div className="bg-white my-4 md:my-10">
+    <motion.div
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+      variants={staggerContainer}
+      className="bg-white my-4 md:my-10"
+    >
+      {/* Hero Section */}
       <div className="bg-cover bg-center grid grid-cols-1 md:grid-cols-2 min-h-[100vh] w-full md:min-h-[60vh] relative md:my-4">
-        <div className="w-full h-full flex flex-col p-10 items-center justify-center bg-redest-dark space-y-8">
+        <motion.div
+          variants={fadeInUpAnimation}
+          className="w-full h-full flex flex-col p-10 items-center justify-center bg-redest-dark space-y-8"
+        >
           <h2 className="text-white text-4xl font-bold font-quicksand">
             {t("aboutus.tophero.ah")}
           </h2>
           <p className="text-white text-lg font-medium font-quicksand">
             {t("aboutus.tophero.ap")}
           </p>
-        </div>
+        </motion.div>
         <div className="relative w-full h-full">
           {!playOpen ? (
             <div className="absolute inset-0 bg-gray-400/40 flex items-center justify-center z-10">
@@ -58,7 +104,7 @@ const AboutUs = () => {
           ) : null}
 
           <iframe
-            src={`https://www.youtube.com/embed/sHiNsZxKM6s${
+            src={`https://www.youtube.com/embed/sHiNsZxKM6s ${
               playOpen ? "?autoplay=1" : ""
             }`}
             title="A4 Admission - a Worldwide Education Consultancy"
@@ -71,25 +117,46 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="my-8 max-w-screen-xl mx-auto min-h-[30vh] flex flex-col items-center justify-center space-y-4">
+      {/* Second Section */}
+      <motion.div
+        variants={fadeInUpAnimation}
+        className="my-8 max-w-screen-xl mx-auto min-h-[30vh] flex flex-col items-center justify-center space-y-4"
+      >
         <h2 className="text-gray-900 text-4xl font-bold font-quicksand">
           {t("aboutus.second.ash")}
         </h2>
         <p className="text-gray-900 text-lg font-medium max-w-screen-sm text-center mx-auto font-quicksand">
           {t("aboutus.second.asp")}
         </p>
-      </div>
+      </motion.div>
 
-      <Objective />
+      {/* Objective Section */}
+      <motion.section
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        variants={fadeInUpAnimation}
+      >
+        <Objective />
+      </motion.section>
 
-      <div className="max-w-screen-xl mx-auto">
+      {/* Third Section - Image Grid */}
+      <motion.div
+        ref={ref}
+        initial="hidden"
+        animate={controls}
+        variants={staggerContainer}
+        className="max-w-screen-xl mx-auto"
+      >
         <h2 className="text-gray-900 text-4xl font-bold font-quicksand">
           {t("aboutus.third.ath")}
         </h2>
         <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 bg-white font-poppins p-4">
           {imgs.map((item, inx) => (
-            <div
+            <motion.div
               key={inx}
+              variants={fadeInUpAnimation}
+              whileHover={{ scale: 1.05 }}
               className={`relative overflow-hidden rounded-md ${
                 inx < 3 ? "lg:col-span-2" : ""
               } ${inx >= 3 && inx < 5 ? "lg:col-span-3" : ""} ${
@@ -97,7 +164,7 @@ const AboutUs = () => {
               }`}
             >
               <img
-                src={item?.img || "https://via.placeholder.com/400"}
+                src={item?.img || "https://via.placeholder.com/400 "}
                 alt="image"
                 className="w-full h-[350px] object-cover transition-transform duration-500 hover:scale-105"
               />
@@ -109,11 +176,11 @@ const AboutUs = () => {
                   {item.textn}
                 </p>
               )}
-            </div>
+            </motion.div>
           ))}
         </div>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 };
 
