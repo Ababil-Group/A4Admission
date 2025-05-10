@@ -48,7 +48,6 @@ const AboutUs = () => {
     },
   ];
 
-  // Animation Variants
   const fadeInUpAnimation = {
     hidden: { opacity: 0, y: 30 },
     visible: {

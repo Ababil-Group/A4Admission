@@ -251,7 +251,6 @@ const Faqs = () => {
 
   return (
     <div className="bg-white my-6">
-      {/* Hero Section */}
       <motion.section
         initial="hidden"
         animate="visible"
@@ -267,8 +266,6 @@ const Faqs = () => {
           {t("faqs.faqh")}
         </motion.h1>
       </motion.section>
-
-      {/* Introduction Section */}
       <motion.section
         ref={ref}
         initial="hidden"

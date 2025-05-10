@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { FaYoutube, FaTimes } from "react-icons/fa";
 import success from "../../assets/success.jpg";
@@ -33,22 +33,19 @@ import img28 from "../../assets/Malta/m19.png";
 import img29 from "../../assets/Romania/r7.png";
 import img30 from "../../assets/Romania/r8.png";
 import { BsArrowsFullscreen } from "react-icons/bs";
-import { motion, useAnimation, AnimatePresence } from "framer-motion";
-import { useInView } from "framer-motion";
+import { motion, AnimatePresence, useInView } from "framer-motion";
 
 const SuccessStory = () => {
   const { t } = useTranslation();
   const [selectedImage, setSelectedImage] = useState(null);
   const [visibleCount, setVisibleCount] = useState(10);
-  const controls = useAnimation();
-  const ref = React.useRef(null);
-  const isInView = useInView(ref, { once: true, amount: 0.2 });
-
-  React.useEffect(() => {
-    if (isInView) {
-      controls.start("visible");
-    }
-  }, [isInView, controls]);
+  const [loadingStates, setLoadingStates] = useState({});
+  const [isLoadingMore, setIsLoadingMore] = useState(false);
+  const containerRef = useRef(null);
+  const isInView = useInView(containerRef, {
+    once: false,
+    margin: "0px 0px -100px 0px",
+  });
 
   const allImages = [
     { img: img1 },
@@ -86,6 +83,25 @@ const SuccessStory = () => {
   const visibleImages = allImages.slice(0, visibleCount);
   const hasMoreImages = visibleCount < allImages.length;
 
+  useEffect(() => {
+    const initialLoadingStates = {};
+    visibleImages.forEach((_, index) => {
+      initialLoadingStates[index] = true;
+    });
+    setLoadingStates(initialLoadingStates);
+  }, []);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      const newLoadingStates = { ...loadingStates };
+      Object.keys(newLoadingStates).forEach((key) => {
+        newLoadingStates[key] = false;
+      });
+      setLoadingStates(newLoadingStates);
+    }, 500);
+    return () => clearTimeout(timer);
+  }, [visibleCount]);
+
   const getImageSizeClass = (index) => {
     const cyclePosition = index % 5;
     if (cyclePosition < 3) return "lg:col-span-2";
@@ -93,13 +109,15 @@ const SuccessStory = () => {
   };
 
   const fadeInUpAnimation = {
-    hidden: { opacity: 0, y: 30 },
+    hidden: { opacity: 0, y: 50, scale: 0.95 },
     visible: {
       opacity: 1,
       y: 0,
+      scale: 1,
       transition: {
-        duration: 0.8,
-        ease: "easeOut",
+        duration: 0.6,
+        ease: [0.16, 1, 0.3, 1],
+        delay: 0.1,
       },
     },
   };
@@ -111,17 +129,47 @@ const SuccessStory = () => {
       transition: {
         staggerChildren: 0.1,
         delayChildren: 0.2,
+        when: "beforeChildren",
       },
     },
   };
 
-  const buttonVariants = {
-    hover: { scale: 1.05 },
-    tap: { scale: 0.95 },
+  const skeletonAnimation = {
+    initial: { opacity: 0.6 },
+    animate: {
+      opacity: 0.9,
+      transition: {
+        repeat: Infinity,
+        repeatType: "reverse",
+        duration: 1.5,
+      },
+    },
   };
 
-  const loadMoreImages = () => {
+  const loadMoreImages = async () => {
+    setIsLoadingMore(true);
+
+    const newLoadingStates = { ...loadingStates };
+    for (
+      let i = visibleCount;
+      i < Math.min(visibleCount + 5, allImages.length);
+      i++
+    ) {
+      newLoadingStates[i] = true;
+    }
+    setLoadingStates(newLoadingStates);
+
+    for (
+      let i = visibleCount;
+      i < Math.min(visibleCount + 5, allImages.length);
+      i++
+    ) {
+      await new Promise((resolve) => setTimeout(resolve, 200));
+      setLoadingStates((prev) => ({ ...prev, [i]: false }));
+    }
+
     setVisibleCount((prev) => Math.min(prev + 5, allImages.length));
+    setIsLoadingMore(false);
   };
 
   const showLessImages = () => {
@@ -171,33 +219,57 @@ const SuccessStory = () => {
 
       <motion.section className="max-w-screen-lg mx-auto space-y-4 my-14">
         <motion.div
+          ref={containerRef}
           variants={staggerContainer}
           initial="hidden"
-          animate="visible"
+          animate={isInView ? "visible" : "hidden"}
           className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 font-poppins p-4"
         >
           <AnimatePresence>
             {visibleImages.map((item, index) => (
               <motion.div
-                key={`${index}-${visibleCount}`}
+                key={`${index}-${item.img}`}
                 variants={fadeInUpAnimation}
                 initial="hidden"
-                animate="visible"
+                animate={isInView ? "visible" : "hidden"}
                 exit="hidden"
-                whileHover={{ scale: 1.05 }}
-                className={`hover:scale-105 transition-transform duration-500 relative cursor-pointer bg-blue-dark p-2 rounded-2xl ${getImageSizeClass(
+                className={`relative cursor-pointer bg-blue-dark p-2 rounded-2xl shadow-lg hover:shadow-2xl hover:scale-110 transition-transform duration-500 ${getImageSizeClass(
                   index
                 )}`}
-                onClick={() => setSelectedImage(item.img)}
+                onClick={() =>
+                  !loadingStates[index] && setSelectedImage(item.img)
+                }
+                viewport={{ once: true, margin: "0px 0px -50px 0px" }}
               >
-                <img
-                  src={item.img}
-                  alt={`Success story ${index + 1}`}
-                  className="w-full h-full object-cover rounded-2xl"
-                />
-                <div className="absolute inset-0 bg-black/20 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <BsArrowsFullscreen className="text-white text-4xl" />
-                </div>
+                {loadingStates[index] ? (
+                  <motion.div
+                    variants={skeletonAnimation}
+                    initial="initial"
+                    animate="animate"
+                    className="w-full h-full bg-gray-300 rounded-2xl "
+                    style={{ aspectRatio: "1/1" }}
+                  />
+                ) : (
+                  <>
+                    <motion.img
+                      src={item.img}
+                      alt={`Success story ${index + 1}`}
+                      className="w-full h-full object-cover rounded-2xl"
+                      onLoad={() =>
+                        setLoadingStates((prev) => ({
+                          ...prev,
+                          [index]: false,
+                        }))
+                      }
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      transition={{ duration: 0.3 }}
+                    />
+                    <div className="absolute inset-0 bg-black/20 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                      <BsArrowsFullscreen className="text-white text-4xl" />
+                    </div>
+                  </>
+                )}
               </motion.div>
             ))}
           </AnimatePresence>
@@ -209,22 +281,36 @@ const SuccessStory = () => {
         >
           {hasMoreImages ? (
             <motion.button
-              variants={buttonVariants}
-              whileHover="hover"
-              whileTap="tap"
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
               onClick={loadMoreImages}
-              className="bg-redest-dark text-white px-6 py-3 rounded-lg font-bold shadow-lg"
+              className="bg-redest-dark text-white px-6 py-3 rounded-lg font-bold shadow-lg flex items-center justify-center min-w-[200px]"
+              disabled={isLoadingMore}
             >
-              Show More Success Stories
+              {isLoadingMore ? (
+                <div className="flex items-center">
+                  <motion.div
+                    animate={{ rotate: 360 }}
+                    transition={{
+                      duration: 1,
+                      repeat: Infinity,
+                      ease: "linear",
+                    }}
+                    className="w-5 h-5 border-2 border-white border-t-transparent rounded-full mr-2"
+                  />
+                  Loading...
+                </div>
+              ) : (
+                "Show More Success Stories"
+              )}
             </motion.button>
           ) : (
             visibleCount > 10 && (
               <motion.button
-                variants={buttonVariants}
-                whileHover="hover"
-                whileTap="tap"
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
                 onClick={showLessImages}
-                className="bg-gray-600 text-white px-6 py-3 rounded-lg font-bold shadow-lg"
+                className="bg-blue-dark text-white px-6 py-3 rounded-lg font-bold shadow-lg"
               >
                 Show Less
               </motion.button>
@@ -232,35 +318,34 @@ const SuccessStory = () => {
           )}
         </motion.div>
       </motion.section>
-      <AnimatePresence>
-        {selectedImage && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4"
-            onClick={() => setSelectedImage(null)}
-          >
-            <div className="relative max-w-4xl w-full">
-              <button
-                className="absolute -top-10 right-0 text-redest-dark text-2xl cursor-pointer"
-                onClick={() => setSelectedImage(null)}
-              >
-                <FaTimes />
-              </button>
-              <motion.img
-                src={selectedImage}
-                alt="Enlarged view"
-                className="w-full max-h-[80vh] object-contain"
-                initial={{ scale: 0.9, opacity: 0 }}
-                animate={{ scale: 1, opacity: 1 }}
-                exit={{ scale: 0.9, opacity: 0 }}
-                transition={{ duration: 0.3 }}
-              />
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+
+      {selectedImage && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4"
+          onClick={() => setSelectedImage(null)}
+        >
+          <div className="relative max-w-4xl w-full">
+            <button
+              className="absolute -top-10 right-0 text-redest-dark text-2xl cursor-pointer"
+              onClick={() => setSelectedImage(null)}
+            >
+              <FaTimes />
+            </button>
+            <motion.img
+              src={selectedImage}
+              alt="Enlarged view"
+              className="w-full max-h-[80vh] object-contain"
+              initial={{ scale: 0.95, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.95, opacity: 0 }}
+              transition={{ duration: 0.3 }}
+            />
+          </div>
+        </motion.div>
+      )}
     </motion.div>
   );
 };
