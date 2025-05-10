@@ -80,7 +80,7 @@ const AboutUs = () => {
       variants={staggerContainer}
       className="bg-white my-4 md:my-10"
     >
-      {/* Hero Section */}
+
       <div className="bg-cover bg-center grid grid-cols-1 md:grid-cols-2 min-h-[100vh] w-full md:min-h-[60vh] relative md:my-4">
         <motion.div
           variants={fadeInUpAnimation}
@@ -117,10 +117,10 @@ const AboutUs = () => {
         </div>
       </div>
 
-      {/* Second Section */}
+     
       <motion.div
         variants={fadeInUpAnimation}
-        className="my-8 max-w-screen-xl mx-auto min-h-[30vh] flex flex-col items-center justify-center space-y-4"
+        className="my-8 max-w-screen-xl mx-auto min-h-[30vh] flex flex-col items-center justify-center p-2 space-y-4"
       >
         <h2 className="text-gray-900 text-4xl font-bold font-quicksand">
           {t("aboutus.second.ash")}
@@ -130,7 +130,7 @@ const AboutUs = () => {
         </p>
       </motion.div>
 
-      {/* Objective Section */}
+
       <motion.section
         initial="hidden"
         whileInView="visible"
@@ -140,7 +140,7 @@ const AboutUs = () => {
         <Objective />
       </motion.section>
 
-      {/* Third Section - Image Grid */}
+      
       <motion.div
         ref={ref}
         initial="hidden"
@@ -148,7 +148,7 @@ const AboutUs = () => {
         variants={staggerContainer}
         className="max-w-screen-xl mx-auto"
       >
-        <h2 className="text-gray-900 text-4xl font-bold font-quicksand">
+        <h2 className="text-gray-900 text-4xl font-bold font-quicksand p-4">
           {t("aboutus.third.ath")}
         </h2>
         <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 bg-white font-poppins p-4">
