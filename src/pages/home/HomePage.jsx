@@ -16,7 +16,7 @@ import Carusel from "./Carusel";
 import { FaArrowRight, FaPlaneDeparture } from "react-icons/fa";
 import { GrServices } from "react-icons/gr";
 import { Link } from "react-router-dom";
-import { BiSearch } from "react-icons/bi";
+import { Helmet } from "react-helmet";
 const HomePage = () => {
   const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState("tab1");
@@ -45,6 +45,12 @@ const HomePage = () => {
 
   return (
     <div className="bg-white my-6">
+      <Helmet>
+        <meta charSet="utf-8" />
+        
+        <title>Home - A4-Admission</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <section
         className="bg-cover bg-center py-16 px-2 h-auto md:min-h-[80vh] relative flex items-center justify-center"
         style={{ backgroundImage: `url(${frontImg})` }}

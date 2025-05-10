@@ -128,7 +128,7 @@ const Australia = () => {
           </div>
           <div className="flex-1">
             <h1 className="text-gray-800 text-4xl font-bold font-quicksand">
-              {t("studyabrod.usa.thirdText.th")}
+              {t("studyabrod.australia.thirdText.th")}
             </h1>
             <div className="mt-14">
               {faqsList2.map((item, idx) => (
