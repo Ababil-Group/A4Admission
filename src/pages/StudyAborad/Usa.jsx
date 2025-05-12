@@ -7,6 +7,7 @@ import Sidebar from "./Sidebar";
 import Testimonial from "../home/Testimonial";
 import ContactFrom from "../components/ContactFrom";
 import Carusel from "../home/Carusel";
+import { Helmet } from "react-helmet";
 const Usa = () => {
   const { t } = useTranslation();
   const faqsList = [
@@ -85,6 +86,28 @@ const Usa = () => {
   ];
   return (
     <div className="bg-white my-10">
+      <Helmet>
+        <title>Study in the United States | A4 Admission</title>
+        <meta
+          name="description"
+          content="Explore top universities, career opportunities, and student life in the United States with A4 Admission."
+        />
+        <meta
+          name="keywords"
+          content="Study in USA, USA Universities, Student Visa, International Students, A4 Admission"
+        />
+        <meta property="og:title" content="Study in the United States" />
+        <meta
+          property="og:description"
+          content="Explore top universities, career opportunities, and student life in the United States with A4 Admission."
+        />
+        <meta property="og:type" content="website" />
+
+        <link
+          rel="canonical"
+          href="https://a4admission.com/pages/study-abroad-united-states"
+        />
+      </Helmet>
       <hr class="hidden md:block h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
       <div
         className="bg-cover bg-center md:py-16 px-2 min-h-[50vh] w-full md:min-h-[80vh] relative md:my-4"

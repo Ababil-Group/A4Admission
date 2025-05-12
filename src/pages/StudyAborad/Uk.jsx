@@ -7,6 +7,7 @@ import Sidebar from "./Sidebar";
 import Testimonial from "../home/Testimonial";
 import ContactFrom from "../components/ContactFrom";
 import Carusel from "../home/Carusel";
+import { Helmet } from "react-helmet";
 const Uk = () => {
   const { t } = useTranslation();
   const faqsList = [
@@ -82,6 +83,44 @@ const Uk = () => {
   ];
   return (
     <div className="bg-white my-10">
+      <Helmet>
+        <title>Study in the United Kingdom | A4 Admission</title>
+
+        <meta
+          name="description"
+          content="Discover why the United Kingdom is a top destination for international students. Explore its quality education, diverse programs, and excellent career opportunities with A4 Admission."
+        />
+
+        <meta
+          name="keywords"
+          content="Study in UK, UK Universities, International Students UK, Student Visa UK, A4 Admission"
+        />
+
+        <meta
+          property="og:title"
+          content="Study in the United Kingdom | A4 Admission"
+        />
+        <meta
+          property="og:description"
+          content="Explore quality education, global recognition, and career opportunities in the United Kingdom with A4 Admission."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://a4admission.com/pages/study-abroad-united-kingdom"
+        />
+
+        <link
+          rel="canonical"
+          href="https://a4admission.com/pages/study-abroad-united-kingdom"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Study in the United Kingdom | A4 Admission"
+        />
+      </Helmet>
       <hr class="hidden md:block h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
       <div
         className="bg-cover bg-center md:py-16 px-2 min-h-[50vh] w-full md:min-h-[80vh] relative md:my-4"

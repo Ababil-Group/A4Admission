@@ -7,6 +7,7 @@ import Sidebar from "./Sidebar";
 import Testimonial from "../home/Testimonial";
 import ContactFrom from "../components/ContactFrom";
 import Carusel from "../home/Carusel";
+import { Helmet } from "react-helmet";
 const Canada = () => {
   const { t } = useTranslation();
   const faqsList = [
@@ -98,6 +99,22 @@ const Canada = () => {
   ];
   return (
     <div className="bg-white my-10">
+      <Helmet>
+        <title>Study in Canada | A4 Admission</title>
+        <meta
+          name="description"
+          content="Discover why Canada is a top destination for international students. Learn about affordable education, work permits, vibrant campus life, and immigration opportunities."
+        />
+        <meta
+          name="keywords"
+          content="Study in Canada, Canadian Universities, International Students, Canadian Education, Work in Canada, PGWP, Immigration, Living Cost in Canada"
+        />
+        <meta name="robots" content="index, follow" />
+        <link
+          rel="canonical"
+          href="https://a4admission.com/pages/study-abroad-canada"
+        />
+      </Helmet>
       <hr class="hidden md:block h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
       <div
         className="bg-cover bg-center md:py-16 px-2 min-h-[50vh] w-full md:min-h-[80vh] relative md:my-4"

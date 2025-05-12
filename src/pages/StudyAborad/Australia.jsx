@@ -7,6 +7,7 @@ import Sidebar from "./Sidebar";
 import Testimonial from "../home/Testimonial";
 import ContactFrom from "../components/ContactFrom";
 import Carusel from "../home/Carusel";
+import { Helmet } from "react-helmet";
 const Australia = () => {
   const { t } = useTranslation();
   const faqsList = [
@@ -82,6 +83,44 @@ const Australia = () => {
   ];
   return (
     <div className="bg-white my-6">
+      <Helmet>
+        <title>Study in Australia | A4 Admission</title>
+
+        <meta
+          name="description"
+          content="Explore why Australia is a top destination for international students. Discover its world-class universities, career opportunities, and vibrant multicultural cities with A4 Admission."
+        />
+        <meta
+          name="keywords"
+          content="Study in Australia, Australian Universities, International Students Australia, Student Visa Australia, A4 Admission"
+        />
+
+        <meta property="og:title" content="Study in Australia | A4 Admission" />
+        <meta
+          property="og:description"
+          content="Experience Australia's excellent education system, diverse academic programs, and thriving job market with A4 Admission."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://a4admission.com/pages/study-abroad-australia"
+        />
+
+        <link
+          rel="canonical"
+          href="https://a4admission.com/pages/study-abroad-australia"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Study in Australia | A4 Admission"
+        />
+        <meta
+          name="twitter:description"
+          content="Join Australia's leading universities and explore endless opportunities for growth, career advancement, and cultural experiences."
+        />
+      </Helmet>
       <hr class="hidden md:block h-px my-6 bg-gray-200 border-0 dark:bg-gray-400" />
       <div
         className="bg-cover bg-center md:py-16 px-2 min-h-[50vh] w-full md:min-h-[80vh] relative md:my-4"

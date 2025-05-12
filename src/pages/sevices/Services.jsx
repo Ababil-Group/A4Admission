@@ -5,9 +5,9 @@ import service2 from "../../assets/sevices/sb3.webp";
 import service3 from "../../assets/sevices/Studying-Abroad.webp";
 import Testimonial from "../home/Testimonial";
 import Universitys from "../home/Universitys";
+import { Helmet } from "react-helmet";
 
 const Services = () => {
-  // Animation variants
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -43,7 +43,6 @@ const Services = () => {
     },
   };
 
-  // Scroll animation for title
   const titleControls = useAnimation();
   const titleRef = useRef(null);
   const isTitleInView = useInView(titleRef, { once: true, margin: "-100px" });
@@ -66,7 +65,6 @@ const Services = () => {
     },
   };
 
-  // Scroll animation for Universitys
   const uniControls = useAnimation();
   const uniRef = useRef(null);
   const isUniInView = useInView(uniRef, { once: true, margin: "-100px" });
@@ -90,7 +88,6 @@ const Services = () => {
     },
   };
 
-  // Text motion variants
   const textVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: (i) => ({
@@ -105,6 +102,17 @@ const Services = () => {
 
   return (
     <div className="">
+      <Helmet>
+        <title>Our Services | Study Abroad, Settlement & Career Coaching</title>
+        <meta
+          name="description"
+          content="Explore our services including study abroad support, settlement assistance, and career coaching. Find your perfect study destination with our expert guidance."
+        />
+        <meta
+          name="keywords"
+          content="study destination, study abroad, settlement services, career coaching, student visa, overseas education"
+        />
+      </Helmet>
       <div className="max-w-screen-xl mx-auto p-2 mb-20">
         <motion.div
           ref={titleRef}
@@ -124,7 +132,6 @@ const Services = () => {
           variants={containerVariants}
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
         >
-          {/* Left Card */}
           <motion.div
             custom={{ direction: "left" }}
             variants={cardVariants}
@@ -171,7 +178,6 @@ const Services = () => {
             </div>
           </motion.div>
 
-          {/* Center Card (from bottom) */}
           <motion.div
             custom={{ direction: "bottom" }}
             variants={cardVariants}
@@ -218,7 +224,6 @@ const Services = () => {
             </div>
           </motion.div>
 
-          {/* Right Card */}
           <motion.div
             custom={{ direction: "right" }}
             variants={cardVariants}
@@ -266,7 +271,6 @@ const Services = () => {
         </motion.div>
       </div>
 
-      {/* University Section with Bottom-to-Position Animation */}
       <motion.div
         ref={uniRef}
         initial="hidden"

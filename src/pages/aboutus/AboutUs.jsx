@@ -9,7 +9,7 @@ import img4 from "../../assets/about/our_team_4.webp";
 import img5 from "../../assets/about/pleasholder.jpg";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "framer-motion";
-
+import { Helmet } from "react-helmet";
 const AboutUs = () => {
   const { t } = useTranslation();
   const [playOpen, setPlayOpen] = useState(false);
@@ -79,7 +79,26 @@ const AboutUs = () => {
       variants={staggerContainer}
       className="bg-white my-4 md:my-10"
     >
-
+      <Helmet>
+        <title>About Us – A4 Admission | Global Education Consultants</title>
+        <meta
+          name="description"
+          content="A4 Admission is a global education consulting agency helping students achieve their dream of studying abroad. Learn about our story, mission, and experienced team."
+        />
+        <meta
+          name="keywords"
+          content="A4 Admission, study abroad consultants, global education agency, international student support, education guidance, study in Canada, USA, UK, Australia"
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://yourdomain.com/about" />
+        <meta property="og:title" content="About Us – A4 Admission" />
+        <meta
+          property="og:description"
+          content="Meet A4 Admission, your trusted global partner in studying abroad. Learn about our story and how we support students globally."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://yourdomain.com/about" />
+      </Helmet>
       <div className="bg-cover bg-center grid grid-cols-1 md:grid-cols-2 min-h-[100vh] w-full md:min-h-[60vh] relative md:my-4">
         <motion.div
           variants={fadeInUpAnimation}
@@ -116,7 +135,6 @@ const AboutUs = () => {
         </div>
       </div>
 
-     
       <motion.div
         variants={fadeInUpAnimation}
         className="my-8 max-w-screen-xl mx-auto min-h-[30vh] flex flex-col items-center justify-center p-2 space-y-4"
@@ -129,7 +147,6 @@ const AboutUs = () => {
         </p>
       </motion.div>
 
-
       <motion.section
         initial="hidden"
         whileInView="visible"
@@ -139,7 +156,6 @@ const AboutUs = () => {
         <Objective />
       </motion.section>
 
-      
       <motion.div
         ref={ref}
         initial="hidden"

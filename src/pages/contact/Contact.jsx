@@ -7,7 +7,7 @@ import { TbLoader } from "react-icons/tb";
 import { FaArrowRight } from "react-icons/fa6";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "framer-motion";
-
+import { Helmet } from "react-helmet";
 const Contact = () => {
   const { t } = useTranslation();
   const [name, setName] = useState("");
@@ -93,6 +93,32 @@ const Contact = () => {
       variants={staggerContainer}
       className="bg-white my-6"
     >
+      <Helmet>
+        <title>Contact Us | Study Abroad Support</title>
+        <meta
+          name="description"
+          content="Need help with studying abroad? Contact our education advisors for personalized support, online or face-to-face in your area."
+        />
+        <meta
+          name="keywords"
+          content="contact study abroad, education advisors, overseas education help, application support, A4 Admission"
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://a4admission.com/pages/contact" />
+        <meta
+          property="og:title"
+          content="Need Help? Let’s Connect A4 Admission!"
+        />
+        <meta
+          property="og:description"
+          content="Got questions about studying abroad or need support with your application? We're here to guide you every step of the way."
+        />
+        <meta
+          property="og:url"
+          content="https://a4admission.com/pages/contact"
+        />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <section
         className="bg-cover bg-center py-16 px-2 h-auto sm:min-h-screen relative flex items-center justify-center"
         style={{ backgroundImage: `url(${frontImge})` }}

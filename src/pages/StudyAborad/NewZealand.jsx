@@ -7,6 +7,7 @@ import Sidebar from "./Sidebar";
 import Testimonial from "../home/Testimonial";
 import ContactFrom from "../components/ContactFrom";
 import Carusel from "../home/Carusel";
+import { Helmet } from "react-helmet";
 const NewZealand = () => {
   const { t } = useTranslation();
   const faqsList = [
@@ -82,6 +83,48 @@ const NewZealand = () => {
   ];
   return (
     <div className="bg-white my-6">
+      <Helmet>
+        <title>Study Abroad in New Zealand | A4 Admission</title>
+
+        <meta
+          name="description"
+          content="Study in New Zealand and experience world-class education, breathtaking landscapes, and a welcoming multicultural society. Learn about New Zealand's universities, cost of living, and work opportunities for international students with A4 Admission."
+        />
+
+        <meta
+          name="keywords"
+          content="Study in New Zealand, New Zealand Universities, Student Visa New Zealand, Work Opportunities in New Zealand, Cost of Living New Zealand, A4 Admission"
+        />
+
+        <meta
+          property="og:title"
+          content="Study Abroad in New Zealand | A4 Admission"
+        />
+        <meta
+          property="og:description"
+          content="Explore New Zealand’s high-quality academic programs, research opportunities, and career prospects. Discover the cost of living, student visa requirements, and work opportunities with A4 Admission."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://a4admission.com/pages/study-abroad-new-zealand"
+        />
+
+        <link
+          rel="canonical"
+          href="https://a4admission.com/pages/study-abroad-new-zealand"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Study Abroad in New Zealand | A4 Admission"
+        />
+        <meta
+          name="twitter:description"
+          content="Join New Zealand’s leading universities and explore its diverse academic programs, research opportunities, and vibrant culture. A4 Admission helps you with everything you need to know about studying in New Zealand."
+        />
+      </Helmet>
       <hr class="hidden md:block h-px my-6 bg-gray-200 border-0 dark:bg-gray-400" />
       <div
         className="bg-cover bg-center md:py-16 px-2 min-h-[50vh] w-full md:min-h-[80vh] relative md:my-4"

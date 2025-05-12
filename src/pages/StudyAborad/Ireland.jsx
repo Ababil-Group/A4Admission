@@ -7,6 +7,7 @@ import Sidebar from "./Sidebar";
 import Testimonial from "../home/Testimonial";
 import ContactFrom from "../components/ContactFrom";
 import Carusel from "../home/Carusel";
+import { Helmet } from "react-helmet";
 const Ireland = () => {
   const { t } = useTranslation();
   const faqsList = [
@@ -82,6 +83,48 @@ const Ireland = () => {
   ];
   return (
     <div className="bg-white my-6">
+      <Helmet>
+        <title>Study Abroad in Ireland | A4 Admission</title>
+
+        <meta
+          name="description"
+          content="Explore the rich cultural heritage, high-quality education, and excellent opportunities for international students in Ireland. Learn about top universities, cost of living, student visa requirements, work opportunities, and more with A4 Admission."
+        />
+        <meta
+          name="keywords"
+          content="Study in Ireland, Ireland Universities, Student Visa Ireland, Work Opportunities Ireland, Cost of Living Ireland, A4 Admission"
+        />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Study Abroad in Ireland | A4 Admission"
+        />
+        <meta
+          property="og:description"
+          content="Discover why Ireland is a top destination for international students, offering world-class education, vibrant student life, and promising career opportunities."
+        />
+        <link
+          rel="canonical"
+          href="https://a4admission.com/pages/study-abroad-ireland"
+        />
+        <meta
+          property="og:url"
+          content="https://a4admission.com/pages/study-abroad-ireland"
+        />
+        <meta property="og:locale" content="en_IE" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Study Abroad in Ireland | A4 Admission"
+        />
+        <meta
+          name="twitter:description"
+          content="Study in Ireland and experience its renowned education system, vibrant culture, and great job opportunities for international students."
+        />
+      </Helmet>
+
       <hr class="hidden md:block h-px my-6 bg-gray-200 border-0 dark:bg-gray-400" />
       <div
         className="bg-cover bg-center md:py-16 px-2 min-h-[50vh] w-full md:min-h-[80vh] relative md:my-4"

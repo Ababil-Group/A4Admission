@@ -7,6 +7,7 @@ import Sidebar from "./Sidebar";
 import Testimonial from "../home/Testimonial";
 import ContactFrom from "../components/ContactFrom";
 import Carusel from "../home/Carusel";
+import { Helmet } from "react-helmet";
 const Norway = () => {
   const { t } = useTranslation();
   const faqsList = [
@@ -82,6 +83,48 @@ const Norway = () => {
   ];
   return (
     <div className="bg-white my-6">
+      <Helmet>
+        <title>Study Abroad in Norway | A4 Admission</title>
+
+        <meta
+          name="description"
+          content="Norway is a top destination for international students, offering tuition-free education for EU/EEA students, world-class universities, stunning nature, and a strong focus on sustainability and innovation."
+        />
+        <meta
+          name="keywords"
+          content="Study in Norway, Norway Universities, Tuition-Free Education, Student Visa Norway, Work Opportunities Norway, Cost of Living Norway, A4 Admission"
+        />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Study Abroad in Norway | A4 Admission"
+        />
+        <meta
+          property="og:description"
+          content="Explore top universities, student visa details, cost of living, and work opportunities in Norway. Begin your journey with A4 Admission today."
+        />
+        <link
+          rel="canonical"
+          href="https://a4admission.com/pages/study-abroad-norway"
+        />
+        <meta
+          property="og:url"
+          content="https://a4admission.com/pages/study-abroad-norway"
+        />
+        <meta property="og:locale" content="en_NO" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Study Abroad in Norway | A4 Admission"
+        />
+        <meta
+          name="twitter:description"
+          content="Learn about studying in Norway including tuition-free education, top universities, research opportunities, and student life."
+        />
+      </Helmet>
+
       <hr class="hidden md:block h-px my-6 bg-gray-200 border-0 dark:bg-gray-400" />
       <div
         className="bg-cover bg-center md:py-16 px-2 min-h-[50vh] w-full md:min-h-[80vh] relative md:my-4"

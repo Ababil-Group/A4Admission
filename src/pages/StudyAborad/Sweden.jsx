@@ -7,6 +7,7 @@ import Sidebar from "./Sidebar";
 import Testimonial from "../home/Testimonial";
 import ContactFrom from "../components/ContactFrom";
 import Carusel from "../home/Carusel";
+import { Helmet } from "react-helmet";
 const Sweden = () => {
   const { t } = useTranslation();
   const faqsList = [
@@ -82,6 +83,36 @@ const Sweden = () => {
   ];
   return (
     <div className="bg-white my-6">
+      <Helmet>
+        <title>Study in Sweden | A4 Admission</title>
+
+        <meta
+          name="description"
+          content="Discover why Sweden is a top destination for international students. Learn about tuition fees, cost of living, student visas, job opportunities, and more."
+        />
+        <meta
+          name="keywords"
+          content="study in Sweden, Sweden universities, Sweden student visa, cost of living in Sweden, Swedish education, international students Sweden"
+        />
+        <meta
+          property="og:title"
+          content="Study in Sweden - Start Your Education Journey"
+        />
+        <meta
+          property="og:description"
+          content="Explore Sweden's world-class education system, vibrant student life, and future career opportunities."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://a4admission.com/pages/study-abroad-sweden"
+        />
+
+        <link
+          rel="canonical"
+          href="https://a4admission.com/pages/study-abroad-sweden"
+        />
+      </Helmet>
       <hr class="hidden md:block h-px my-6 bg-gray-200 border-0 dark:bg-gray-400" />
       <div
         className="bg-cover bg-center md:py-16 px-2 min-h-[50vh] w-full md:min-h-[80vh] relative md:my-4"

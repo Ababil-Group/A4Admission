@@ -7,6 +7,7 @@ import Sidebar from "./Sidebar";
 import Testimonial from "../home/Testimonial";
 import ContactFrom from "../components/ContactFrom";
 import Carusel from "../home/Carusel";
+import { Helmet } from "react-helmet";
 const Denmark = () => {
   const { t } = useTranslation();
   const faqsList = [
@@ -82,6 +83,48 @@ const Denmark = () => {
   ];
   return (
     <div className="bg-white my-6">
+      <Helmet>
+        <title>Study Abroad in Denmark | A4 Admission</title>
+
+        <meta
+          name="description"
+          content="Discover top reasons to study in Denmark, including world-class universities, affordable living, and exciting career opportunities. Learn about visa requirements, cost of living, student life, and more with A4 Admission."
+        />
+        <meta
+          name="keywords"
+          content="Study in Denmark, Denmark Universities, Student Visa Denmark, Work in Denmark, Cost of Living Denmark, A4 Admission"
+        />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Study Abroad in Denmark | A4 Admission"
+        />
+        <meta
+          property="og:description"
+          content="Explore Denmark’s globally ranked universities, sustainable living, student-friendly cities, and career opportunities for international students. Your journey starts with A4 Admission."
+        />
+        <link
+          rel="canonical"
+          href="https://a4admission.com/pages/study-abroad-denmark"
+        />
+        <meta
+          property="og:url"
+          content="https://a4admission.com/pages/study-abroad-denmark"
+        />
+        <meta property="og:locale" content="en_DK" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Study Abroad in Denmark | A4 Admission"
+        />
+        <meta
+          name="twitter:description"
+          content="Study in Denmark and enjoy high-quality education, internships, vibrant cities, and a strong support system for international students."
+        />
+      </Helmet>
+
       <hr class="hidden md:block h-px my-6 bg-gray-200 border-0 dark:bg-gray-400" />
       <div
         className="bg-cover bg-center md:py-16 px-2 min-h-[50vh] w-full md:min-h-[80vh] relative md:my-4"

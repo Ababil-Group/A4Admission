@@ -7,6 +7,7 @@ import Sidebar from "./Sidebar";
 import Testimonial from "../home/Testimonial";
 import ContactFrom from "../components/ContactFrom";
 import Carusel from "../home/Carusel";
+import { Helmet } from "react-helmet";
 const China = () => {
   const { t } = useTranslation();
   const faqsList = [
@@ -82,6 +83,48 @@ const China = () => {
   ];
   return (
     <div className="bg-white my-6">
+      <Helmet>
+        <title>Study Abroad in China | A4 Admission</title>
+
+        <meta
+          name="description"
+          content="Study in China and explore its high-quality education system, rich culture, and growing career opportunities. Learn about top Chinese universities, cost of living, student visa requirements, and work opportunities for international students with A4 Admission."
+        />
+
+        <meta
+          name="keywords"
+          content="Study in China, Chinese Universities, Student Visa China, Work Opportunities in China, Cost of Living China, A4 Admission"
+        />
+
+        <meta
+          property="og:title"
+          content="Study Abroad in China | A4 Admission"
+        />
+        <meta
+          property="og:description"
+          content="Explore China’s prestigious universities, vibrant culture, and expanding career prospects. A4 Admission helps you navigate the cost of living, visa requirements, and work opportunities for international students in China."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://a4admission.com/pages/study-abroad-china"
+        />
+
+        <link
+          rel="canonical"
+          href="https://a4admission.com/pages/study-abroad-china"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Study Abroad in China | A4 Admission"
+        />
+        <meta
+          name="twitter:description"
+          content="Join China’s leading universities and discover world-class education, affordable living, and exciting career opportunities for international students with A4 Admission."
+        />
+      </Helmet>
       <hr class="hidden md:block h-px my-6 bg-gray-200 border-0 dark:bg-gray-400" />
       <div
         className="bg-cover bg-center md:py-16 px-2 min-h-[50vh] w-full md:min-h-[80vh] relative md:my-4"
