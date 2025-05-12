@@ -1746,7 +1746,9 @@
       "address3": "UAE Address",
       "address3sub": "Level 23, Boulevard Plaza 2 Sheikh Mohammed bin Rashid Boulevard - Dubai",
       "address4": "Bangladesh Address",
-      "address4sub": "3rd floor of Ananda Tower, Jail Road, Sylhet"
+      "address4sub": "3rd floor of Ananda Tower, Jail Road, Sylhet",
+      "address5": "Bangladesh Address",
+      "address5sub": "3rd Floor, VIP Plaza, FC Road, G-Block, Near Artillery, Halishahar, Chittagong"
     },
     "extra": {
       "ch1": "Get in Touch with Us",
