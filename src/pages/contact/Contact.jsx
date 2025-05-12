@@ -271,7 +271,7 @@ const Contact = () => {
             variants={fadeInUpAnimation}
             className="col-span-2 space-y-4 mt-5"
           >
-            <div className="space-y-3">
+            <div className="space-y-2">
               <h2 className="text-2xl text-gray-800 font-bold font-quicksand py-2">
                 {t("contact.location.address1")}
               </h2>
@@ -279,7 +279,7 @@ const Contact = () => {
                 {t("contact.location.address1sub")}
               </p>
             </div>
-            <div className="space-y-3">
+            <div className="space-y-2">
               <h2 className="text-2xl text-gray-800 font-bold font-quicksand mx-auto py-2">
                 {t("contact.location.address2")}
               </h2>
@@ -287,7 +287,7 @@ const Contact = () => {
                 {t("contact.location.address2sub")}
               </p>
             </div>
-            <div className="space-y-3">
+            <div className="space-y-2">
               <h2 className="text-2xl text-gray-800 font-bold font-quicksand py-2">
                 {t("contact.location.address3")}
               </h2>
@@ -295,7 +295,7 @@ const Contact = () => {
                 {t("contact.location.address3sub")}
               </p>
             </div>
-            <div className="space-y-3">
+            <div className="space-y-2">
               <h2 className="text-2xl text-gray-800 font-bold font-quicksand mx-auto py-2">
                 {t("contact.location.address4")}
               </h2>
@@ -303,7 +303,7 @@ const Contact = () => {
                 {t("contact.location.address4sub")}
               </p>
             </div>
-            <div className="space-y-3">
+            <div className="space-y-2">
               <h2 className="text-2xl text-gray-800 font-bold font-quicksand mx-auto py-2">
                 {t("contact.location.address5")}
               </h2>
