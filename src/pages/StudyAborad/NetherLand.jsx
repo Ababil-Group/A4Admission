@@ -7,6 +7,7 @@ import Sidebar from "./Sidebar";
 import Testimonial from "../home/Testimonial";
 import ContactFrom from "../components/ContactFrom";
 import Carusel from "../home/Carusel";
+import { Helmet } from "react-helmet";
 const NetherLand = () => {
   const { t } = useTranslation();
   const faqsList = [
@@ -82,6 +83,23 @@ const NetherLand = () => {
   ];
   return (
     <div className="bg-white my-6">
+      <Helmet>
+        <title>Study in Netherland | A4 Admission</title>
+        <meta
+          name="description"
+          content="Explore top universities, world-class education, affordable living, and excellent career opportunities for international students in the Netherlands. Learn about student visas, costs, work options, and more with A4 Admission."
+        />
+        <meta
+          name="keywords"
+          content="Study in Netherlands, Dutch Universities, International Students, Student Visa Netherlands, Delft University, University of Amsterdam, Work in Netherlands, Living Cost Netherlands, Education in Holland, A4 Admission Netherlands"
+        />
+        <meta name="robots" content="index, follow" />
+        <link
+          rel="canonical"
+          href="https://a4admission.com/pages/study-abroad-netherlands"
+        />
+      </Helmet>
+
       <hr class="hidden md:block h-px my-6 bg-gray-200 border-0 dark:bg-gray-400" />
       <div
         className="bg-cover bg-center md:py-16 px-2 min-h-[50vh] w-full md:min-h-[80vh] relative md:my-4"

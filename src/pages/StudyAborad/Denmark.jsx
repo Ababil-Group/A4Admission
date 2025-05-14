@@ -84,7 +84,7 @@ const Denmark = () => {
   return (
     <div className="bg-white my-6">
       <Helmet>
-        <title>Study Abroad in Denmark | A4 Admission</title>
+        <title>Study in Denmark | A4 Admission</title>
 
         <meta
           name="description"

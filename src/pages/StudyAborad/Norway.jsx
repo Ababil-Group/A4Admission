@@ -84,7 +84,7 @@ const Norway = () => {
   return (
     <div className="bg-white my-6">
       <Helmet>
-        <title>Study Abroad in Norway | A4 Admission</title>
+        <title>Study in Norway | A4 Admission</title>
 
         <meta
           name="description"
@@ -98,7 +98,7 @@ const Norway = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Study Abroad in Norway | A4 Admission"
+          content="Study in Norway | A4 Admission"
         />
         <meta
           property="og:description"
@@ -117,7 +117,7 @@ const Norway = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Study Abroad in Norway | A4 Admission"
+          content="Study in Norway | A4 Admission"
         />
         <meta
           name="twitter:description"

@@ -7,6 +7,7 @@ import Sidebar from "./Sidebar";
 import Testimonial from "../home/Testimonial";
 import ContactFrom from "../components/ContactFrom";
 import Carusel from "../home/Carusel";
+import { Helmet } from "react-helmet";
 const Findland = () => {
   const { t } = useTranslation();
   const faqsList = [
@@ -82,6 +83,23 @@ const Findland = () => {
   ];
   return (
     <div className="bg-white my-6">
+      <Helmet>
+        <title>Study in Finland | A4 Admission</title>
+        <meta
+          name="description"
+          content="Discover why Finland is one of the most student-friendly countries. Explore world-class universities, research opportunities, affordable living, and a high quality of life."
+        />
+        <meta
+          name="keywords"
+          content="Study in Finland, Finnish Universities, International Students, University of Helsinki, Aalto University, Tampere University, Research in Finland, Finland Student Visa, Cost of Living in Finland"
+        />
+        <meta name="robots" content="index, follow" />
+        <link
+          rel="canonical"
+          href="https://a4admission.com/pages/study-abroad-finland"
+        />
+      </Helmet>
+
       <hr class="hidden md:block h-px my-6 bg-gray-200 border-0 dark:bg-gray-400" />
       <div
         className="bg-cover bg-center md:py-16 px-2 min-h-[50vh] w-full md:min-h-[80vh] relative md:my-4"

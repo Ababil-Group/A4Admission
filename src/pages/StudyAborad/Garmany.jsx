@@ -84,7 +84,7 @@ const Garmany = () => {
   return (
     <div className="bg-white my-6">
       <Helmet>
-        <title>Study Abroad in Germany | A4 Admission</title>
+        <title>Study in Germany | A4 Admission</title>
 
         <meta
           name="description"

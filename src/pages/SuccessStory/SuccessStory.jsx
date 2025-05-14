@@ -254,7 +254,7 @@ const SuccessStory = () => {
                     <motion.img
                       src={item.img}
                       alt={`Success story ${index + 1}`}
-                      className="w-full h-full object-cover rounded-2xl"
+                      className="w-full h-full object-cover rounded-2xl cursor-pointer"
                       onLoad={() =>
                         setLoadingStates((prev) => ({
                           ...prev,
@@ -284,7 +284,7 @@ const SuccessStory = () => {
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               onClick={loadMoreImages}
-              className="bg-redest-dark text-white px-6 py-3 rounded-lg font-bold shadow-lg flex items-center justify-center min-w-[200px]"
+              className="bg-redest-dark text-white px-6 py-3 rounded-lg font-bold shadow-lg flex items-center justify-center cursor-pointer min-w-[200px]"
               disabled={isLoadingMore}
             >
               {isLoadingMore ? (
@@ -296,7 +296,7 @@ const SuccessStory = () => {
                       repeat: Infinity,
                       ease: "linear",
                     }}
-                    className="w-5 h-5 border-2 border-white border-t-transparent rounded-full mr-2"
+                    className="w-5 h-5 border-2 border-white border-t-transparent rounded-full mr-2 "
                   />
                   Loading...
                 </div>
@@ -310,7 +310,7 @@ const SuccessStory = () => {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={showLessImages}
-                className="bg-blue-dark text-white px-6 py-3 rounded-lg font-bold shadow-lg"
+                className="bg-blue-dark text-white px-6 py-3 rounded-lg font-bold shadow-lg cursor-pointer"
               >
                 Show Less
               </motion.button>
