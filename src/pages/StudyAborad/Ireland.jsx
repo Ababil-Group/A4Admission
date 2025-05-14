@@ -84,7 +84,7 @@ const Ireland = () => {
   return (
     <div className="bg-white my-6">
       <Helmet>
-        <title>Study Abroad in Ireland | A4 Admission</title>
+        <title>Study in Ireland | A4 Admission</title>
 
         <meta
           name="description"

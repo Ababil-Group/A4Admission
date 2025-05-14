@@ -94,7 +94,7 @@ const Contact = () => {
       className="bg-white my-6"
     >
       <Helmet>
-        <title>Contact Us | Study Abroad Support</title>
+        <title>Contact Us | A4 Admission Study Abroad Support</title>
         <meta
           name="description"
           content="Need help with studying abroad? Contact our education advisors for personalized support, online or face-to-face in your area."
@@ -163,6 +163,7 @@ const Contact = () => {
       </motion.section>
 
       <motion.section
+        id="contact"
         ref={ref}
         initial="hidden"
         animate={controls}

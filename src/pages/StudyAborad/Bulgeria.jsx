@@ -7,6 +7,7 @@ import Sidebar from "./Sidebar";
 import Testimonial from "../home/Testimonial";
 import ContactFrom from "../components/ContactFrom";
 import Carusel from "../home/Carusel";
+import { Helmet } from "react-helmet";
 const Bulgeria = () => {
   const { t } = useTranslation();
   const faqsList = [
@@ -82,6 +83,22 @@ const Bulgeria = () => {
   ];
   return (
     <div className="bg-white my-6">
+      <Helmet>
+        <title>Study in Bulgaria | A4 Admission</title>
+        <meta
+          name="description"
+          content="Discover affordable, high-quality education in Bulgaria with A4 Admission. Learn about top universities, student visas, cost of living, work options, and more for international students."
+        />
+        <meta
+          name="keywords"
+          content="Study in Bulgaria, Bulgarian Universities, Sofia University, Medical University of Varna, American University in Bulgaria, Bulgaria Student Visa, Cost of Living Bulgaria, Work in Bulgaria, Education in Bulgaria, A4 Admission Bulgaria"
+        />
+        <meta name="robots" content="index, follow" />
+        <link
+          rel="canonical"
+          href="https://a4admission.com/pages/study-abroad-bulgaria"
+        />
+      </Helmet>
       <hr class="hidden md:block h-px my-6 bg-gray-200 border-0 dark:bg-gray-400" />
       <div
         className="bg-cover bg-center md:py-16 px-2 min-h-[50vh] w-full md:min-h-[80vh] relative md:my-4"

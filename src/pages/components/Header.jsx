@@ -204,7 +204,7 @@ const Header = () => {
           </Link>
         </div>
         <div className="relative hidden sm:block ">
-          <button
+          {/* <button
             className="flex items-center gap-2"
             onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
             disabled={isChangingLanguage}
@@ -221,7 +221,7 @@ const Header = () => {
             ) : (
               <MdKeyboardArrowDown />
             )}
-          </button>
+          </button> */}
 
           {isLanguageDropdownOpen && (
             <div className="absolute right-0 top-8 z-10 bg-white shadow-md rounded-md p-2 min-w-[120px]">

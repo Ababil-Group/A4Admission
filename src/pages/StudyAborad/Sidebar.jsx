@@ -49,7 +49,7 @@ const Sidebar = () => {
           </div>
           <div className="my-4 flex items-center gap-4">
             <Link
-              to={"/contact"}
+              to={"/pages/contact"}
               className="before:ease relative h-12 w-auto overflow-hidden flex-1 text-center border border-redest-dark bg-redest-dark text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-80 uppercase rounded-xl px-4 py-3 tracking-wider cursor-pointer font-bold hover:scale-95 transition-transform duration-300"
             >
               {t("studyabrod.canada.subTextR.btn2")}

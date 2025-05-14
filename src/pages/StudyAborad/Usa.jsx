@@ -87,14 +87,14 @@ const Usa = () => {
   return (
     <div className="bg-white my-10">
       <Helmet>
-        <title>Study in the United States | A4 Admission</title>
+        <title>Study in USA | A4 Admission</title>
         <meta
           name="description"
           content="Explore top universities, career opportunities, and student life in the United States with A4 Admission."
         />
         <meta
           name="keywords"
-          content="Study in USA, USA Universities, Student Visa, International Students, A4 Admission"
+          content="Study in USA,Study United States, USA Universities, Student Visa, International Students, A4 Admission"
         />
         <meta property="og:title" content="Study in the United States" />
         <meta

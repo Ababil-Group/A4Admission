@@ -84,7 +84,7 @@ const SouthKoriea = () => {
   return (
     <div className="bg-white my-6">
       <Helmet>
-        <title>Study Abroad in South Korea | A4 Admission</title>
+        <title>Study in South Korea | A4 Admission</title>
 
         <meta
           name="description"

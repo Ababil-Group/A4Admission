@@ -7,6 +7,7 @@ import Sidebar from "./Sidebar";
 import Testimonial from "../home/Testimonial";
 import ContactFrom from "../components/ContactFrom";
 import Carusel from "../home/Carusel";
+import { Helmet } from "react-helmet";
 const Malta = () => {
   const { t } = useTranslation();
   const faqsList = [
@@ -82,6 +83,22 @@ const Malta = () => {
   ];
   return (
     <div className="bg-white my-6">
+      <Helmet>
+        <title>Study in Malta | A4 Admission</title>
+        <meta
+          name="description"
+          content="Explore top universities, affordable education, and Mediterranean lifestyle in Malta with A4 Admission. Learn about Maltese student visas, cost of living, work opportunities, and more for international students."
+        />
+        <meta
+          name="keywords"
+          content="Study in Malta, Maltese Universities, University of Malta, MCAST, Malta Student Visa, International Students Malta, Cost of Living Malta, Work in Malta, Education in Malta, A4 Admission Malta"
+        />
+        <meta name="robots" content="index, follow" />
+        <link
+          rel="canonical"
+          href="https://a4admission.com/pages/study-abroad-malta"
+        />
+      </Helmet>
       <hr class="hidden md:block h-px my-6 bg-gray-200 border-0 dark:bg-gray-400" />
       <div
         className="bg-cover bg-center md:py-16 px-2 min-h-[50vh] w-full md:min-h-[80vh] relative md:my-4"

@@ -7,6 +7,7 @@ import Sidebar from "./Sidebar";
 import Testimonial from "../home/Testimonial";
 import ContactFrom from "../components/ContactFrom";
 import Carusel from "../home/Carusel";
+import { Helmet } from "react-helmet";
 const Hungary = () => {
   const { t } = useTranslation();
   const faqsList = [
@@ -82,6 +83,22 @@ const Hungary = () => {
   ];
   return (
     <div className="bg-white my-6">
+      <Helmet>
+        <title>Study in Hungary | A4 Admission</title>
+        <meta
+          name="description"
+          content="Discover top-ranked universities, low living costs, and diverse academic opportunities. Study abroad in Hungary and shape your global career."
+        />
+        <meta
+          name="keywords"
+          content="Study in Hungary, Hungarian universities, affordable education Europe, international students Hungary, Hungary student visa, Hungary study abroad, Budapest University, Eötvös Loránd University, Szeged, Semmelweis, Debrecen"
+        />
+        <meta name="robots" content="index, follow" />
+        <link
+          rel="canonical"
+          href="https://a4admission.com/pages/study-abroad-hungary"
+        />
+      </Helmet>
       <hr class="hidden md:block h-px my-6 bg-gray-200 border-0 dark:bg-gray-400" />
       <div
         className="bg-cover bg-center md:py-16 px-2 min-h-[50vh] w-full md:min-h-[80vh] relative md:my-4"
