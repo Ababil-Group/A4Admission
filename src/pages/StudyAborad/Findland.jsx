@@ -94,10 +94,32 @@ const Findland = () => {
           content="Study in Finland, Finnish Universities, International Students, University of Helsinki, Aalto University, Tampere University, Research in Finland, Finland Student Visa, Cost of Living in Finland"
         />
         <meta name="robots" content="index, follow" />
+        
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Study Abroad in Finland | A4 Admission"
+        />
+        <meta
+          property="og:description"
+          content="Explore Finland globally ranked universities, sustainable living, student-friendly cities, and career opportunities for international students. Your journey starts with A4 Admission."
+        />
         <link
           rel="canonical"
           href="https://a4admission.com/pages/study-abroad-finland"
         />
+        <meta
+          property="og:url"
+          content="https://a4admission.com/pages/study-abroad-finland"
+        />
+        <meta property="og:locale" content="fi_FI" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Study in Finland | A4 Admission" />
+        <meta
+          name="twitter:description"
+          content="Study in Finland and enjoy high-quality education, internships, vibrant cities, and a strong support system for international students."
+        />
+        s
       </Helmet>
 
       <hr class="hidden md:block h-px my-6 bg-gray-200 border-0 dark:bg-gray-400" />

@@ -98,6 +98,11 @@ const Bulgeria = () => {
           rel="canonical"
           href="https://a4admission.com/pages/study-abroad-bulgaria"
         />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://a4admission.com/pages/study-abroad-bulgaria"
+        />
       </Helmet>
       <hr class="hidden md:block h-px my-6 bg-gray-200 border-0 dark:bg-gray-400" />
       <div

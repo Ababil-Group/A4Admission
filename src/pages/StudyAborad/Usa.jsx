@@ -94,9 +94,9 @@ const Usa = () => {
         />
         <meta
           name="keywords"
-          content="Study in USA,Study United States, USA Universities, Student Visa, International Students, A4 Admission"
+          content="Study in USA, Study United States, USA Universities, Student Visa, International Students, A4 Admission"
         />
-        <meta property="og:title" content="Study in the United States" />
+        <meta property="og:title" content="Study in United States" />
         <meta
           property="og:description"
           content="Explore top universities, career opportunities, and student life in the United States with A4 Admission."
@@ -106,6 +106,11 @@ const Usa = () => {
         <link
           rel="canonical"
           href="https://a4admission.com/pages/study-abroad-united-states"
+        />
+        <meta property="og:title" content="Study in USA | A4 Admission" />
+        <meta
+          property="og:url"
+          content="https://a4admission.com/pages/study-abroad-united-kingdom"
         />
       </Helmet>
       <hr class="hidden md:block h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />

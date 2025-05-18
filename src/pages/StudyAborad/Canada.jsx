@@ -109,10 +109,20 @@ const Canada = () => {
           name="keywords"
           content="Study in Canada, Canadian Universities, International Students, Canadian Education, Work in Canada, PGWP, Immigration, Living Cost in Canada"
         />
+        <meta property="og:title" content="Study in Canada | A4 Admission" />
+        <meta
+          property="og:description"
+          content="Explore Canada globally ranked universities, sustainable living, student-friendly cities, and career opportunities for international students. Your journey starts with A4 Admission."
+        />
         <meta name="robots" content="index, follow" />
         <link
           rel="canonical"
           href="https://a4admission.com/pages/study-abroad-canada"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://a4admission.com/pages/study-abroad-canada"
         />
       </Helmet>
       <hr class="hidden md:block h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />

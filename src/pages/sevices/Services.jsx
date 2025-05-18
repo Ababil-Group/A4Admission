@@ -112,6 +112,18 @@ const Services = () => {
           name="keywords"
           content="study destination, study abroad, settlement services, career coaching, student visa, overseas education"
         />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://a4admission.com/pages/services" />
+        <meta property="og:title" content="Services | A4 Admission" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://a4admission.com/pages/services"
+        />
+        <meta
+          property="og:description"
+          content="Meet A4 Admission, your trusted global partner in studying abroad. Learn about our story and how we support students globally."
+        />
       </Helmet>
       <div className="max-w-screen-xl mx-auto p-2 mb-20">
         <motion.div

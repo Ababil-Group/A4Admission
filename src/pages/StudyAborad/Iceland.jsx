@@ -98,6 +98,22 @@ const Iceland = () => {
           rel="canonical"
           href="https://a4admission.com/pages/study-abroad-iceland"
         />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Study Abroad in Iceland | A4 Admission"
+        />
+        <meta
+          property="og:description"
+          content="Explore Iceland globally ranked universities, sustainable living, student-friendly cities, and career opportunities for international students. Your journey starts with A4 Admission."
+        />
+
+        <meta
+          property="og:url"
+          content="https://a4admission.com/pages/study-abroad-iceland"
+        />
+        <meta property="og:locale" content="hu_HU" />
       </Helmet>
 
       <hr class="hidden md:block h-px my-6 bg-gray-200 border-0 dark:bg-gray-400" />

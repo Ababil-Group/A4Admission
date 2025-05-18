@@ -253,7 +253,7 @@ const Faqs = () => {
   return (
     <div className="bg-white my-6">
       <Helmet>
-        <title>FAQs – A4 Admission | Why Study Abroad</title>
+        <title>FAQs A4 Admission | Why Study Abroad</title>
         <meta
           name="description"
           content="Have questions about studying abroad? Explore answers about studying in Canada, USA, UK, Australia, Germany, Japan, and more. A4 Admission is here to guide you."
@@ -264,10 +264,7 @@ const Faqs = () => {
         />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://yourdomain.com/faq" />
-        <meta
-          property="og:title"
-          content="FAQs – A4 Admission | Study Abroad"
-        />
+        <meta property="og:title" content="FAQs A4 Admission | Study Abroad" />
         <meta
           property="og:description"
           content="Explore frequently asked questions about studying abroad in 20+ countries including Canada, USA, UK, Australia, and more."

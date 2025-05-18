@@ -105,6 +105,7 @@ const China = () => {
           content="Explore China’s prestigious universities, vibrant culture, and expanding career prospects. A4 Admission helps you navigate the cost of living, visa requirements, and work opportunities for international students in China."
         />
         <meta property="og:type" content="website" />
+        <meta property="og:locale" content="zh_CN" />
         <meta
           property="og:url"
           content="https://a4admission.com/pages/study-abroad-china"
@@ -116,10 +117,7 @@ const China = () => {
         />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Study Abroad in China | A4 Admission"
-        />
+        <meta name="twitter:title" content="Study in China | A4 Admission" />
         <meta
           name="twitter:description"
           content="Join China’s leading universities and discover world-class education, affordable living, and exciting career opportunities for international students with A4 Admission."

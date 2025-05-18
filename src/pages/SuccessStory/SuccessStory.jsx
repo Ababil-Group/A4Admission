@@ -34,7 +34,7 @@ import img29 from "../../assets/Romania/r7.png";
 import img30 from "../../assets/Romania/r8.png";
 import { BsArrowsFullscreen } from "react-icons/bs";
 import { motion, AnimatePresence, useInView } from "framer-motion";
-
+import { Helmet } from "react-helmet";
 const SuccessStory = () => {
   const { t } = useTranslation();
   const [selectedImage, setSelectedImage] = useState(null);
@@ -184,6 +184,29 @@ const SuccessStory = () => {
       variants={staggerContainer}
       className="bg-white my-4 md:my-10"
     >
+      <Helmet>
+        <title>Our Success Story | A4 Admission | Global Education Consultants</title>
+        <meta
+          name="description"
+          content="A4 Admission is a global education consulting agency helping students achieve their dream of studying abroad. Learn about our story, mission, and experienced team. We Provite Student visa Malta, Romania, Hungary, UK, Canada, USA, Australia and many more..."
+        />
+        <meta
+          name="keywords"
+          content="A4 Admission, study abroad consultants, global education agency, international student support, education guidance, study in Canada, USA, UK, Australia"
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://a4admission.com/pages/our-success-story" />
+        <meta property="og:title" content="About Us | A4 Admission" />
+        <meta
+          property="og:description"
+          content="Meet A4 Admission, your trusted global partner in studying abroad. Learn about our story and how we support students globally."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://a4admission.com/pages/our-success-story"
+        />
+      </Helmet>
       <section
         className="bg-cover bg-center py-16 px-2 h-auto sm:min-h-[60vh] relative flex items-center justify-center"
         style={{ backgroundImage: `url(${success})` }}

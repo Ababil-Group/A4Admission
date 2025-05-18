@@ -46,6 +46,24 @@ const ContactFrom = () => {
       setLoading(false);
     }, 2000);
   };
+
+  const lists = [
+    {
+      list: t("contact.extra.cpl1"),
+    },
+    {
+      list: t("contact.extra.cpl2"),
+    },
+    {
+      list: t("contact.extra.cpl3"),
+    },
+    {
+      list: t("contact.extra.cpl4"),
+    },
+    {
+      list: t("contact.extra.cpl5"),
+    },
+  ];
   return (
     <div className="grid grid-cols-1 md:grid-cols-5 gap-10 max-w-screen-xl mx-auto p-4 my-8">
       <div className="col-span-2 space-y-4 mt-5">
@@ -69,6 +87,16 @@ const ContactFrom = () => {
           <p className="text-lg text-gray-700 font-medium font-quicksand">
             {t("contact.extra.cp2")}
           </p>
+          <ul
+            className="bg-white font-poppins p-4 space-y-2"
+            style={{ listStyleType: "square" }}
+          >
+            {lists?.map((list, indx) => (
+              <li key={indx} className="space-y-2 text-lg font-medium font-quicksand text-gray-700 marker:text-blue-dark">
+                {list.list}
+              </li>
+            ))}
+          </ul>
           <p className="text-lg text-gray-700 font-medium font-quicksand">
             {t("contact.extra.cp3")}
           </p>

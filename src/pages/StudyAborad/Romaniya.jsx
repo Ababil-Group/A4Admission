@@ -98,6 +98,26 @@ const Romaniya = () => {
           rel="canonical"
           href="https://a4admission.com/pages/study-abroad-romania"
         />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Study in Romania | A4 Admission" />
+        <meta
+          property="og:description"
+          content="Explore top universities, student visa details, cost of living, and work opportunities in Romania. Begin your journey with A4 Admission today."
+        />
+
+        <meta
+          property="og:url"
+          content="https://a4admission.com/pages/study-abroad-romania"
+        />
+        <meta property="og:locale" content="ro_RO" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Study in Romania | A4 Admission" />
+        <meta
+          name="twitter:description"
+          content="Learn about studying in Romania including tuition-free education, top universities, research opportunities, and student life."
+        />
       </Helmet>
 
       <hr class="hidden md:block h-px my-6 bg-gray-200 border-0 dark:bg-gray-400" />

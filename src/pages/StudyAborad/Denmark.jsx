@@ -117,7 +117,7 @@ const Denmark = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Study Abroad in Denmark | A4 Admission"
+          content="Study in Denmark | A4 Admission"
         />
         <meta
           name="twitter:description"
@@ -167,7 +167,7 @@ const Denmark = () => {
       <section className="bg-red-gray py-10">
         <div className="grid grid-cols-1 md:grid-cols-2 max-w-screen-xl mx-auto p-4 gap-18">
           <div className="">
-            <img src={studyInfo} alt="" />
+            <img src={studyInfo} alt="study denmark info" />
           </div>
           <div className="flex-1">
             <h1 className="text-gray-800 text-4xl font-bold font-quicksand">

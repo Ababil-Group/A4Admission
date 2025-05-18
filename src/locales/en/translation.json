@@ -1752,9 +1752,14 @@
     },
     "extra": {
       "ch1": "Get in Touch with Us",
-      "cp1": "Leave us a message to get more information about study in Canada.",
-      "cp2": "You can visit us at our office in Bogor, or we can come to your place (Jabodetabek area only) for your convenience.",
-      "cp3": "We can also discuss via Zoom, or any digital platfrom to discuss more!"
+      "cp1": "Contact us to get detailed information about the study plan with A4 Admission.",
+      "cp2": "You can visit us at any of our offices:",
+      "cpl1": "USA (HQ): 1111 Oakfield Dr., Ste. 115E, Brandon, FL 33511",
+      "cpl2": "UK: 33 St James's Square, London SW1Y 4JS",
+      "cpl3": "UAE: Level 23, Boulevard Plaza 2, Sheikh Mohammed bin Rashid Blvd, Dubai",
+      "cpl4": "Bangladesh (Sylhet): 3rd Floor, Ananda Tower, Jail Road, Sylhet",
+      "cpl5": "Bangladesh (Chittagong): 3rd Floor, VIP Plaza, FC Road, G-Block, Near Artillery, Halishahar, Chittagong",
+      "cp3": "We can also discuss via WhatsApp, or any digital platfrom to discuss more!"
     }
   },
   "faqs": {

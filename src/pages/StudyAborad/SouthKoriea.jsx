@@ -96,6 +96,7 @@ const SouthKoriea = () => {
         />
 
         <meta property="og:type" content="website" />
+        <meta property="og:title" content="Study in South Korea | A4 Admission" />
         <meta
           property="og:url"
           content="https://a4admission.com/pages/study-abroad-south-korea"

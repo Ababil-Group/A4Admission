@@ -98,6 +98,18 @@ const NetherLand = () => {
           rel="canonical"
           href="https://a4admission.com/pages/study-abroad-netherlands"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Study in Netherlands | A4 Admission" />
+        <meta
+          property="og:description"
+          content="Explore Netherlands globally ranked universities, sustainable living, student-friendly cities, and career opportunities for international students. Your journey starts with A4 Admission."
+        />
+
+        <meta
+          property="og:url"
+          content="https://a4admission.com/pages/study-abroad-netherlands"
+        />
+        <meta property="og:locale" content="nl_NL" />
       </Helmet>
 
       <hr class="hidden md:block h-px my-6 bg-gray-200 border-0 dark:bg-gray-400" />
