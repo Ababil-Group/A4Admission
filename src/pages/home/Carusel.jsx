@@ -1,108 +1,315 @@
-import React, { useState } from "react";
-
-const Carusel = () => {
+import React, { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import img1 from "../../assets/Malta/m1.png";
+import img2 from "../../assets/Malta/m2.png";
+import img3 from "../../assets/Hungry/h1.png";
+import img4 from "../../assets/Romania/r1.png";
+import img5 from "../../assets/Hungry/h2.png";
+import img6 from "../../assets/Romania/r2.png";
+import img7 from "../../assets/Malta/m6.png";
+import img8 from "../../assets/Malta/m9.png";
+import img9 from "../../assets/Malta/m12.png";
+const Carousel = () => {
   const testimonials = [
     {
-      avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-      name: "Martin Escobar",
+      avatar: img1,
+      name: "GOLAM SARWOR",
       quote:
-        "I’m so grateful to A4 Admission for providing such tailored advice. They didn’t just suggest random universities, they carefully listened to my goals and recommended options that actually made sense for my future. Truly exceptional service,",
+        "I'm so grateful to A4 Admission for providing such tailored advice. They didn't just suggest random universities, they carefully listened to my goals and recommended options that actually made sense for my future. Truly exceptional service.",
     },
     {
-      avatar: "https://randomuser.me/api/portraits/women/79.jpg",
-      name: "Angela Stian",
+      avatar: img2,
+      name: "MAZHARUL ISALM",
       quote:
         "The entire process from document prep to visa guidance was handled with such professionalism. A4 Admission made something that felt overwhelming become so simple and organized.",
     },
     {
-      avatar: "https://randomuser.me/api/portraits/men/86.jpg",
-      name: "Karim Ahmed",
+      avatar: img3,
+      name: "HOSSEN AKRAM",
       quote:
         "The visa application process can be scary, but A4 Admission made sure I was well-prepared for everything—from paperwork to the interview. I got my visa on the first try.",
     },
     {
-      avatar: "https://randomuser.me/api/portraits/women/45.jpg",
-      name: "Sophie Müller",
+      avatar: img4,
+      name: "SAJIB BISWAS",
       quote:
         "Every step with A4 Admission felt smooth and well-coordinated. From my first consultation to booking my flight, they handled everything with complete professionalism.",
     },
     {
-      avatar: "https://randomuser.me/api/portraits/men/34.jpg",
-      name: "David Zhang",
+      avatar: img5,
+      name: "FAHIM UDDIN",
+      quote:
+        "They didn't just stop after submitting my application. A4 Admission helped with my accommodation, travel, and even a pre-departure session. That extra care made me feel really supported.",
+    },
+    {
+      avatar: img6,
+      name: "RAY TUTUL",
+      quote:
+        "Every step with A4 Admission felt smooth and well-coordinated. From my first consultation to booking my flight, they handled everything with complete professionalism.",
+    },
+    {
+      avatar: img7,
+      name: "MD KAMIL AHMED",
       quote:
         "They didn’t just stop after submitting my application. A4 Admission helped with my accommodation, travel, and even a pre-departure session. That extra care made me feel really supported.",
     },
     {
-      avatar: "https://randomuser.me/api/portraits/women/62.jpg",
-      name: "Fatima Noor",
+      avatar: img8,
+      name: "SATVINDER SINGH",
       quote:
         "What I received from A4 Admission was far beyond what I expected. Their services are worth every penny quality guidance, prompt communication, and genuine care throughout.",
     },
     {
-      avatar: "https://randomuser.me/api/portraits/men/71.jpg",
-      name: "Lucas Green",
+      avatar: img9,
+      name: "MUMU DATTA",
       quote:
         "Unlike other agencies, A4 Admission felt personal. They truly cared about my journey and success. I felt like more than just a client, I felt valued.",
     },
   ];
 
-  const [currentTestimonial, setCurrentTestimonial] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [direction, setDirection] = useState("right");
+  const [isHovering, setIsHovering] = useState(false);
+
+  // Auto-advance carousel (pauses on hover)
+  useEffect(() => {
+    let interval;
+    if (!isHovering) {
+      interval = setInterval(() => {
+        setDirection("right");
+        setCurrentIndex((prev) => (prev + 1) % testimonials.length);
+      }, 3000);
+    }
+    return () => clearInterval(interval);
+  }, [testimonials.length, isHovering]);
+
+  const handlePrev = () => {
+    setDirection("left");
+    setCurrentIndex((prev) =>
+      prev === 0 ? testimonials.length - 1 : prev - 1
+    );
+  };
+
+  const handleNext = () => {
+    setDirection("right");
+    setCurrentIndex((prev) => (prev + 1) % testimonials.length);
+  };
+
+  const goToSlide = (index) => {
+    setDirection(index > currentIndex ? "right" : "left");
+    setCurrentIndex(index);
+  };
+
+  // Animation variants
+  const slideVariants = {
+    enter: (direction) => ({
+      x: direction === "right" ? 1000 : -1000,
+      opacity: 0,
+      scale: 0.8,
+    }),
+    center: {
+      x: 0,
+      opacity: 1,
+      scale: 1,
+      transition: { duration: 0.5, ease: "easeOut" },
+    },
+    exit: (direction) => ({
+      x: direction === "right" ? -1000 : 1000,
+      opacity: 0,
+      scale: 0.8,
+      transition: { duration: 0.5, ease: "easeIn" },
+    }),
+  };
+
+  const thumbnailVariants = {
+    inactive: {
+      scale: 0.9,
+      borderRadius: "8px",
+      opacity: 0.7,
+      transition: { duration: 0.3 },
+    },
+    active: {
+      scale: 1.1,
+      borderRadius: "16px 0 16px 0",
+      opacity: 1,
+      zIndex: 1,
+      transition: { duration: 0.3 },
+    },
+    hover: {
+      scale: 1.05,
+      opacity: 0.9,
+      transition: { duration: 0.2 },
+    },
+  };
+
+  const textVariants = {
+    hidden: { opacity: 0, y: 10 },
+    visible: { opacity: 1, y: 0, transition: { delay: 0.2 } },
+  };
+
   return (
-    <section className="py-14">
+    <section className="py-14 bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-screen-xl mx-auto px-4 md:px-8">
-        <div className="max-w-3xl mx-auto text-center">
-          <h3 className="text-gray-900 font-bold pb-6 font-quicksand text-4xl">
-            What They Say About A4-Admisstion
-          </h3>
-          <ul>
-            {testimonials.map((item, idx) =>
-              currentTestimonial == idx ? (
-                <li key={idx}>
-                  <figure>
-                    <blockquote>
-                      <p className="text-gray-700 text-xl font-semibold sm:text-2xl">
-                        “{item.quote}“
-                      </p>
-                    </blockquote>
-                    <div className="mt-6">
-                      <img
-                        src={item.avatar}
-                        className="w-16 h-16 mx-auto rounded-full"
-                      />
-                      <div className="mt-3">
-                        <span className="block text-gray-800 font-semibold">
-                          {item.name}
-                        </span>
-                        <span className="block text-gray-600 text-sm mt-0.5">
-                          {item.title}
-                        </span>
-                      </div>
-                    </div>
-                  </figure>
-                </li>
-              ) : (
-                ""
-              )
-            )}
-          </ul>
+        <div className="max-w-3xl mx-auto text-center mb-12">
+          <motion.h3
+            className="text-gray-900 font-bold font-quicksand text-4xl"
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            What They Say About A4-Admission
+          </motion.h3>
         </div>
-        <div className="mt-6">
-          <ul className="flex gap-x-3 justify-center">
+
+        {/* Main testimonial with animation */}
+        <div
+          className="relative h-96 md:h-80 mb-12 overflow-hidden"
+          onMouseEnter={() => setIsHovering(true)}
+          onMouseLeave={() => setIsHovering(false)}
+        >
+          <AnimatePresence custom={direction} initial={false}>
+            <motion.div
+              key={currentIndex}
+              custom={direction}
+              variants={slideVariants}
+              initial="enter"
+              animate="center"
+              exit="exit"
+              className="absolute inset-0 flex flex-col items-center justify-center px-4"
+            >
+              <figure className="max-w-2xl mx-auto text-center">
+                <blockquote>
+                  <motion.p
+                    className="text-gray-700 text-xl font-semibold sm:text-2xl"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 0.3 }}
+                  >
+                    "{testimonials[currentIndex].quote}"
+                  </motion.p>
+                </blockquote>
+                <div className="mt-8">
+                  <motion.img
+                    src={testimonials[currentIndex].avatar}
+                    className="w-16 h-16 mx-auto rounded-full shadow-lg"
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1 }}
+                    transition={{ delay: 0.3, type: "spring" }}
+                  />
+                  <motion.div
+                    className="mt-4"
+                    variants={textVariants}
+                    initial="hidden"
+                    animate="visible"
+                  >
+                    <span className="block text-gray-800 font-semibold text-lg">
+                      {testimonials[currentIndex].name}
+                    </span>
+                  </motion.div>
+                </div>
+              </figure>
+            </motion.div>
+          </AnimatePresence>
+        </div>
+
+        {/* Thumbnail navigation */}
+        <div
+          className="flex justify-center"
+          onMouseEnter={() => setIsHovering(true)}
+          onMouseLeave={() => setIsHovering(false)}
+        >
+          <div className="grid grid-cols-3 md:grid-cols-5 gap-4 max-w-4xl mx-auto px-4">
             {testimonials.map((item, idx) => (
-              <li key={idx}>
-                <button
-                  className={`w-2.5 h-2.5 rounded-full duration-150 ring-offset-2 ring-redest-dark focus:ring ${
-                    currentTestimonial == idx ? "bg-redest-dark" : "bg-gray-300"
-                  }`}
-                  onClick={() => setCurrentTestimonial(idx)}
-                ></button>
-              </li>
+              <motion.div
+                key={idx}
+                className="relative cursor-pointer"
+                onClick={() => goToSlide(idx)}
+                initial={false}
+                animate={currentIndex === idx ? "active" : "inactive"}
+                whileHover={currentIndex !== idx ? "hover" : {}}
+                variants={thumbnailVariants}
+              >
+                <img
+                  src={item.avatar}
+                  className="w-full h-32 md:h-40 object-cover rounded-lg shadow-md bg-blue-dark p-1"
+                  alt={item.name}
+                  style={{
+                    borderBottomLeftRadius: currentIndex === idx ? "0" : "20px",
+                    borderTopLeftRadius: currentIndex === idx ? "32px" : "8px",
+                  }}
+                />
+                <div
+                  className="absolute inset-0 bg-gray-800/30"
+                  style={{
+                    borderBottomLeftRadius: currentIndex === idx ? "0" : "20px",
+                    borderTopLeftRadius: currentIndex === idx ? "32px" : "8px",
+                  }}
+                ></div>
+                {currentIndex === idx && (
+                  <motion.div
+                    className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-2 text-white text-sm font-medium"
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.2 }}
+                  >
+                    {item.name}
+                  </motion.div>
+                )}
+              </motion.div>
             ))}
-          </ul>
+          </div>
+        </div>
+
+        {/* Navigation arrows */}
+        <div className="flex justify-center mt-8 space-x-4">
+          <motion.button
+            onClick={handlePrev}
+            className="p-3 rounded-full bg-redest-dark text-white hover:bg-redest-darker transition-colors shadow-lg"
+            aria-label="Previous"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </motion.button>
+          <motion.button
+            onClick={handleNext}
+            className="p-3 rounded-full bg-redest-dark text-white hover:bg-redest-darker transition-colors shadow-lg"
+            aria-label="Next"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </motion.button>
         </div>
       </div>
     </section>
   );
 };
 
-export default Carusel;
+export default Carousel;
