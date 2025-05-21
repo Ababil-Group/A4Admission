@@ -173,7 +173,14 @@ function App() {
         </button>
       )}
 
-      <FloatingWhatsApp />
+      <FloatingWhatsApp
+        phoneNumber="+447465268767"
+        accountName="A4 Admission"
+        allowEsc
+        allowClickAway
+        notification
+        notificationSound
+      />
       <Toaster />
     </div>
   );
