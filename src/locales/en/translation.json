@@ -177,6 +177,7 @@
         "al18": "Religious Studies & Theology",
         "al19": "Sociology & Social Research"
       },
+
       "busness": {
         "h1": "Business, Management & Economics",
         "al1": "Accounting & Financial Reporting",
@@ -1669,6 +1670,14 @@
         "thfh2p6lm3": "Autumn (September–November): Pleasantly cool, 10°C–20°C, with colorful landscapes, Winter (December–February): Cold, with snow in mountainous areas and temperatures from -5°C to 5°C"
       }
     }
+  },
+  "service": {
+    "serviceh": "Our Services",
+    "servicelisth1": "Study Abroad Support",
+    "servicelisth1p1": "Expert education consulting",
+    "servicelisth1p2": "Help with school & visa applications*",
+    "servicelisth1p3": "Custodian arrangements*",
+    "servicelisth1p4": "Pre-arrival & onboarding assistance"
   },
   "aboutus": {
     "tophero": {

@@ -42,17 +42,29 @@ const Header = () => {
   };
 
   useEffect(() => {
-    const savedLanguage = localStorage.getItem("userLanguage");
-    if (savedLanguage && savedLanguage !== i18n.language) {
-      i18n.changeLanguage(savedLanguage);
-      setCurrentLanguage(savedLanguage);
-    }
+    const detectCountry = async () => {
+      try {
+        const response = await fetch("https://ipapi.co/json/");
+        const data = await response.json();
+        if (data?.country === "HR" && i18n?.language !== "hr") {
+          i18n.changeLanguage("hr");
+        }
+      } catch (error) {
+        console.error("Error detecting country:", error);
+      }
+    };
+
+    detectCountry();
   }, [i18n]);
 
   const languages = [
-    { code: "en", name: "English" },
-    { code: "id", name: "Indonesia" },
+    { code: "en", name: "English", countryCode: "GB" },
+    { code: "hr", name: "Croatia", countryCode: "HR" },
   ];
+
+  const currentCountryCode =
+    languages.find((lang) => lang.code === currentLanguage)?.countryCode ||
+    "GB";
 
   const navigation = [
     { title: t("menu.home"), path: "/" },
@@ -203,13 +215,22 @@ const Header = () => {
             <img src={Logo} alt="A4-Admission" className="w-22" />
           </Link>
         </div>
-        <div className="relative hidden sm:block ">
-          {/* <button
+        <div className="relative hidden sm:block">
+          <button
             className="flex items-center gap-2"
             onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
             disabled={isChangingLanguage}
           >
-            <BiWorld className="text-gray-500" />
+            <ReactCountryFlag
+              countryCode={currentCountryCode}
+              svg
+              style={{
+                width: "1.2em",
+                height: "1.2em",
+                borderRadius: "50%",
+              }}
+              title={currentCountryCode}
+            />
             <span>
               {languages.find((lang) => lang.code === currentLanguage)?.name ||
                 "English"}
@@ -221,14 +242,15 @@ const Header = () => {
             ) : (
               <MdKeyboardArrowDown />
             )}
-          </button> */}
+          </button>
 
+          {/* Keep the existing dropdown code */}
           {isLanguageDropdownOpen && (
-            <div className="absolute right-0 top-8 z-10 bg-white shadow-md rounded-md p-2 min-w-[120px]">
+            <div className="absolute right-0 top-8 z-10 bg-white shadow-md rounded-md p-2 min-w-[150px]">
               {languages.map((language) => (
                 <button
                   key={language.code}
-                  className={`block w-full text-left px-2 py-1 hover:bg-gray-100 rounded ${
+                  className={`flex items-center w-full text-left px-2 py-1 hover:bg-gray-100 rounded ${
                     currentLanguage === language.code
                       ? "font-bold text-redest-dark"
                       : ""
@@ -236,6 +258,17 @@ const Header = () => {
                   onClick={() => changeLanguage(language.code)}
                   disabled={isChangingLanguage}
                 >
+                  <ReactCountryFlag
+                    countryCode={language.countryCode}
+                    svg
+                    style={{
+                      width: "1.2em",
+                      height: "1.2em",
+                      marginRight: "0.5em",
+                      borderRadius: "50%",
+                    }}
+                    title={language.countryCode}
+                  />
                   {language.name}
                 </button>
               ))}
@@ -244,10 +277,10 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="max-w-screen-lg mx-auto border-t-[2px] border-[#ece7df]">
+      <div className="max-w-screen-xl mx-auto border-t-[2px] border-[#ece7df]">
         {/* Desktop Navigation */}
         <div className="hidden md:block my-2">
-          <ul className="flex flex-wrap items-center justify-center space-x-6">
+          <ul className="flex flex-wrap items-center justify-center space-x-6 space-x-6">
             {navigation.map((item, idx) => (
               <li
                 key={idx}

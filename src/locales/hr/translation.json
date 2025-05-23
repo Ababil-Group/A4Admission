@@ -1,0 +1,447 @@
+{
+  "menu": {
+    "home": "Početna",
+    "services": "Usluge",
+    "studyAbrod": "Studij u inozemstvu",
+    "studyAl1": "Kanada",
+    "studyAl2": "Sjedinjene Američke Države",
+    "studyAl3": "Ujedinjeno Kraljevstvo",
+    "studyAl4": "Australija",
+    "studyAl5": "Novi Zeland",
+    "studyAl6": "Kina",
+    "studyAl7": "Japan",
+    "studyAl8": "Južna Koreja",
+    "studyAl9": "Irska",
+    "studyAl10": "Švedska",
+    "studyAl11": "Njemačka",
+    "studyAl12": "Danska",
+    "studyAl13": "Norveška",
+    "studyAl14": "Finska",
+    "studyAl15": "Nizozemska",
+    "studyAl16": "Island",
+    "studyAl17": "Malta",
+    "studyAl18": "Mađarska",
+    "studyAl19": "Rumunjska",
+    "studyAl20": "Bugarska",
+
+    "highschoolcanada": "Srednja škola u Kanadi",
+    "highschooll1": "Columbia College",
+    "highschooll2": "Blyth Akademija",
+    "highschooll3": "Columbia International College",
+    "event": "Naša priča o uspjehu",
+    "artical": "Članci/Vijesti",
+    "about": "O nama",
+    "faq": "Često postavljana pitanja",
+    "contact": "Kontakt"
+  },
+  "banner": {
+    "btext": "Kuliah ke luar negeri? Salak Ed siap membantu anda!"
+  },
+  "home": {
+    "frontText": {
+      "textpri": "Otkrijte svoje snove o globalnom obrazovanju",
+      "textsec": "Stručno vodstvo za studij u inozemstvu od A4 Admission",
+      "btn": "Zatražite BESPLATNO savjetovanje sada"
+    },
+    "second": {
+      "texth": "Studirajte u inozemstvu s A4 Admission",
+      "textp1": "A4 Admission je vodeća obrazovna konzultantska tvrtka specijalizirana za programe studija u inozemstvu za srednjoškolce i studente. Nudimo prilagođenu podršku za upis na vodeća odredišta poput Kanade, SAD-a, Ujedinjenog Kraljevstva, Malte, Rusije i Australije.",
+      "textp2": "Naša globalna prisutnost s timovima u Aziji, Europi i SAD-u osigurava nesmetanu pomoć u svakom koraku – od odabira sveučilišta do obrade vize i smještaja nakon dolaska.",
+      "btn": "O nama"
+    },
+    "third": {
+      "texth": "Pronađi program i školu",
+      "btn1": "Odredište",
+      "btn2": "Naš uspjeh",
+      "btn3": "Proces"
+    },
+    "forth": {
+      "testfirst": "ZAŠTO",
+      "p": "Vjerujemo da svatko zaslužuje transformacijsku budućnost pristupom najboljim obrazovnim prilikama na svijetu",
+      "p2": "25+ godina iskustva u industriji",
+      "p3": "Iskustvo iz prve ruke – naš tim je studirao, radio i živio u SAD-u i Kanadi",
+      "p4": "100+ partnerskih institucija širom glavnih kanadskih pokrajina za lakše preseljenje",
+      "p5": "100% podrška za zaposlenje putem karijernog savjetovanja i veza s industrijom",
+      "p6": "90% prihvaćenih na vodećim fakultetima i sveučilištima",
+      "p7": "Sveobuhvatna podrška za život – od viza do prilagodbe kulturi"
+    },
+    "fifth": {
+      "title1": "Besplatno savjetovanje",
+      "des1": "Razgovarajmo! Sjednite s našim iskusnim savjetnicima i raspravite o svojim ciljevima studija, željenom odredištu, akademskoj pozadini (GPA) i budžetu.",
+
+      "title2": "Istraživanje i otkrivanje",
+      "des2": "Na temelju vašeg profila, preporučit ćemo najbolje odgovarajuća sveučilišta ili fakultete – uključujući školarine, rokove prijave i mogućnosti zapošljavanja u budućnosti.",
+
+      "title3": "Priprema dokumenata",
+      "des3": "Bez nagađanja. Vodimo vas kroz točno ono što vam treba – od prijepisa i putovnice do rezultata ispita iz engleskog jezika i pisama preporuke.",
+
+      "title4": "Predaja prijava",
+      "des4": "Kada budete spremni, mi ćemo podnijeti vaše prijave i obaviti potrebna plaćanja naknada – u vaše ime.",
+
+      "title5": "Pismo o prihvaćanju",
+      "des5": "🎉 Dobre vijesti! Ako budete odabrani, primit ćete službeno pismo o prihvaćanju (LOA) od institucije.",
+
+      "title6": "Plaćanje školarine",
+      "des6": "S LOA u rukama, možete samopouzdano uplatiti školarinu izravno školi.",
+
+      "title7": "Pomoć pri studentskoj vizi",
+      "des7": "Naši stručnjaci pomoći će vam pripremiti i predati zahtjev za vizu, uspješno proći intervju i osigurati svu potrebnu imigracijsku dokumentaciju.",
+
+      "title8": "Putovanje i smještaj",
+      "des8": "Pomažemo s rezervacijama letova, prijevozom s aerodroma i smještajem putem naših pouzdanih partnera u inozemstvu.",
+
+      "title9": "Priprema prije odlaska",
+      "des9": "Pripremite se za uspjeh! Naša završna sesija pruža vam ključne informacije i savjete za prvi tjedan u inozemstvu – uključujući bankarstvo, sigurnost i kulturu.",
+      "headingbuttom": "Vaše globalno putovanje počinje ovdje – uz A4 Admission uz vas!"
+    },
+    "objective": {
+      "heading": "Vjerujemo da svaka osoba zaslužuje imati smislen život kroz ostvarivanje najboljeg obrazovanja koje svijet može ponuditi.",
+      "icon1": "25+ godina akumuliranog iskustva u industriji",
+      "icon2": "Iskustvo iz prve ruke u studiranju, radu i životu u Kanadi i Sjedinjenim Američkim Državama",
+      "icon3": "Imamo partnere u glavnim provincijama Kanade koji pomažu studentima da se snađu",
+      "icon4": "100% zaposlenost kroz program profesionalnog usmjeravanja",
+      "icon5": "90% stopa prihvaćanja na koledže i sveučilišta",
+      "icon6": "Razumijemo da nije lako živjeti u inozemstvu – ovdje smo da pomognemo studentima da imaju najbolje iskustvo življenja",
+      "why": "zašto"
+    },
+    "university": {
+      "title": "100+ partnerskih sveučilišta",
+      "btn": "Pogledaj sve"
+    },
+    "testmoni": {
+      "left": {
+        "h1": "Mudro odaberite pravo sveučilište",
+        "hb2": "Postavite temelje za lakše i ispunjenije putovanje u inozemstvo.",
+        "p1": "Pomažemo vam odabrati sveučilište koje ne samo da odgovara vašim akademskim ciljevima, već i podržava vaš dugoročni uspjeh, čineći vaše putovanje u inozemstvo lakšim i ispunjenijim."
+      }
+    },
+    "program": {
+      "ph1": "Više od 1000 programa za odabrati",
+      "engineering": {
+        "h1": "Inženjerstvo i Tehnologija",
+        "el1": "Zrakoplovna tehnologija i pilotiranje",
+        "el2": "Poljoprivredno inženjerstvo i znanosti",
+        "el3": "Arhitektura i urbani dizajn",
+        "el4": "Biomedicina i bioinženjering",
+        "el5": "Kemijsko i procesno inženjerstvo",
+        "el6": "Građevinsko inženjerstvo i upravljanje gradnjom",
+        "el7": "Elektrotehnika i energetsko inženjerstvo",
+        "el8": "Elektronika i telekomunikacijski sustavi",
+        "el9": "Inženjerstvo okoliša i održivosti",
+        "el10": "Razvoj igara, animacija i dizajn",
+        "el11": "Industrijsko i sustavsko inženjerstvo",
+        "el12": "Znanost o materijalima i nanotehnologija",
+        "el13": "Strojarstvo, proizvodnja i robotika",
+        "el14": "Radiološka tehnologija",
+        "el15": "Računalne znanosti, IT i razvoj softvera"
+      },
+      "science": {
+        "h1": "Znanost",
+        "sl1": "Biokemija i molekularna biologija",
+        "sl2": "Biološke znanosti",
+        "sl3": "Kemija i primijenjena kemija",
+        "sl4": "Računalne znanosti i programiranje",
+        "sl5": "Stomatologija",
+        "sl6": "Znanosti o Zemlji, okolišu i klimi",
+        "sl7": "Znanost o hrani, prehrani i sportu",
+        "sl8": "Geologija i geoznanosti",
+        "sl9": "Matematičke i statističke znanosti",
+        "sl10": "Optometrija i znanost o vidu",
+        "sl11": "Farmaceutske znanosti i farmacija",
+        "sl12": "Fizika i primijenjena fizika",
+        "sl13": "Političke znanosti i međunarodni odnosi",
+        "sl14": "Psihologija, filozofija i terapijske prakse",
+        "sl15": "Veterinarska medicina",
+        "sl16": "Psihologija, filozofija, terapija",
+        "sl17": "Veterinarstvo"
+      },
+      "arts": {
+        "h1": "Umjetnost",
+        "al1": "Antropologija i kulturne studije",
+        "al2": "Komunikacije i medijske studije",
+        "al3": "Engleska književnost i kreativno pisanje",
+        "al4": "Modni dizajn i estetske terapije",
+        "al5": "Likovna i vizualna umjetnost",
+        "al6": "Kulinarska umjetnost i prehrambene studije",
+        "al7": "Rodne i identitetske studije",
+        "al8": "Geografija i ljudska geografija",
+        "al9": "Grafički i unutarnji dizajn",
+        "al10": "Grafički dizajn, unutarnji dizajn",
+        "al11": "Povijest i povijesna istraživanja",
+        "al12": "Jezici i lingvistika",
+        "al13": "Novinarstvo i vijesti",
+        "al14": "Humanističke znanosti i interdisciplinarne studije",
+        "al15": "Film, kazalište i izvedbene umjetnosti",
+        "al16": "Glazba, zvuk i audio produkcija",
+        "al17": "Urbano i regionalno planiranje",
+        "al18": "Religijske studije i teologija",
+        "al19": "Sociologija i društvena istraživanja"
+      }
+    },
+    "busness": {
+      "h1": "Poslovanje, Menadžment i Ekonomija",
+      "al1": "Računovodstvo i financijsko izvještavanje",
+      "al2": "Poduzetništvo i inovacije",
+      "al3": "Financije, ekonomija i ulaganja",
+      "al4": "Ugostiteljstvo, turizam i hotelski menadžment",
+      "al5": "Upravljanje ljudskim resursima",
+      "al6": "Međunarodna trgovina i globalno poslovanje",
+      "al7": "Poslovna administracija i operacije",
+      "al8": "Marketing i digitalna strategija",
+      "al9": "Poslovna analitika i interpretacija podataka",
+      "al10": "Oglašavanje i komunikacija brenda",
+      "al11": "Odnosi s javnošću i korporativna komunikacija",
+      "al12": "Logistika i upravljanje opskrbnim lancem"
+    },
+    "health": {
+      "h1": "Zdravstvene znanosti i sestrinstvo",
+      "al1": "Opće zdravstvene znanosti",
+      "al2": "Medicina i kliničke studije",
+      "al3": "Sestrinstvo i briga o pacijentima",
+      "al4": "Hitna medicina i interventne službe",
+      "al5": "Kineziologija i znanost o pokretu"
+    },
+    "social": {
+      "h1": "Zajednica i socijalne usluge",
+      "al1": "Pravo, kazneno pravosuđe i pravne studije",
+      "al2": "Političke znanosti, vlada i javne politike",
+      "al3": "Policija, sigurnost i zaštitne službe",
+      "al4": "Podučavanje, rano djetinjstvo i obrazovna podrška",
+      "al5": "Rad u zajednici i socijalne usluge"
+    }
+  },
+  "studyabrod": {
+    "canada": {
+      "topText": {
+        "cath": "Studiraj u Kanadi",
+        "catp": "Kanada je nadaleko poznata kao jedna od najboljih zemalja za život zahvaljujući vrhunskom zdravstvenom sustavu, kvalitetnom obrazovanju i iznimnom životnom standardu. Kanađani uživaju u uravnoteženom odnosu posla i privatnog života te su poznati po toplini, inkluzivnosti i zajedničkom duhu."
+      },
+      "subTextL": {
+        "subTextLh": "Zašto studirati u Kanadi?",
+        "subhfh0": "Multikulturalno društvo",
+        "subhfp0": "Kanada je poznata po inkluzivnom, prijateljskom i tolerantnom društvu. S više od 200 etničkih skupina, zemlja srdačno prihvaća međunarodne studente iz svih dijelova svijeta.",
+        "subhfh1": "Vrhunska edukacija jezika",
+        "subhfp1": "Kao dvojezična država, Kanada je globalni lider u obrazovanju jezika. Francuski i engleski jezik podučavaju se kao prvi i drugi jezik i čine važan dio obrazovnog sustava.",
+        "subhfh2": "Inovativne i brojne istraživačke mogućnosti",
+        "subhfp2": "Obrazovni sustav Kanade stavlja naglasak na istraživanje i inovacije. Studenti imaju pristup najsuvremenijim resursima koje podržavaju vlada i privatni sektor.",
+        "subhfh3": "Put do useljeništva",
+        "subhfp3": "Međunarodni studenti s kanadskim kvalifikacijama i radnim iskustvom mogu imati pravo na stalni boravak bez napuštanja zemlje, što omogućuje lakši prijelaz sa studija na trajno naseljavanje.",
+        "subhfh4": "Povoljno obrazovanje",
+        "subhfp4": "U usporedbi s drugim vodećim destinacijama za studij, Kanada nudi niže školarine i troškove života, čineći kvalitetno obrazovanje dostupnijim.",
+        "subhfh5": "Sigurne i zdrave zajednice",
+        "subhfp5": "Ujedinjeni narodi neprestano rangiraju Kanadu među najbolje zemlje za život zahvaljujući visokoj kvaliteti života, poštivanju ljudskih prava, rodnoj ravnopravnosti i mirnom, stabilnom društvu.",
+        "subhfh6": "Život na kampusu",
+        "subhfp6": "Kanadski kampusi nude dinamično i uravnoteženo iskustvo s visokotehnološkim knjižnicama, sportskim objektima olimpijske razine, glazbenim dvoranama, studentskim klubovima i galerijama.",
+        "subhfh7": "Rad tijekom studija i mogućnosti nakon diplome",
+        "subhfp7": "Međunarodni studenti mogu raditi do 20 sati tjedno tijekom nastave i puno radno vrijeme tijekom praznika. Nakon diplome, studenti mogu aplicirati za radnu dozvolu do tri godine (PGWP), što pruža vrijedno radno iskustvo u Kanadi."
+      },
+      "subTextR": {
+        "btn": "BESPLATNO SAVJETOVANJE",
+        "subhr1": "Ostvari svoje snove!",
+        "subpr1": "Oblikuj svoju budućnost s A4 Admission",
+        "subrph1": "Dokazana stručnost",
+        "subrpt1": "S više od 10 godina iskustva i jakim partnerstvima s vodećim institucijama, vodimo te kroz svaki korak.",
+        "subrph2": "Sveobuhvatna podrška",
+        "subrpt2": "Uživaj u visokoj stopi prihvaćanja, osobnoj podršci i jednostavnom prijelazu u novu akademsku sredinu.",
+        "subrph3": "Uspjeh u karijeri",
+        "subrpt3": "Naši diplomanti ostvaruju 100% zaposlenost, a mi se trudimo pružiti izvanredno iskustvo života i učenja.",
+        "btn2": "Konzultiraj se sada"
+      },
+      "thirdText": {
+        "th": "Troškovi života u glavnim kanadskim gradovima",
+        "thfh1": "Troškovi života u glavnim kanadskim gradovima",
+        "thfh1ph1": "Toronto:",
+        "thfh1p1": "Kao najveći grad u Kanadi, Toronto nudi brojne prilike—ali po visokoj cijeni. Troškovi stanovanja, prijevoza i hrane su visoki. Očekujte oko 2,000 CAD mjesečno za jednosoban stan u centru i oko 20 CAD za obrok u restoranu srednje klase.",
+        "thfh1ph2": "Vancouver:",
+        "thfh1p2": "Na zapadnoj obali, Vancouver je poznat po prirodnim ljepotama, ali i po visokim životnim troškovima. Stan u centru košta oko 1,900 CAD mjesečno, a obrok u restoranu oko 20 CAD.",
+        "thfh1ph3": "Montreal:",
+        "thfh1p3": "Kao kulturna prijestolnica Quebeca, Montreal nudi pristupačniji život. Najam jednosobnog stana u centru iznosi oko 1,200 CAD, a obrok oko 15 CAD, što ga čini popularnim među studentima.",
+        "thfh1ph4": "Calgary:",
+        "thfh1p4": "Smješten u Alberti, Calgary spaja gradski život s nižim troškovima. Najam jednosobnog stana u centru je oko 1,400 CAD, a obrok oko 20 CAD.",
+        "thfh1ph5": "Ottawa:",
+        "thfh1p5": "Kao glavni grad Kanade, Ottawa nudi umjerene troškove života. Najam u centru košta oko 1,400 CAD, a obrok oko 20 CAD.",
+        "thfh1ph6": "Manitoba:",
+        "thfh1p6": "Manitoba, u središnjoj Kanadi, nudi niže troškove. U Winnipegu, najam stana je oko 1,100 CAD, a obrok oko 15 CAD. Idealan izbor za one koji traže pristupačniji život.",
+        "thfh2": "Međunarodni studenti u Kanadi",
+        "thfh2ph1": "Dozvola za studij",
+        "thfh2p1": "Za studij u Kanadi potrebna je dozvola za studij koju izdaje Vlada Kanade. Omogućuje studiranje u ovlaštenim institucijama (DLI). Vrijeme obrade varira, ali u prosjeku traje do 20 radnih tjedana nakon predaje biometrijskih podataka.",
+        "thfh2ph2": "Radna dozvola za studente",
+        "thfh2p2": "Studenti s važećom dozvolom i upisani na redovni studij mogu raditi do 20 sati tjedno tijekom nastave i puno radno vrijeme tijekom praznika. Nakon diplome, mogu aplicirati za PGWP do 3 godine.",
+        "thfh2ph3": "Minimalna plaća u Kanadi",
+        "thfh2p3": "Minimalna plaća varira po provincijama i kreće se od 12 CAD do preko 16 CAD po satu. Praktične studentske prakse (co-op) nude: ",
+        "thfh2p3l1": "Praktično iskustvo u struci",
+        "thfh2p3l2": "Stvaranje profesionalnih kontakata u Kanadi",
+        "thfh2p3l3": "Zarada za pokrivanje troškova",
+        "thfh2p3l4": "Bolje razumijevanje karijernih ciljeva",
+        "thfh2p4": "Co-op programi su izvrsna prilika za nadogradnju obrazovanja i pripremu za tržište rada.",
+        "thfh3": "Geografske činjenice: Kanada",
+        "thfh3ph5": "Lokacija",
+        "thfh3p5": "Kanada se nalazi u Sjevernoj Americi i proteže se od Atlantskog do Tihog oceana, sve do Arktičkog oceana. S površinom od 9.98 milijuna km², druga je najveća zemlja na svijetu.",
+        "thfh3ph6": "Klima",
+        "thfh3p6": "Kanada ima četiri godišnja doba:",
+        "thfh2p6l1": "Proljeće (ožujak – svibanj): Blago i kišovito, 5°C – 20°C.",
+        "thfh2p6l2": "Ljeto (lipanj – kolovoz): Toplo do vruće, 20°C – 35°C.",
+        "thfh2p6l3": "Jesen (rujan – studeni): Ugodno, s jarkim bojama, 10°C – 20°C.",
+        "thfh2p6l4": "Zima (prosinac – veljača): Hladna i snježna, -10°C do -35°C."
+      }
+    },
+    "usa": {
+      "topText": {
+        "uath": "Studiraj u Sjedinjenim Američkim Državama",
+        "uatp": "Sjedinjene Američke Države ostaju jedno od najpopularnijih odredišta za međunarodne studente zahvaljujući prestižnim sveučilištima, dinamičnim gradovima, raznolikim zajednicama i vrhunskim istraživanjima. Studenti uživaju u visokom standardu obrazovanja, snažnim karijernim prilikama i kulturno bogatom okruženju koje potiče inovacije i uključivost."
+      },
+      "subTextL": {
+        "subTextLh": "Zašto studirati u Sjedinjenim Državama",
+        "subhfh0": "Kvaliteta obrazovanja",
+        "subhfp0": "SAD nudi vrhunsko obrazovanje putem sveučilišta svjetskog ranga poznatih po akademskoj izvrsnosti, inovacijama i fleksibilnosti. Studenti imaju koristi od stručnog nastavnog osoblja, praktičnog učenja i slobode oblikovanja vlastitog studija.",
+        "subhfh1": "Širok izbor akademskih programa",
+        "subhfp1": "SAD nudi širok raspon akademskih programa na stotinama institucija, što studentima omogućuje da studiraju gotovo bilo koje područje interesa. Postoji fleksibilnost u kombiniranju smjerova i prilagodbi obrazovanja osobnim ciljevima.",
+        "subhfh2": "Globalno priznanje",
+        "subhfp2": "Diplome iz američkih institucija visoko su cijenjene širom svijeta i često se smatraju simbolom izvrsnosti i inovacije. One studentima daju prednost na tržištu rada i omogućuju globalne karijerne mogućnosti.",
+        "subhfh3": "Istraživačke prilike",
+        "subhfp3": "SAD je globalni lider u istraživanjima, nudeći studentima pristup vrhunskim laboratorijima, izdašnom financiranju i projektima u suradnji s industrijom i vladinim agencijama."
+      },
+      "subTextR": {
+        "btn": "BESPLATNO SAVJETOVANJE",
+        "subhr1": "Ostvari svoje snove!",
+        "subpr1": "Planiraj svoju budućnost s A4 Admission",
+        "subrph1": "Iskustvo",
+        "subrpt1": "S više od 25 godina iskustva i partnerstvima diljem zemlje",
+        "subrph2": "Podrška",
+        "subrpt2": "Visoke stope prihvaćanja, međunarodno iskustvo i sveobuhvatna podrška",
+        "subrph3": "Zaposlenost",
+        "subrpt3": "100% stopa zaposlenja i fokus na kvalitetno studentsko iskustvo",
+        "btn2": "Konzultiraj se sada"
+      },
+      "thirdText": {
+        "th": "Informacije o studiju u SAD-u",
+        "thfh1": "Troškovi života u glavnim američkim gradovima",
+        "thfh1ph1": "New York City",
+        "thfh1p1": "Grad koji nikada ne spava dolazi s visokim troškovima života. Najam jednosobnog stana u Manhattanu iznosi oko 2.500 USD/mjesečno, dok obrok u restoranu srednje klase košta oko 25 USD.",
+        "thfh1ph2": "Atlanta",
+        "thfh1p2": "Atlanta je povoljna i prilagođena studentima. Najam u centru grada iznosi oko 1.600 USD/mjesečno, a tipičan obrok košta 15–20 USD.",
+        "thfh1ph3": "San Francisco",
+        "thfh1p3": "Najam jednosobnog stana može iznositi između 3.000 i 4.500 USD mjesečno, a ostali mjesečni troškovi kreću se od 1.000 do 1.500 USD.",
+        "thfh1ph4": "Chicago",
+        "thfh1p4": "Poznat po arhitekturi i pristupačnijim cijenama od NYC-a ili LA-a. Najam u centru grada iznosi oko 1.800 USD/mjesečno, dok obrok u restoranu košta oko 20 USD.",
+        "thfh1ph5": "Boston",
+        "thfh1p5": "Kao glavno obrazovno središte, Boston može biti skup. Najam blizu sveučilišta prosječno iznosi 2.200 USD/mjesečno, a obroci koštaju 20–25 USD.",
+        "thfh2": "Međunarodni studenti u SAD-u",
+        "thfh2ph1": "F-1 studentska viza",
+        "thfh2p1": "Za studij u SAD-u potrebna je F-1 viza, koja omogućuje redoviti studij u certificiranoj instituciji. Vrijeme obrade ovisi o zemlji i sezoni, ali obično traje nekoliko tjedana nakon intervjua u ambasadi.",
+        "thfh2ph2": "Radne mogućnosti",
+        "thfh2p2": "Nositelji F-1 vize mogu raditi unutar kampusa i prijaviti se za CPT ili OPT za rad izvan kampusa. OPT omogućuje rad do 12 mjeseci nakon diplome — uz dodatna 24 mjeseca za STEM smjerove.",
+        "thfh2ph3": "Minimalna plaća u SAD-u",
+        "thfh2p3": "Minimalna plaća određena je na razini svake savezne države. Iako je federalna stopa 7,25 USD/sat, države poput Kalifornije, New Yorka i Washingtona nude više — često iznad 15 USD/sat.",
+        "thfh2ph4": "Kooperativni obrazovni programi (Co-op)",
+        "thfh2p4": "Mnoge američke institucije nude co-op programe koji kombiniraju akademsko obrazovanje i radno iskustvo. Ovi plaćeni programi pomažu studentima:",
+        "thfh2ph4l1": "Primijeniti znanje u praksi",
+        "thfh2ph4l2": "Izgraditi profesionalnu mrežu",
+        "thfh2ph4l3": "Steći iskustvo i kontakte u industriji",
+        "thfh2ph4l4": "Otkrivati vlastite karijerne interese",
+        "thfh3": "Zemljopisne činjenice o SAD-u",
+        "thfh3ph5": "Položaj",
+        "thfh3p5": "SAD se prostire od Atlantskog do Tihog oceana i graniči s Kanadom i Meksikom. Sastoji se od 50 saveznih država i predstavlja jednu od najraznolikijih zemalja u pogledu geografije i klime.",
+        "thfh3ph6": "Klima",
+        "thfh3p6": "Zbog svoje veličine, SAD ima raznoliku klimu:",
+        "thfh2ph5l1": "Sjeveroistok (npr. New York, Boston): Hladne zime (do -10°C), topla ljeta (do 30°C)",
+        "thfh2ph5l2": "Jug (npr. Florida): Blage zime, vruća i vlažna ljeta",
+        "thfh2ph5l3": "Srednji zapad (npr. Chicago): Oštre zime, vlažna ljeta",
+        "thfh2ph5l4": "Zapadna obala (npr. Kalifornija): Blage zime, topla i suha ljeta",
+        "thfh2ph5l5": "Jugozapad (npr. Arizona): Vrlo vruća ljeta, blage zime"
+      }
+    }
+  },
+  "aboutus": {
+    "tophero": {
+      "ah": "Tko smo mi?",
+      "ap": "A4 Admission Education Consulting je obrazovna agencija s uredima širom svijeta. Nudimo stručne smjernice studentima koji žele ostvariti svoj san o studiranju u inozemstvu."
+    },
+    "second": {
+      "ash": "Naša priča",
+      "asp": "Vjerujemo da svatko zaslužuje priliku voditi ispunjen život kroz najbolju obrazovnu ponudu koju svijet može pružiti. Preseljenje u novu zemlju može biti izazovno za svakog međunarodnog studenta, a mi to dobro razumijemo iz vlastitog iskustva. Preselili smo se 2010. godine i iskusili kako je studirati, živjeti i raditi u inozemstvu. Naš cilj je podijeliti to znanje i iskustvo s učenicima te im pomoći u snalaženju u novoj zemlji."
+    },
+    "third": {
+      "ath": "Upoznajte naš tim",
+      "imgt1": "Naš direktor – Posjet KJRI-u u Torontu, Kanada",
+      "imgt2": "Naš direktor – Posjet KJRI-u u Torontu, Kanada",
+      "imgt3n": "Wahyu Ramadhani",
+      "imgt3": "STARJI MEĐUNARODNI SAVJETNIK",
+      "imgt4": "Naš direktor – Posjet KJRI-u u Torontu, Kanada",
+      "imgt4n": "Wahyu Ramadhani"
+    }
+  },
+  "event": {
+    "subevent": {
+      "sh1": "Pridružite se našem besplatnom webinaru",
+      "sp": "Pregledajte naš kalendar događanja"
+    },
+    "thirdevnt": {
+      "th": "📢A4 Admission Webinar: Osigurajte svoju budućnost u Kanadi!🇨🇦",
+      "tp1": "Pridružite nam se na informativnoj sesiji 'Što trebate znati o najnovijim promjenama kanadske politike i PGWP-u'",
+      "tp2": "🗓 Datum: Srijeda, 27. studenog 2025.",
+      "tp3": "🕖 Vrijeme: 19:00 WIB",
+      "tp4": "🎤 Predavač: Tracey Tran, savjetnica za međunarodne studente sa sjedištem u Kanadi",
+      "tp5": "📍 Platforma: Zoom",
+      "tp6": "Saznajte najnovije informacije o kanadskoj imigracijskoj politici, radnoj dozvoli nakon diplome (PGWP) i kako ove promjene mogu utjecati na vašu budućnost u Kanadi. Ne propustite ovu priliku za točne informacije i jasne smjernice.",
+      "btn": "Oznaka gumba"
+    },
+    "forth": {
+      "fpl": "Vaš kalendar nije aktivan. Idite na nadzornu ploču da ga omogućite ili kontaktirajte podršku.",
+      "fprh": "Nadolazeći događaji",
+      "fprp": "Vaš kalendar nije aktivan. Idite na nadzornu ploču da ga omogućite ili kontaktirajte podršku."
+    }
+  },
+  "contact": {
+    "contactFront": {
+      "heading": "Trebate pomoć? Povežimo se!",
+      "subheading": "Imate pitanja o studiranju u inozemstvu ili trebate podršku za prijavu? Tu smo da vas vodimo na svakom koraku."
+    },
+    "subContact": {
+      "p1": "Pošaljite nam poruku i naš obrazovni savjetnik će vam se javiti što je prije moguće.",
+      "p2": "Posjetite naš ured ili nas sretnite osobno ako ste u blizini.",
+      "p3": "Više volite osobno?",
+      "p4": "Više volite online?",
+      "p5": "Možemo dogovoriti Zoom, Google Meet ili platformu po vašem izboru."
+    },
+    "from": {
+      "heading": "Pošaljite nam poruku",
+      "email": "Email",
+      "emailp": "Unesite svoj email",
+      "name": "Ime i prezime",
+      "namep": "Unesite svoje puno ime",
+      "number": "Telefon / WhatsApp",
+      "phonep": "Unesite svoj kontakt broj",
+      "message": "Vaša poruka",
+      "messagep": "Recite nam kako vam možemo pomoći",
+      "btn": "Pošalji poruku"
+    },
+    "location": {
+      "location1": "WhatsApp Kanada",
+      "number1": "+1 (226) 792 8584",
+      "location2": "WhatsApp Indonezija",
+      "number2": "+62 878-2066-7883",
+      "address1": "Adresa SAD",
+      "address1sub": "1111 Oakfield Dr., Ste. 115E, Brandon, FL 33511",
+      "address2": "Adresa UK",
+      "address2sub": "33 St James's Square, London SW1Y 4JS, Ujedinjeno Kraljevstvo",
+      "address3": "Adresa UAE",
+      "address3sub": "Razina 23, Boulevard Plaza 2, Sheikh Mohammed bin Rashid Boulevard, Dubai",
+      "address4": "Adresa Bangladeš",
+      "address4sub": "3. kat, Ananda Tower, Jail Road, Sylhet",
+      "address5": "Adresa Bangladeš",
+      "address5sub": "3. kat, VIP Plaza, FC Road, G-Blok, u blizini artiljerije, Halishahar, Chittagong"
+    },
+    "extra": {
+      "ch1": "Kontaktirajte nas",
+      "cp1": "Obratite nam se za detaljne informacije o planu studiranja s A4 Admission.",
+      "cp2": "Možete nas posjetiti u jednom od naših ureda:",
+      "cpl1": "SAD (sjedište): 1111 Oakfield Dr., Ste. 115E, Brandon, FL 33511",
+      "cpl2": "UK: 33 St James's Square, London SW1Y 4JS",
+      "cpl3": "UAE: Razina 23, Boulevard Plaza 2, Sheikh Mohammed bin Rashid Blvd, Dubai",
+      "cpl4": "Bangladeš (Sylhet): 3. kat, Ananda Tower, Jail Road, Sylhet",
+      "cpl5": "Bangladeš (Chittagong): 3. kat, VIP Plaza, FC Road, G-Blok, Halishahar, Chittagong",
+      "cp3": "Možemo se također povezati putem WhatsAppa ili druge digitalne platforme za daljnji razgovor!"
+    }
+  }
+}
