@@ -98,7 +98,7 @@ const Canada = () => {
     },
   ];
   return (
-    <div className="bg-white my-10">
+    <div className="bg-white">
       <Helmet>
         <title>Study in Canada | A4 Admission</title>
         <meta
@@ -125,7 +125,7 @@ const Canada = () => {
           content="https://a4admission.com/pages/study-abroad-canada"
         />
       </Helmet>
-      <hr class="hidden md:block h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
+      {/* <hr class="hidden md:block h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" /> */}
       <div
         className="bg-cover bg-center md:py-16 px-2 min-h-[50vh] w-full md:min-h-[80vh] relative md:my-4"
         style={{ backgroundImage: `url(${canada})` }}

@@ -178,7 +178,7 @@ const Testimonial = () => {
                 initial="hidden"
                 animate="visible"
                 whileHover="hover"
-                className="bg-white py-4 rounded-lg shadow-lg h-[510px] md:h-[500px] flex flex-col overflow-hidden hover:shadow-xl transition-shadow"
+                className="bg-white py-4 rounded-lg shadow-lg md:h-[550px] lg:h-[700px] xl:h-[560px] 2xl:h-[510px] flex flex-col overflow-hidden hover:shadow-xl transition-shadow"
               >
                 <div className="p-4 flex flex-col h-full">
                   <motion.h3

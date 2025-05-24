@@ -72,14 +72,13 @@ const Objective = () => {
       className="max-w-screen-2xl mx-auto px-4 sm:px-6 py-12 md:py-16"
     >
       <div className="flex flex-col md:flex-row gap-8 md:gap-12">
-        {/* Left Column - Why SALAK ED */}
         <motion.div
           variants={fadeInUpAnimation}
           className="md:w-1/3 flex flex-col items-center md:items-start md:sticky md:top-4 md:self-start"
         >
           <img
             src={logo}
-            alt="SALAK ED logo"
+            alt="A4 Admisstion logo"
             className="h-auto w-48 md:w-48 object-contain"
           />
           <motion.h2
@@ -90,7 +89,6 @@ const Objective = () => {
           </motion.h2>
         </motion.div>
 
-        {/* Right Column - Features Grid */}
         <motion.div variants={staggerContainer} className="md:w-2/3">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {features.map((feature, index) => (

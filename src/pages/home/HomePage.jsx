@@ -29,7 +29,7 @@ const HomePage = () => {
   const imgs = [
     {
       img: img1,
-      text: "Cypras",
+      text: "Cyprus",
     },
     {
       img: img2,
@@ -45,7 +45,7 @@ const HomePage = () => {
     },
     {
       img: img5,
-      text: "Hungry",
+      text: "Hungary",
     },
   ];
 
@@ -219,6 +219,18 @@ const HomePage = () => {
           </motion.div>
         </motion.div>
       </section>
+      <motion.section
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        variants={fadeInUpAnimation}
+        className="bg-[#ecdecc]"
+      >
+        <h2 className="text-2xl text-gray-900 font-semibold text-center font-quicksand max-w-screen-md mx-auto pt-6">
+          {t("home.objective.heading")}
+        </h2>
+        <Objective />
+      </motion.section>
 
       <section className="bg-white">
         <motion.div
@@ -348,20 +360,6 @@ const HomePage = () => {
           </motion.div>
         </motion.div>
       </section>
-
-      {/* Other Sections with Scroll Effects */}
-      <motion.section
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        variants={fadeInUpAnimation}
-        className="bg-[#ecdecc]"
-      >
-        <h2 className="text-2xl text-gray-900 font-semibold text-center font-quicksand max-w-screen-md mx-auto pt-6">
-          {t("home.objective.heading")}
-        </h2>
-        <Objective />
-      </motion.section>
 
       <motion.section
         initial="hidden"

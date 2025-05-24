@@ -65,11 +65,7 @@ const Universitys = () => {
           </ul>
         ))}
       </div>
-      {/* <div className="flex items-center justify-center">
-        <Link className="before:ease relative h-12 w-auto overflow-hidden border border-[#d01c1f] bg-[#d01c1f] text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-7 py-3 tracking-wider cursor-pointer">
-          <span relative="relative z-10 ">{t("home.university.btn")}</span>
-        </Link>
-      </div> */}
+      
     </div>
   );
 };

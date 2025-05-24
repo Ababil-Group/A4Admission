@@ -82,7 +82,7 @@ const Garmany = () => {
     },
   ];
   return (
-    <div className="bg-white my-6">
+    <div className="bg-white">
       <Helmet>
         <title>Study in Germany | A4 Admission</title>
 
@@ -125,7 +125,7 @@ const Garmany = () => {
         />
       </Helmet>
 
-      <hr class="hidden md:block h-px my-6 bg-gray-200 border-0 dark:bg-gray-400" />
+      {/* <hr class="hidden md:block h-px my-6 bg-gray-200 border-0 dark:bg-gray-400" /> */}
       <div
         className="bg-cover bg-center md:py-16 px-2 min-h-[50vh] w-full md:min-h-[80vh] relative md:my-4"
         style={{ backgroundImage: `url(${german})` }}
