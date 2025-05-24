@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import u1 from "../../assets/university/u1.webp";
 import u2 from "../../assets/university/u2.webp";
@@ -19,6 +19,7 @@ import u16 from "../../assets/university/u16.webp";
 import { Link } from "react-router-dom";
 const Universitys = () => {
   const { t } = useTranslation();
+  const [contactOpen, setContactOpen] = useState(false);
   const slides = [
     { img: u1 },
     { img: u2 },

@@ -212,6 +212,68 @@
     }
   },
 
+  "studyabrotlist": {
+    "studywhy": "Why Choose A4 Admission?",
+
+    "studyalh1": "Accreditation & Global Recognition",
+    "studyalh1l1": "We recommend only those institutions that are officially accredited by recognized educational bodies.",
+    "studyalh1l2": "All programs are globally accepted, ensuring your qualifications are valid worldwide.",
+    "studyalh1l3": "An accredited degree boosts your professional credibility across countries.",
+    "studyalh1l4": "Ideal for students planning further studies, global employment, or immigration.",
+
+    "studyalh2": "University & Subject Rankings",
+    "studyalh2l1": "We use reliable ranking sources like QS World University Rankings and Times Higher Education.",
+    "studyalh2l2": "Priority is given to universities ranked within the top 50 in your chosen subject area.",
+    "studyalh2l3": "Higher-ranked universities offer stronger faculty, research, and learning environments.",
+    "studyalh2l4": "Better rankings often mean better networking, career support, and future opportunities.",
+
+    "studyalh3": "Course Suitability & Industry Relevance",
+    "studyalh3l1": "We analyze each course's structure to match your academic background and interests.",
+    "studyalh3l2": "Focus is placed on programs with strong links to current industry trends and demands.",
+    "studyalh3l3": "Courses with internships, hands-on training, or certification options are prioritized.",
+    "studyalh3l4": "We assess graduate employability rates to ensure the course helps in career building."
+  },
+
+  "carusel": {
+    "caruh1": "GOLAM SARWOR",
+    "caruht1": "I'm so grateful to A4 Admission for providing such tailored advice. They didn't just suggest random universities, they carefully listened to my goals and recommended options that actually made sense for my future. Truly exceptional service.",
+    "caruh2": "MAZHARUL ISALM",
+    "caruht2": "The entire process from document prep to visa guidance was handled with such professionalism. A4 Admission made something that felt overwhelming become so simple and organized.",
+    "caruh3": "HOSSEN AKRAM",
+    "caruht3": "The visa application process can be scary, but A4 Admission made sure I was well-prepared for everything—from paperwork to the interview. I got my visa on the first try.",
+    "caruh4": "SAJIB BISWAS",
+    "caruht4": "Every step with A4 Admission felt smooth and well-coordinated. From my first consultation to booking my flight, they handled everything with complete professionalism.",
+    "caruh5": "FAHIM UDDIN",
+    "caruht5": "They didn't just stop after submitting my application. A4 Admission helped with my accommodation, travel, and even a pre-departure session. That extra care made me feel really supported.",
+    "caruh6": "RAY TUTUL",
+    "caruht6": "Every step with A4 Admission felt smooth and well-coordinated. From my first consultation to booking my flight, they handled everything with complete professionalism.",
+    "caruh7": "MD KAMIL AHMED",
+    "caruht7": "They didn’t just stop after submitting my application. A4 Admission helped with my accommodation, travel, and even a pre-departure session. That extra care made me feel really supported.",
+    "caruh8": "SATVINDER SINGH",
+    "caruht8": "What I received from A4 Admission was far beyond what I expected. Their services are worth every penny quality guidance, prompt communication, and genuine care throughout.",
+    "caruh9": "MUMU DATTA",
+    "caruht9": "Unlike other agencies, A4 Admission felt personal. They truly cared about my journey and success. I felt like more than just a client, I felt valued."
+  },
+
+  "successStory": {
+    "sucesoryh": "Visa Success",
+    "sucesoryh2": "Our Visa Success Stories",
+    "sucsorysubh": "Enjoy with us",
+    "sucsorysubbtn1": "Show More Success Stories",
+    "sucsorysubbtn2": "Show Less"
+  },
+
+  "footermanu": {
+    "home": "Home",
+    "service": "Services",
+    "conact": "Contact",
+    "studyabrod": "Study Abroad",
+    "story": "Our Success Story",
+    "about": "About Us",
+    "conatactus": "Contact Us",
+    "manu": "Menu"
+  },
+
   "studyabrod": {
     "canada": {
       "topText": {
@@ -1677,7 +1739,18 @@
     "servicelisth1p1": "Expert education consulting",
     "servicelisth1p2": "Help with school & visa applications*",
     "servicelisth1p3": "Custodian arrangements*",
-    "servicelisth1p4": "Pre-arrival & onboarding assistance"
+    "servicelisth1p4": "Pre-arrival & onboarding assistance",
+
+    "servicelisth2": "Settlement Services",
+    "servicelisth2p1": "Airport pickup & housing support",
+    "servicelisth2p2": "Bank account & SIM setup",
+    "servicelisth2p3": "SIN registration & bus pass help",
+    "servicelisth2p4": "Grocery assistance upon arrival",
+
+    "servicelisth3": "Career Coaching",
+    "servicelisth3p1": "Mentorship for job search (part-time/full-time)",
+    "servicelisth3p2": "1-on-1 HR guidance (resume, job hunt, networking)",
+    "servicelisth32p3": "Interview prep & contract review"
   },
   "aboutus": {
     "tophero": {

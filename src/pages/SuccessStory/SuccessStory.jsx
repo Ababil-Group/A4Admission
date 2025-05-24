@@ -185,7 +185,9 @@ const SuccessStory = () => {
       className="bg-white my-4 md:my-10"
     >
       <Helmet>
-        <title>Our Success Story | A4 Admission | Global Education Consultants</title>
+        <title>
+          Our Success Story | A4 Admission | Global Education Consultants
+        </title>
         <meta
           name="description"
           content="A4 Admission is a global education consulting agency helping students achieve their dream of studying abroad. Learn about our story, mission, and experienced team. We Provite Student visa Malta, Romania, Hungary, UK, Canada, USA, Australia and many more..."
@@ -195,7 +197,10 @@ const SuccessStory = () => {
           content="A4 Admission, study abroad consultants, global education agency, international student support, education guidance, study in Canada, USA, UK, Australia"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://a4admission.com/pages/our-success-story" />
+        <link
+          rel="canonical"
+          href="https://a4admission.com/pages/our-success-story"
+        />
         <meta property="og:title" content="About Us | A4 Admission" />
         <meta
           property="og:description"
@@ -217,7 +222,7 @@ const SuccessStory = () => {
           className="flex flex-col items-center justify-center max-w-screen-sm mx-auto relative z-10 space-y-4"
         >
           <h1 className="text-5xl text-white font-bold text-center font-quicksand mx-auto py-6">
-            Visa Success
+            {t("successStory.sucesoryh")}
           </h1>
         </motion.div>
       </section>
@@ -227,11 +232,11 @@ const SuccessStory = () => {
         className="max-w-screen-xl mx-auto space-y-4 my-8"
       >
         <h2 className="text-4xl tracking-wider text-center text-gray-900 font-bold font-quicksand uppercase">
-          Our Visa Success Stories
+          {t("successStory.sucesoryh2")}
         </h2>
         <div className="flex items-center flex-col">
           <p className="text-lg tracking-widest text-gray-800 uppercase text-center font-bold font-quicksand">
-            Enjoy with us
+            {t("successStory.sucsorysubh")}
           </p>
           <motion.div
             variants={fadeInUpAnimation}
@@ -324,7 +329,7 @@ const SuccessStory = () => {
                   Loading...
                 </div>
               ) : (
-                "Show More Success Stories"
+                t("successStory.sucsorysubbtn1")
               )}
             </motion.button>
           ) : (
@@ -335,7 +340,7 @@ const SuccessStory = () => {
                 onClick={showLessImages}
                 className="bg-blue-dark text-white px-6 py-3 rounded-lg font-bold shadow-lg cursor-pointer"
               >
-                Show Less
+                {t("successStory.sucsorysubbtn2")}
               </motion.button>
             )
           )}

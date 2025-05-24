@@ -6,8 +6,10 @@ import service3 from "../../assets/sevices/Studying-Abroad.webp";
 import Testimonial from "../home/Testimonial";
 import Universitys from "../home/Universitys";
 import { Helmet } from "react-helmet";
+import { useTranslation } from "react-i18next";
 
 const Services = () => {
+  const { t } = useTranslation();
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -103,7 +105,10 @@ const Services = () => {
   return (
     <div className="">
       <Helmet>
-        <title>Our Services | Study Abroad, Settlement & Career Coaching</title>
+        <title>
+          Our Services | A4 Admission | Study Abroad, Settlement & Career
+          Coaching
+        </title>
         <meta
           name="description"
           content="Explore our services including study abroad support, settlement assistance, and career coaching. Find your perfect study destination with our expert guidance."
@@ -133,7 +138,7 @@ const Services = () => {
           variants={titleVariants}
         >
           <motion.h1 className="text-5xl text-gray-800 font-bold font-quicksand mx-auto py-6 text-center">
-            Our Services
+            {t("service.serviceh")}
           </motion.h1>
         </motion.div>
 
@@ -165,14 +170,14 @@ const Services = () => {
                 custom={0}
                 variants={textVariants}
               >
-                Study Abroad Support
+                {t("service.servicelisth1")}
               </motion.h2>
               <ul className="px-4" style={{ listStyleType: "square" }}>
                 {[
-                  "Expert education consulting",
-                  "Help with school & visa applications*",
-                  "Custodian arrangements*",
-                  "Pre-arrival & onboarding assistance",
+                  t("service.servicelisth1p1"),
+                  t("service.servicelisth1p2"),
+                  t("service.servicelisth1p3"),
+                  t("service.servicelisth1p4"),
                 ].map((item, i) => (
                   <motion.li
                     key={i}
@@ -211,14 +216,14 @@ const Services = () => {
                 custom={0}
                 variants={textVariants}
               >
-                Settlement Services
+                {t("service.servicelisth2")}
               </motion.h2>
               <ul className="px-4" style={{ listStyleType: "square" }}>
                 {[
-                  "Airport pickup & housing support",
-                  "Bank account & SIM setup",
-                  "SIN registration & bus pass help",
-                  "Grocery assistance upon arrival",
+                  t("service.servicelisth2p1"),
+                  t("service.servicelisth2p2"),
+                  t("service.servicelisth2p3"),
+                  t("service.servicelisth2p4"),
                 ].map((item, i) => (
                   <motion.li
                     key={i}
@@ -257,13 +262,13 @@ const Services = () => {
                 custom={0}
                 variants={textVariants}
               >
-                Career Coaching
+                {t("service.servicelisth3")}
               </motion.h2>
               <ul className="px-4" style={{ listStyleType: "square" }}>
                 {[
-                  "Mentorship for job search (part-time/full-time)",
-                  "1-on-1 HR guidance (resume, job hunt, networking)",
-                  "Interview prep & contract review",
+                  t("service.servicelisth3p1"),
+                  t("service.servicelisth3p2"),
+                  t("service.servicelisth3p3"),
                 ].map((item, i) => (
                   <motion.li
                     key={i}

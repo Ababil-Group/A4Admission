@@ -210,6 +210,76 @@
       "al5": "Rad u zajednici i socijalne usluge"
     }
   },
+
+  "studyabrotlist": {
+    "studywhy": "Zašto odabrati A4 Admission?",
+
+    "studyalh1": "Akreditacija i globalno priznanje",
+    "studyalh1l1": "Preporučujemo samo one institucije koje su službeno akreditirane od strane priznatih obrazovnih tijela.",
+    "studyalh1l2": "Svi programi su globalno prihvaćeni, osiguravajući da su vaše kvalifikacije valjane širom svijeta.",
+    "studyalh1l3": "Akreditirana diploma povećava vašu profesionalnu vjerodostojnost u različitim zemljama.",
+    "studyalh1l4": "Idealno za studente koji planiraju daljnje studije, globalno zapošljavanje ili imigraciju.",
+
+    "studyalh2": "Rangiranje sveučilišta i predmeta",
+    "studyalh2l1": "Koristimo pouzdane izvore rangiranja kao što su QS World University Rankings i Times Higher Education.",
+    "studyalh2l2": "Prednost dajemo sveučilištima koja su rangirana među 50 najboljih u vašem izabranom području studija.",
+    "studyalh2l3": "Sveučilišta s višim rangom nude jače profesore, istraživanja i okruženje za učenje.",
+    "studyalh2l4": "Bolji rang često znači bolju mrežu kontakata, podršku u karijeri i buduće prilike.",
+
+    "studyalh3": "Prikladnost tečaja i relevantnost za industriju",
+    "studyalh3l1": "Analiziramo strukturu svakog tečaja kako bismo je uskladili s vašom akademskom pozadinom i interesima.",
+    "studyalh3l2": "Fokus je na programima koji imaju jake veze s aktualnim industrijskim trendovima i potrebama.",
+    "studyalh3l3": "Prioritet imaju tečajevi koji uključuju prakse, praktičnu obuku ili mogućnosti certificiranja.",
+    "studyalh3l4": "Procjenjujemo stope zapošljivosti diplomanata kako bismo osigurali da tečaj pomaže u izgradnji karijere."
+  },
+
+  "carusel": {
+    "caruh1": "GOLAM SARWOR",
+    "caruht1": "Jako sam zahvalan A4 Admissionu na prilagođenim savjetima. Nisu mi samo predložili nasumična sveučilišta – pažljivo su slušali moje ciljeve i preporučili opcije koje stvarno imaju smisla za moju budućnost. Zaista izvanredna usluga.",
+
+    "caruh2": "MAZHARUL ISLAM",
+    "caruht2": "Cijeli proces – od pripreme dokumenata do vođenja kroz vizu – bio je vođen s velikim profesionalizmom. A4 Admission je nešto što je djelovalo zastrašujuće učinio jednostavnim i organiziranim.",
+
+    "caruh3": "HOSSEN AKRAM",
+    "caruht3": "Proces podnošenja zahtjeva za vizu može biti zastrašujuć, ali A4 Admission me temeljito pripremio za sve – od papirologije do intervjua. Dobio sam vizu iz prvog pokušaja.",
+
+    "caruh4": "SAJIB BISWAS",
+    "caruht4": "Svaki korak s A4 Admission bio je gladak i dobro koordiniran. Od prvog savjetovanja do rezervacije leta, sve su obavili s potpunim profesionalizmom.",
+
+    "caruh5": "FAHIM UDDIN",
+    "caruht5": "Nisu prestali s podrškom nakon što je prijava poslana. A4 Admission mi je pomogao s pronalaskom smještaja, putovanjem i čak predodlaznim savjetovanjem. Ta dodatna briga učinila je da se osjećam stvarno podržano.",
+
+    "caruh6": "RAY TUTUL",
+    "caruht6": "Svaki korak s A4 Admission bio je gladak i dobro koordiniran. Od prvog savjetovanja do rezervacije leta, sve su obavili s potpunim profesionalizmom.",
+
+    "caruh7": "MD KAMIL AHMED",
+    "caruht7": "Nisu prestali s podrškom nakon što je prijava poslana. A4 Admission mi je pomogao s pronalaskom smještaja, putovanjem i čak predodlaznim savjetovanjem. Ta dodatna briga učinila je da se osjećam stvarno podržano.",
+
+    "caruh8": "SATVINDER SINGH",
+    "caruht8": "Ono što sam dobio od A4 Admission bilo je daleko iznad mojih očekivanja. Njihove usluge vrijede svake kune – kvalitetno savjetovanje, brza komunikacija i iskrena briga tijekom cijelog procesa.",
+
+    "caruh9": "MUMU DATTA",
+    "caruht9": "Za razliku od drugih agencija, A4 Admission je djelovao osobno. Iskreno im je bilo stalo do mog puta i uspjeha. Nisam se osjećao kao običan klijent – osjećao sam se cijenjeno."
+  },
+
+  "successStory": {
+    "sucesoryh": "Uspjeh s vizom",
+    "sucesoryh2": "Naše priče o uspjehu s vizom",
+    "sucsorysubh": "Uživajte s nama",
+    "sucsorysubbtn1": "Prikaži više priča o uspjehu",
+    "sucsorysubbtn2": "Prikaži manje"
+  },
+
+  "footermanu": {
+    "home": "Početna",
+    "service": "Usluge",
+    "conact": "Kontakt",
+    "studyabrod": "Studij u inozemstvu",
+    "story": "Naša priča o uspjehu",
+    "about": "O nama",
+    "conatactus": "Kontaktirajte nas",
+    "manu": "Izbornik"
+  },
   "studyabrod": {
     "canada": {
       "topText": {
@@ -350,6 +420,136 @@
         "thfh2ph5l4": "Zapadna obala (npr. Kalifornija): Blage zime, topla i suha ljeta",
         "thfh2ph5l5": "Jugozapad (npr. Arizona): Vrlo vruća ljeta, blage zime"
       }
+    },
+    "uk": {
+      "topText": {
+        "ukath": "Studirajte u Ujedinjenom Kraljevstvu",
+        "ukatp": "Ujedinjeno Kraljevstvo ostaje jedno od najpopularnijih odredišta za međunarodne studente, poznato po svojim prestižnim sveučilištima, bogatoj kulturnoj povijesti i globalno cijenjenom obrazovnom sustavu. Studenti uživaju u vrhunskim akademskim programima, snažnim karijernim prilikama i okruženju koje potiče inovacije, raznolikost i inkluziju."
+      },
+      "subTextL": {
+        "subTextLh": "Zašto studirati u Ujedinjenom Kraljevstvu",
+        "subhfh0": "Kvaliteta obrazovanja",
+        "subhfp0": "Ujedinjeno Kraljevstvo nudi vrhunsko obrazovanje putem renomiranih sveučilišta poznatih po akademskoj izvrsnosti, inovacijama i doprinosima istraživanju. Studenti imaju koristi od stručnog osoblja, snažnog naglaska na kritičkom razmišljanju i slobode istraživanja različitih akademskih područja. Diploma s britanskog sveučilišta visoko je cijenjena i otvara vrata globalnim prilikama.",
+        "subhfh1": "Širok raspon akademskih programa",
+        "subhfp1": "Ujedinjeno Kraljevstvo nudi širok spektar akademskih programa u raznim disciplinama, od umjetnosti i humanističkih znanosti do znanosti, tehnologije, inženjerstva i poslovanja. Studenti mogu birati između tradicionalnih studijskih programa, kao i strukovnih i specijaliziranih tečajeva, omogućujući im da prilagode svoje obrazovanje osobnim interesima i karijernim ciljevima.",
+        "subhfh2": "Globalno priznanje",
+        "subhfp2": "Diplome britanskih sveučilišta globalno su cijenjene i priznate po svojoj kvaliteti. Diplomanti su vrlo traženi od strane poslodavaca i akademskih institucija diljem svijeta, pružajući im konkurentsku prednost na globalnom tržištu rada i nudeći brojne međunarodne karijerne prilike.",
+        "subhfh3": "Istraživačke prilike",
+        "subhfp3": "Ujedinjeno Kraljevstvo je središte istraživanja i inovacija, nudeći studentima pristup najsuvremenijim objektima, značajnom financiranju i mogućnostima suradnje. Sveučilišta u Ujedinjenom Kraljevstvu dom su revolucionarnim istraživanjima u različitim disciplinama, s mnogim studentima koji sudjeluju u projektima koji rješavaju stvarne izazove i doprinose društvenom napretku."
+      },
+      "subTextR": {
+        "btn": "BESPLATNA KONZULTACIJA",
+        "subhr1": "Ostvari svoje snove!",
+        "subpr1": "Isplaniraj svoju budućnost s A4 Admission",
+        "subrph1": "Iskustvo",
+        "subrpt1": "S više od 25 godina iskustva u industriji i partnerstvima diljem zemlje",
+        "subrph2": "Podrška",
+        "subrpt2": "Visoke stope prihvaćanja, međunarodno iskustvo i sveobuhvatna podrška",
+        "subrph3": "Stopa zaposlenja",
+        "subrpt3": "100% stopa zaposlenja i fokus na izvrsno životno iskustvo",
+        "btn2": "Konzultiraj se sada"
+      },
+      "thirdText": {
+        "th": "Informacije o studiranju u Ujedinjenom Kraljevstvu",
+        "thfh1": "Troškovi života u glavnim gradovima UK-a",
+        "thfh1ph1": "London",
+        "thfh1p1": "London, glavni grad i kulturno središte Ujedinjenog Kraljevstva, ima visoke troškove života. Najam jednosobnog stana u centru grada prosječno iznosi £2,000 mjesečno, a obrok u restoranu srednje klase obično košta oko £25.",
+        "thfh1ph2": "Edinburgh",
+        "thfh1p2": "Škotski glavni grad nudi bogato povijesno iskustvo i niže troškove života. Najam jednosobnog stana u centru grada prosječno iznosi £1,200 mjesečno, a obroci u restoranima srednje klase koštaju oko £20.",
+        "thfh1ph3": "Manchester",
+        "thfh1p3": "Poznat po svojoj živahnoj kulturi i studentskoj populaciji, Manchester nudi pristupačniji način života u usporedbi s Londonom. Najam jednosobnog stana u centru grada iznosi oko £1,100 mjesečno, a obroci u restoranima koštaju približno £15–£20.",
+        "thfh1ph4": "Birmingham",
+        "thfh1p4": "Birmingham je veliki grad u regiji Midlands u Engleskoj. Troškovi smještaja u Birminghamu općenito su niži nego u Londonu ili Edinburghu, s prosječnim mjesečnim najmom jednosobnog stana u centru Birminghama od oko £500 - £800.",
+        "thfh1ph5": "Bristol",
+        "thfh1p5": "Smješten na jugozapadu, Bristol nudi pristupačniju opciju za život. Najam jednosobnog stana u centru grada iznosi oko £1,150 mjesečno, a obroci u restoranima prosječno koštaju £20 po obroku.",
+        "thfh1ph6": "Liverpool",
+        "thfh1p6": "Liverpool, poznat po svojoj glazbenoj povijesti i kulturnoj sceni, jedan je od povoljnijih gradova u UK-u. Najam jednosobnog stana u centru grada iznosi oko £900 mjesečno, a obroci u restoranima obično koštaju oko £15.",
+        "thfh2": "Međunarodni studenti u Ujedinjenom Kraljevstvu",
+        "thfh2ph1": "Studentska viza",
+        "thfh2p1": "Za studiranje u UK-u, međunarodni studenti moraju dobiti Tier 4 (Opća) studentsku vizu, koja im omogućuje da studiraju puno radno vrijeme na priznatoj instituciji. Vrijeme obrade vize varira, ali općenito može potrajati do 8 tjedana nakon predaje dokumenata.",
+        "thfh2ph2": "Mogućnosti rada",
+        "thfh2p2": "Međunarodni studenti s važećom studentskom vizom mogu raditi pola radnog vremena tijekom akademske godine (do 20 sati tjedno) i puno radno vrijeme tijekom planiranih praznika (npr. ljeto). Diplomanti također mogu podnijeti zahtjev za vizu za rad nakon studija, koja im omogućuje da ostanu i rade u UK-u određeno vrijeme.",
+        "thfh2ph3": "Minimalna plaća u UK-u",
+        "thfh2p3": "Minimalnu plaću u UK-u određuje vlada i varira ovisno o dobi i vrsti posla. Od 2022. godine, Nacionalna životna plaća za osobe starije od 23 godine iznosi £9.50 po satu, dok mlađi radnici mogu zarađivati manje. Stope se godišnje pregledavaju kako bi odražavale ekonomske uvjete.",
+        "thfh2ph4": "Kooperativni obrazovni programi (Co-op)",
+        "thfh2p4": "Mnoga sveučilišta u UK-u nude co-op programe koji kombiniraju akademsko učenje s praktičnim radnim iskustvom. Ovi programi studentima pružaju prilike za:",
+        "thfh2p4lm1": "Primjenu akademskog znanja u stvarnim okruženjima",
+        "thfh2p4lm2": "Izgradnju profesionalne mreže",
+        "thfh2p4lm3": "Zarađivanje prihoda za pokrivanje troškova školarine i života",
+        "thfh2p4lm4": "Stjecanje vrijednog iskustva koje pomaže u definiranju karijernih ciljeva",
+        "thfh3": "Geografske činjenice: Ujedinjeno Kraljevstvo",
+        "thfh3ph5": "Lokacija",
+        "thfh3p5": "Ujedinjeno Kraljevstvo nalazi se u sjeverozapadnoj Europi i sastoji se od četiri zemlje: Engleske, Škotske, Walesa i Sjeverne Irske. Graniči s Atlantskim oceanom, Sjevernim morem, Engleskim kanalom i Irskim morem.",
+        "thfh3ph6": "Klima",
+        "thfh3p6": "UK ima umjerenu oceansku klimu, karakteriziranu blagim temperaturama i umjerenim padalinama tijekom cijele godine:",
+        "thfh2p6lm1": "Južna Engleska: Općenito blage zime (oko 5°C) i svježa ljeta (do 20°C).",
+        "thfh2p6lm2": "Sjeverna Škotska: Zime mogu biti hladnije (do -5°C), s hladnijim ljetima.",
+        "thfh2p6lm3": "Zapadna obala: Padaline su češće, posebno u Walesu i Lake Districtu."
+      }
+    },
+    "australia": {
+      "topText": {
+        "auath": "Studij u inozemstvu u Australiji",
+        "auatp": "Australija je vrhunska destinacija za međunarodne studente, poznata po svojim svjetski priznatim sveučilištima, zadivljujućim krajolicima i živahnim, multikulturalnim gradovima. Studenti uživaju u izvanrednom obrazovanju, karijernim prilikama i uključivom okruženju koje potiče kreativnost, inovaciju i osobni razvoj."
+      },
+      "subTextL": {
+        "subTextLh": "Zašto studirati u Australiji",
+        "subhfh0": "Kvaliteta obrazovanja",
+        "subhfp0": "Australija je dom nekih od najboljih svjetskih sveučilišta, koja nude akademsku izvrsnost i inovacije u širokom rasponu disciplina. S iskusnim predavačima, fokusom na praktično učenje i snažnom istraživačkom kulturom, diploma s australske institucije visoko je cijenjena globalno i otvara vrata međunarodnim prilikama.",
+        "subhfh1": "Širok raspon akademskih programa",
+        "subhfp1": "Australija nudi raznolik spektar akademskih programa, od umjetnosti i humanističkih znanosti do znanosti, tehnologije, inženjerstva i poslovanja. Studenti mogu birati između tradicionalnih diploma, strukovnog obrazovanja i specijaliziranih tečajeva, što im omogućuje da oblikuju svoje obrazovanje prema vlastitim interesima i karijernim aspiracijama.",
+        "subhfh2": "Globalno priznanje",
+        "subhfp2": "Australske diplome globalno su priznate po svojoj visokoj kvaliteti i rigoroznim akademskim standardima. Diplomanati australskih sveučilišta traženi su širom svijeta, s poslodavcima i akademskim institucijama koji cijene vještine, znanje i kvalifikacije stečene studiranjem u Australiji.",
+        "subhfh3": "Istraživačke prilike",
+        "subhfp3": "Australija je lider u istraživanju i inovacijama, pružajući studentima pristup najsuvremenijim objektima, značajnom financiranju i mogućnostima suradnje u raznim područjima. Mnoge australske sveučilišta nalaze se na čelu globalnih istraživanja, omogućujući studentima sudjelovanje u projektima koji se bave globalnim izazovima i imaju pozitivan utjecaj."
+      },
+      "subTextR": {
+        "btn": "BESPLATNO SAVJETOVANJE",
+        "subhr1": "Ostvari svoje snove!",
+        "subpr1": "Planiraj svoju budućnost s A4 Admission",
+        "subrph1": "Iskustvo",
+        "subrpt1": "S više od 25 godina iskustva u industriji i nacionalnim partnerstvima",
+        "subrph2": "Podrška",
+        "subrpt2": "Visoke stope prihvaćanja, međunarodno iskustvo i sveobuhvatna podrška",
+        "subrph3": "Stopa zaposlenja",
+        "subrpt3": "100% stopa zaposlenja i fokus na izvrsno životno iskustvo",
+        "btn2": "Konzultiraj se sada"
+      },
+      "thirdText": {
+        "th": "Informacije o studiju u Australiji",
+        "thfh1": "Troškovi života u glavnim australskim gradovima",
+        "thfh1ph1": "Sydney",
+        "thfh1p1": "Kao najveći i najpoznatiji grad u Australiji, Sydney je poznat po visokim troškovima života. Najam jednosobnog stana u centru grada u prosjeku iznosi 2.500 AUD mjesečno, dok obrok u restoranu srednje klase košta oko 25 AUD.",
+        "thfh1ph2": "Melbourne",
+        "thfh1p2": "Poznat po svojoj živahnoj umjetničkoj i kulturnoj sceni, Melbourne nudi pristupačniji životni stil u usporedbi sa Sydneyjem. Najam jednosobnog stana u centru grada iznosi oko 1.800 AUD mjesečno, dok obroci u restoranima srednje klase obično koštaju 20–25 AUD.",
+        "thfh1ph3": "Brisbane",
+        "thfh1p3": "S opuštenim načinom života i rastućom ekonomijom, Brisbane nudi pristupačne troškove života. Najam jednosobnog stana u centru grada iznosi približno 1.600 AUD mjesečno, a obroci u restoranima koštaju oko 15–20 AUD.",
+        "thfh1ph4": "Perth",
+        "thfh1p4": "Smješten na zapadnoj obali Australije, Perth nudi pristupačniji život u usporedbi s istočnim gradovima. Najam jednosobnog stana u centru grada u prosjeku iznosi 1.500 AUD mjesečno, a obroci u restoranima koštaju oko 20 AUD.",
+        "thfh1ph5": "Adelaide",
+        "thfh1p5": "Adelaide je jedan od povoljnijih gradova u Australiji. Najam jednosobnog stana u centru grada iznosi oko 1.200 AUD mjesečno, a obrok u restoranu srednje klase obično košta 15–20 AUD.",
+        "thfh2": "Međunarodni student u Australiji",
+        "thfh2ph1": "Studentska viza",
+        "thfh2p1": "Za studiranje u Australiji, međunarodni studenti moraju podnijeti zahtjev za studentsku vizu (podklasa 500). Ova viza omogućuje redovito studiranje na registriranoj instituciji. Vrijeme obrade vize varira, ali obično traje nekoliko tjedana nakon predaje potrebnih dokumenata.",
+        "thfh2ph2": "Mogućnosti zapošljavanja",
+        "thfh2p2": "S studentskom vizom, međunarodni studenti mogu raditi do 40 sati svaka dva tjedna tijekom semestra i puno radno vrijeme tijekom praznika. Nakon diplome, studenti mogu podnijeti zahtjev za Privremenu diplomsku vizu (podklasa 485), koja im omogućuje rad u Australiji do 4 godine, ovisno o njihovim kvalifikacijama.",
+        "thfh2ph3": "Minimalna plaća u Australiji",
+        "thfh2p3": "Australija ima jednu od najviših minimalnih plaća na svijetu. Od 2022. godine, nacionalna minimalna plaća iznosi 20,33 AUD po satu. Stope se godišnje pregledavaju od strane Fair Work Commission i mogu varirati ovisno o industriji i ugovoru o radu.",
+        "thfh2ph4": "Kooperativni obrazovni programi (Co-op)",
+        "thfh2p4": "Mnoge australske sveučilišta nude co-op programe koji kombiniraju akademske studije s praktičnim radnim iskustvom. Ovi programi pomažu studentima da:",
+        "thfh2p4lm1": "Primijene teorijsko znanje u stvarnom okruženju",
+        "thfh2p4lm2": "Izgrade profesionalnu mrežu",
+        "thfh2p4lm3": "Pokriju troškove života i školarine",
+        "thfh2p4lm4": "Steknu vrijedno iskustvo i poboljšaju zapošljivost",
+        "thfh3": "Geografske činjenice: Australija",
+        "thfh3ph5": "Lokacija",
+        "thfh3p5": "Australija se nalazi na južnoj hemisferi i šesta je najveća zemlja na svijetu. Sastoji se od kopna, Tasmanije i brojnih manjih otoka. Okružena je Indijskim i Tihim oceanom, nudeći raznolike krajolike od plaža do pustinja i prašuma.",
+        "thfh3ph6": "Klima",
+        "thfh3p6": "Klima u Australiji je raznolika zbog njezine veličine:",
+        "thfh2p6lm1": "Sjeverna Australija: Tropska klima s vrućim, vlažnim ljetima i blagim zimama.",
+        "thfh2p6lm2": "Zapadna Australija: Mediteranska klima s vrućim, suhim ljetima i blagim zimama.",
+        "thfh2p6lm3": "Istočna obala: Vlažna suptropska klima, s blažim zimama i vrućim, vlažnim ljetima."
+      }
     }
   },
   "aboutus": {
@@ -442,6 +642,123 @@
       "cpl4": "Bangladeš (Sylhet): 3. kat, Ananda Tower, Jail Road, Sylhet",
       "cpl5": "Bangladeš (Chittagong): 3. kat, VIP Plaza, FC Road, G-Blok, Halishahar, Chittagong",
       "cp3": "Možemo se također povezati putem WhatsAppa ili druge digitalne platforme za daljnji razgovor!"
+    }
+  },
+  "faqs": {
+    "faqh": "Često postavljana pitanja",
+    "second": {
+      "sh": "Često postavljana pitanja za nove studente",
+      "sp1": "Dok započinjete novo uzbudljivo poglavlje svog akademskog života upisom na magistarski ili doktorski studij, znamo da možda imate neka pitanja.",
+      "sp2": "U nastavku vam pružamo neke odgovore! Ako ne vidite svoje pitanje (i odgovor!), istražite načine na koje nas možete kontaktirati kako biste dobili potrebne informacije.",
+      "btn1": "Općenito",
+      "btn2": "Roditelji",
+      "btn3": "Stariji studenti",
+
+      "glh1": "Koji su koraci u procesu prijave za studij i vizu?",
+      "glp1l1": "Položite IELTS test",
+      "glp1l2": "Prevedite svjedodžbu i diplomu srednje škole",
+      "glp1l3": "Prijavite se na željeni kampus",
+      "glp1l4": "Primite pismo prihvaćanja",
+      "glp1l5": "Platite depozit za školarinu",
+      "glp1l6": "Prijavite se za vizu",
+      "glp1l7": "Obavite liječnički pregled",
+      "glp1l8": "Dobijte informacije o odlasku",
+
+      "glh2": "Koji su dokumenti potrebni za prijavu za studijsku dozvolu?",
+      "glp2l1": "Ispunite obrazac za prijavu vize",
+      "glp2l2": "Putovnica",
+      "glp2l3": "Fotografija veličine 3,5 cm x 4,5 cm",
+      "glp2l4": "Pismo prihvaćanja od sveučilišta ili koledža",
+      "glp2l5": "Izjava o svrsi studiranja",
+      "glp2l6": "Dokaz o financijskoj potpori (između 35.000 - 60.000 CAD za posljednja 4 mjeseca)",
+      "glp2l7": "Platite pristojbu za prijavu od 150 USD i 85 USD za biometriju",
+      "glp2l8": "Vrijeme obrade traje 1 - 2 mjeseca.",
+
+      "glh3": "Kolika je naknada za konzultacije s A4 Admission?",
+      "glp3l1": "Ako je viza odbijena, koledž/sveučilište će izdati puni povrat, umanjen za pristojbe za prijavu i administrativne troškove.",
+
+      "glh4": "Koji su uvjeti za prijavu na studij?",
+      "glp4l1": "IELTS test (5.5-6.5 ovisno o školi)",
+      "glp4l2": "Kopije svjedodžbi i diplome srednje škole (prevedene na hrvatski i engleski jezik od strane ovlaštenog prevoditelja)",
+      "glp4l3": "Kopija putovnice",
+      "glp4l4": "Plaćanje pristojbe za prijavu",
+      "glp4l5": "Portfolio (ako se prijavljujete na program dizajna)",
+
+      "glh5": "Koliki su troškovi studiranja u Kanadi?",
+      "glp5l1": "Troškovi se kreću od 9.000 do 20.000 CAD godišnje za koledže i od 35.000 do 60.000 CAD godišnje za sveučilišta.",
+
+      "glh6": "Koliko je teško novim studentima prilagoditi se?",
+      "glp6l1": "A4 Admission ima više od 25 godina iskustva u studiranju, radu i životu u Kanadi, posebno u područjima Ontarija i Manitobe. Naš cilj je pomoći novim studentima pružanjem korisnih informacija koje im mogu pomoći u prilagodbi na novo okruženje. Naš tim u Kanadi će voditi novopridošle studente (posebno u područjima Ontarija i Manitobe). Prije odlaska, također ćemo predstaviti neke studente koji su već u Kanadi.",
+
+      "glh7": "Koji smještaj bih trebao odabrati?",
+      "glp7l1": "Studentski dom u kampusu i",
+      "glp7l2": "Stan/kuća izvan kampusa.",
+      "glp7l3": "Preporučujemo novim studentima da borave u studentskim domovima u kampusu kako bi upoznali druge studente i upoznali se s novim kulturama i okruženjem. To olakšava sklapanje novih prijateljstava i prilagodbu. Za dodatna objašnjenja, molimo kontaktirajte naš tim savjetnika.",
+
+      "glh8": "Mogu li raditi dok studiram u Kanadi?",
+      "glp8l1": "Kanadska vlada dopušta međunarodnim studentima da rade tijekom studija, kako u kampusu tako i izvan njega. Studenti mogu raditi do 20 sati tjedno tijekom studija i do 40 sati tjedno tijekom ljetnih praznika. Minimalna satnica je otprilike 15 USD po satu.",
+
+      "glh9": "Kako mi A4 Admission pomaže u odabiru kampusa i programa?",
+      "glp9l1": "U suradnji s više od 1.000 kampusa, pružamo katalog partnerskih koledža i sveučilišta temeljen na interesima za programe i pripremljenim troškovima. To je dopunjeno detaljnijim informacijama, poput postotka zaposlenja nakon diplome naših partnerskih institucija.",
+
+      "glh10": "Ne znam koji program odabrati, kako mi A4 Admission može pomoći?",
+      "glp10l1": "Naš tim savjetnika pružit će personalizirane konzultacije s budućim studentima i njihovim roditeljima. Pomoći ćemo u odabiru studijskog programa koji odgovara budžetu, interesima, sposobnostima i željenim karijernim ciljevima. Na taj način, budući studenti mogu donijeti informirane odluke i biti dobro pripremljeni za studij u Kanadi.",
+
+      "glh11": "Koliki su procijenjeni mjesečni troškovi života u Kanadi?",
+      "glp11l1": "Smještaj: 850-1500 USD",
+      "glp11l2": "Telefon: 50 USD",
+      "glp11l3": "Osiguranje: 40 USD",
+      "glp11l4": "Autobusna karta: 95 USD",
+      "glp11l5": "Namirnice: 250 USD",
+
+      "glh12": "Kolika je procijenjena zarada od honorarnog rada tijekom studija?",
+      "glp12l1": "Prosječna minimalna satnica: 15 USD/sat",
+      "glp12l2": "Ukupan broj radnih sati tjedno: 20 sati",
+      "glp12l3": "Ukupni tjedni prihod: 300 USD",
+      "glp12l4": "Ukupni mjesečni prihod: 300 USD x 4 tjedna = 1.200 USD.",
+
+      "glh13": "Koje vrste honorarnih poslova mogu raditi tijekom studija?",
+      "glp13l1": "Studenti mogu raditi u kampusu na mjestima poput knjižara, knjižnica, fitness centara, kafeterija, kao i izvan kampusa u restoranima, trgovačkim centrima, supermarketima i slično.",
+      "glp13l2": "Također je moguće raditi honorarno u tvrtkama kao recepcioneri, administrativno osoblje, operateri pozivnih centara i na sličnim pozicijama.",
+
+      "glh14": "Mogu li imati izravne razgovore s predstavnicima kampusa?",
+      "glp14l1": "Redovito organiziramo informativne sesije s predstavnicima koledža/sveučilišta, gdje studenti i roditelji mogu imati izravne i privatnije konzultacije.",
+
+      "glh15": "Postoje li dostupne stipendije?",
+      "glp15l1": "Koledži i sveučilišta pružaju informacije o stipendijama na svojim web stranicama. Studenti se mogu prijaviti zasebno slijedeći postupak prijave.",
+
+      "plh1": "Postoje li dodatni zahtjevi za slanje maloljetnog djeteta na studij u Kanadu?",
+      "plp1l1": "Studenti mlađi od 17 godina, u pratnji roditelja, moraju proći postupak skrbništva. A4 Admission će pomoći u procesu prijave.",
+
+      "plh2": "Koji su dodatni zahtjevi za slanje maloljetnog djeteta na studij u Kanadu?",
+      "plp2l1": "Pobrinite se da dijete ima osnovne dokumente poput školskih svjedodžbi, putovnice i potrebnog zdravstvenog osiguranja. Pripremite dovoljno sredstava za obrazovanje djeteta u inozemstvu, uključujući školarinu, troškove života, avionske karte i druge moguće troškove. Naravno, osigurajte da roditelji odaberu pravog konzultanta.",
+      "plh3": "Kako otvoriti bankovni račun u Kanadi?",
+      "plp3l1": "Studenti mogu otvoriti individualne bankovne račune u Kanadi bez korištenja računa svojih roditelja. Međutim, ako su još uvijek maloljetni, neke banke mogu zahtijevati pristanak roditelja ili staratelja prije otvaranja računa. Obavezno provjerite uvjete odabrane banke prije otvaranja računa.",
+
+      "plh4": "Mogu li pratiti svoje dijete na studij u inozemstvo?",
+      "plp4l1": "Roditelji mogu putovati zajedno sa svojim djetetom s turističkom vizom.",
+
+      "plh5": "Kako mogu poslati novac iz Indonezije svom djetetu koje studira u inozemstvu?",
+      "plp5l1": "Putem banke: Provjerite imate li sve potrebne podatke o bankovnom računu vašeg djeteta, SWIFT kod banke primatelja i druge potrebne informacije za prijenos novca.",
+      "plp5l2": "Putem međunarodnih usluga za prijenos novca: Na primjer, Western Union, MoneyGram i TransferWise.",
+      "plp5l3": "Putem međunarodnih kreditnih ili debitnih kartica: Možete dodati svoje dijete kao ovlaštenog korisnika na svoju međunarodnu kreditnu ili debitnu karticu i prenijeti novac izravno na karticu.",
+      "plp5l4": "Obavezno provjerite naknade i tečajeve prije odabira najprikladnijeg načina prijenosa novca.",
+
+      "plh6": "Ako se moje dijete razboli, ima li kampus kliniku ili bolnicu?",
+      "plp6l1": "Neki kampusi imaju medicinske klinike s liječnicima dežurnima na kampusu. Ako se student razboli, može posjetiti kampus kliniku, a dežurni liječnik će, ako je potrebno, dati uputnicu za najbližu bolnicu.",
+
+      "plh7": "Je li važno imati osiguranje iz Indonezije ili se ono može dogovoriti po dolasku u Kanadu?",
+      "plp7l1": "Ako su roditelji kupili osiguranje za svoje dijete u Indoneziji, provjerite s osiguravajućom kućom može li se to osiguranje koristiti i u inozemstvu.",
+      "plp7l2": "Neki kampusi uključuju zdravstveno osiguranje u cijenu školarine.",
+
+      "plh8": "Postoji li osoblje A4 Admission koje će dočekati moje dijete ako ga ne mogu pratiti na putu?",
+      "plp8l1": "Po dolasku, studenti će biti dočekani kako su roditelji zatražili.",
+
+      "plh9": "Koliko je sigurno za moje dijete živjeti u Kanadi?",
+      "plp9l1": "Kanada ima relativno nisku stopu kriminala i poznata je po inkluzivnoj i prijateljskoj kulturi prema stranim državljanima. Kanadska vlada također pruža snažnu pravnu zaštitu za sve građane, uključujući međunarodne studente. Međutim, kao i svugdje u svijetu, postoje rizici poput uličnog kriminala, kibernetičkog kriminala i slično. Stoga je važno da međunarodni studenti uvijek budu oprezni.",
+
+      "plh10": "Želim usporediti školarine i troškove života u Kanadi s drugim zemljama. Kako će mi A4 Admission to objasniti?",
+      "plp10l1": "A4 Admission će pružiti sveobuhvatno objašnjenje školarina i troškova života u Kanadi u usporedbi s drugim zemljama. Pružit ćemo detaljne informacije o obrazovnim troškovima, uključujući školarinu, troškove smještaja, prijevoza, hrane i ostalih dodatnih troškova u različitim zemljama. Putem personaliziranih konzultacija pomoći ćemo vam da donesete informirane odluke temeljene na vašim preferencijama, proračunu i akademskim interesima, osiguravajući jasno razumijevanje financijskih aspekata studiranja u Kanadi i drugim mogućim destinacijama za studij."
     }
   }
 }

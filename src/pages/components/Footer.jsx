@@ -14,7 +14,9 @@ import { FaLocationDot, FaTiktok } from "react-icons/fa6";
 import { IoMail } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
+import { useTranslation } from "react-i18next";
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <div className="bg-gray-100 ">
       <div className="py-8 border-b border-gray-50 max-w-screen-2xl mx-auto">
@@ -53,7 +55,7 @@ const Footer = () => {
           </div>
           <div className="col-span-3 flex flex-col gap-3 pl-6 p-2">
             <h2 className="font-quicksand font-bold text-blue-dark text-2xl uppercase">
-              Contact Us
+              {t("footermanu.conatactus")}
             </h2>
 
             <a
@@ -124,11 +126,7 @@ const Footer = () => {
 
               <p className="font-poppins">+447465268767</p>
             </a>
-            {/* <Link className="flex items-center gap-2 hover:text-redest-dark text-gray-700 font-poppins transition-colors duration-200 cursor-pointer">
-              <FaWhatsappSquare />
-
-              <p className="font-poppins">+4407943642473</p>
-            </Link> */}
+            
             <a
               href="mailto:hello@a4admission.com"
               className="flex items-center gap-2 hover:text-redest-dark text-gray-800 font-poppins transition-colors duration-200"
@@ -139,7 +137,7 @@ const Footer = () => {
           </div>
           <div className="col-span-1 flex flex-col gap-3 pl-6 p-2">
             <h2 className="text-xl font-medium font-poppins text-blue-dark uppercase">
-              Manus
+              {t("footermanu.manu")}
             </h2>
 
             <ul className="flex flex-col space-y-2">
@@ -148,7 +146,7 @@ const Footer = () => {
                   to={"/"}
                   className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:-translate-y-1 transition-transform duration-300 cursor-pointer uppercase"
                 >
-                  Home
+                  {t("footermanu.home")}
                 </Link>
               </li>
               <li>
@@ -156,7 +154,7 @@ const Footer = () => {
                   to={"/pages/services"}
                   className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform uppercase"
                 >
-                  Services
+                  {t("footermanu.service")}
                 </Link>
               </li>
               <li>
@@ -164,7 +162,7 @@ const Footer = () => {
                   to={"/pages/study-abroad-canada"}
                   className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform uppercase"
                 >
-                  Study Abroad
+                  {t("footermanu.studyabrod")}
                 </Link>
               </li>
 
@@ -173,7 +171,7 @@ const Footer = () => {
                   to={"/pages/about-us"}
                   className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:-translate-y-1 transition-transform duration-300 cursor-pointer uppercase"
                 >
-                  About Us
+                  {t("footermanu.about")}
                 </Link>
               </li>
 
@@ -182,7 +180,7 @@ const Footer = () => {
                   to={"/pages/our-success-story"}
                   className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform uppercase"
                 >
-                  Our Success Story
+                 {t("footermanu.story")}
                 </Link>
               </li>
               <li>
@@ -190,7 +188,7 @@ const Footer = () => {
                   to={"/pages/contact"}
                   className="text-gray-800 font-medium font-poppins hover:text-blue-dark hover:translate-x-2 transition-transform uppercase"
                 >
-                  Contact
+                  {t("footermanu.conact")}
                 </Link>
               </li>
             </ul>

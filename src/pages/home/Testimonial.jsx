@@ -71,39 +71,27 @@ const Testimonial = () => {
   const textCarousel = [
     {
       id: 1,
-      texth: "Accreditation & Global Recognition",
-      textl1:
-        "We recommend only those institutions that are officially accredited by recognized educational bodies.",
-      textl2:
-        "All programs are globally accepted, ensuring your qualifications are valid worldwide.",
-      textl3:
-        "An accredited degree boosts your professional credibility across countries.",
-      textl4:
-        "Ideal for students planning further studies, global employment, or immigration.",
+      texth: t("studyabrotlist.studyalh1"),
+      textl1: t("studyabrotlist.studyalh1l1"),
+      textl2: t("studyabrotlist.studyalh1l2"),
+      textl3: t("studyabrotlist.studyalh1l3"),
+      textl4: t("studyabrotlist.studyalh1l4"),
     },
     {
       id: 2,
-      texth: "University & Subject Rankings",
-      textl1:
-        "We use reliable ranking sources like QS World University Rankings and Times Higher Education.",
-      textl2:
-        "Priority is given to universities ranked within the top 50 in your chosen subject area.",
-      textl3:
-        "Higher-ranked universities offer stronger faculty, research, and learning environments.",
-      textl4:
-        "Better rankings often mean better networking, career support, and future opportunities.",
+      texth: t("studyabrotlist.studyalh2"),
+      textl1: t("studyabrotlist.studyalh2l1"),
+      textl2: t("studyabrotlist.studyalh2l2"),
+      textl3: t("studyabrotlist.studyalh2l3"),
+      textl4: t("studyabrotlist.studyalh2l4"),
     },
     {
       id: 3,
-      texth: "Course Suitability & Industry Relevance",
-      textl1:
-        "We analyze each course's structure to match your academic background and interests.",
-      textl2:
-        "Focus is placed on programs with strong links to current industry trends and demands.",
-      textl3:
-        "Courses with internships, hands-on training, or certification options are prioritized.",
-      textl4:
-        "We assess graduate employability rates to ensure the course helps in career building.",
+      texth: t("studyabrotlist.studyalh3"),
+      textl1: t("studyabrotlist.studyalh3l1"),
+      textl2: t("studyabrotlist.studyalh3l2"),
+      textl3: t("studyabrotlist.studyalh3l3"),
+      textl4: t("studyabrotlist.studyalh3l4"),
     },
   ];
 

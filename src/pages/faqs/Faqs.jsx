@@ -317,36 +317,42 @@ const Faqs = () => {
           className="flex flex-wrap items-center justify-center gap-6"
         >
           <motion.button
+            onClick={() => {
+              const section = document.querySelector("#genaral");
+              section?.scrollIntoView({ behavior: "smooth" });
+            }}
             variants={slideInFromLeft}
             whileHover="hover"
             whileTap="tap"
             className="before:ease relative h-12 w-[220px] overflow-hidden border border-redest-dark bg-redest-dark text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-7 py-3 tracking-wider cursor-pointer"
           >
-            <a href="#genaral" className="relative z-10 font-bold">
-              {t("faqs.second.btn1")}
-            </a>
+            {t("faqs.second.btn1")}
           </motion.button>
 
           <motion.button
+            onClick={() => {
+              const section = document.querySelector("#parents");
+              section?.scrollIntoView({ behavior: "smooth" });
+            }}
             variants={fadeInUp}
             whileHover="hover"
             whileTap="tap"
             className="before:ease relative h-12 w-[220px] overflow-hidden border border-redest-dark bg-redest-dark text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-7 py-3 tracking-wider cursor-pointer"
           >
-            <a href="#parents" className="relative z-10 font-bold">
-              {t("faqs.second.btn2")}
-            </a>
+            {t("faqs.second.btn2")}
           </motion.button>
 
           <motion.button
+            onClick={() => {
+              const section = document.querySelector("#student");
+              section?.scrollIntoView({ behavior: "smooth" });
+            }}
             variants={slideInFromRight}
             whileHover="hover"
             whileTap="tap"
             className="before:ease relative h-12 w-[220px] overflow-hidden border border-redest-dark bg-redest-dark text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-7 py-3 tracking-wider cursor-pointer"
           >
-            <a href="#student" className="relative z-10 font-bold">
-              {t("faqs.second.btn3")}
-            </a>
+            {t("faqs.second.btn3")}
           </motion.button>
         </motion.div>
       </motion.section>

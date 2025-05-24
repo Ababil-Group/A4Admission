@@ -86,15 +86,12 @@ const Objective = () => {
             variants={fadeInUpAnimation}
             className="font-bold text-2xl md:text-3xl font-quicksand mb-4 text-gray-900"
           >
-            Why Choose A4 Admission?
+            {t("studyabrotlist.studywhy")}
           </motion.h2>
         </motion.div>
 
         {/* Right Column - Features Grid */}
-        <motion.div
-          variants={staggerContainer}
-          className="md:w-2/3"
-        >
+        <motion.div variants={staggerContainer} className="md:w-2/3">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {features.map((feature, index) => (
               <motion.div

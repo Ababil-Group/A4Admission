@@ -9,61 +9,64 @@ import img6 from "../../assets/Romania/r2.png";
 import img7 from "../../assets/Malta/m6.png";
 import img8 from "../../assets/Malta/m9.png";
 import img9 from "../../assets/Malta/m12.png";
+import { useTranslation } from "react-i18next";
 const Carousel = () => {
+  const {t} = useTranslation();
+
   const testimonials = [
     {
       avatar: img1,
-      name: "GOLAM SARWOR",
+      name: t("carusel.caruh1"),
       quote:
-        "I'm so grateful to A4 Admission for providing such tailored advice. They didn't just suggest random universities, they carefully listened to my goals and recommended options that actually made sense for my future. Truly exceptional service.",
+        t("carusel.caruht1"),
     },
     {
       avatar: img2,
-      name: "MAZHARUL ISALM",
+     name: t("carusel.caruh2"),
       quote:
-        "The entire process from document prep to visa guidance was handled with such professionalism. A4 Admission made something that felt overwhelming become so simple and organized.",
+        t("carusel.caruht2"),
     },
     {
       avatar: img3,
-      name: "HOSSEN AKRAM",
+      name: t("carusel.caruh3"),
       quote:
-        "The visa application process can be scary, but A4 Admission made sure I was well-prepared for everything—from paperwork to the interview. I got my visa on the first try.",
+        t("carusel.caruht3"),
     },
     {
       avatar: img4,
-      name: "SAJIB BISWAS",
+      name: t("carusel.caruh4"),
       quote:
-        "Every step with A4 Admission felt smooth and well-coordinated. From my first consultation to booking my flight, they handled everything with complete professionalism.",
+        t("carusel.caruht4"),
     },
     {
       avatar: img5,
-      name: "FAHIM UDDIN",
+     name: t("carusel.caruh5"),
       quote:
-        "They didn't just stop after submitting my application. A4 Admission helped with my accommodation, travel, and even a pre-departure session. That extra care made me feel really supported.",
+        t("carusel.caruht5"),
     },
     {
       avatar: img6,
-      name: "RAY TUTUL",
+      name: t("carusel.caruh6"),
       quote:
-        "Every step with A4 Admission felt smooth and well-coordinated. From my first consultation to booking my flight, they handled everything with complete professionalism.",
+        t("carusel.caruht6"),
     },
     {
       avatar: img7,
-      name: "MD KAMIL AHMED",
+      name: t("carusel.caruh7"),
       quote:
-        "They didn’t just stop after submitting my application. A4 Admission helped with my accommodation, travel, and even a pre-departure session. That extra care made me feel really supported.",
+        t("carusel.caruht7"),
     },
     {
       avatar: img8,
-      name: "SATVINDER SINGH",
+      name: t("carusel.caruh8"),
       quote:
-        "What I received from A4 Admission was far beyond what I expected. Their services are worth every penny quality guidance, prompt communication, and genuine care throughout.",
+        t("carusel.caruht8"),
     },
     {
       avatar: img9,
-      name: "MUMU DATTA",
+      name: t("carusel.caruh9"),
       quote:
-        "Unlike other agencies, A4 Admission felt personal. They truly cared about my journey and success. I felt like more than just a client, I felt valued.",
+        t("carusel.caruht9"),
     },
   ];
 
