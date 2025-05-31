@@ -36,6 +36,7 @@ import Malta from "./pages/StudyAborad/Multa";
 import Hungary from "./pages/StudyAborad/Hungray";
 import Romaniya from "./pages/StudyAborad/Romaniya";
 import Bulgeria from "./pages/StudyAborad/Bulgeria";
+import FacebookFeed from "./pages/facebookapi/FacebookFeed";
 
 NProgress.configure({
   minimum: 0.3,
@@ -160,6 +161,8 @@ function App() {
           {/* <Route path="/blogs/news" element={<ArticalNews />} /> */}
           <Route path="/pages/our-success-story" element={<SuccessStory />} />
           <Route path="/pages/faq" element={<Faqs />} />
+          <Route path="/pages/facebook" element={<FacebookFeed />} />
+
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
