@@ -61,7 +61,7 @@ const FacebookPageFeed = () => {
     return (
       <div className="relative">
         {hasVideo ? (
-          <video controls className="w-full h-64 object-cover">
+          <video controls className="w-full h-96 object-cover">
             <source
               src={post.attachments.data[0].media.source}
               type="video/mp4"
