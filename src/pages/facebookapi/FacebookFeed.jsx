@@ -71,7 +71,7 @@ const FacebookPageFeed = () => {
           <img
             src={post.full_picture}
             alt="Post"
-            className="w-full h-96 object-cover"
+            className="w-full h-96 object-cover aspect-square rounded-2xl"
           />
         ) : (
           <div className="w-full h-96 bg-gray-100 flex items-center justify-center">
