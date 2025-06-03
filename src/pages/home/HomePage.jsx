@@ -18,6 +18,7 @@ import { FaArrowRight, FaPlaneDeparture } from "react-icons/fa";
 import { GrServices } from "react-icons/gr";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import FacebookTestimonial from "./FacebookTestimonial";
 
 const HomePage = () => {
   const { t } = useTranslation();
@@ -360,7 +361,10 @@ const HomePage = () => {
           </motion.div>
         </motion.div>
       </section>
-
+      {/*  new section */}
+      {/* <section>
+        <FacebookTestimonial />
+      </section> */}
       <motion.section
         initial="hidden"
         whileInView="visible"
