@@ -375,16 +375,6 @@ const HomePage = () => {
         <Universitys />
       </motion.section>
 
-      <motion.section
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        variants={fadeInUpAnimation}
-        className="bg-red-gray my-6"
-      >
-        <Testimonial />
-      </motion.section>
-
       <motion.div
         initial="hidden"
         whileInView="visible"
@@ -394,6 +384,15 @@ const HomePage = () => {
         <ProgramsTab />
       </motion.div>
 
+      <motion.section
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        variants={fadeInUpAnimation}
+        className="bg-red-gray my-6"
+      >
+        <Testimonial />
+      </motion.section>
       <motion.section
         initial="hidden"
         whileInView="visible"
