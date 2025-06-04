@@ -7,15 +7,17 @@ import {
   FiMessageSquare,
   FiShare2,
   FiX,
+  FiChevronRight,
+  FiChevronLeft,
 } from "react-icons/fi";
 import { motion } from "framer-motion";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-const PAGE_ID = "330180636840695";
+const PAGE_ID = "158202150704153";
 const PAGE_ACCESS_TOKEN =
-  "EAATuPEONi34BOxwZCSejYeCxG0zsFSxuIoV7ekG5ACbflRekZAUuDWJi9JQ6K4sl4Xc4gIldSlOcxTqkvGR541EpgVMCKkfZCuZBjPM5ZCc0f5nma57pWVhuOFDPOO2ZCWoCoi9A3l3xOuXu7yZBloHYyhYAEA4aur4YGP2RGvXfGB3S3U2c6QiWpaST6KPJd3Y13xUjnB1";
+  "EAATvN3z0l0oBO04c5IDnX2t9lX5QvE6xZA3K8b0QbeLmLHbGJl95d2an6dvyDwQU9UHLP8fvBkjfwNrMs7d80nbKNyl49kADQ3viUuxdBVunFoqZB1GOl39oBaZCn5RsrpRch6oQuXx2Y9ZCj3d5AoHIUCvEKwD8garrGY1RB0ChPoWUOaA6uzeVLc4kYAvvpG8ZD";
 
 const FacebookTestimonial = () => {
   const [posts, setPosts] = useState([]);
@@ -23,6 +25,7 @@ const FacebookTestimonial = () => {
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(true);
   const [selectedPost, setSelectedPost] = useState(null);
+  const [relatedPosts, setRelatedPosts] = useState([]);
   const [isPlaying, setIsPlaying] = useState(true);
 
   useEffect(() => {
@@ -60,16 +63,21 @@ const FacebookTestimonial = () => {
     return `https://www.facebook.com/${PAGE_ID}/posts/${postId.split("_")[1]}`;
   };
 
-  const handlePostClick = (post) => {
+  const handlePostClick = async (post) => {
     setSelectedPost(post);
     setIsPlaying(false);
-    document.body.style.overflow = "hidden"; // Prevent scrolling when modal is open
+    document.body.style.overflow = "hidden";
+
+    // Find related posts (excluding the current one)
+    const related = filteredPosts.filter((p) => p.id !== post.id).slice(0, 3); // Get 3 most recent related posts
+    setRelatedPosts(related);
   };
 
   const closePopup = () => {
     setSelectedPost(null);
+    setRelatedPosts([]);
     setIsPlaying(true);
-    document.body.style.overflow = "auto"; // Re-enable scrolling
+    document.body.style.overflow = "auto";
   };
 
   const renderMedia = (post, isFullSize = false) => {
@@ -78,12 +86,12 @@ const FacebookTestimonial = () => {
     const hasLink = post.attachments?.data?.[0]?.subattachments?.data?.[0]?.url;
 
     return (
-      <div className={`relative ${isFullSize ? "h-[70vh]" : "h-64"}`}>
+      <div className={`relative ${isFullSize ? "h-[100vh]" : "h-96"}`}>
         {hasVideo ? (
           <video
             controls
-            className={`w-full h-full object-cover ${
-              isFullSize ? "rounded-t-lg" : ""
+            className={`w-full h-full aspect-video ${
+              isFullSize ? "rounded-t-lg" : "rounded-t-lg"
             }`}
           >
             <source
@@ -95,12 +103,12 @@ const FacebookTestimonial = () => {
           <img
             src={post.full_picture}
             alt="Post"
-            className={`w-full h-full object-cover ${
-              isFullSize ? "rounded-t-lg" : ""
+            className={`w-full h-full aspect-square ${
+              isFullSize ? "rounded-t-lg" : "rounded-t-lg"
             }`}
           />
         ) : (
-          <div className="w-full h-full bg-gray-100 flex items-center justify-center">
+          <div className="w-full h-full bg-gray-100 flex items-center justify-center rounded-t-lg">
             <span className="text-gray-400">No media</span>
           </div>
         )}
@@ -136,6 +144,40 @@ const FacebookTestimonial = () => {
     );
   };
 
+  const renderRelatedPost = (post) => (
+    <motion.div
+      whileHover={{ scale: 1.03 }}
+      className="bg-white rounded-lg shadow-md overflow-hidden cursor-pointer h-full flex flex-col border border-gray-200"
+      onClick={() => handlePostClick(post)}
+    >
+      {post.full_picture ? (
+        <img
+          src={post.full_picture}
+          alt="Related post"
+          className="w-full h-40 object-cover"
+        />
+      ) : (
+        <div className="w-full h-40 bg-gray-100 flex items-center justify-center">
+          <span className="text-gray-400">No image</span>
+        </div>
+      )}
+      <div className="p-3 flex-grow">
+        {post.message && (
+          <p className="text-gray-700 line-clamp-2 text-sm mb-2">
+            {post.message}
+          </p>
+        )}
+        <div className="flex justify-between items-center text-xs text-gray-500">
+          <span>{new Date(post.created_time).toLocaleDateString()}</span>
+          <div className="flex items-center space-x-1">
+            <FiHeart className="text-red-500" size={14} />
+            <span>{post.likes?.summary?.total_count || 0}</span>
+          </div>
+        </div>
+      </div>
+    </motion.div>
+  );
+
   const LoadingSkeleton = () => (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-4">
       {[...Array(3)].map((_, index) => (
@@ -149,7 +191,7 @@ const FacebookTestimonial = () => {
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 bg-[#F7EEDD]">
-      <div className="bg-redest-dark px-2 md:px-16 py-10 text-white space-y-8">
+      <div className="bg-blue-dark px-2 md:px-16 py-10 text-white space-y-8">
         <div className="space-y-4">
           <h3 className="text-2xl font-semibold font-quicksand tracking-widest">
             Catch Every Moment: Live on Social
@@ -173,8 +215,8 @@ const FacebookTestimonial = () => {
         <p className="text-lg font-semibold font-quicksand tracking-wide">
           Set the foundation for a smoother, more rewarding journey abroad.
           Instantly access all our live updates, inspiring success stories, and
-          invaluable expert tips across every social media platform,
-          just one tap away.
+          invaluable expert tips across every social media platform, just one
+          tap away.
         </p>
       </div>
 
@@ -194,7 +236,7 @@ const FacebookTestimonial = () => {
           </div>
         ) : (
           <Swiper
-            slidesPerView={2}
+            slidesPerView={1}
             spaceBetween={20}
             loop={true}
             autoplay={
@@ -206,12 +248,20 @@ const FacebookTestimonial = () => {
                   }
                 : false
             }
-            pagination={{
-              clickable: true,
-            }}
+            // pagination={{
+            //   clickable: true,
+            // }}
             navigation={true}
             modules={[Autoplay, Pagination, Navigation]}
             className="mySwiper"
+            breakpoints={{
+              640: {
+                slidesPerView: 1,
+              },
+              1024: {
+                slidesPerView: 2,
+              },
+            }}
             onMouseEnter={() => setIsPlaying(false)}
             onMouseLeave={() => setIsPlaying(true)}
           >
@@ -249,7 +299,7 @@ const FacebookTestimonial = () => {
           </Swiper>
         )}
 
-        {/* Full-size Card Modal */}
+        {/* Full-size Card Modal with Related Posts */}
         {selectedPost && (
           <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4">
             <motion.div
@@ -311,11 +361,23 @@ const FacebookTestimonial = () => {
                     href={getFacebookPostUrl(selectedPost.id)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+                    className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition mb-8"
                   >
                     <FiShare2 className="mr-2" />
                     View this post on Facebook
                   </motion.a>
+
+                  {/* Related Posts Section */}
+                  {relatedPosts.length > 0 && (
+                    <div className="mt-8">
+                      <h3 className="text-xl font-bold mb-4">Related Posts</h3>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                        {relatedPosts.map((post) => (
+                          <div key={post.id}>{renderRelatedPost(post)}</div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
             </motion.div>

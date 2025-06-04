@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const PAGE_ID = "158202150704153";
 const PAGE_ACCESS_TOKEN =
-  "EAATvN3z0l0oBO4UpJrCfZBL63Ioaaov82iSj8Q6hPyu6j7SDCHypaEzuqkiV4ZALTC4lX1zTlTnsPF6mNRlfzKUgB9DjeJ5MT4yjbZA95D4TRkw4giZCSRDKkSMDQZCB9WAwYEtu6PO3zCZChqpld6c8dqiW2OKlwPaf2lEhWuKXVjJZBT0jXC8yibgqlLyZCbUzRSKoBfPITNBE3ktlZACwox3YQ6j4ZD";
+  "EAATvN3z0l0oBO04c5IDnX2t9lX5QvE6xZA3K8b0QbeLmLHbGJl95d2an6dvyDwQU9UHLP8fvBkjfwNrMs7d80nbKNyl49kADQ3viUuxdBVunFoqZB1GOl39oBaZCn5RsrpRch6oQuXx2Y9ZCj3d5AoHIUCvEKwD8garrGY1RB0ChPoWUOaA6uzeVLc4kYAvvpG8ZD";
 const FacebookPageFeed = () => {
   const [posts, setPosts] = useState([]);
   const [filteredPosts, setFilteredPosts] = useState([]);

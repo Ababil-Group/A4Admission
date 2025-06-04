@@ -362,9 +362,9 @@ const HomePage = () => {
         </motion.div>
       </section>
       {/*  new section */}
-      {/* <section>
+      <section>
         <FacebookTestimonial />
-      </section> */}
+      </section>
       <motion.section
         initial="hidden"
         whileInView="visible"
