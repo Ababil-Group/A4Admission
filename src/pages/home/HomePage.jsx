@@ -156,6 +156,9 @@ const HomePage = () => {
           </motion.button>
         </motion.div>
       </section>
+      <section>
+        <FacebookTestimonial />
+      </section>
 
       <section ref={ref} className="my-10 max-w-screen-xl mx-auto p-4">
         <motion.div
@@ -221,9 +224,6 @@ const HomePage = () => {
         </motion.div>
       </section>
       {/*  new section */}
-      <section>
-        <FacebookTestimonial />
-      </section>
 
       <motion.section
         initial="hidden"
