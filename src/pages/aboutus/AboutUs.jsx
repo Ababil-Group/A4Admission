@@ -10,6 +10,7 @@ import img5 from "../../assets/about/pleasholder.jpg";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "framer-motion";
 import { Helmet } from "react-helmet";
+import FacebookTestimonial from "../home/FacebookTestimonial";
 const AboutUs = () => {
   const { t } = useTranslation();
   const [playOpen, setPlayOpen] = useState(false);
@@ -97,7 +98,10 @@ const AboutUs = () => {
           content="Meet A4 Admission, your trusted global partner in studying abroad. Learn about our story and how we support students globally."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://a4admission.com/pages/about-us" />
+        <meta
+          property="og:url"
+          content="https://a4admission.com/pages/about-us"
+        />
       </Helmet>
       <div className="bg-cover bg-center grid grid-cols-1 md:grid-cols-2 min-h-[100vh] w-full md:min-h-[60vh] relative md:my-4">
         <motion.div
@@ -155,6 +159,10 @@ const AboutUs = () => {
       >
         <Objective />
       </motion.section>
+
+      <div>
+        <FacebookTestimonial />{" "}
+      </div>
 
       {/* <motion.div
         ref={ref}

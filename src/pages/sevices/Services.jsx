@@ -7,6 +7,7 @@ import Testimonial from "../home/Testimonial";
 import Universitys from "../home/Universitys";
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
+import FacebookTestimonial from "../home/FacebookTestimonial";
 
 const Services = () => {
   const { t } = useTranslation();
@@ -286,6 +287,10 @@ const Services = () => {
             </div>
           </motion.div>
         </motion.div>
+      </div>
+
+      <div>
+        <FacebookTestimonial />
       </div>
 
       <motion.div
