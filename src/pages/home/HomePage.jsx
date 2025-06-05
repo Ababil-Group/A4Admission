@@ -220,6 +220,11 @@ const HomePage = () => {
           </motion.div>
         </motion.div>
       </section>
+      {/*  new section */}
+      <section>
+        <FacebookTestimonial />
+      </section>
+
       <motion.section
         initial="hidden"
         whileInView="visible"
@@ -361,10 +366,7 @@ const HomePage = () => {
           </motion.div>
         </motion.div>
       </section>
-      {/*  new section */}
-      <section>
-        <FacebookTestimonial />
-      </section>
+
       <motion.section
         initial="hidden"
         whileInView="visible"
@@ -374,16 +376,6 @@ const HomePage = () => {
       >
         <Universitys />
       </motion.section>
-
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        variants={fadeInUpAnimation}
-      >
-        <ProgramsTab />
-      </motion.div>
-
       <motion.section
         initial="hidden"
         whileInView="visible"
@@ -393,6 +385,15 @@ const HomePage = () => {
       >
         <Testimonial />
       </motion.section>
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        variants={fadeInUpAnimation}
+      >
+        <ProgramsTab />
+      </motion.div>
+
       <motion.section
         initial="hidden"
         whileInView="visible"

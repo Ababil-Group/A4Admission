@@ -160,9 +160,9 @@ const AboutUs = () => {
         <Objective />
       </motion.section>
 
-      <div>
+      {/* <div>
         <FacebookTestimonial />{" "}
-      </div>
+      </div> */}
 
       {/* <motion.div
         ref={ref}
