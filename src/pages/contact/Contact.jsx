@@ -195,7 +195,6 @@ const Contact = () => {
         <meta property="og:type" content="website" />
       </Helmet>
 
-      {/* Hero Section */}
       <motion.section
         className="bg-cover bg-center py-16 px-4 h-auto sm:min-h-screen relative flex items-center justify-center"
         style={{ backgroundImage: `url(${frontImge})` }}
@@ -217,7 +216,6 @@ const Contact = () => {
         </motion.div>
       </motion.section>
 
-      {/* Intro Section */}
       <motion.section
         variants={fadeInAnimation}
         className="bg-white p-4 sm:p-6"
@@ -246,7 +244,6 @@ const Contact = () => {
         </div>
       </motion.section>
 
-      {/* Contact Form Section */}
       <motion.section
         id="contact"
         ref={ref}
@@ -411,20 +408,24 @@ const Contact = () => {
           </motion.div>
         </div>
 
-        {/* Offices Section */}
-        <div className="max-w-screen-lg mx-auto mt-10 sm:px-0">
-          <motion.h2
-            className="font-bold text-3xl sm:text-5xl max-w-sm border-b-4 pb-2 border-redest-dark"
+        <div className="max-w-screen-xl mx-auto mt-20 px-4 sm:px-6">
+          <motion.div
+            className="text-center mb-12"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            Look For The <span className="text-redest-dark">Office Near</span>{" "}
-            You
-          </motion.h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Our <span className="text-redest-dark">Global Offices</span>
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              We have offices worldwide to serve you better. Visit us or contact
+              our local team.
+            </p>
+          </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8 mt-8 sm:mt-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {offices.map((office, index) => (
               <motion.div
                 key={office.id}
@@ -433,9 +434,9 @@ const Contact = () => {
                 whileInView="visible"
                 viewport={{ once: true, margin: "0px 0px -100px 0px" }}
                 transition={{ delay: index * 0.1 }}
-                className="rounded-lg overflow-hidden border border-[#6e767e] shadow-md hover:shadow-lg transition-shadow duration-300"
+                className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 border border-gray-100"
               >
-                <div className="h-[250px] sm:h-[300px] w-full">
+                <div className="h-48 sm:h-56 w-full relative">
                   <iframe
                     src={office.mapSrc}
                     allowFullScreen
@@ -443,33 +444,61 @@ const Contact = () => {
                     referrerPolicy="no-referrer-when-downgrade"
                     className="w-full h-full"
                   />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>
                 </div>
-                <div className="p-2 space-y-4">
-                  <div className="text-start py-2 space-y-3 border-b border-gray-200">
-                    <div className="flex items-center gap-4">
-                      <LuMapPinCheckInside className="text-[#6587cf] size-5" />
-                      <h2 className="text-xl sm:text-2xl text-[#26587D] font-bold font-quicksand py-2">
-                        {office.title}
-                      </h2>
+
+                <div className="p-6">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="bg-redest-dark/10 p-3 rounded-full">
+                      <LuMapPinCheckInside className="text-redest-dark text-xl" />
                     </div>
-                    <p className="text-base sm:text-lg text-gray-700 font-medium font-quicksand">
-                      {office.subtitle}
-                    </p>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900">
+                        {office.title}
+                      </h3>
+                      <p className="text-gray-600">{office.subtitle}</p>
+                    </div>
                   </div>
-                  <div className="grid grid-cols-1 sm:grid-cols-[1fr_auto_1fr] items-center gap-4 sm:gap-0">
-                    <a className="flex items-center gap-2 justify-center sm:justify-start hover:text-redest-dark text-gray-800 font-poppins transition-colors duration-200 cursor-pointer">
-                      <FaWhatsappSquare className="text-blue-dark" />
-                      <p className="font-poppins">{office.phone}</p>
-                    </a>
-                    <div className="h-px sm:h-5 w-full sm:w-px bg-gray-200 mx-auto" />
-                    <a
-                      href={`mailto:${office.email}`}
-                      className="flex items-center gap-2 justify-center sm:justify-end hover:text-redest-dark text-gray-800 font-poppins transition-colors duration-200"
-                    >
-                      <IoMail className="text-blue-dark" />
-                      {office.email}
-                    </a>
+
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-3">
+                      <div className="bg-blue-100 p-2 rounded-full">
+                        <FaWhatsappSquare className="text-green-500 text-xl" />
+                      </div>
+                      <a
+                        href={`https://wa.me/${office.phone.replace(
+                          /\D/g,
+                          ""
+                        )}`}
+                        className="text-gray-700 hover:text-redest-dark transition-colors"
+                      >
+                        {office.phone}
+                      </a>
+                    </div>
+
+                    <div className="flex items-center gap-3">
+                      <div className="bg-blue-100 p-2 rounded-full">
+                        <IoMail className="text-blue-500 text-xl" />
+                      </div>
+                      <a
+                        href={`mailto:${office.email}`}
+                        className="text-gray-700 hover:text-redest-dark transition-colors"
+                      >
+                        {office.email}
+                      </a>
+                    </div>
                   </div>
+
+                  <a
+                    href={`https://www.google.com/maps?q=${encodeURIComponent(
+                      `${office.title}, ${office.subtitle}`
+                    )}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-6 inline-flex items-center justify-center w-full py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-redest-dark hover:bg-redest-dark/90 transition-colors"
+                  >
+                    View on Google Maps
+                  </a>
                 </div>
               </motion.div>
             ))}
