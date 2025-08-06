@@ -289,9 +289,9 @@ const Services = () => {
         </motion.div>
       </div>
 
-      <div>
+      {/* <div>
         <FacebookTestimonial />
-      </div>
+      </div> */}
 
       <motion.div
         ref={uniRef}
